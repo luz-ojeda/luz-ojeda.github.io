@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: $maxScreenWidth;
+  padding: 64px 0;
+}
+
+/* ----------
+  Sidebar
+-----------*/
+
+#sidebar {
+  flex: 0 0 auto;
+  padding: 0 $sectionSpacing;
+
+  .siteTitle {
+    margin-top: 0;
+  }
+}
+
+#sidebar nav {
+  display: flex;
+}
+
+#sidebar-nav-links {
+  flex-flow: column nowrap;
+}
+
+#sidebar-icon-links {
+  flex-flow: row wrap;
+  margin-top: 1rem;
+}
+
+/* ----------
+  Mobile/tablet
+-----------*/
+
+@media (max-width: 960px) {
+  body {
+    flex-direction: column;
+  }
+}

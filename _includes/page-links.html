@@ -1,0 +1,17 @@
+{% assign pages_list = site.pages|sort:"sidebar_sort_order" %} 
+{% for node in pages_list %}
+  {% if node.title != null %} 
+    {% if node.sidebar_link %}
+      <a
+        class="page-link {% if page.url == node.url %} active{% endif %}"
+        href="{% tl node.namespace %}"
+        >
+        {% if node.short_title != null %}
+          {{ node.short_title }}
+        {% else %}
+          {% t node.title %}
+        {% endif %}
+      </a>
+    {% endif %} 
+  {% endif %} 
+{% endfor %}

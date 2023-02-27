@@ -1,0 +1,22 @@
+url: ''
+baseurl: ''
+title: 'Luz Ojeda'
+author:
+  name: 'Luz Ojeda'
+
+github_url: 'https://github.com/lezojeda'
+linkedin_url: 'https://www.linkedin.com/in/lezojeda/'
+
+current_company: Southworks
+current_company_url: https://www.southworks.com/
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+lang: en
+languages: ['en', 'es']
+exclude_from_localizations: ['javascript', 'images', 'css', 'assets']
+defaultLang: en
+languageNames:
+  es: Español
+  en: English

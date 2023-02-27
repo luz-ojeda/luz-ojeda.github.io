@@ -1,0 +1,14 @@
+<nav id="sidebar-nav-links">
+    {% if site.sidebar_blog_link %}
+      <a class="{% if page.url == site.sidebar_blog_link %} active{% endif %}"
+      href="{{ site.sidebar_blog_link | relative_url }}">Blog</a>
+    {% endif %}
+  
+    {% comment %}
+      Generates a sidebar nav of pages with
+      `sidebar_link: true` in the front-matter.
+    {% endcomment %}
+  
+    {% include page-links.html %}
+</nav>
+  

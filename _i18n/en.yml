@@ -1,0 +1,11 @@
+global:
+  tagline: English
+langs:
+  it: Italiano
+  en: English
+  es: Español
+titles:
+  about: about
+  projects: projects
+  reading: reading
+  resume: resume

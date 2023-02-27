@@ -1,0 +1,11 @@
+global:
+  tagline: Español
+langs:
+  it: Italiano
+  en: English
+  es: Español
+titles:
+  about: sobre mí
+  projects: proyectos
+  reading: leyendo
+  resume: cv

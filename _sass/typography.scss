@@ -1,0 +1,43 @@
+@import "variables";
+
+html {
+  font-family: $fontFamily;
+}
+
+/* ----------
+  Headings
+-----------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.siteTitle {
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+}
+
+.siteTitle {
+  font-size: 1.5rem
+}

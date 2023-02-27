@@ -1,0 +1,29 @@
+/* -----------------------------------------------------------
+  Sidebar links + nav
+----------------------------------------------------------- */
+
+#sidebar a {
+  color: $sidebarLinkColor;
+
+  svg {
+    fill: $fgColor;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+#sidebar a.active {
+  font-weight: bold;
+}
+
+#sidebar nav > * {
+  display: block;
+  line-height: 1.75;
+}
+
+#sidebar nav > .icon {
+  display: inline-block;
+  font-size: 1.5rem;
+}
