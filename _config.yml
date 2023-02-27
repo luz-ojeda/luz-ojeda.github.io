@@ -1,17 +1,20 @@
-url: ''
-baseurl: ''
+domain: luzojeda.github.io
+url: https://luzojeda.github.io
+baseurl: /luzojeda/
+
 title: 'Luz Ojeda'
 author:
   name: 'Luz Ojeda'
 
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# Custom variables
 github_url: 'https://github.com/lezojeda'
 linkedin_url: 'https://www.linkedin.com/in/lezojeda/'
 
 current_company: Southworks
 current_company_url: https://www.southworks.com/
-
-plugins:
-  - jekyll-multiple-languages-plugin
 
 lang: en
 languages: ['en', 'es']
