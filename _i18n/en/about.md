@@ -6,4 +6,4 @@ Nowadays I am interested in improving my back-end skills so I have been studying
 
 I am also a former biologist from the *Universidad de Buenos Aires* where I studied from 2011 to 2019 including a final lab thesis where I studied plant physiology.
 
-Among my interests are [reading](/reading) sci-fi and non-fiction essays mostly), hiking, videogames (ofc, right?) and running/gym.
+Among my interests are [reading](/reading) (sci-fi and non-fiction essays mostly), hiking, videogames (ofc, right?) and running/gym.
