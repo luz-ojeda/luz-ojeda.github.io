@@ -3,6 +3,10 @@
 @import "sidebar";
 @import "index";
 
+html {
+  background-color: $bgColor;
+}
+
 main {
   width: 100%;
 }
