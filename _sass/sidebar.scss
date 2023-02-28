@@ -4,6 +4,13 @@
 
 #sidebar a {
   color: $sidebarLinkColor;
+  text-decoration: none;
+
+  &:hover {
+    background-color: transparent;
+    opacity: 1;
+    text-decoration: underline;
+  }
 
   svg {
     fill: $fgColor;

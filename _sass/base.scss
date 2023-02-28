@@ -5,6 +5,7 @@
 
 html {
   background-color: $bgColor;
+  color: $fgColor;
 }
 
 main {
@@ -12,11 +13,13 @@ main {
 }
 
 a {
-  text-decoration: none;
+  color: $anchorElementColor;
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    background-color: rgba($fgColor, 0.2);
+    border-radius: 4px;
+    text-decoration: none;
   }
 
   strong {
