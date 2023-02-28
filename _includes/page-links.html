@@ -3,7 +3,7 @@
   {% if node.title != null %} 
     {% if node.sidebar_link %}
       <a
-        class="page-link {% if page.url == node.url %} active{% endif %}"
+        class="{% if page.url == node.url %} active {% endif %}"
         href="{% tl node.namespace %}"
         >
         {% if node.short_title != null %}

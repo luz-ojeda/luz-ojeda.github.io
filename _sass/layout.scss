@@ -12,11 +12,7 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  padding: 0 $sectionSpacing;
-
-  .siteTitle {
-    margin-top: 0;
-  }
+  margin-right: 64px;
 }
 
 #sidebar nav {
@@ -25,11 +21,17 @@ body {
 
 #sidebar-nav-links {
   flex-flow: column nowrap;
+  margin-bottom: $navbarSectionSpacing;
+
+  > :not(:last-child),
+  > :not(:first-child) {
+    margin-bottom: 6px;
+  }
 }
 
 #sidebar-icon-links {
   flex-flow: row wrap;
-  margin-top: 1rem;
+  margin-bottom: $navbarSectionSpacing;
 }
 
 /* ----------

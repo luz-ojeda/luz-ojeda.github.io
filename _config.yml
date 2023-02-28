@@ -20,5 +20,5 @@ languages: ['en', 'es']
 exclude_from_localizations: ['javascript', 'images', 'css', 'assets']
 defaultLang: en
 languageNames:
-  es: Español
-  en: English
+  es: español
+  en: english

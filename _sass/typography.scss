@@ -38,6 +38,17 @@ h6 {
   font-size: 1rem;
 }
 
+p {
+  line-height: 1.4;
+  margin-top: 0;
+}
+
+.siteTitle,
+.pageTitle {
+  margin-top: 0;
+  margin-bottom: $largeHeadingSpacing;
+}
+
 .siteTitle {
-  font-size: 1.5rem
+  font-size: 1.5rem;
 }

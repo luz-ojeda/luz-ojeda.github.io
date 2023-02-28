@@ -2,8 +2,10 @@
 $fontFamily: "Inter", sans-serif;
 
 // Spacing
-$sectionSpacing: 2rem !default;
-$headingSpacing: 0.5rem !default;
+$sectionSpacing: 2rem;
+$headingSpacing: 0.5rem;
+$largeHeadingSpacing: 1rem;
+$navbarSectionSpacing: 1rem;
 
 // Dimensions
 $maxScreenWidth: 960px;
