@@ -9,3 +9,5 @@ titles:
   projects: projects
   reading: reading
   resume: resume
+post_titles:
+  dummy_post: "Dummy post"

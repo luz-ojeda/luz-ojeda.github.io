@@ -5,6 +5,7 @@ permalink: /resume/
 permalink_es: /cv/
 sidebar_link: true
 namespace: resume
+sidebar_sort_order: 2
 ---
 
-Resume
+{% translate_file resume.md %}

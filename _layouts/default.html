@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta charset="utf-8" />
-  <title>{%- if page.title -%}{% t page.title %}&#32-&#32{%- endif -%} {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>
+      {{ site.title }}
+      {% if page.title %}
+        {% if page.sidebar_link %}
+        &#32-&#32{% t page.title %}
+        {% else %}
+        &#32-&#32{{ page.title }}
+        {% endif %}
+      {% endif %}
+    </title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700"
-    rel="stylesheet"
-  />
-</head>
-<body>
-  {% include sidebar.html %}
-  <main>{{ content }}</main>
-  <script>
-    var lang = navigator.language || navigator.userLanguage;
-    if (lang.indexOf('es') == 0)
-        window.location = '/es/';
-  </script>
-</body>
+    <!-- Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {% include sidebar.html %}
+    <main>{{ content }}</main>
+    <script>
+      var lang = navigator.language || navigator.userLanguage
+      if (lang.indexOf("es") == 0) window.location = "/es/"
+    </script>
+  </body>
 </html>

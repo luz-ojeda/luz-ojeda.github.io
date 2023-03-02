@@ -5,26 +5,20 @@
     <a href="/"> {{ site.title }} </a>
   </header>
 
-  {% include sidebar-nav-links.html %} 
-
-  {% if site.version %}
+  {% include sidebar-nav-links.html %} {% if site.version %}
   <span>Currently v{{ site.version }}</span>
-  {% endif %} 
-  
-  {% include sidebar-icon-links.html %}
+  {% endif %} {% include sidebar-icon-links.html %}
 
   <!-- Language switcher -->
-  <a class="active" href="#">
-    {{ site.languageNames[site.lang] }}
-  </a>
-
-  {% for lang in site.languageNames %} 
-    {% if lang[0] == site.lang %} {% continue %} {% endif %}
-
-    {% if page.namespace %}
-    <a href="{% tl {{ page.namespace }} {{ lang[0] }} %}">{{ lang[1] }}</a>
-    {% else %}
-    <a href="{{ site.baseurl_root }}/{{ lang[0] }}/">{{ lang[1] }}</a>
-    {% endif %} 
-  {% endfor %}
+  {% if site.lang == 'en' %}
+  <strong> <a href="{% tl root en %}">english</a></strong>
+  {% else %}
+  <a href="{% tl root en %}">english</a>
+  {% endif %} 
+  
+  {% if site.lang == 'es' %}
+  <strong><a href="{% tl root es %}">español</a></strong>
+  {% else %}
+  <a href="{% tl root es %}">español</a>
+  {% endif %}
 </div>
