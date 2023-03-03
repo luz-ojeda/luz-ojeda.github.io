@@ -7,4 +7,4 @@ Hoy en día estoy profundizando mi conocimiento en back-end a través de la carr
 
 Soy también licenciada en biología de la Universidad de Buenos Aires donde estudié de 2011 a 2019 donde empecé a programar con pequeños scripts en R para el análisis de datos.
 
-Entre mis otros intereses están la [lectura](/leyendo) (ciencia ficción, historia and y ensayos de no ficción principalmente), trekking, videojuegos (PC, mi friend code en Steam 66021605) y correr/gym.
+Entre mis otros intereses están la [lectura](/leyendo) (ciencia ficción, historia and y ensayos de no ficción principalmente), el trekking, videojuegos (PC, mi friend code en Steam 66021605) y correr/gym.
