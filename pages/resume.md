@@ -8,4 +8,4 @@ namespace: resume
 sidebar_sort_order: 2
 ---
 
-{% translate_file resume.md %}
+<div id="resume">{% translate_file resume.md %}</div>

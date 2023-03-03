@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  post_titles.dummy_post
+title:  My post
 date:   2023-02-26 21:45:38 -0300
 categories: hello
-permalink: "/my-url/"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

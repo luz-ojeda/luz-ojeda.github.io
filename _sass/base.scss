@@ -17,9 +17,10 @@ a {
 
   &:hover,
   &:focus {
-    background-color: rgba($fgColor, 0.2);
     border-radius: 4px;
     text-decoration: none;
+    transition: opacity 0.2s ease;
+    opacity: 0.8;
   }
 
   strong {
@@ -36,6 +37,11 @@ ul {
   margin: 0;
   margin-top: 4px;
   width: 100%;
+}
+
+li {
+  margin: 10px 0;
+  margin-left: -10px;
 }
 
 .icon {
