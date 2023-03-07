@@ -1,0 +1,19 @@
+- title: Kit de percusión
+  description: Un simple display de botones cada uno vinculado a un sonido de un típico set de percusión. Hecho con JS vanilla.
+  url: /projects/project-1/
+  image: /assets/images/drum-machine-preview.png
+
+- title: Calculadora
+  description: Hecha con React y Redux.
+  url: /projects/project-2/
+  image: /assets/images/javascript-calculator-preview.png
+
+- title: Previsualizador Markdown
+  description: Muestra una vista previa en tiempo real de cómo aparecerá el código de Markdown cuando se renderice como texto formateado.
+  url: /projects/project-1/
+  image: /assets/images/markdown-previewer-preview.png
+
+- title: Reloj Pomodoro
+  description: Permite la práctica de la técnica Pomodoro. Hecho con React.
+  url: /projects/project-2/
+  image: /assets/images/pomodoro-clock-preview.png

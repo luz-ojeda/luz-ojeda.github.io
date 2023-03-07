@@ -8,4 +8,4 @@ namespace: projects
 sidebar_sort_order: 1
 ---
 
-projects
+{% translate_file projects.md %}

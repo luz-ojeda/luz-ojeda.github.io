@@ -2,7 +2,7 @@
   <header>
     <{% if page.layout == "index" %}h1{% else %}div{% endif %}
     class="siteTitle">
-    <a href="/"> {{ site.title }} </a>
+    {{ site.title }} </a>
   </header>
 
   {% include sidebar-nav-links.html %} {% if site.version %}
