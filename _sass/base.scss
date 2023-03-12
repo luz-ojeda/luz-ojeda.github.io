@@ -29,8 +29,7 @@ a {
   }
 }
 
-a img,
-.icon img {
+a img {
   height: 1em;
 }
 
@@ -45,6 +44,8 @@ li {
   margin-left: -10px;
 }
 
-.icon {
+.icon,
+svg {
+  height: 1.2em;
   vertical-align: middle;
 }

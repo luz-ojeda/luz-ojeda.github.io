@@ -1,5 +1,6 @@
 global:
   tagline: Español
+  repository: repositorio
 langs:
   it: Italiano
   en: English

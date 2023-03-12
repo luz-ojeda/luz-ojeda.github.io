@@ -9,7 +9,11 @@
   &:hover {
     background-color: transparent;
     opacity: 1;
-    text-decoration: underline;
+
+    &::after {
+      content: "·";
+      font-weight: bold;
+    }
   }
 
   svg {

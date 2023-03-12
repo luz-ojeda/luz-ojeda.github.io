@@ -1,7 +1,7 @@
 .image-gallery {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fill, 230px);
+  grid-template-columns: repeat(2, calc(50% - 24px));
 }
 
 .box {
@@ -15,7 +15,14 @@
 }
 
 .img {
-  width: 230px;
-  height: 230px;
+  height: 300px;
+  width: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 960px) {
+  .image-gallery {
+    gap: 0;
+    display: block;
+  }
 }
