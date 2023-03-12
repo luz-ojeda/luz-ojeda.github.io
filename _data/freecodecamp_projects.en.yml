@@ -1,19 +1,19 @@
 - title: Drum Machine
   description: A simple display of buttons each triggering a different part of a typical drum kit. Built with vanilla JS.
   url: https://codepen.io/lezojeda/pen/ZgoyNp
-  image: /assets/images/drum-machine-preview.png
+  image: /assets/images/freecodecamp/drum-machine-preview.png
 
 - title: Calculator
   description: Built with React/Redux.
   url: https://codepen.io/lezojeda/pen/JjPXPpP
-  image: /assets/images/javascript-calculator-preview.png
+  image: /assets/images/freecodecamp/javascript-calculator-preview.png
 
 - title: Markdown Previewer
   description: Displays a real-time preview of how markdown code will appear when rendered as formatted text.
   url: https://codepen.io/lezojeda/pen/WVrWPq
-  image: /assets/images/markdown-previewer-preview.png
+  image: /assets/images/freecodecamp/markdown-previewer-preview.png
 
 - title: Pomodoro Clock
   description: A clock to implement the Pomodoro technique.
   url: https://codepen.io/lezojeda/pen/oNvYNjr
-  image: /assets/images/pomodoro-clock-preview.png
+  image: /assets/images/freecodecamp/pomodoro-clock-preview.png
