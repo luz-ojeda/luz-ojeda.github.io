@@ -20,23 +20,8 @@ h6,
   text-rendering: optimizeLegibility;
 }
 
-h1 {
-  font-size: 1.75rem;
-}
-
 h2 {
-  font-size: 1.25rem;
   margin-bottom: 12px;
-}
-
-h3 {
-  font-size: 1.15rem;
-}
-
-h4,
-h5,
-h6 {
-  font-size: 1rem;
 }
 
 p {
@@ -51,5 +36,9 @@ p {
 }
 
 .siteTitle {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
+
+/* ----------
+  Mobile/tablet
+-----------*/

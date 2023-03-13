@@ -1,0 +1,9 @@
+- title: API para presupuesto de sobres
+  description: Permite a los clientes crear y administrar un presupuesto personal. Utilizando los principios de Envelope Budgeting, permite a los usuarios administrar sobres presupuestarios y realizar un seguimiento del saldo de cada uno. Usé Express, PostgreSQL, swagger, entre otras herramientas.
+  url: https://github.com/lezojeda/personal-budget#readme
+  image: /assets/images/projects/envelope_budget.jpg
+
+- title: Presupuesto de sobres Web
+  description: Un simple front-end creado con preact para utilizar la API de presupuesto de sobres
+  url: https://github.com/lezojeda/personal-budget-web
+  image: /assets/images/projects/envelope_budget_web.png

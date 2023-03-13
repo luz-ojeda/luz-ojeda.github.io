@@ -1,0 +1,9 @@
+- title: Envelope Budget API
+  description: Allows clients to create and manage a personal budget. Using Envelope Budgeting principles, it allow users to manage budget envelopes and track the balance of each one. Used Express, PostgreSQL, swagger, among other tools.
+  url: https://github.com/lezojeda/personal-budget#readme
+  image: /assets/images/projects/envelope_budget.jpg
+
+- title: Envelope Budget web
+  description: Minimal front-end built with preact to make use of the Envelope Budget API
+  url: https://github.com/lezojeda/personal-budget-web
+  image: /assets/images/projects/envelope_budget_web.png
