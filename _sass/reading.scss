@@ -1,0 +1,32 @@
+.book-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.book-list-item {
+  display: table;
+  width: 100%;
+  margin-bottom: 2rem;
+  clear: left;
+}
+
+.book-cover {
+  float: left;
+  width: 100px;
+  padding: 0 1.5rem 1rem 0;
+}
+
+.book-info {
+}
+
+.book-title {
+  font-style: normal;
+}
+
+.book-author {
+  font-weight: 500;
+}
+
+.book-status {
+  color: $primaryColor;
+}

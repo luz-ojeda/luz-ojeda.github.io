@@ -4,8 +4,9 @@ title: titles.reading
 permalink: /reading/
 permalink_es: /leyendo/
 sidebar_link: true
-published: false
+published: true
 namespace: reading
+emoji: 📖
 ---
 
 {% translate_file reading.md %}

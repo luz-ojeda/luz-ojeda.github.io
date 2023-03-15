@@ -1,0 +1,24 @@
+{% assign books_by_year = site.data.books | group_by: 'reading_year' %}
+
+{% for year in books_by_year %}
+  <h2><a href="#{{year.name}}">{{ year.name }}</a></h2>
+  <ul class="book-list">
+    {% for book in year.items %}
+    <li class="book-list-item">
+      <a href="{{ book.link }}"><img class="book-cover" src="{{ book.image }}" alt="{{ book.title }}" /></a>
+      <div class="book-info">
+        <h3><cite><a class="book-title" href="{{ book.link }}">{{ book.title }}</a></cite></h3>
+        <p>by <span class="book-author">{{ book.author }}</span></p>
+        <p>{{ book.description }}</p>
+        <p class="post-meta">     
+          {% if book.status == 'currently reading' %}
+            <span class="book-status" style="font-weight: bold;">📖 {{ book.status }}</span>
+          {% else %}
+            Read: {{ book.status | date: "%B %-d, %Y" }}
+          {% endif %}  
+        </p>
+      </div> 
+    </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

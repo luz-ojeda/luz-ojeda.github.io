@@ -1,0 +1,53 @@
+- title: "A Gentleman In Moscow"
+  link: https://www.goodreads.com/book/show/40534545-ikigai
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1551480896i/34066798.jpg
+  description: "Follows the story of Count Alexander Rostov, who is sentenced to house arrest in a luxurious hotel in Moscow during the Bolshevik revolution."
+  genre: [self help, nonfiction, philosophy] 
+  status: currently reading
+  author: Amor Towles
+  reading_year: 2023
+
+- title: "Ikigai: The Japanese Secret to a Long and Happy Life"
+  link: https://www.goodreads.com/book/show/40534545-ikigai
+  image: https://images.cdn2.buscalibre.com/fit-in/360x360/66/e8/66e896775e51a6bba6921fa35bf5a43f.jpg
+  description: "Explores the concept of Ikigai, a japanese philosophy that translates to 'a reason for being,' and offers insights into how it can bring fulfillment and longevity to life."
+  genre: [self help, nonfiction, philosophy] 
+  status: 2023-03-05 
+  author: Hector Garcia, Francesc Miralles
+  reading_year: 2023
+
+- title: "Fluent Forever: How to Learn Any Language Fast and Never Forget It"
+  link: https://www.goodreads.com/book/show/19661852-fluent-forever
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387702551i/19661852.jpg
+  description: "A language learning book that teaches techniques for efficient language acquisition and retention, emphasizing on personalized learning and active recall."
+  genre: [nonfiction, language, self help, personal development] 
+  status: 2023-03-04 
+  author: Gabriel Wyner
+  reading_year: 2023
+
+- title: "American Gods"
+  link: https://www.goodreads.com/book/show/30165203-american-gods
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462924585i/30165203.jpg
+  description: "A language learning book that teaches techniques for efficient language acquisition and retention, emphasizing on personalized learning and active recall."
+  genre: [fantasy, fiction, mythology, urban fantasy] 
+  status: 2023-20-24 
+  author: Neil Gaiman
+  reading_year: 2023
+
+- title: "The Dispossessed: An Ambiguous Utopia"
+  link: https://www.goodreads.com/book/show/13651.The_Dispossessed
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353467455i/13651.jpg
+  description: "A novel that explores the theme of anarchism through the story of a physicist who leaves a capitalist planet for a utopian anarchist society."
+  genre: [science fiction, fantasy, dystopia] 
+  status: 2023-01-16 
+  author: Ursula K. Le Guin
+  reading_year: 2023
+
+- title: "The Hungry Brain: Outsmarting the Instincts That Make Us Overeat"
+  link: https://www.goodreads.com/book/show/29243729-the-hungry-brain
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482901602i/29243729.jpg
+  description: "From an obesity and neuroscience researcher with a knack for engaging, humorous storytelling, The Hungry Brain uses cutting-edge science to answer the questions: why do we overeat, and what can we do about it?"
+  genre: [health, nonfiction, nutrition] 
+  status: 2022-12-07 
+  author: Stephan Guyenet, Shizuka N. Aoki
+  reading_year: 2022

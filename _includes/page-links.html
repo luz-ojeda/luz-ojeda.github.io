@@ -6,11 +6,8 @@
         class="{% if page.url == node.url %} active {% endif %} text"
         href="{% tl node.namespace %}"
         >
-        {% if node.short_title != null %}
-          {{ node.short_title }}
-        {% else %}
+          <span class="emoji">{{ node.emoji }}</span>
           {% t node.title %}
-        {% endif %}
       </a>
     {% endif %} 
   {% endif %} 

@@ -42,3 +42,13 @@
     margin-right: 6px;
   }
 }
+
+/* hide emoji if not supported */
+/* Thismin resolution is equivalent to a minimum resolution of 0.0254 dots per inch (dpi), 
+   which is a very low resolution that is not typically used for modern devices. */
+@media not all and (min-resolution:.001dpcm) {
+  /* hide emoji for browsers that don't support them */
+  .emoji {
+    display: none;
+  }
+}

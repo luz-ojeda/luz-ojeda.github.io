@@ -3,6 +3,7 @@
 @import "sidebar";
 @import "index";
 @import "projects";
+@import "reading";
 
 html {
   background-color: $bgColor;
@@ -14,7 +15,7 @@ main {
 }
 
 a {
-  color: $anchorElementColor;
+  color: $primaryColor;
 
   &:hover,
   &:focus {
@@ -29,10 +30,6 @@ a {
   }
 }
 
-a img {
-  height: 1em;
-}
-
 ul {
   margin: 0;
   margin-top: 4px;
@@ -41,7 +38,6 @@ ul {
 
 li {
   margin: 16px 0;
-  margin-left: -10px;
 }
 
 .icon,
