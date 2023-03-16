@@ -5,6 +5,8 @@ title: 'Luz Ojeda'
 author:
   name: 'Luz Ojeda'
 
+repository: lezojeda/lezojeda.github.io
+
 plugins:
   - jekyll-multiple-languages-plugin
 
