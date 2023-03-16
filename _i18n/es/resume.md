@@ -4,7 +4,7 @@
 Un breve resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui responsable en cada posición:
 
 - ### Ene 2023 - Actualidad: **[Southworks](https://www.southworks.com/)**
-  - Trabajé en la migración del servicio Azure Virtual Desktop a React
+  - Trabajé en la migración del servicio Azure Virtual Desktop de Microsoft a React
 - ### Sep 2021 - dic 2022: **[IbisDev](https://ibisdev.tech/)**
   - Desarrollé con 2 compañeros de equipo una aplicación web en tiempo real para estudiantes de medicina en **NextJS** y **NestJS**. Consistía en 3 entornos (un front-end para mobile, un front-end web de backoffice y una API de backend) conectados mediante HTTPS y **WebSocket** (con la biblioteca [socket.io](https://socket.io/) ) para las funciones en tiempo real.
   - Diseñé e implementé páginas como desarrollador principal de front-end en una aplicación web CI/CD para un cliente en Francia utilizando **React** (Typescript).
