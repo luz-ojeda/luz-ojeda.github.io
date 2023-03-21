@@ -42,3 +42,9 @@ p {
 /* ----------
   Mobile/tablet
 -----------*/
+@media (max-width: $mobileAndTabletBreakpoint) {
+  p {
+    line-height: 2;
+    font-size: 20px;
+  }
+}

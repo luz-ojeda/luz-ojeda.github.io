@@ -16,9 +16,6 @@
   padding: 0 1.5rem 1rem 0;
 }
 
-.book-info {
-}
-
 .book-title {
   font-style: normal;
 }
@@ -29,4 +26,13 @@
 
 .book-status {
   color: $primaryColor;
+}
+
+/* ----------
+  Mobile/tablet
+-----------*/
+@media (max-width: $mobileAndTabletBreakpoint) {
+  .book-list {
+    margin-left: 0;
+  }
 }
