@@ -34,6 +34,15 @@
   author: Neil Gaiman
   reading_year: 2023
 
+- title: "Bullshit Jobs: A Theory"
+  link: https://www.goodreads.com/book/show/34466958-bullshit-jobs
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523865380i/34466958.jpg
+  description: "A book explores the phenomenon of meaningless jobs that (according to some criteria) do not seem to contribute to society but still exist. Graeber argues that these jobs are a result of the flawed structure of modern society and can have negative effects on individuals and society as a whole."
+  genre: [nonfiction, economics, politics] 
+  status: 2023-29-01
+  author: David Graeber
+  reading_year: 2023
+
 - title: "The Dispossessed: An Ambiguous Utopia"
   link: https://www.goodreads.com/book/show/13651.The_Dispossessed
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353467455i/13651.jpg
@@ -50,4 +59,13 @@
   genre: [health, nonfiction, nutrition] 
   status: 2022-12-07 
   author: Stephan Guyenet, Shizuka N. Aoki
+  reading_year: 2022
+
+- title: "Deep Work: Rules for Focused Success in a Distracted World"
+  link: https://www.goodreads.com/book/show/25744928-deep-work
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1447957962i/25744928.jpg
+  description: "Discusses the importance of focused, distraction-free work in achieving success and productivity in today's knowledge economy. Newport provides practical strategies and tips for cultivating deep work habits and avoiding shallow work, which he argues can be a major hindrance to achieving meaningful results in one's professional and personal life."
+  genre: [nonfiction, self help, productivity] 
+  status: 2022-26-11 
+  author: Cal Newport
   reading_year: 2022
