@@ -1,18 +1,20 @@
 // Typography
-$fontFamily: Inter, Helvetica, sans-serif;
+$fontFamily: Helvetica, sans-serif;
 
 // Spacing
 $sectionSpacing: 2rem;
 $headingSpacing: 0.5rem;
 $largeHeadingSpacing: 1rem;
 $navbarSectionSpacing: 1rem;
+$mobileNavbarSectionSpacing: 2rem;
 
 // Dimensions
 $maxScreenWidth: 960px;
+$mobileAndTabletBreakpoint: 960px;
 
 // Colors
 $fgColor: #222222 !default;
-$bgColor: #F2F2F2 !default;
+$bgColor: #f2f2f2 !default;
 $primaryColor: #405440;
 
 $sidebarLinkColor: $fgColor !default;

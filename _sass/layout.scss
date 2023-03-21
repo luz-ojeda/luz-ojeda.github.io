@@ -15,13 +15,21 @@ body {
   Sidebar
 -----------*/
 
-#sidebar {
+.sidebar {
   flex: 0 0 auto;
   margin-right: 64px;
 }
 
-#sidebar nav {
+.sidebar nav {
   display: flex;
+}
+
+.sidebar nav > .icon {
+  display: inline-block;
+
+  &:not(:last-of-type) {
+    margin-right: 6px;
+  }
 }
 
 #sidebar-nav-links {
@@ -50,8 +58,34 @@ h2:not(:first-of-type) {
   Mobile/tablet
 -----------*/
 
-@media (max-width: 960px) {
+@media (max-width: $mobileAndTabletBreakpoint) {
   body {
     flex-direction: column;
+  }
+
+  .sidebar {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  #sidebar-nav-links {
+    margin-bottom: $mobileNavbarSectionSpacing;
+  
+    > :not(:last-child),
+    > :not(:first-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  #sidebar-icon-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: $mobileNavbarSectionSpacing;
+  }
+
+  .sidebar nav > .icon {  
+    &:not(:last-of-type) {
+      margin-right: 24px;
+    }
   }
 }

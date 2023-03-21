@@ -20,7 +20,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 960px) {
+@media (max-width: $mobileAndTabletBreakpoint) {
   .image-gallery {
     gap: 0;
     display: block;

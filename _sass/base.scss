@@ -4,6 +4,7 @@
 @import "index";
 @import "projects";
 @import "reading";
+@import "hamburgerMenu";
 
 html {
   background-color: $bgColor;
@@ -44,4 +45,11 @@ li {
 svg {
   height: 1.2em;
   vertical-align: middle;
+}
+
+@media (max-width: $mobileAndTabletBreakpoint) {
+  main {
+    width: auto;
+    padding: 0 48px;
+  }
 }

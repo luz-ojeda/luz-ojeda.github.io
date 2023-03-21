@@ -1,8 +1,15 @@
 /* -----------------------------------------------------------
   Sidebar links + nav
 ----------------------------------------------------------- */
+#sidebar.desktop {
+  display: block;
+}
 
-#sidebar a {
+#sidebar-mobile {
+  display: none;
+}
+
+.sidebar a {
   color: $sidebarLinkColor;
   text-decoration: none;
 
@@ -20,7 +27,7 @@
   }
 }
 
-#sidebar a.text {
+.sidebar a.text {
   &:hover {
     &::after {
       content: "·";
@@ -30,16 +37,17 @@
   }
 }
 
-#sidebar a.active {
+.sidebar a.active {
   font-weight: bold;
 }
 
-#sidebar nav > .icon {
-  display: inline-block;
-  font-size: 1.5rem;
+.sidebar nav > .icon {
+  height: 24px;
+  width: 24px;
 
-  &:not(:last-of-type) {
-    margin-right: 6px;
+  > svg {
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -50,5 +58,37 @@
   /* hide emoji for browsers that don't support them */
   .emoji {
     display: none;
+  }
+}
+
+/* ----------
+  Mobile/tablet
+-----------*/
+
+@media (max-width: $mobileAndTabletBreakpoint) {
+  #sidebar-desktop {
+    display: none;
+  }
+
+  #sidebar-mobile {
+    background-color: $bgColor;
+    border-bottom: 1px solid $fgColor;
+    padding-bottom: 32px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  #sidebar-mobile.show {
+    display: block;
+  }
+
+  .sidebar a {
+    font-size: 20px;
+  }
+
+  .sidebar nav > .icon {
+    height: 36px;
+    width: 36px;
   }
 }

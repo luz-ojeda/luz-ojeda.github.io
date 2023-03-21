@@ -1,24 +1,21 @@
-<div id="sidebar">
-  <header>
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %}
-    class="siteTitle">
-    {{ site.title }} </a>
-  </header>
+<header>
+  <{% if page.layout == "index" %}h1{% else %}div{% endif %}
+  class="siteTitle">
+  {{ site.title }} </a>
+</header>
+{% include sidebar-nav-links.html %} 
 
-  {% include sidebar-nav-links.html %} 
-  
-  {% include sidebar-icon-links.html %}
+{% include sidebar-icon-links.html %}
+<!-- Language switcher -->
+{% if site.lang == 'en' %}
+<strong><a href="{% tl root en %}">english</a></strong>
+{% else %}
+<a href="{% tl root en %}">english</a>
+{% endif %} 
 
-  <!-- Language switcher -->
-  {% if site.lang == 'en' %}
-  <strong> <a href="{% tl root en %}">english</a></strong>
-  {% else %}
-  <a href="{% tl root en %}">english</a>
-  {% endif %} 
-  
-  {% if site.lang == 'es' %}
-  <strong><a href="{% tl root es %}">español</a></strong>
-  {% else %}
-  <a href="{% tl root es %}">español</a>
-  {% endif %}
-</div>
+{% if site.lang == 'es' %}
+<strong><a href="{% tl root es %}">español</a></strong>
+{% else %}
+<a href="{% tl root es %}">español</a>
+{% endif %}
+

@@ -14,21 +14,17 @@
       {% endif %}
     </title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-
-    <!-- Google Fonts (Inter) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    {% include sidebar.html %}
+    <button id="hamburger-menu">{% include svg/hamburger-menu.svg %}</button>
+    <aside id="sidebar-desktop" class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+    <aside id="sidebar-mobile" class="sidebar">
+      {% include sidebar.html %}
+    </aside>
     <main>{{ content }}</main>
-    <script>
-      var lang = navigator.language || navigator.userLanguage
-      if (lang.indexOf("es") == 0) window.location = "/es/"
-    </script>
+    <script src="{{ site.baseurl }}/scripts/languageSwitcher.js"></script>
+    <script src="{{ site.baseurl }}/scripts/toggleSidebarVisibility.js"></script>
   </body>
 </html>
