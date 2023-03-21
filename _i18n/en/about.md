@@ -2,7 +2,7 @@
 
 I have mainly studied web development during 2019 at [FreeCodeCamp.org](https://www.freecodecamp.org/), among other resources such as related channels in YouTube (like [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) which I recommend a lot), the Mozilla Developer Network and [JavaScript.info](https://javascript.info/) which led me to work on several small projects present on my [**GitHub account**](https://github.com/lezojeda).
 
-Lately, I have been interested on enhancing my back-end skills by studying the [**Back-End Engineer Career Path**](https://www.codecademy.com/career-journey/back-end-engineer) in Codecademy in my spare time. Additionally, I have been working on several projects, including this website (built with Jekyll), a [personal budget API](https://github.com/lezojeda/personal-budget) (for the Codecademy course along with a simple frontend associated) and a book reading tracking webapp. See more in the [projects](/projects) section.
+Lately, I have been interested on enhancing my back-end skills by studying the [**Back-End Engineer Career Path**](https://www.codecademy.com/career-journey/back-end-engineer) in Codecademy in my spare time. Additionally, I have been working on several projects, including this website (built with Jekyll) and a book reading tracking webapp. See details in the [projects](/projects) section.
 
 I am also a former biologist from the *Universidad de Buenos Aires* where I studied from 2011 to 2019 including a final lab thesis where I studied plant physiology. In one of my Statistic courses is where I started programming with R which later led to my interest in web development and the career shift.
 
