@@ -20,11 +20,12 @@ h6,
   text-rendering: optimizeLegibility;
 }
 
-h2 {
-  margin-bottom: 16px;
+h1 {
+  margin-bottom: 24px;
 }
 
 p {
+  font-size: 1.125rem;
   line-height: 1.5;
   margin-top: 0;
 }
@@ -38,7 +39,3 @@ p {
 .siteTitle {
   font-size: 2rem;
 }
-
-/* ----------
-  Mobile/tablet
------------*/
