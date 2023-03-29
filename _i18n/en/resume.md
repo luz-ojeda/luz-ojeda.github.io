@@ -2,7 +2,7 @@
 
 ---
 
-A brief summary of my career so far including some tasks I was responsible for in each position:
+A summary of my career so far including some tasks I was responsible for in each position:
 
 - ### Jan 2023 - Today: **[Southworks](https://www.southworks.com/)**
   - Worked in the migration of the Microsoft **Azure Virtual Desktop** service to **React**
