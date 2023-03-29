@@ -1,7 +1,7 @@
 ## Experiencia profesional
 ---
 
-Un breve resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui responsable en cada posición:
+Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui responsable en cada posición:
 
 - ### Ene 2023 - Actualidad: **[Southworks](https://www.southworks.com/)**
   - Trabajé en la migración del servicio Azure Virtual Desktop de Microsoft a React
