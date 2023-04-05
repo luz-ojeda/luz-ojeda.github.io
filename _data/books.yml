@@ -37,9 +37,9 @@
 - title: "American Gods"
   link: https://www.goodreads.com/book/show/30165203-american-gods
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462924585i/30165203.jpg
-  description: "A language learning book that teaches techniques for efficient language acquisition and retention, emphasizing on personalized learning and active recall."
+  description: "A fantasy/fiction novel about a man named Shadow Moon who becomes caught in a conflict between traditional gods and modern ones. The novel depicts a clash between the old and new deities as they fight for power and control in a changing world.."
   genre: [fantasy, fiction, mythology, urban fantasy] 
-  status: 2023-20-24 
+  status: 2023-02-24 
   author: Neil Gaiman
   reading_year: 2023
 
@@ -48,7 +48,7 @@
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523865380i/34466958.jpg
   description: "A book explores the phenomenon of meaningless jobs that (according to some criteria) do not seem to contribute to society but still exist. Graeber argues that these jobs are a result of the flawed structure of modern society and can have negative effects on individuals and society as a whole."
   genre: [nonfiction, economics, politics] 
-  status: 2023-29-01
+  status: 2023-01-29
   author: David Graeber
   reading_year: 2023
 
