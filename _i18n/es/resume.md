@@ -30,23 +30,23 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
   - Responsive Web Design
   - JavaScript Algorithms and Data Structures
   - Front End Development Libraries
-  - [Repositorio con projects](https://github.com/lezojeda/freecodecamp-front-end-libraries)
+  - [Repositorio con proyectos](https://github.com/lezojeda/freecodecamp-front-end-libraries)
 
 ## Tecnologías
 ---
 - **Lenguajes**
-  - JavaScript and TypeScript
+  - JavaScript y TypeScript
   - C# (basic)
   - SQL
-  - HTML and CSS
+  - HTML y CSS
 - **Frameworks, librerías y otras herramientas**
   - Usadas en ámbito profesional:
-    - React and Vue
+    - React y Vue
     - Redux
     - NestJS
     - Material UI
     - Git
-    - Jest (and React Testing Library)
+    - Jest (y React Testing Library)
   - Usadas en proyectos personales y cursos:
     - Express
     - PostgreSQL

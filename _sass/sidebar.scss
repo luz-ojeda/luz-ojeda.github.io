@@ -83,6 +83,14 @@
     display: block;
   }
 
+  .sidebar a.text {
+    &:hover {
+      &::after {
+        content: none;
+      }
+    }
+  }
+
   .sidebar a {
     font-size: 20px;
   }
