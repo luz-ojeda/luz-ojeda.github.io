@@ -4,6 +4,16 @@
   image: /assets/images/projects/envelope_budget.jpg
 
 - title: Envelope Budget web
-  description: Minimal front-end built with preact to make use of the Envelope Budget API
+  description: Minimal front-end built with preact to make use of the Envelope Budget API.
   url: https://github.com/lezojeda/personal-budget-web#readme
   image: /assets/images/projects/envelope_budget_web.png
+
+- title: Book Tracking API
+  description: Manage read/want to read/currently reading books. Connected to the Google Books API (https://developers.google.com/books) for book information. Used this project as an excuse to learn NestJS and Prisma.
+  url: https://github.com/lezojeda/books-api#readme
+  image: /assets/images/projects/books_api.jpg
+
+- title: Book Tracking web
+  description: Front-end built with React, Tailwind, React Hook Form, among other tools to make use of the Book Tracking API.
+  url: https://github.com/lezojeda/books-web
+  image: /assets/images/projects/books_web.png
