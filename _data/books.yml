@@ -1,9 +1,18 @@
+- title: "Frankenstein"
+  link: https://www.goodreads.com/book/show/35031085-frankenstein
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg
+  description: ""
+  genre: [classics, fiction, horror] 
+  status: 2023-05-20
+  author: Mary Shelley
+  reading_year: 2023
+ 
 - title: "The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day, and Extended Fasting"
   link: https://www.goodreads.com/book/show/32670670-the-complete-guide-to-fasting
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1521670646i/32670670.jpg
   description: ""
   genre: [health, non-fiction, nutrition] 
-  status: currently reading
+  status: 2023-05-01
   author: Jason Fung
   reading_year: 2023
 
