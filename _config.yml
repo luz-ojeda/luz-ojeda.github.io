@@ -5,14 +5,14 @@ title: 'Luz Ojeda'
 author:
   name: 'Luz Ojeda'
 
-repository: lezojeda/lezojeda.github.io
+repository: luz-ojeda/luz-ojeda.github.io
 
 plugins:
   - jekyll-multiple-languages-plugin
 
 # Custom variables
-github_url: 'https://github.com/lezojeda'
-linkedin_url: 'https://www.linkedin.com/in/lezojeda/'
+github_url: 'https://github.com/luz-ojeda'
+linkedin_url: 'https://www.linkedin.com/in/luz-ojeda/'
 
 current_company: Southworks
 current_company_url: https://www.southworks.com/
