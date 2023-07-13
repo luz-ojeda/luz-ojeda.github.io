@@ -2,7 +2,18 @@
 layout: default
 ---
 <header>
-  <h1 class="pageTitle">{% t page.title %}</h1>
+  <h1 class="pageTitle">
+    {% t page.title %}
+  </h1>
+  {% if page.namespace == 'resume' %}
+    <a style="margin-bottom: 8px; display: inline-block" href="/assets/Luz_Ojeda_Resume.pdf">
+      {% if site.lang == 'en' %}
+        Download PDF
+      {% else %}
+        Descargar PDF
+      {% endif %}
+    </a>
+  {% endif %}
 </header>
 <div class="content">
   {{ content }}
