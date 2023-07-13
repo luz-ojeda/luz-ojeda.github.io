@@ -15,6 +15,11 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
   - Rediseñé el panel de usuario using **Vue**.
   - Rediseñé el flujo de pago junto con 3 compañeros del área de front-end con un plazo de un mes. Las tareas incluyeron la creación y el diseño de nuevos componentes, la configuración de rutas y la creación/modificación de queries y mutations de GraphQL.
 
+## Educación
+---
+
+- Ingeniería en Informática - Universidad Argentina de la Empresa (Agosto 2023 - En curso)
+
 ## Cursos y certificaciones
 ---
 
