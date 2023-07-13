@@ -1,5 +1,4 @@
 ## Work experience
-
 ---
 
 A summary of my career so far including some tasks I was responsible for in each position:
@@ -15,6 +14,10 @@ A summary of my career so far including some tasks I was responsible for in each
 - ### Oct 2019 - Apr 2021: **[BigBox](https://www.bigbox.com.ar/)**
   - Redesigned the user panel consisting of **VueJS** components
   - Redesigned the checkout flow along with 3 colleagues from the front-end area with a one-month deadline. Tasks included the creation and design of new components, routing configuration and creation/modification of GraphQL queries and mutations
+
+## Education
+---
+- Software Engineering - Argentine University of Enterprise (UADE) (Aug 2023 - Today)
 
 ## Courses and certifications
 ---
