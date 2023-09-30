@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  On growing
+title: On growing
 ---
 
 The greatest consciousness/awareness leap so far in my life occurred after graduating university (when I was 25 years old). In the following years.

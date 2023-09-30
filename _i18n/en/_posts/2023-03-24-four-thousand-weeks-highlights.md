@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Highlights from the book Four Thousand Weeks
+title: Highlights from the book Four Thousand Weeks
 ---
 
 I fell into the productivity rabbit hole for some years where I tried lots and lots of tools to try to make the best use of every day and single hour of my life. Today I just use Google Calendar and a physical [bullet journal](https://bulletjournal.com/) for organization and I think it'd be best if I'd done it before. Specially the "physical" aspect of it. Working as a developer, enjoying videogames and reading in a Kindle among other activies I end up spending much of my day in front of screens (just like many others, I know) so taking a break and writing on paper is very enjoyable.
