@@ -13,6 +13,10 @@
   color: $sidebarLinkColor;
   text-decoration: none;
 
+  @media (prefers-color-scheme: dark) {
+    color: $bgColor;
+  }
+
   &:hover {
     background-color: transparent;
     opacity: 1;
@@ -20,6 +24,10 @@
 
   svg {
     fill: $fgColor;
+
+    @media (prefers-color-scheme: dark) {
+      fill: $bgColor;
+    }
 
     &:hover {
       opacity: 0.75;
@@ -78,6 +86,11 @@
     position: absolute;
     width: 100%;
     z-index: 2;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: $fgColor;
+      border-bottom: 1px solid $bgColor;
+    }
   }
 
   #sidebar-mobile.show {

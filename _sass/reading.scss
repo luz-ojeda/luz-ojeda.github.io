@@ -26,6 +26,10 @@
 
 .book-status {
   color: $primaryColor;
+
+  @media (prefers-color-scheme: dark) {
+    color: $primaryColorDarkMode;
+  }
 }
 
 /* ----------

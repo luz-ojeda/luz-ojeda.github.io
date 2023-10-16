@@ -4,12 +4,19 @@
 @import "index";
 @import "projects";
 @import "reading";
-@import "hamburgerMenu";
+@import "hamburger-menu";
 
-html {
+:root {
+  color-scheme: light dark;
   background-color: $bgColor;
   color: $fgColor;
+
+  @media (prefers-color-scheme: dark) {
+    color: $bgColor;
+    background-color: $fgColor;
+  }
 }
+
 
 main {
   width: 100%;
@@ -17,6 +24,10 @@ main {
 
 a {
   color: $primaryColor;
+
+  @media (prefers-color-scheme: dark) {
+    color: $primaryColorDarkMode;
+  }
 
   &:hover,
   &:focus {
@@ -40,6 +51,11 @@ ul {
 li {
   font-size: 18px;
   margin: 16px 0;
+
+  @media (prefers-color-scheme: dark) {
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+  }
 }
 
 .icon,
@@ -65,5 +81,9 @@ svg {
 
   li {
     line-height: 1.5;
+
+    @media (prefers-color-scheme: dark) {
+      line-height: 1.8;
+    }
   }
 }

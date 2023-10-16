@@ -28,6 +28,10 @@ p {
   font-size: 1.125rem;
   line-height: 1.5;
   margin-top: 0;
+
+  @media (prefers-color-scheme: dark) {
+    line-height: 1.8;
+  }
 }
 
 .siteTitle,
@@ -45,7 +49,11 @@ p {
 -----------*/
 @media (max-width: $mobileAndTabletBreakpoint) {
   p {
-    line-height: 2;
+    line-height: 1.8;
     font-size: 20px;
+
+    @media (prefers-color-scheme: dark) {
+      line-height: 2;
+    }
   }
 }
