@@ -28,7 +28,7 @@
   color: $primaryColor;
 
   @media (prefers-color-scheme: dark) {
-    color: $primaryColorDarkMode;
+    color: $darkModePrimaryColor;
   }
 }
 

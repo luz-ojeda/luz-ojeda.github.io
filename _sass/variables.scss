@@ -14,8 +14,10 @@ $mobileAndTabletBreakpoint: 960px;
 
 // Colors
 $fgColor: #222222 !default;
-$bgColor: #d9d9d9 !default;
+$bgColor: #F2F2F2 !default;
 $primaryColor: #405440;
-$primaryColorDarkMode: #82a182;
+
+$darkModeFgColor: #E3E3E3;
+$darkModePrimaryColor: #93AE93;
 
 $sidebarLinkColor: $fgColor !default;
