@@ -1,8 +1,11 @@
 /* -----------------------------------------------------------
   Sidebar links + nav
 ----------------------------------------------------------- */
-#sidebar.desktop {
+#sidebar-desktop {
     display: block;
+    position: sticky;
+    top: 10pxg;
+    height: fit-content;
 }
 
 #sidebar-mobile {
