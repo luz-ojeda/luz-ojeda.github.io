@@ -40,20 +40,24 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
 
 ## Tecnologías
 ---
-- **Lenguajes**
-  - JavaScript y TypeScript
-  - C# (basic)
-  - SQL
-  - HTML y CSS
-- **Frameworks, librerías y otras herramientas**
+### **Lenguajes**
+  * {: .skill} JavaScript and TypeScript
+  * {: .skill} C# (basic)
+  * {: .skill} SQL
+  * HTML and CSS
+{: .skills-list}
+
+### **Frameworks, librerías y otras herramientas**
+{: .second-skills-list}
   - Usadas en ámbito profesional:
-    - React y Vue
-    - Redux
-    - NestJS
-    - Material UI
-    - Git
-    - Jest (y React Testing Library)
+    * {: .skill} React y Vue
+    * {: .skill} Redux
+    * {: .skill} NestJS
+    * {: .skill} Material UI
+    * {: .skill} Git
+    * {: .skill} Jest (y React Testing Library)
   - Usadas en proyectos personales y cursos:
-    - Express
-    - PostgreSQL
-    - Docker
+    * {: .skill} Express
+    * {: .skill} PostgreSQL
+    * {: .skill} Docker
+{: .skills-list}

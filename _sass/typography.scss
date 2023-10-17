@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6,
-.siteTitle {
+.site-title {
   font-weight: 600;
   line-height: 1.25;
   margin: 0;
@@ -34,13 +34,13 @@ p {
   }
 }
 
-.siteTitle,
-.pageTitle {
+.site-title,
+.page-title {
   margin-top: 0;
   margin-bottom: $largeHeadingSpacing;
 }
 
-.siteTitle {
+.site-title {
   font-size: 2rem;
 }
 

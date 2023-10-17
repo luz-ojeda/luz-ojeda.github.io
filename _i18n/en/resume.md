@@ -38,20 +38,24 @@ A summary of my career so far including some tasks I was responsible for in each
 
 ## Skills
 ---
-- **Languages**
-  - JavaScript and TypeScript
-  - C# (basic)
-  - SQL
-  - HTML and CSS
-- **Frameworks, libraries and other tools**
+### **Languages**
+  * {: .skill} JavaScript and TypeScript
+  * {: .skill} C# (basic)
+  * {: .skill} SQL
+  * HTML and CSS
+{: .skills-list}
+
+### **Frameworks, libraries and other tools**
+{: .second-skills-list}
   - Used professionally:
-    - React and Vue
-    - Redux
-    - NestJS
-    - Material UI
-    - Git
-    - Jest (and React Testing Library)
+    * {: .skill} React and Vue
+    * {: .skill} Redux
+    * {: .skill} NestJS
+    * {: .skill} Material UI
+    * {: .skill} Git
+    * Jest (and React Testing Library)
   - Used in personal projects/courses:
-    - Express
-    - PostgreSQL
-    - Docker
+    * {: .skill} Express
+    * {: .skill} PostgreSQL
+    * Docker
+{: .skills-list}
