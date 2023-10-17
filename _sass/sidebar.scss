@@ -4,7 +4,7 @@
 #sidebar-desktop {
     display: block;
     position: sticky;
-    top: 10pxg;
+    top: 10px;
     height: fit-content;
 }
 
@@ -53,14 +53,7 @@
 }
 
 .sidebar nav > .icon {
-    display: inline-block;
-    height: 24px;
     width: 24px;
-
-    > svg {
-        height: 100%;
-        width: 100%;
-    }
 }
 
 /* hide emoji if not supported */
@@ -110,10 +103,5 @@
 
     .sidebar a {
         font-size: 20px;
-    }
-
-    .sidebar nav > .icon {
-        height: 36px;
-        width: 36px;
     }
 }
