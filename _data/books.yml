@@ -1,9 +1,24 @@
+- title: "A Tale of Two Cities"
+  link: https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344922523i/1953.jpg
+  genre: [classics, fiction, historical fiction] 
+  status: currently reading
+  author: Charles Dickens
+  reading_year: 2023
+
+- title: "Death's End (Remembrance of Earth's Past #3)"
+  link: https://www.goodreads.com/book/show/25451264-death-s-end
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1430330507i/25451264.jpg
+  genre: [science fiction, china, fantasy] 
+  status: 2023-09-14
+  author: Liu Cixin
+  reading_year: 2023
+
 - title: "The Dark Forest (Remembrance of Earth's Past #2)"
   link: https://www.goodreads.com/book/show/66562105-the-dark-forest
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1670967318i/66562105.jpg
-  description: ""
   genre: [science fiction, china, fantasy] 
-  status: currently reading
+  status: 2023-08-31
   author: Liu Cixin
   reading_year: 2023
 
