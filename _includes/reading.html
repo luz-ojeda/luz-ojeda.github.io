@@ -10,10 +10,11 @@
             /></a>
             <div class="book-info">
                 <h3>
-                    <cite><a class="book-title" href="{{ book.link }}">{{ book.title }}</a></cite>
+                    <a class="book-title" href="{{ book.link }}">{{ book.title }}</a>
                 </h3>
                 <p>
                     {% if site.lang == 'en' %} by {% endif %}
+                    {% if site.lang == 'es' %} de {% endif %}
                     <span class="book-author">{{ book.author }}</span>
                 </p>
                 <p>{{ book.description }}</p>

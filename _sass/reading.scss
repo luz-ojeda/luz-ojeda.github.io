@@ -36,7 +36,12 @@
   Mobile/tablet
 -----------*/
 @media (max-width: $tabletBreakpoint) {
+    .book-list p, .book-title {
+        font-size: 16px;
+    }
+
     .book-list {
+        font-size: 16px;
         margin-left: 0;
     }
 }
