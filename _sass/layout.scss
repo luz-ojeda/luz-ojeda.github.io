@@ -76,9 +76,19 @@ h2:not(:first-of-type) {
   Mobile/tablet
 -----------*/
 
-@media (max-width: $mobileAndTabletBreakpoint) {
+@media (max-width: $smallScreenBreakpoint) {
+  .sidebar {
+    margin-right: 24px;
+  }
+}
+
+@media (max-width: $tabletBreakpoint) {
   body {
     flex-direction: column;
+  }
+
+  main {
+    padding: 0 32px;
   }
 
   .sidebar {

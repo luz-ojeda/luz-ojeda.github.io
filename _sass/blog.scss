@@ -1,0 +1,18 @@
+.post-item-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-title {
+    display: inline-block;
+    margin-bottom: 0px;
+    max-width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    @media (max-width: $mobileBreakpoint) {
+        max-width: 60%;
+    }
+}

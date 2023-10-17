@@ -47,7 +47,7 @@ p {
 /* ----------
   Mobile/tablet
 -----------*/
-@media (max-width: $mobileAndTabletBreakpoint) {
+@media (max-width: $tabletBreakpoint) {
   p {
     line-height: 1.8;
     font-size: 20px;

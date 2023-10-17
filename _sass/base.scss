@@ -1,7 +1,7 @@
 @import "typography";
 @import "layout";
 @import "sidebar";
-@import "index";
+@import "blog";
 @import "projects";
 @import "reading";
 @import "hamburger-menu";
@@ -17,9 +17,8 @@
   }
 }
 
-
 main {
-  width: 100%;
+  min-width: 0;
 }
 
 a {
@@ -45,7 +44,6 @@ a {
 ul {
   margin: 0;
   margin-top: 4px;
-  width: 100%;
 }
 
 li {
@@ -64,12 +62,13 @@ svg {
   vertical-align: middle;
 }
 
-@media (max-width: $mobileAndTabletBreakpoint) {
-  main {
-    width: auto;
-    padding: 0 32px;
+@media (max-width: $smallScreenBreakpoint) {
+  li {
+    font-size: 16px;
   }
+}
 
+@media (max-width: $tabletBreakpoint) {
   ul {
     margin-left: -24px;
     width: auto;

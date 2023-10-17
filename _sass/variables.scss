@@ -10,7 +10,9 @@ $mobileNavbarSectionSpacing: 2rem;
 
 // Dimensions
 $maxScreenWidth: 960px;
-$mobileAndTabletBreakpoint: 960px;
+$smallScreenBreakpoint: 1280px;
+$tabletBreakpoint: 960px;
+$mobileBreakpoint: 481px;
 
 // Colors
 $fgColor: #222222 !default;

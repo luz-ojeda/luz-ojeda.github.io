@@ -74,7 +74,7 @@
   Mobile/tablet
 -----------*/
 
-@media (max-width: $mobileAndTabletBreakpoint) {
+@media (max-width: $tabletBreakpoint) {
   #sidebar-desktop {
     display: none;
   }
