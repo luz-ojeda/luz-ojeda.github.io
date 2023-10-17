@@ -1,14 +1,14 @@
 body {
-  display: flex;
-  min-height: 100vh;
-  margin: 0 auto;
-  max-width: $maxScreenWidth;
-  padding: 64px 0;
+    display: flex;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: $maxScreenWidth;
+    padding: 64px 0;
 }
 
 .center-row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 /* ----------
@@ -16,60 +16,60 @@ body {
 -----------*/
 
 .sidebar {
-  flex: 0 0 auto;
-  margin-right: 64px;
+    flex: 0 0 auto;
+    margin-right: 64px;
 }
 
 .sidebar nav {
-  display: flex;
+    display: flex;
 }
 
 .sidebar nav > .icon {
-  display: inline-block;
+    display: inline-block;
 
-  &:not(:last-of-type) {
-    margin-right: 6px;
-  }
+    &:not(:last-of-type) {
+        margin-right: 6px;
+    }
 }
 
 #sidebar-nav-links {
-  flex-flow: column nowrap;
-  margin-bottom: $navbarSectionSpacing;
+    flex-flow: column nowrap;
+    margin-bottom: $navbarSectionSpacing;
 
-  > :not(:last-child),
-  > :not(:first-child) {
-    margin-bottom: 6px;
-  }
+    > :not(:last-child),
+    > :not(:first-child) {
+        margin-bottom: 6px;
+    }
 }
 
 #sidebar-icon-links {
-  flex-flow: row wrap;
-  margin-bottom: $navbarSectionSpacing;
+    flex-flow: row wrap;
+    margin-bottom: $navbarSectionSpacing;
 }
 
 /* ----------
   Resume
 -----------*/
 h2:not(:first-of-type) {
-  margin-top: 48px;
+    margin-top: 48px;
 }
 
 .second-skills-list {
-  margin-top: 24px;
+    margin-top: 24px;
 }
 
 .skills-list li {
-  display: inline;
-  margin-bottom: 0;
-  font-size: 16px;
+    display: inline;
+    margin-bottom: 0;
+    font-size: 16px;
 
-  &::before {
-    content: '• ';
-  }
+    &::before {
+        content: "• ";
+    }
 }
 
 .skill {
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 /* ----------
@@ -77,56 +77,56 @@ h2:not(:first-of-type) {
 -----------*/
 
 @media (max-width: $smallScreenBreakpoint) {
-  .sidebar {
-    margin-right: 24px;
-  }
+    .sidebar {
+        margin-right: 24px;
+    }
 }
 
 @media (max-width: $tabletBreakpoint) {
-  body {
-    flex-direction: column;
-  }
-
-  main {
-    padding: 0 32px;
-  }
-
-  .sidebar {
-    margin-right: 0;
-    text-align: center;
-  }
-
-  #sidebar-nav-links {
-    margin-bottom: $mobileNavbarSectionSpacing;
-  
-    > :not(:last-child),
-    > :not(:first-child) {
-      margin-bottom: 16px;
+    body {
+        flex-direction: column;
     }
-  }
 
-  #sidebar-icon-links {
-    display: flex;
-    justify-content: center;
-    margin-bottom: $mobileNavbarSectionSpacing;
-  }
-
-  .sidebar nav > .icon {  
-    &:not(:last-of-type) {
-      margin-right: 24px;
+    main {
+        padding: 0 32px;
     }
-  }
 
-  .skills-list li {
-    display: list-item;
-    margin-left: 8px;
-
-    &::before {
-      content: '';
+    .sidebar {
+        margin-right: 0;
+        text-align: center;
     }
-  }
-  
-  .skill {
-    margin-right: 0px;
-  }
+
+    #sidebar-nav-links {
+        margin-bottom: $mobileNavbarSectionSpacing;
+
+        > :not(:last-child),
+        > :not(:first-child) {
+            margin-bottom: 16px;
+        }
+    }
+
+    #sidebar-icon-links {
+        display: flex;
+        justify-content: center;
+        margin-bottom: $mobileNavbarSectionSpacing;
+    }
+
+    .sidebar nav > .icon {
+        &:not(:last-of-type) {
+            margin-right: 24px;
+        }
+    }
+
+    .skills-list li {
+        display: list-item;
+        margin-left: 8px;
+
+        &::before {
+            content: "";
+        }
+    }
+
+    .skill {
+        margin-right: 0px;
+    }
 }

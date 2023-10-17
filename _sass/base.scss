@@ -7,82 +7,82 @@
 @import "hamburger-menu";
 
 :root {
-  color-scheme: light dark;
-  background-color: $bgColor;
-  color: $fgColor;
+    color-scheme: light dark;
+    background-color: $bgColor;
+    color: $fgColor;
 
-  @media (prefers-color-scheme: dark) {
-    color: $darkModeFgColor;
-    background-color: $fgColor;
-  }
+    @media (prefers-color-scheme: dark) {
+        color: $darkModeFgColor;
+        background-color: $fgColor;
+    }
 }
 
 main {
-  min-width: 0;
+    min-width: 0;
 }
 
 a {
-  color: $primaryColor;
+    color: $primaryColor;
 
-  @media (prefers-color-scheme: dark) {
-    color: $darkModePrimaryColor;
-  }
+    @media (prefers-color-scheme: dark) {
+        color: $darkModePrimaryColor;
+    }
 
-  &:hover,
-  &:focus {
-    border-radius: 4px;
-    text-decoration: none;
-    transition: opacity 0.2s ease;
-    opacity: 0.8;
-  }
+    &:hover,
+    &:focus {
+        border-radius: 4px;
+        text-decoration: none;
+        transition: opacity 0.2s ease;
+        opacity: 0.8;
+    }
 
-  strong {
-    color: inherit;
-  }
+    strong {
+        color: inherit;
+    }
 }
 
 ul {
-  margin: 0;
-  margin-top: 4px;
+    margin: 0;
+    margin-top: 4px;
 }
 
 li {
-  font-size: 18px;
-  margin: 16px 0;
+    font-size: 18px;
+    margin: 16px 0;
 
-  @media (prefers-color-scheme: dark) {
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-  }
+    @media (prefers-color-scheme: dark) {
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+    }
 }
 
 .icon,
 svg {
-  height: 1.2em;
-  vertical-align: middle;
+    height: 1.2em;
+    vertical-align: middle;
 }
 
 @media (max-width: $smallScreenBreakpoint) {
-  li {
-    font-size: 16px;
-  }
+    li {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: $tabletBreakpoint) {
-  ul {
-    margin-left: -24px;
-    width: auto;
-    
-    h3 {
-      margin-bottom: 16px;
-    }
-  }
+    ul {
+        margin-left: -24px;
+        width: auto;
 
-  li {
-    line-height: 1.5;
-
-    @media (prefers-color-scheme: dark) {
-      line-height: 1.8;
+        h3 {
+            margin-bottom: 16px;
+        }
     }
-  }
+
+    li {
+        line-height: 1.5;
+
+        @media (prefers-color-scheme: dark) {
+            line-height: 1.8;
+        }
+    }
 }

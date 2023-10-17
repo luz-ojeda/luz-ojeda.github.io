@@ -2,72 +2,72 @@
   Sidebar links + nav
 ----------------------------------------------------------- */
 #sidebar.desktop {
-  display: block;
+    display: block;
 }
 
 #sidebar-mobile {
-  display: none;
+    display: none;
 }
 
 .sidebar a {
-  color: $sidebarLinkColor;
-  text-decoration: none;
-
-  @media (prefers-color-scheme: dark) {
-    color: $bgColor;
-  }
-
-  &:hover {
-    background-color: transparent;
-    opacity: 1;
-  }
-
-  svg {
-    fill: $fgColor;
+    color: $sidebarLinkColor;
+    text-decoration: none;
 
     @media (prefers-color-scheme: dark) {
-      fill: $darkModeFgColor;
+        color: $bgColor;
     }
 
     &:hover {
-      opacity: 0.75;
+        background-color: transparent;
+        opacity: 1;
     }
-  }
+
+    svg {
+        fill: $fgColor;
+
+        @media (prefers-color-scheme: dark) {
+            fill: $darkModeFgColor;
+        }
+
+        &:hover {
+            opacity: 0.75;
+        }
+    }
 }
 
 .sidebar a.text {
-  &:hover {
-    &::after {
-      content: "·";
-      font-weight: bold;
-      margin-left: 2px;
+    &:hover {
+        &::after {
+            content: "·";
+            font-weight: bold;
+            margin-left: 2px;
+        }
     }
-  }
 }
 
 .sidebar a.active {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .sidebar nav > .icon {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
 
-  > svg {
-    height: 100%;
-    width: 100%;
-  }
+    > svg {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 /* hide emoji if not supported */
 /* Thismin resolution is equivalent to a minimum resolution of 0.0254 dots per inch (dpi), 
    which is a very low resolution that is not typically used for modern devices. */
-@media not all and (min-resolution:.001dpcm) {
-  /* hide emoji for browsers that don't support them */
-  .emoji {
-    display: none;
-  }
+@media not all and (min-resolution: 0.001dpcm) {
+    /* hide emoji for browsers that don't support them */
+    .emoji {
+        display: none;
+    }
 }
 
 /* ----------
@@ -75,42 +75,42 @@
 -----------*/
 
 @media (max-width: $tabletBreakpoint) {
-  #sidebar-desktop {
-    display: none;
-  }
-
-  #sidebar-mobile {
-    background-color: $bgColor;
-    border-bottom: 1px solid $fgColor;
-    padding-bottom: 32px;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-
-    @media (prefers-color-scheme: dark) {
-      background-color: $fgColor;
-      border-bottom: 1px solid $darkModeFgColor;
+    #sidebar-desktop {
+        display: none;
     }
-  }
 
-  #sidebar-mobile.show {
-    display: block;
-  }
+    #sidebar-mobile {
+        background-color: $bgColor;
+        border-bottom: 1px solid $fgColor;
+        padding-bottom: 32px;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
 
-  .sidebar a.text {
-    &:hover {
-      &::after {
-        content: none;
-      }
+        @media (prefers-color-scheme: dark) {
+            background-color: $fgColor;
+            border-bottom: 1px solid $darkModeFgColor;
+        }
     }
-  }
 
-  .sidebar a {
-    font-size: 20px;
-  }
+    #sidebar-mobile.show {
+        display: block;
+    }
 
-  .sidebar nav > .icon {
-    height: 36px;
-    width: 36px;
-  }
+    .sidebar a.text {
+        &:hover {
+            &::after {
+                content: none;
+            }
+        }
+    }
+
+    .sidebar a {
+        font-size: 20px;
+    }
+
+    .sidebar nav > .icon {
+        height: 36px;
+        width: 36px;
+    }
 }

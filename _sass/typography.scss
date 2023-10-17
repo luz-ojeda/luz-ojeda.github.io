@@ -1,7 +1,7 @@
 @import "variables";
 
 html {
-  font-family: $fontFamily;
+    font-family: $fontFamily;
 }
 
 /* ----------
@@ -14,46 +14,46 @@ h4,
 h5,
 h6,
 .site-title {
-  font-weight: 600;
-  line-height: 1.25;
-  margin: 0;
-  text-rendering: optimizeLegibility;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 0;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
-  margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 p {
-  font-size: 1.125rem;
-  line-height: 1.5;
-  margin-top: 0;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-top: 0;
 
-  @media (prefers-color-scheme: dark) {
-    line-height: 1.8;
-  }
+    @media (prefers-color-scheme: dark) {
+        line-height: 1.8;
+    }
 }
 
 .site-title,
 .page-title {
-  margin-top: 0;
-  margin-bottom: $largeHeadingSpacing;
+    margin-top: 0;
+    margin-bottom: $largeHeadingSpacing;
 }
 
 .site-title {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 /* ----------
   Mobile/tablet
 -----------*/
 @media (max-width: $tabletBreakpoint) {
-  p {
-    line-height: 1.8;
-    font-size: 20px;
+    p {
+        line-height: 1.8;
+        font-size: 20px;
 
-    @media (prefers-color-scheme: dark) {
-      line-height: 2;
+        @media (prefers-color-scheme: dark) {
+            line-height: 2;
+        }
     }
-  }
 }
