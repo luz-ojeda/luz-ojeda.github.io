@@ -7,6 +7,7 @@ sidebar_link: true
 published: true
 namespace: reading
 emoji: 📖
+area: personal
 ---
 
 <a href="https://www.goodreads.com/user/show/116528903-luz" target="_blank">

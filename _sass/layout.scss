@@ -41,11 +41,6 @@ body {
 #sidebar-nav-links {
     flex-flow: column nowrap;
     margin-bottom: $navbarSectionSpacing;
-
-    > :not(:last-child),
-    > :not(:first-child) {
-        margin-bottom: 6px;
-    }
 }
 
 #sidebar-icon-links {
