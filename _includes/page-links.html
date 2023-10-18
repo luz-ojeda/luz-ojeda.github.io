@@ -5,7 +5,7 @@
     <div class="page-links-group">
         {% if group.name == "personal" %}
         <a
-            class="{% if group.url == '/' %} active {% endif %} text section-link"
+            class="{% if page.url == '/' %} active {% endif %} text section-link"
             href="{% if site.lang == 'en' %} / {% else %} /es {% endif %}"
         >
             📝 blog
@@ -15,7 +15,7 @@
         {% for item in group.items %} 
         {% if item.title != null %} 
         {% if item.sidebar_link %}
-        <a class="{% if item.url == item.url %} active {% endif %} text section-link" href="{% tl item.namespace %}">
+        <a class="{% if page.url == item.url %} active {% endif %} text section-link" href="{% tl item.namespace %}">
             <span class="emoji">{{ item.emoji }}</span>
             {% t item.title %}
         </a>
