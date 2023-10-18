@@ -9,6 +9,11 @@ body {
 .center-row {
     display: flex;
     align-items: center;
+
+    > svg {
+        margin-right: 6px;
+        width: 20px;
+    }
 }
 
 /* ----------

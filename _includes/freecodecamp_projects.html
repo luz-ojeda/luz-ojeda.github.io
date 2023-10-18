@@ -1,6 +1,13 @@
-<a class="center-row" aria-label="FreeCodeCamp-projects" href="https://github.com/lezojeda/freecodecamp-front-end-libraries" target="_blank" title="FreeCodeCamp repository URL">
+<a 
+    class="center-row"
+    aria-label="FreeCodeCamp-projects"
+    href="https://github.com/lezojeda/freecodecamp-front-end-libraries"
+    target="_blank"
+    title="FreeCodeCamp repository URL"
+    >
     {% include svg/external-link.svg %}
-    {% t global.repository %}</a>
+    {% t global.repository %}
+</a>
 <div class ="image-gallery">
     {% assign project_file = "freecodecamp_projects" | append: site.lang %}
     {% for project in site.data[project_file] %}
