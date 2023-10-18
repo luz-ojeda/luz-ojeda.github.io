@@ -52,8 +52,8 @@
     font-weight: bold;
 }
 
-.sidebar nav > .icon {
-    width: 24px;
+.sidebar nav > .icon > svg {
+    height: 24px;
 }
 
 /* hide emoji if not supported */
@@ -103,5 +103,9 @@
 
     .sidebar a {
         font-size: 20px;
+    }
+
+    .sidebar nav > .icon > svg {
+        height: 28px;
     }
 }
