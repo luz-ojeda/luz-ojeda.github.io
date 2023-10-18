@@ -56,12 +56,6 @@ li {
     }
 }
 
-.icon,
-svg {
-    height: 1.2em;
-    vertical-align: middle;
-}
-
 @media (max-width: $smallScreenBreakpoint) {
     li {
         font-size: 16px;

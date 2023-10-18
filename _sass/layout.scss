@@ -25,7 +25,8 @@ body {
 }
 
 .sidebar nav > .icon {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 
     &:not(:last-of-type) {
         margin-right: 6px;
@@ -113,7 +114,7 @@ h2:not(:first-of-type) {
 
     .sidebar nav > .icon {
         &:not(:last-of-type) {
-            margin-right: 24px;
+            margin-right: 16px;
         }
     }
 
