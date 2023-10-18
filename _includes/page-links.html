@@ -1,4 +1,4 @@
-{% assign pages_grouped = site.pages | group_by:"area" | sort:"sidebar_sort_order" | reverse %} 
+{% assign pages_grouped = site.pages | group_by:"area" | reverse %} 
 
 {% for group in pages_grouped %}
 {% if group.name != "" %}
@@ -12,7 +12,8 @@
         </a>
         {% endif %}
     
-        {% for item in group.items %} 
+        {% assign sorted_items = group.items | sort: 'sidebar_sort_order' %}
+        {% for item in sorted_items %} 
         {% if item.title != null %} 
         {% if item.sidebar_link %}
         <a class="{% if page.url == item.url %} active {% endif %} text section-link" href="{% tl item.namespace %}">
