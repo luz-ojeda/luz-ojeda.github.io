@@ -5,11 +5,11 @@
 @media (max-width: $tabletBreakpoint) {
     #hamburger-menu {
         display: block;
-        height: 45px;
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        width: 45px;
+        height: 50px;
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        width: 50px;
 
         > svg {
             width: 100%;

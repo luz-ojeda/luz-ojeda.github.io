@@ -18,7 +18,6 @@
     <link rel="icon" type="image/svg" href="/assets/svg/favicon.svg" />
   </head>
   <body>
-    <button id="hamburger-menu">{% include svg/hamburger-menu.svg %}</button>
     <aside id="sidebar-desktop" class="sidebar">
       {% include sidebar.html %}
     </aside>
@@ -26,6 +25,10 @@
       {% include sidebar.html %}
     </aside>
     <main>{{ content }}</main>
+    <footer>
+      <button id="hamburger-menu">{% include svg/hamburger-menu.svg %}</button>
+
+    </footer>
     <script src="{{ site.baseurl }}/scripts/toggleSidebarVisibility.js"></script>
   </body>
 </html>
