@@ -1,5 +1,4 @@
 ---
-layout: picture
 desktop_image_url: /assets/images/sky.jpg
 mobile_image_url: /assets/images/sky_mobile.jpg
 desktop_width: 1920

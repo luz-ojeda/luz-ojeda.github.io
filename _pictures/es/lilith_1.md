@@ -1,5 +1,4 @@
 ---
-layout: picture
 desktop_image_url: /assets/images/lilith_1_desktop.jpg
 mobile_image_url: /assets/images/lilith_1_mobile.jpg
 desktop_width: 1920

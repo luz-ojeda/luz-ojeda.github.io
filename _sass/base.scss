@@ -23,6 +23,14 @@ main {
     min-width: 0;
 }
 
+footer {
+    display: none;
+
+    @media (max-width: $tabletBreakpoint) {
+        display: block;
+    }
+}
+
 a {
     color: $primaryColor;
 
