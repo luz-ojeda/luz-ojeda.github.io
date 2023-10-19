@@ -4,8 +4,8 @@ title: titles.reading
 permalink: /reading/
 permalink_es: /leyendo/
 sidebar_link: true
-published: true
 namespace: reading
+sidebar_sort_order: 1
 emoji: 📖
 area: personal
 ---

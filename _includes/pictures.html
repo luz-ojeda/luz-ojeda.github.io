@@ -1,0 +1,9 @@
+<div>
+    {% for picture in site.pictures %}
+        {% assign picture_lang = picture.url | slice: 10, 2 %}
+
+        {% if picture_lang == site.lang %}
+            <img class="picture" src="{{ picture.image_url }}" alt="{{ picture.alt }}">
+        {% endif %}
+    {% endfor %}
+</div>

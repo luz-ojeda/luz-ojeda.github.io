@@ -10,6 +10,9 @@ repository: luz-ojeda/luz-ojeda.github.io
 plugins:
   - jekyll-multiple-languages-plugin
 
+collections:
+  - pictures
+
 # Custom variables
 github_url: 'https://github.com/luz-ojeda'
 linkedin_url: 'https://www.linkedin.com/in/luz-ojeda/'
@@ -19,9 +22,10 @@ resume_url: 'https://drive.google.com/file/d/13bN8bFh_Lsho5dHh2whhhsmH5kIsiq3A/v
 current_company: Southworks
 current_company_url: https://www.southworks.com/
 
+imagesurl: "/assets/images/"
+thumbsurl: "/assets/images/"
+
+# Multiple l.anguages plugin
 languages: ['en', 'es']
 
 exclude_from_localizations: ['javascript', 'images', 'css', 'assets']
-
-imagesurl: "/assets/images/"
-thumbsurl: "/assets/images/"
