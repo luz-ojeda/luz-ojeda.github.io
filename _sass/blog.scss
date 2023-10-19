@@ -30,6 +30,7 @@
 
 .date {
     text-align: right;
+    opacity: 0.8;
     min-width: 120px;
 
     @media (max-width: $mobileBreakpoint) {
