@@ -1,14 +1,28 @@
-{% assign pages_list = site.pages|sort:"sidebar_sort_order" %} 
-{% for node in pages_list %}
-  {% if node.title != null %} 
-    {% if node.sidebar_link %}
-      <a
-        class="{% if page.url == node.url %} active {% endif %} text"
-        href="{% tl node.namespace %}"
+{% assign pages_grouped = site.pages | group_by:"area" | reverse %} 
+
+{% for group in pages_grouped %}
+{% if group.name != "" %}
+    <div class="page-links-group">
+        {% if group.name == "personal" %}
+        <a
+            class="{% if page.url == '/' %} active {% endif %} text section-link"
+            href="{% if site.lang == 'en' %} / {% else %} /es {% endif %}"
         >
-          <span class="emoji">{{ node.emoji }}</span>
-          {% t node.title %}
-      </a>
-    {% endif %} 
-  {% endif %} 
+            📝 blog
+        </a>
+        {% endif %}
+    
+        {% assign sorted_items = group.items | sort: 'sidebar_sort_order' %}
+        {% for item in sorted_items %} 
+        {% if item.title != null %} 
+        {% if item.sidebar_link %}
+        <a class="{% if page.url == item.url %} active {% endif %} text section-link" href="{% tl item.namespace %}">
+            <span class="emoji">{{ item.emoji }}</span>
+            {% t item.title %}
+        </a>
+        {% endif %} 
+        {% endif %} 
+        {% endfor %}
+    </div>
+{% endif %}
 {% endfor %}

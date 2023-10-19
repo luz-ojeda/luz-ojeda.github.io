@@ -7,6 +7,7 @@ sidebar_link: true
 namespace: about
 sidebar_sort_order: 3
 emoji: 🔍
+area: work
 ---
 
 {% translate_file about.md %}

@@ -5,6 +5,7 @@
 @import "projects";
 @import "reading";
 @import "hamburger-menu";
+@import "pictures";
 
 :root {
     color-scheme: light dark;
@@ -18,7 +19,16 @@
 }
 
 main {
+    width: -moz-available;
     min-width: 0;
+}
+
+footer {
+    display: none;
+
+    @media (max-width: $tabletBreakpoint) {
+        display: block;
+    }
 }
 
 a {

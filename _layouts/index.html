@@ -3,42 +3,36 @@ layout: default
 ---
 
 <header>
-  <h1 class="page-title">{{ page.title }}</h1>
+    <h1 class="page-title">{{ page.title }}</h1>
 </header>
-<div class="content">
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    {% include posts.html %}
-
-    {% if site.paginate %}
-    <div>
-      <ul class="pagination">
-        {%- if paginator.previous_page %}
-        <li>
-          <a
-            href="{{ paginator.previous_page_path | relative_url }}"
-            class="previous-page"
-            >{{ paginator.previous_page }}</a
-          >
-        </li>
-        {%- else %}
-        <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-        <li>
-          <a
-            href="{{ paginator.next_page_path | relative_url }}"
-            class="next-page"
-            >{{ paginator.next_page }}</a
-          >
-        </li>
-        {%- else %}
-        <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-      </ul>
-    </div>
-    {%- endif %} 
-  {%- endif -%}
+<div>
+    {{ content }} 
+    {%- if site.posts.size > 0 -%} 
+    {% include posts.html %} 
+        {% if site.paginate %}
+        <div>
+            <ul class="pagination">
+                {%- if paginator.previous_page %}
+                <li>
+                    <a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page"
+                        >{{ paginator.previous_page }}</a
+                    >
+                </li>
+                {%- else %}
+                <li><div class="pager-edge">•</div></li>
+                {%- endif %}
+                <li><div class="current-page">{{ paginator.page }}</div></li>
+                {%- if paginator.next_page %}
+                <li>
+                    <a href="{{ paginator.next_page_path | relative_url }}" class="next-page"
+                        >{{ paginator.next_page }}</a
+                    >
+                </li>
+                {%- else %}
+                <li><div class="pager-edge">•</div></li>
+                {%- endif %}
+            </ul>
+        </div>
+        {%- endif %} 
+    {%- endif -%}
 </div>

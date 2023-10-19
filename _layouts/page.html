@@ -1,20 +1,13 @@
 ---
 layout: default
 ---
+
 <header>
-  <h1 class="page-title">
-    {% t page.title %}
-  </h1>
-  {% if page.namespace == 'resume' %}
+    <h1 class="page-title">{% t page.title %}</h1>
+    {% if page.namespace == 'resume' %}
     <a style="margin-bottom: 8px; display: inline-block" href="{{ site.resume_url }}">
-      {% if site.lang == 'en' %}
-        Download PDF
-      {% else %}
-        Descargar PDF
-      {% endif %}
+        {% if site.lang == 'en' %} Download PDF {% else %} Descargar PDF {% endif %}
     </a>
-  {% endif %}
+    {% endif %}
 </header>
-<div class="content">
-  {{ content }}
-</div>
+<div>{{ content }}</div>

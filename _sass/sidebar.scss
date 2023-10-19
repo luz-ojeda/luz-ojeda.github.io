@@ -66,6 +66,19 @@
     }
 }
 
+.page-links-group {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-of-type) {
+        margin-bottom: 16px;
+    }
+}
+
+.section-link:not(:last-of-type) {
+    margin-bottom: 4px;
+}
+
 /* ----------
   Mobile/tablet
 -----------*/
@@ -78,8 +91,9 @@
     #sidebar-mobile {
         background-color: $bgColor;
         border-bottom: 1px solid $fgColor;
-        padding-bottom: 32px;
-        position: absolute;
+        padding: 32px 0;
+        position: fixed;
+        top: 0;
         width: 100%;
         z-index: 2;
 

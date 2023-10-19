@@ -1,0 +1,20 @@
+<div class="pictures-container">
+    {% assign sorted_pictures = site.pictures | reverse %}
+    {% for picture in sorted_pictures %}
+        {% assign picture_lang = picture.url | slice: 10, 2 %}
+
+        {% if picture_lang == site.lang %}
+        <div class="picture-container">
+            <img 
+                alt="{{ picture.alt }}"
+                class="picture"
+                loading="lazy"
+                src="{{ picture.desktop_image_url }}"
+                srcset="{{ picture.desktop_image_url }} {{ picture.desktop_width }}w, {{picture.mobile_image_url}} {{ picture.mobile_width }}w"
+                title="{{picture.title}}"
+                >
+            <p>{{picture.title}}</p>
+        </div>
+        {% endif %}
+    {% endfor %}
+</div>

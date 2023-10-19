@@ -1,6 +1,5 @@
 body {
     display: flex;
-    min-height: 100vh;
     margin: 0 auto;
     max-width: $maxScreenWidth;
     padding: 64px 0;
@@ -41,11 +40,6 @@ body {
 #sidebar-nav-links {
     flex-flow: column nowrap;
     margin-bottom: $navbarSectionSpacing;
-
-    > :not(:last-child),
-    > :not(:first-child) {
-        margin-bottom: 6px;
-    }
 }
 
 #sidebar-icon-links {
