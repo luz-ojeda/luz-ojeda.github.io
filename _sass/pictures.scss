@@ -1,3 +1,10 @@
+.pictures-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .picture {
-    width: 100px;
+    max-inline-size: 100%;
+    margin-bottom: 24px;
 }
