@@ -13,7 +13,9 @@
                 srcset="{{ picture.desktop_image_url }} {{ picture.desktop_width }}w, {{picture.mobile_image_url}} {{ picture.mobile_width }}w"
                 title="{{picture.title}}"
                 >
-            <p>{{picture.title}}</p>
+            {% if picture.title != "" %}
+                <p>{{picture.title}}</p>
+            {% endif %}
         </div>
         {% endif %}
     {% endfor %}
