@@ -9,7 +9,7 @@
   image: /assets/images/projects/envelope_budget_web.png
 
 - title: Book Tracking API
-  description: Manage read/want to read/currently reading books. Connected to the Google Books API (https://developers.google.com/books) for book information. Used this project as an excuse to learn NestJS and Prisma.
+  description: Manage read/want to read/currently reading books. Connected to the Google Books API for book information. Used this project as an excuse to learn NestJS and Prisma.
   url: https://github.com/lezojeda/books-api#readme
   image: /assets/images/projects/books_api.jpg
 
