@@ -18,6 +18,26 @@
     }
 }
 
+body {
+    display: flex;
+
+    @media screen and (min-width: 960px) {
+        padding: 48px 128px;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        padding: 64px 256px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding: 64px 320px;
+    }
+
+    @media screen and (min-width: 1720px) {
+        padding: 64px 512px;
+    }
+}
+
 main {
     width: -moz-available;
     min-width: 0;
@@ -53,12 +73,14 @@ a {
 
 ul {
     margin: 0;
-    margin-top: 4px;
 }
 
 li {
     font-size: 18px;
-    margin: 16px 0;
+
+    &:not(:first-child) {
+        margin: 16px 0;
+    }
 
     @media (prefers-color-scheme: dark) {
         letter-spacing: 0.5px;
