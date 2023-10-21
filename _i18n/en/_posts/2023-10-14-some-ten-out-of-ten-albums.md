@@ -3,7 +3,7 @@ layout: post
 title: 10/10 musical albums
 ---
 
-Just a list of what I consider 10/10 albums from music I've listened throughout my life. With 10/10 I mean I love every single song:
+Just a list of what I consider 10/10 albums from music I've listened throughout my life. With 10/10 I mean I love every single song, none gets ever skipped:
 
 - [Circles - Mac Miller](https://www.youtube.com/watch?v=V4BFGSZ_1ls&list=PLoXL8KeHXDAtKg44-Nm0zem9AeoBshbqY)
 - [Discovery - Daft Punk](https://www.youtube.com/watch?v=FGBhQbmPwH8&list=PLSdoVPM5WnndLX6Ngmb8wktMF61dJirKl)
@@ -16,3 +16,5 @@ Just a list of what I consider 10/10 albums from music I've listened throughout 
 - [Ten - Pearl Jam](https://www.youtube.com/watch?v=S-cRKgcTFfI)
 - [Animals - Pink Floyd](https://www.youtube.com/watch?v=D4KQae9oMWs)
 - [Hemispheres - Rush](https://www.youtube.com/watch?v=fMoHes_BChQ)
+- [We Are the Night - The Chemical Brothers](https://www.youtube.com/watch?v=G9qtaCrD6oI&list=PLjIuADMrDKIasarkrbLrft0sv25HP2Jqn)
+- [For Ever - Jungle](https://www.youtube.com/watch?v=Z03ThlGgVFo&list=PLXX-njRX-TgJOZ7qbQNnEHXCsUgYku3cN)

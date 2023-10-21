@@ -16,3 +16,5 @@ Sólo una lista de lo que considero álbumes musicales 10/10 que he escuchado a 
 - [Ten - Pearl Jam](https://www.youtube.com/watch?v=S-cRKgcTFfI)
 - [Animals - Pink Floyd](https://www.youtube.com/watch?v=D4KQae9oMWs)
 - [Hemispheres - Rush](https://www.youtube.com/watch?v=fMoHes_BChQ)
+- [We Are the Night - The Chemical Brothers](https://www.youtube.com/watch?v=G9qtaCrD6oI&list=PLjIuADMrDKIasarkrbLrft0sv25HP2Jqn)
+- [For Ever - Jungle](https://www.youtube.com/watch?v=Z03ThlGgVFo&list=PLXX-njRX-TgJOZ7qbQNnEHXCsUgYku3cN)
