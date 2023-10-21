@@ -41,31 +41,6 @@
 }
 
 /* ----------
-  Resume
------------*/
-h2:not(:first-of-type) {
-    margin-top: 48px;
-}
-
-.second-skills-list {
-    margin-top: 24px;
-}
-
-.skills-list li {
-    display: inline;
-    margin-bottom: 0;
-    font-size: 16px;
-
-    &::before {
-        content: "• ";
-    }
-}
-
-.skill {
-    margin-right: 8px;
-}
-
-/* ----------
   Mobile/tablet
 -----------*/
 

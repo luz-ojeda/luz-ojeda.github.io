@@ -11,3 +11,5 @@ https://jsomers.net/blog/more-people-should-write and https://blog.whiona.me/wha
 http://www.catb.org/~esr/faqs/hacker-howto.html#believe1
 
 https://en.wikipedia.org/wiki/Lindy_effect
+
+https://www.youtube.com/watch?v=cTMTZ7PAMYE related to four thousand weeks highlights

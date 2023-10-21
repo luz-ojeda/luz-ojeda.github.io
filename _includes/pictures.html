@@ -1,4 +1,4 @@
-<div class="pictures-container">
+<div class="pictures-container flex">
     {% assign sorted_pictures = site.pictures | reverse %}
     {% for picture in sorted_pictures %}
         {% assign picture_lang = picture.url | slice: 10, 2 %}

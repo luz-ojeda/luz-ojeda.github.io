@@ -2,13 +2,6 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-
-    @media (max-width: $mobileBreakpoint) {
-        align-items: start;
-        flex-direction: column;
-        font-size: 12px;
-        min-width: 80px;
-    }
 }
 
 .post-title {
@@ -19,22 +12,36 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    
-    @media (min-width: $mobileBreakpoint) {
-        margin-right: 10px;
-    }
-
-    @media (max-width: $mobileBreakpoint) {
-        white-space: normal;
-    }
 }
 
 .date {
     text-align: right;
     opacity: 0.8;
     min-width: 120px;
+}
 
-    @media (max-width: $mobileBreakpoint) {
+/* ----------
+    Mobile
+-----------*/
+@media (max-width: $tabletBreakpoint) {
+    .posts-container {
+        padding-top: 24px;
+    }
+
+    .post-item-container {
+        align-items: start;
+        flex-direction: column;
+        font-size: 12px;
+        min-width: 80px;
+    }
+
+    .post-title {
+        margin-right: 10px;
+
+        white-space: normal;
+    }
+
+    .date {
         text-align: left;
         font-size: 12px;
         min-width: 80px;
