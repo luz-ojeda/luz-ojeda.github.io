@@ -98,3 +98,9 @@
         margin-right: 0px;
     }
 }
+
+@media (max-width: $tabletBreakpoint) {
+    main {
+        padding: 0 16px;
+    }
+}
