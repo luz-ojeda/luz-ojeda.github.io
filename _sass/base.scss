@@ -63,6 +63,9 @@ a {
         text-decoration: none;
         transition: opacity 0.2s ease;
         opacity: 0.8;
+    }
+
+    &:focus {
         outline-color: $primaryColor;
         outline-style: solid;
         outline-width: medium;
