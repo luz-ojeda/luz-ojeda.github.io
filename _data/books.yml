@@ -117,7 +117,7 @@
 - title: 'The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day, and Extended Fasting'
   link: https://www.goodreads.com/book/show/32670670-the-complete-guide-to-fasting
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1521670646i/32670670.jpg
-  genre: [health, non-fiction, nutrition]
+  genre: [health, nonfiction, nutrition]
   status: 2023-05-01
   author: Jason Fung
   reading_year: 2023
@@ -193,4 +193,44 @@
   genre: [nonfiction, self help, productivity]
   status: 2022-11-26
   author: Cal Newport
+  reading_year: 2022
+
+- title: '21 Lessons for the 21st Century'
+  link: https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1564577305i/38820046.jpg
+  genre: [nonfiction, history, philosophy]
+  status: 2022-07-22
+  author: Yuval Noah Harari
+  reading_year: 2022
+
+- title: 'Digital Minimalism: Choosing a Focused Life in a Noisy World'
+  link: https://www.goodreads.com/book/show/40672036-digital-minimalism
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320470983i/91017.jpg
+  genre: [nonfiction, self help, productivity]
+  status: 2022-07-15
+  author: Cal Newport
+  reading_year: 2022
+
+- title: 'The Fall of Hyperion'
+  link: https://www.goodreads.com/book/show/77565.The_Fall_of_Hyperion
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1541174620i/77565.jpg
+  genre: [science fiction, fiction, fantasy, space opera]
+  status: 2022-06-26
+  author: Dan Simmons
+  reading_year: 2022
+
+- title: 'Chatter: The Voice in Our Head, Why It Matters, and How to Harness It'
+  link: https://www.goodreads.com/book/show/53330118-chatter
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320470983i/91017.jpg
+  genre: [history, nonfiction, ancient history]
+  status: 2022-06-04
+  author: Ethan Kross
+  reading_year: 2022
+
+- title: 'Rubicon: The Last Years of the Roman Republic'
+  link: https://www.goodreads.com/book/show/91017.Rubicon
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1606106010i/53330118.jpg
+  genre: [nonfiction, psychology, self help]
+  status: 2022-01-30
+  author: Tom Holland
   reading_year: 2022

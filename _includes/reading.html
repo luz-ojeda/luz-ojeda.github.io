@@ -1,8 +1,14 @@
+
 {% assign books_by_year = site.data.books | group_by: 'reading_year' %} 
+<div class="flex year-selector">
+    {% for year in books_by_year %}
+    <a href="#{{year.name}}">{{ year.name }}</a>
+    {% endfor %}
+</div>
 
 {% for year in books_by_year %}
 <div class="year-section" id="{{year.name}}">
-    <h2 class="year"><a href="#{{year.name}}">{{ year.name }}</a></h2>
+    <h2 class="year">{{ year.name }}</h2>
     <ul class="book-list">
         {% for book in year.items %}
         <li class="book-list-item">

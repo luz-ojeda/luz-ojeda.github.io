@@ -1,3 +1,9 @@
+.year-selector > a {
+    &:not(:last-of-type) {
+        margin-right: 8px;
+    }
+}
+
 .year-section {
     &:not(:first-child) {
         margin-top: 24px;
