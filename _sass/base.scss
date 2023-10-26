@@ -18,6 +18,7 @@
         color: $darkModeFgColor;
         background-color: $fgColor;
     }
+
 }
 
 body {
@@ -62,6 +63,9 @@ a {
         text-decoration: none;
         transition: opacity 0.2s ease;
         opacity: 0.8;
+        outline-color: $primaryColor;
+        outline-style: solid;
+        outline-width: medium;
     }
 
     strong {
@@ -106,6 +110,10 @@ Dark mode
 @media (prefers-color-scheme: dark) {
     a {
         color: $darkModePrimaryColor;
+
+        &:focus {
+            outline-color: $darkModePrimaryColor;
+        }
     }
 
     li {
