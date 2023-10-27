@@ -65,7 +65,7 @@ a {
         opacity: 0.8;
     }
 
-    &:focus {
+    &:focus-visible {
         outline-color: $primaryColor;
         outline-style: solid;
         outline-width: medium;
@@ -114,7 +114,7 @@ Dark mode
     a {
         color: $darkModePrimaryColor;
 
-        &:focus {
+        &:focus-visible {
             outline-color: $darkModePrimaryColor;
         }
     }
