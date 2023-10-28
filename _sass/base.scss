@@ -22,35 +22,20 @@
 }
 
 body {
-    display: flex;
-
-    @media screen and (min-width: 960px) {
-        padding: 48px 128px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        padding: 64px 256px;
-    }
-
-    @media screen and (min-width: 1440px) {
-        padding: 64px 320px;
-    }
-
-    @media screen and (min-width: 1720px) {
-        padding: 64px 512px;
-    }
+    margin: 0;
 }
 
 main {
-    width: -moz-available;
-    min-width: 0;
+    margin: 0 auto;
+    max-width: $maxMainWidth;
 }
 
 footer {
     display: none;
 
-    @media (max-width: $tabletBreakpoint) {
+    @media (max-width: $smallScreenBreakpoint) {
         display: block;
+        height: 32px;
     }
 }
 
@@ -93,17 +78,6 @@ li {
 
 hr {
     opacity: 0.5;
-}
-
-@media (max-width: $tabletBreakpoint) {
-    ul {
-        margin-left: -24px;
-        width: auto;
-    }
-
-    li {
-        line-height: 1.5;
-    }
 }
 
 ::selection {

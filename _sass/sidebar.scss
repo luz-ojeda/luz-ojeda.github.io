@@ -2,10 +2,9 @@
   Sidebar links + nav
 ----------------------------------------------------------- */
 #sidebar-desktop {
-    display: block;
-    position: sticky;
-    top: 10px;
-    height: fit-content;
+    right: 50%;
+    margin-right: 340px;
+    position: absolute;
 }
 
 #sidebar-mobile {
@@ -82,7 +81,7 @@
   Mobile/tablet
 -----------*/
 
-@media (max-width: $tabletBreakpoint) {
+@media (max-width: $smallScreenBreakpoint) {
     #sidebar-desktop {
         display: none;
     }
