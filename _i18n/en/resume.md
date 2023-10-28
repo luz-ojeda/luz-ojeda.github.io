@@ -4,18 +4,14 @@
 A summary of my career so far including some tasks I was responsible for in each position:
 
 - ### Jan 2023 - Today: **[Southworks](https://www.southworks.com/)**
-  {: .job-title}
   - Working in the migration of the Microsoft **Azure Virtual Desktop** service to **React** using the Azure Portal and Fluent UI frameworks a as well as general testing.
 - ### Sep 2021 - Dec 2022: **[IbisDev](https://ibisdev.tech/)**
-  {: .job-title}
   - Developed with 2 teammates a real-time web-app for medical students in **NextJS** and **NestJS**. It consisted of 3 environments (a mobile front-end, a web backoffice front-end and a backend API) connected using HTTPS and **WebSocket** (with the [socket.io](https://socket.io/) library) for the real-time features.
   - Designed and implemented several pages as the main front-end developer in a CI/CD web-app from a client in France using **React** (Typescript)
 - ### May 2020 - Aug 2021: **Southworks**
-  {: .job-title}
   - Developed an API for a social network app using an infrastructure with **Microsoft Azure** and **C#** in the backend in a repository-service pattern. It also included a front-end backoffice made with React for the app employees.
   - npm package including a React component for Discovery backed up by a serverless architecture (AWS Lambda, API Gateway and CloudFront)
 - ### Oct 2019 - Apr 2021: **[BigBox](https://www.bigbox.com.ar/)**
-  {: .job-title}
   - Redesigned the user panel consisting of **VueJS** components
   - Redesigned the checkout flow along with 3 colleagues from the front-end area with a one-month deadline. Tasks included the creation and design of new components, routing configuration and creation/modification of GraphQL queries and mutations
 

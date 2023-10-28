@@ -9,7 +9,6 @@
 .skills-list li {
     display: inline;
     margin-bottom: 0;
-    font-size: 16px;
 
     &::before {
         content: "• ";
@@ -18,10 +17,6 @@
 
 .skill {
     margin-right: 8px;
-}
-
-.job-title {
-    margin-bottom: 16px;
 }
 
 /* ----------
