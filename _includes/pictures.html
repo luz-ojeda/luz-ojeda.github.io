@@ -9,11 +9,14 @@
                 alt="{{ picture.alt }}"
                 class="picture"
                 loading="lazy"
+                sizes="(max-width: 960px) {{ picture.mobile_width }}px, {{ picture.desktop_width }}px"
                 src="{{ picture.desktop_image_url }}"
                 srcset="{{ picture.desktop_image_url }} {{ picture.desktop_width }}w, {{picture.mobile_image_url}} {{ picture.mobile_width }}w"
                 title="{{picture.title}}"
                 >
-            <p>{{picture.title}}</p>
+            {% if picture.title != "" %}
+                <p class="picture-description">{{picture.title}}</p>
+            {% endif %}
         </div>
         {% endif %}
     {% endfor %}

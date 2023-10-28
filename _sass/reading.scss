@@ -1,47 +1,96 @@
+.year-selector > a {
+    &:not(:last-of-type) {
+        margin-right: 8px;
+    }
+}
+
+.year-section {
+    &:not(:first-child) {
+        margin-top: 24px;
+    }
+}
+
+.year {
+    margin-bottom: 16px;
+}
+
+.book-title {
+    font-size: 18px;
+}
+
 .book-list {
     list-style: none;
     padding-left: 0;
 }
 
 .book-list-item {
-    display: table;
-    width: 100%;
-    margin-bottom: 2rem;
-    clear: left;
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
 }
 
 .book-cover {
-    float: left;
+    margin-right: 18px;
     width: 100px;
-    padding: 0 1.5rem 1rem 0;
 }
 
-.book-title {
-    font-style: normal;
+.book-info {
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .book-author {
     font-weight: 500;
+    opacity: 0.8;
 }
 
 .book-status {
-    color: $primaryColor;
+    font-size: 16px;
+}
 
+
+.currently-reading {
+    font-weight: bold;
+    color: $primaryColor;
+    
     @media (prefers-color-scheme: dark) {
         color: $darkModePrimaryColor;
     }
 }
 
+.highlight {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 12px;
+    text-align: center;
+}
+
 /* ----------
-  Mobile/tablet
+Mobile/tablet
 -----------*/
 @media (max-width: $tabletBreakpoint) {
-    .book-list p, .book-title {
-        font-size: 16px;
+    .year {
+        text-align: center;
     }
 
-    .book-list {
+    .book-title {
         font-size: 16px;
+    }
+    
+    .book-list {
         margin-left: 0;
+    }
+
+    .book-status {
+        font-size: 14px;
+    }
+
+    .book-cover {
+        margin-right: 12px;
+        width: 75px;
+    }
+
+    .highlight {
+        display: none;
     }
 }

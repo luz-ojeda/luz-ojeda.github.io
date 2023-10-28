@@ -2,7 +2,7 @@
 
 {% for group in pages_grouped %}
 {% if group.name != "" %}
-    <div class="page-links-group">
+    <div class="page-links-group flex">
         {% if group.name == "personal" %}
         <a
             class="{% if page.url == '/' %} active {% endif %} text section-link"

@@ -1,7 +1,7 @@
-- title: "A Tale of Two Cities"
+- title: 'A Tale of Two Cities'
   link: https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344922523i/1953.jpg
-  genre: [classics, fiction, historical fiction] 
+  genre: [classics, fiction, historical fiction]
   status: currently reading
   author: Charles Dickens
   reading_year: 2023
@@ -9,7 +9,7 @@
 - title: "Death's End (Remembrance of Earth's Past #3)"
   link: https://www.goodreads.com/book/show/25451264-death-s-end
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1430330507i/25451264.jpg
-  genre: [science fiction, china, fantasy] 
+  genre: [science fiction, china, fantasy]
   status: 2023-09-14
   author: Liu Cixin
   reading_year: 2023
@@ -17,7 +17,7 @@
 - title: "The Dark Forest (Remembrance of Earth's Past #2)"
   link: https://www.goodreads.com/book/show/66562105-the-dark-forest
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1670967318i/66562105.jpg
-  genre: [science fiction, china, fantasy] 
+  genre: [science fiction, china, fantasy]
   status: 2023-08-31
   author: Liu Cixin
   reading_year: 2023
@@ -25,188 +25,212 @@
 - title: "The Inner Level: How More Equal Societies Reduce Stress, Restore Sanity and Improve Everyone's Well-Being"
   link: https://www.goodreads.com/book/show/40163368-the-inner-level
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1534201901i/40163368.jpg
-  description: ""
-  genre: [nonfiction, economics, politics] 
+  genre: [nonfiction, economics, politics]
   status: 2023-08-17
   author: Richard G. Wilkinson
   reading_year: 2023
 
-- title: "Post Office"
+- title: 'Post Office'
   link: https://www.goodreads.com/book/show/40409718-post-office
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555887577i/40409718.jpg
-  description: ""
-  genre: [fiction, classics, novel] 
+  genre: [fiction, classics, novel]
   status: 2023-08-05
+  highlight: 'Old ladies standing in halls, up and down the streets, asking the same question as if they were one person with one voice: ‘Mailman, you got any mail for me?’ And you felt like screaming, ‘Lady, how the hell do I know who you are or I am or anybody is?’'
   author: Charles Bukowski
   reading_year: 2023
 
 - title: "The Three-Body Problem (Remembrance of Earth's Past #1)"
   link: https://www.goodreads.com/book/show/25615313-the-three-body-problem
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432775501i/25615313.jpg
-  description: ""
-  genre: [science fiction, china, fantasy] 
+  genre: [science fiction, china, fantasy]
   status: 2023-08-04
   author: Liu Cixin
   reading_year: 2023
 
-- title: "Cómo desaparecer completamente"
+- title: 'Cómo desaparecer completamente'
   link: https://www.goodreads.com/book/show/6759914-c-mo-desaparecer-completamente
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1266864729i/6759914.jpg
-  description: ""
-  genre: [fiction, spanish literature, drama] 
+  genre: [fiction, spanish literature, drama]
   status: 2023-07-30
+  highlight: 'No me gusta el nombre chicharra: ojalá mantuvieran siempre el nombre cícadas, que se usa sólo cuando están en etapa ninfal. Si se llamaran cícadas, su ruido de verano me recordaría las flores violetas de los jacarandás en la costanera del Paraná o las mansiones de piedra blanca con sus escalinatas y sus sauces. Pero así, como chicharras, me recuerdan el calor, la carne podrida, los cortes de electricidad, a los borrachos que miran con ojos ensangrentados desde los bancos de la plaza.'
   author: Mariana Enríquez
   reading_year: 2023
 
-- title: "Las cosas que perdimos en el fuego"
+- title: 'Las cosas que perdimos en el fuego'
   link: https://www.goodreads.com/book/show/28787166-las-cosas-que-perdimos-en-el-fuego
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1612309224i/28787166.jpg
-  description: ""
-  genre: [short stories, horror, fiction] 
+  genre: [short stories, horror, fiction]
   status: 2023-07-21
   author: Mariana Enríquez
   reading_year: 2023
 
-- title: "The Seven Dials Mystery"
+- title: 'The Seven Dials Mystery'
   link: https://www.goodreads.com/book/show/483103.The_Seven_Dials_Mystery
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1351674470i/483103.jpg
-  description: ""
-  genre: [mystery, fiction, crime] 
+  genre: [mystery, fiction, crime]
   status: 2023-07-13
   author: Agatha Christie
   reading_year: 2023
 
-- title: "Song of Susannah"
+- title: 'Song of Susannah'
   link: https://www.goodreads.com/book/show/5093.Song_of_Susannah
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554221361i/5093.jpg
-  description: ""
-  genre: [fantasy, fiction, adventure] 
+  genre: [fantasy, fiction, adventure]
   status: 2023-07-15
   author: Stephen King
   reading_year: 2023
 
-- title: "War and Peace and War: The Rise and Fall of Empires"
+- title: 'War and Peace and War: The Rise and Fall of Empires'
   link: https://www.goodreads.com/book/show/18246.War_and_Peace_and_War
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924448i/18246.jpg
-  description: ""
-  genre: [history, nonfiction, politics] 
+  genre: [history, nonfiction, politics]
   status: 2023-05-20
   author: Peter Turchin
   reading_year: 2023
 
-- title: "Ubik"
+- title: 'Ubik'
   link: https://www.goodreads.com/book/show/22590.Ubik
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327995569i/22590.jpg
-  description: ""
-  genre: [science fiction, fiction, classics] 
+  genre: [science fiction, fiction, classics]
   status: 2023-06-02
   author: Philip K. Dick
   reading_year: 2023
 
-- title: "The Shallows: What the Internet Is Doing to Our Brains"
+- title: 'The Shallows: What the Internet Is Doing to Our Brains'
   link: https://www.goodreads.com/book/show/9778945-the-shallows
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349066787i/9778945.jpg
-  description: ""
-  genre: [nonfiction, science, technology] 
+  genre: [nonfiction, science, technology]
   status: 2023-05-30
+  highlight: "The price we pay to assume technology’s power is alienation. The toll can be particularly high with our intellectual technologies. The tools of the mind amplify and in turn numb the most intimate, the most human, of our natural capacities—those for reason, perception, memory, emotion."
   author: Nicholas Charr
   reading_year: 2023
 
-- title: "Frankenstein"
+- title: 'Frankenstein'
   link: https://www.goodreads.com/book/show/35031085-frankenstein
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631088473i/35031085.jpg
-  description: "“Of what a strange nature is knowledge! It clings to the mind when it has once seized on it like a lichen on the rock. I wished sometimes to shake off all thought and feeling, but I learned that there was but one means to overcome the sensation of pain, and that was death—a state which I feared yet did not understand.”"
-  genre: [classics, fiction, horror] 
+  highlight: Of what a strange nature is knowledge! It clings to the mind when it has once seized on it like a lichen on the rock. I wished sometimes to shake off all thought and feeling, but I learned that there was but one means to overcome the sensation of pain, and that was death—a state which I feared yet did not understand.
+  genre: [classics, fiction, horror]
   status: 2023-05-20
   author: Mary Shelley
   reading_year: 2023
- 
-- title: "The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day, and Extended Fasting"
+
+- title: 'The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day, and Extended Fasting'
   link: https://www.goodreads.com/book/show/32670670-the-complete-guide-to-fasting
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1521670646i/32670670.jpg
-  description: ""
-  genre: [health, non-fiction, nutrition] 
+  genre: [health, nonfiction, nutrition]
   status: 2023-05-01
   author: Jason Fung
   reading_year: 2023
 
-- title: "The Moon Is a Harsh Mistress"
+- title: 'The Moon Is a Harsh Mistress'
   link: https://www.goodreads.com/book/show/16690.The_Moon_Is_a_Harsh_Mistress
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348768309i/16690.jpg
-  description: ""
-  genre: [science fiction, fiction, classics] 
+  genre: [science fiction, fiction, classics]
   status: 2023-04-22
   author: Robert A. Heinlein
   reading_year: 2023
 
-- title: "A Gentleman In Moscow"
+- title: 'A Gentleman In Moscow'
   link: https://www.goodreads.com/book/show/40534545-ikigai
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1551480896i/34066798.jpg
-  description: "Follows the story of Count Alexander Rostov, who is sentenced to house arrest in a luxurious hotel in Moscow during the Bolshevik revolution."
-  genre: [self help, nonfiction, philosophy] 
+  genre: [self help, nonfiction, philosophy]
   status: 2023-03-31
+  highlight: "I’ll tell you what is convenient,” he said after a moment. “To sleep until noon and have someone bring you your breakfast on a tray. To cancel an appointment at the very last minute. To keep a carriage waiting at the door of one party, so that on a moment’s notice it can whisk you away to another. To sidestep marriage in your youth and put off having children altogether. These are the greatest of conveniences, Anushka—and at one time, I had them all. But in the end, it has been the inconveniences that have mattered to me most."
   author: Amor Towles
   reading_year: 2023
 
-- title: "Ikigai: The Japanese Secret to a Long and Happy Life"
+- title: 'Ikigai: The Japanese Secret to a Long and Happy Life'
   link: https://www.goodreads.com/book/show/40534545-ikigai
   image: https://images.cdn2.buscalibre.com/fit-in/360x360/66/e8/66e896775e51a6bba6921fa35bf5a43f.jpg
-  description: "Explores the concept of Ikigai, a japanese philosophy that translates to 'a reason for being,' and offers insights into how it can bring fulfillment and longevity to life."
-  genre: [self help, nonfiction, philosophy] 
-  status: 2023-03-05 
+  genre: [self help, nonfiction, philosophy]
+  status: 2023-03-05
   author: Hector Garcia, Francesc Miralles
   reading_year: 2023
 
-- title: "Fluent Forever: How to Learn Any Language Fast and Never Forget It"
+- title: 'Fluent Forever: How to Learn Any Language Fast and Never Forget It'
   link: https://www.goodreads.com/book/show/19661852-fluent-forever
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387702551i/19661852.jpg
-  description: "A language learning book that teaches techniques for efficient language acquisition and retention, emphasizing on personalized learning and active recall."
-  genre: [nonfiction, language, self help, personal development] 
-  status: 2023-03-04 
+  genre: [nonfiction, language, self help, personal development]
+  status: 2023-03-04
   author: Gabriel Wyner
   reading_year: 2023
 
-- title: "American Gods"
+- title: 'American Gods'
   link: https://www.goodreads.com/book/show/30165203-american-gods
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462924585i/30165203.jpg
-  description: "A fantasy/fiction novel about a man named Shadow Moon who becomes caught in a conflict between traditional gods and modern ones. The novel depicts a clash between the old and new deities as they fight for power and control in a changing world.."
-  genre: [fantasy, fiction, mythology, urban fantasy] 
-  status: 2023-02-24 
+  genre: [fantasy, fiction, mythology, urban fantasy]
+  status: 2023-02-24
   author: Neil Gaiman
   reading_year: 2023
 
-- title: "Bullshit Jobs: A Theory"
+- title: 'Bullshit Jobs: A Theory'
   link: https://www.goodreads.com/book/show/34466958-bullshit-jobs
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1523865380i/34466958.jpg
-  description: "This book explores the phenomenon of meaningless jobs that (according to author's defined criteria) do not seem to contribute to society but still exist. Graeber argues that these jobs are a result of the flawed structure of modern society and can have negative effects on individuals and society as a whole."
-  genre: [nonfiction, economics, politics] 
+  genre: [nonfiction, economics, politics]
   status: 2023-01-29
   author: David Graeber
   reading_year: 2023
 
-- title: "The Dispossessed: An Ambiguous Utopia"
+- title: 'The Dispossessed: An Ambiguous Utopia'
   link: https://www.goodreads.com/book/show/13651.The_Dispossessed
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353467455i/13651.jpg
-  description: "A novel that explores the theme of anarchism through the story of a physicist who leaves a capitalist planet for a utopian anarchist society."
-  genre: [science fiction, fantasy, dystopia] 
-  status: 2023-01-16 
+  genre: [science fiction, fantasy, dystopia]
+  status: 2023-01-16
   author: Ursula K. Le Guin
   reading_year: 2023
 
-- title: "The Hungry Brain: Outsmarting the Instincts That Make Us Overeat"
+- title: 'The Hungry Brain: Outsmarting the Instincts That Make Us Overeat'
   link: https://www.goodreads.com/book/show/29243729-the-hungry-brain
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1482901602i/29243729.jpg
-  description: "From an obesity and neuroscience researcher with a knack for engaging, humorous storytelling, The Hungry Brain uses cutting-edge science to answer the questions: why do we overeat, and what can we do about it?"
-  genre: [health, nonfiction, nutrition] 
-  status: 2022-12-07 
+  genre: [health, nonfiction, nutrition]
+  status: 2022-12-07
   author: Stephan Guyenet, Shizuka N. Aoki
   reading_year: 2022
 
-- title: "Deep Work: Rules for Focused Success in a Distracted World"
+- title: 'Deep Work: Rules for Focused Success in a Distracted World'
   link: https://www.goodreads.com/book/show/25744928-deep-work
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1447957962i/25744928.jpg
-  description: "Discusses the importance of focused, distraction-free work in achieving success and productivity in today's knowledge economy. Newport provides practical strategies and tips for cultivating deep work habits and avoiding shallow work, which he argues can be a major hindrance to achieving meaningful results in one's professional and personal life."
-  genre: [nonfiction, self help, productivity] 
+  genre: [nonfiction, self help, productivity]
   status: 2022-11-26
   author: Cal Newport
+  reading_year: 2022
+
+- title: '21 Lessons for the 21st Century'
+  link: https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1564577305i/38820046.jpg
+  genre: [nonfiction, history, philosophy]
+  status: 2022-07-22
+  author: Yuval Noah Harari
+  reading_year: 2022
+
+- title: 'Digital Minimalism: Choosing a Focused Life in a Noisy World'
+  link: https://www.goodreads.com/book/show/40672036-digital-minimalism
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320470983i/91017.jpg
+  genre: [nonfiction, self help, productivity]
+  status: 2022-07-15
+  author: Cal Newport
+  reading_year: 2022
+
+- title: 'The Fall of Hyperion'
+  link: https://www.goodreads.com/book/show/77565.The_Fall_of_Hyperion
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1541174620i/77565.jpg
+  genre: [science fiction, fiction, fantasy, space opera]
+  status: 2022-06-26
+  author: Dan Simmons
+  reading_year: 2022
+
+- title: 'Chatter: The Voice in Our Head, Why It Matters, and How to Harness It'
+  link: https://www.goodreads.com/book/show/53330118-chatter
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320470983i/91017.jpg
+  genre: [history, nonfiction, ancient history]
+  status: 2022-06-04
+  author: Ethan Kross
+  reading_year: 2022
+
+- title: 'Rubicon: The Last Years of the Roman Republic'
+  link: https://www.goodreads.com/book/show/91017.Rubicon
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1606106010i/53330118.jpg
+  genre: [nonfiction, psychology, self help]
+  status: 2022-01-30
+  author: Tom Holland
   reading_year: 2022

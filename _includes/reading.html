@@ -1,53 +1,68 @@
-{% assign books_by_year = site.data.books | group_by: 'reading_year' %} {% for year in books_by_year %}
-<div id="{{year.name}}">
-    <h2><a href="#{{year.name}}">{{ year.name }}</a></h2>
+
+{% assign books_by_year = site.data.books | group_by: 'reading_year' %} 
+<div class="flex year-selector">
+    {% for year in books_by_year %}
+    <a href="#{{year.name}}">{{ year.name }}</a>
+    {% endfor %}
+</div>
+
+{% for year in books_by_year %}
+<div class="year-section" id="{{year.name}}">
+    <h2 class="year">{{ year.name }}</h2>
     <ul class="book-list">
         {% for book in year.items %}
         <li class="book-list-item">
-            <a href="{{ book.link }}" target="_blank">
-                <img class="book-cover" src="{{ book.image }}" alt="{{ book.title }}" />
-            </a>
-            <div class="book-info">
-                <h3>
-                    <a class="book-title" href="{{ book.link }}" target="_blank">{{ book.title }}</a>
-                </h3>
-                <p>
-                    {% if site.lang == 'en' %} by {% endif %}
-                    {% if site.lang == 'es' %} de {% endif %}
-                    <span class="book-author">{{ book.author }}</span>
-                </p>
-                <p>{{ book.description }}</p>
-                <p class="post-meta">
-                    {% if book.status == 'currently reading' %}
-                    <span class="book-status" style="font-weight: bold">
-                        {% if site.lang == 'es' %} 📖 leyendo {% else %} 📖 currently reading {%
-                        endif %}
-                    </span>
-                    {% else %}
-                    {% if site.lang == 'es' %} 
-                        Completado el: {{ book.status | date: "%-d" }} de 
-                        {% comment %} Display month in spanish {% endcomment %} 
-                        {% assign m = book.status | date: "%-m" %} 
-                        {% case m %} 
-                            {% when '1' %} enero 
-                            {% when '2' %} febrero 
-                            {% when '3' %} marzo 
-                            {% when '4' %} abril 
-                            {% when '5' %} mayo 
-                            {% when '6' %} junio
-                            {% when '7' %} julio 
-                            {% when '8' %} agosto
-                            {% when '9' %} septiembre
-                            {% when '10' %} octubre
-                            {% when '11' %} noviembre
-                            {% when '12' %} diciembre 
-                        {% endcase %} 
-                    {% else %} Read: {{ book.status | date: "%B %-d" }}
-                    {% endif %}
-                    {% endif %}
-                </p>
+            <div class="flex">
+                <a href="{{ book.link }}" target="_blank">
+                    <img class="book-cover" src="{{ book.image }}" alt="{{ book.title }}" />
+                </a>
+                <div class="book-info flex">
+                    <div>
+                        <h3 class="book-title">
+                            <a class="book-title" href="{{ book.link }}" target="_blank">{{ book.title }}</a>
+                        </h3>
+                        <div class="book-author">
+                            {% if site.lang == 'en' %} by {% endif %}
+                            {% if site.lang == 'es' %} de {% endif %}
+                            <span class="book-author">{{ book.author }}</span>
+                        </div>
+                    </div>
+                    <div class="book-status">
+                        {% if book.status == 'currently reading' %}
+                        <span class="currently-reading">
+                            {% if site.lang == 'es' %} 📖 leyendo {% else %} 📖 currently reading {%
+                            endif %}
+                        </span>
+                        {% else %}
+                        {% if site.lang == 'es' %} 
+                            Completado el: {{ book.status | date: "%-d" }} de 
+                            {% comment %} Display month in spanish {% endcomment %} 
+                            {% assign m = book.status | date: "%-m" %} 
+                            {% case m %} 
+                                {% when '1' %} enero 
+                                {% when '2' %} febrero 
+                                {% when '3' %} marzo 
+                                {% when '4' %} abril 
+                                {% when '5' %} mayo 
+                                {% when '6' %} junio
+                                {% when '7' %} julio 
+                                {% when '8' %} agosto
+                                {% when '9' %} septiembre
+                                {% when '10' %} octubre
+                                {% when '11' %} noviembre
+                                {% when '12' %} diciembre 
+                            {% endcase %} 
+                        {% else %} Read: {{ book.status | date: "%B %-d" }}
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
             </div>
+            {% if book.highlight != nil and book.highlight != "" %}
+                <p class="highlight">“{{ book.highlight }}”</p>
+            {% endif %}
         </li>
+        <hr />
         {% endfor %}
     </ul>
 </div>

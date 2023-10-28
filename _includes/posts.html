@@ -1,15 +1,17 @@
-<ul>
-    {%- assign date_format = "%b %-d, %Y" -%} {%- for post in site.posts -%}
-    <li>
-        <div class="post-item-container">
-            <h3 class="post-title">
-                <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </h3>
-            <span class="date">{{ post.date | date: date_format }}</span>
-            {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-        </div>
-    </li>
-    {%- endfor -%}
-</ul>
+<div class="posts-container">
+    <ul>
+        {%- assign date_format = "%b %-d, %Y" -%} {%- for post in site.posts -%}
+        <li>
+            <div class="post-item-container">
+                <h3 class="post-title">
+                    <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </h3>
+                <span class="date">{{ post.date | date: date_format }}</span>
+                {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+            </div>
+        </li>
+        {%- endfor -%}
+    </ul>
+</div>
