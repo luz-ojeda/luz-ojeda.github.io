@@ -9,6 +9,7 @@
 @import "resume";
 @import "utils";
 @import "variables";
+@import "post";
 
 :root {
     color-scheme: light dark;
@@ -68,13 +69,9 @@ a {
     }
 }
 
-ul {
-    margin: 0;
-}
-
 li {
     &:not(:first-child) {
-        margin-top: 16px;
+        margin-top: 8px;
     }
 
     @media (prefers-color-scheme: dark) {
