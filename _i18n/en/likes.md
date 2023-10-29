@@ -8,6 +8,13 @@
 - Saturday mornings with no errands to run nor things to do
 - The mountains
 - Driving (on country roads, highways, etc. not in the city)
+- Some degree of minimalism. Especially on web pages, my desk and my devices screens.
+
+## Digital
+- [Anki](https://apps.ankiweb.net/): been using it for almost 10 years I believe. Incredible tool for learning/memorizing with spaced repetition.
+- The [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/) Firefox add-on
+- [Obsidian](https://obsidian.md/): use it for cooking recipes (all of them with tags), my goals, private thoughts that I want to preserve in a separate file from my personal journal, shopping lists, etc.
+- [Calibre](https://calibre-ebook.com/): for e-book management
 
 ## Books
 - [Foundation series](https://en.wikipedia.org/wiki/Foundation_series) by Isaac Asimov
