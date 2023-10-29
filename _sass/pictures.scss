@@ -19,6 +19,7 @@
 .picture {
     border-radius: 4px;
     max-width: 100%;
+    min-height: 200px; // To enforce lazy loading of images
 }
 
 .picture-description {
