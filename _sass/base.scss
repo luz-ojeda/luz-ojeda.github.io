@@ -8,11 +8,13 @@
 @import "pictures";
 @import "resume";
 @import "utils";
+@import "variables";
 
 :root {
     color-scheme: light dark;
     background-color: $bgColor;
     color: $fgColor;
+    scrollbar-gutter: stable;
 
     @media (prefers-color-scheme: dark) {
         color: $darkModeFgColor;
@@ -30,8 +32,9 @@ body {
 }
 
 main {
+    overflow-y: overlay;
     margin: 0 auto;
-    max-width: $maxMainWidth;
+    width: $mainWidth;
 }
 
 footer {
