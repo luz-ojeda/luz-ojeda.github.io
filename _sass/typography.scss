@@ -36,6 +36,7 @@ p {
     margin-top: 0;
 
     @media (prefers-color-scheme: dark) {
+        letter-spacing: 0.025rem;
         line-height: 1.8;
     }
 }
