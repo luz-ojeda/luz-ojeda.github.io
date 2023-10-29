@@ -1,6 +1,7 @@
 - Owls
 - Tea in a cold day (even better if it is raining)
 - Mushrooms (specially finding one in the wild)
+- Flowers, in all their colors, shapes and sizes
 - Spending time on my balcony on spring/summer times
 - Taking care of my plants
 - Cooking while hearing music with headphones on
