@@ -1,6 +1,3 @@
-/* -----------------------------------------------------------
-  Sidebar links + nav
------------------------------------------------------------ */
 #sidebar-desktop {
     right: 50%;
     margin-right: 340px;
@@ -16,34 +13,15 @@
     color: $sidebarLinkColor;
     text-decoration: none;
 
-    @media (prefers-color-scheme: dark) {
-        color: $bgColor;
-    }
-
     &:hover {
-        background-color: transparent;
-        opacity: 1;
+        color: $primaryColor;
     }
 
     svg {
         fill: $fgColor;
 
-        @media (prefers-color-scheme: dark) {
-            fill: $darkModeFgColor;
-        }
-
         &:hover {
-            opacity: 0.75;
-        }
-    }
-}
-
-.sidebar a.text {
-    &:hover {
-        &::after {
-            content: "·";
-            font-weight: bold;
-            margin-left: 2px;
+            fill: $primaryColor;
         }
     }
 }
@@ -106,19 +84,33 @@
         display: block;
     }
 
-    .sidebar a.text {
-        &:hover {
-            &::after {
-                content: none;
-            }
-        }
-    }
-
     .sidebar a {
         font-size: 20px;
     }
 
     .sidebar nav > .icon > svg {
         height: 28px;
+    }
+}
+
+/* ----------
+Dark mode
+-----------*/
+
+@media (prefers-color-scheme: dark) {
+    .sidebar a {
+        color: $bgColor;
+    
+        svg {
+            fill: $darkModeFgColor;
+
+            &:hover {
+                fill: $darkModePrimaryColor;
+            }
+        }
+
+        &:hover {
+            color: $darkModePrimaryColor;
+        }
     }
 }
