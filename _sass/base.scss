@@ -34,7 +34,7 @@ body {
 main {
     overflow-y: overlay;
     margin: 0 auto;
-    width: $mainWidth;
+    max-width: $mainWidth;
 }
 
 footer {
