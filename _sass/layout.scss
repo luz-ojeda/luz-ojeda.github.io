@@ -12,11 +12,6 @@
   Sidebar
 -----------*/
 
-.sidebar {
-    flex: 0 0 auto;
-    margin-right: 64px;
-}
-
 .sidebar nav {
     display: flex;
 }
@@ -50,15 +45,7 @@
     }
 }
 
-@media (max-width: $tabletBreakpoint) {
-    body {
-        flex-direction: column;
-    }
-
-    main {
-        padding: 0 32px;
-    }
-
+@media (max-width: $smallScreenBreakpoint) {
     .sidebar {
         margin-right: 0;
         text-align: center;
@@ -96,11 +83,5 @@
 
     .skill {
         margin-right: 0px;
-    }
-}
-
-@media (max-width: $tabletBreakpoint) {
-    main {
-        padding: 0 16px;
     }
 }

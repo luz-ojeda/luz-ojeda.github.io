@@ -2,17 +2,7 @@
     padding-top: 12px;
 }
 
-.post-item-container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
 .post-title {
-    display: inline-block;
-    margin-bottom: 0px;
-    font-size: 18px;
-    margin-right: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

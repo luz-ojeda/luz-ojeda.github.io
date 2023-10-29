@@ -8,49 +8,41 @@
 @import "pictures";
 @import "resume";
 @import "utils";
+@import "variables";
 
 :root {
     color-scheme: light dark;
     background-color: $bgColor;
     color: $fgColor;
+    scrollbar-gutter: stable;
 
     @media (prefers-color-scheme: dark) {
         color: $darkModeFgColor;
         background-color: $fgColor;
     }
-
 }
 
 body {
-    display: flex;
-
-    @media screen and (min-width: 960px) {
-        padding: 48px 128px;
+    @media screen and (max-width: 960px) {
+        padding: 40px 20px;
     }
 
-    @media screen and (min-width: 1280px) {
-        padding: 64px 256px;
-    }
-
-    @media screen and (min-width: 1440px) {
-        padding: 64px 320px;
-    }
-
-    @media screen and (min-width: 1720px) {
-        padding: 64px 512px;
-    }
+    margin: 0;
+    padding: 80px 0;
 }
 
 main {
-    width: -moz-available;
-    min-width: 0;
+    overflow-y: overlay;
+    margin: 0 auto;
+    width: $mainWidth;
 }
 
 footer {
     display: none;
 
-    @media (max-width: $tabletBreakpoint) {
+    @media (max-width: $smallScreenBreakpoint) {
         display: block;
+        height: 32px;
     }
 }
 
@@ -93,17 +85,6 @@ li {
 
 hr {
     opacity: 0.5;
-}
-
-@media (max-width: $tabletBreakpoint) {
-    ul {
-        margin-left: -24px;
-        width: auto;
-    }
-
-    li {
-        line-height: 1.5;
-    }
 }
 
 ::selection {

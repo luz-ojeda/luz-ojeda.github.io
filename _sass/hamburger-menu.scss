@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media (max-width: $tabletBreakpoint) {
+@media (max-width: $smallScreenBreakpoint) {
     #hamburger-menu {
         display: block;
         height: 50px;
