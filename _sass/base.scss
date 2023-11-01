@@ -9,6 +9,7 @@
 @import "resume";
 @import "utils";
 @import "variables";
+@import "post";
 
 :root {
     color-scheme: light dark;
@@ -23,18 +24,18 @@
 }
 
 body {
-    @media screen and (max-width: 960px) {
-        padding: 40px 20px;
-    }
-
     margin: 0;
-    padding: 80px 0;
 }
 
 main {
     overflow-y: overlay;
     margin: 0 auto;
-    width: $mainWidth;
+    max-width: $mainWidth;
+    padding: 80px 40px;
+    
+    @media screen and (max-width: 960px) {
+        padding: 40px 20px;
+    }
 }
 
 footer {
@@ -68,13 +69,9 @@ a {
     }
 }
 
-ul {
-    margin: 0;
-}
-
 li {
     &:not(:first-child) {
-        margin-top: 16px;
+        margin-top: 8px;
     }
 
     @media (prefers-color-scheme: dark) {

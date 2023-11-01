@@ -1,6 +1,7 @@
 #sidebar-desktop {
     right: 50%;
     margin-right: 340px;
+    margin-top: 80px;
     position: absolute;
     width: 185px
 }
@@ -48,7 +49,7 @@
     flex-direction: column;
 
     &:not(:last-of-type) {
-        margin-bottom: 16px;
+        margin-bottom: 24px;
     }
 }
 

@@ -1,5 +1,5 @@
 ---
-desktop_image_url: /assets/images/sky.jpg
+desktop_image_url: /assets/images/sky_desktop.jpg
 mobile_image_url: /assets/images/sky_mobile.jpg
 desktop_width: 1920
 mobile_width: 480
