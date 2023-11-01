@@ -18,3 +18,9 @@ Las imagenes en [fotos](/es/fotos) y en [leyendo](/es/leyendo) son cargadas en f
 Con el objetivo de reducir lo máximo posible el peso de las imagenes de la sección fotos antes de incluirlas en el repositorio las comprimo usando [Tinyjpg](https://tinyjpg.com/). Una imagen de 235.8KB con 1280px de ancho es reducida a 166.4KB por ejemplo: un 29% menos. Vale el pequeño esfuerzo. Para una única imagen puede no ser mucho pero considerando que a futuro me gustaría agregar tantas imagenes como quisiera y no siempre tenemos Wi-Fi disponible para no preocuparnos por el peso de los archivos recibidos es que incluyo este paso extra.
 
 Para mis fotos, uso una custom [collection](https://jekyllrb.com/docs/collections/) ya que quería tener un archivo markdown para cada una. Lo que me permite agregar un título (`title`) y un atributo `alt` para las versiones en español y en inglés de la página respectivamente.
+
+## Hosting
+
+Uso [GitHub Pages](https://pages.github.com/) con un dominio custom. El repositorio de la página se puede encontrar [aquí](https://github.com/luz-ojeda/luz-ojeda.github.io).
+
+También configuré GitHub Actions para que cualquier push a la rama "master" gatille un build y un deploy. Al usar `jekyll-multiple-languages-plugin` y descubrir que no está en [lista de plugins permitidos](https://pages.github.com/versions/) de GitHub Pages, uso la GitHub action [jekyll-deploy- action](https://github.com/jeffreytse/jekyll-deploy-action) por lo que el proyecto primero se buildea localmente y luego se deploya en la rama `gh-pages` lo que finalmente gatilla la publicación a GitHub pages mostrando los últimos cambios.
