@@ -3,7 +3,7 @@ layout: post
 title: 10/10 musical albums
 ---
 
-Just a list of what I consider 10/10 albums from music I've listened throughout my life. With 10/10 I mean I love every single song, none gets ever skipped:
+Just a list of what I consider 10/10 albums from music I've listened throughout my life. From which I love every single song, none gets ever skipped:
 
 - [Circles - Mac Miller](https://www.youtube.com/watch?v=V4BFGSZ_1ls&list=PLoXL8KeHXDAtKg44-Nm0zem9AeoBshbqY)
 - [Discovery - Daft Punk](https://www.youtube.com/watch?v=FGBhQbmPwH8&list=PLSdoVPM5WnndLX6Ngmb8wktMF61dJirKl)
