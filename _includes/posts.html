@@ -1,7 +1,7 @@
 <div class="posts-container">
     <ul>
         {%- assign date_format = "%b %-d, %Y" -%} {%- for post in site.posts -%}
-        <li>
+        <li class="post">
             <h3 class="post-title">
                 <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
                     {{ post.title | escape }}
