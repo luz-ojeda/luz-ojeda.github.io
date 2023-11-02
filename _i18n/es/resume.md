@@ -24,7 +24,7 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
 ## Cursos y certificaciones
 ---
 
-- [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Ene 2023 - Actualidad)
+- [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Ene 2023 - abr 2023)
 
 - [Coderhouse Diseño UX/UI](https://www.coderhouse.com/online/ux-ui-online) (Jun 2020 - sep 2021)
 
