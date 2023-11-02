@@ -10,13 +10,13 @@
 - Driving (on country roads, highways, etc. not in the city)
 - Some degree of minimalism. Especially on web pages, my desk and my devices screens.
 
-## Digital
-- [Anki](https://apps.ankiweb.net/): been using it for almost 10 years I believe. Incredible tool for learning/memorizing with spaced repetition.
+## digital
+- [Anki](https://apps.ankiweb.net/)
 - The [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/) Firefox add-on
-- [Obsidian](https://obsidian.md/): use it for cooking recipes (all of them with tags), my goals, private thoughts that I want to preserve in a separate file from my personal journal, shopping lists, etc.
-- [Calibre](https://calibre-ebook.com/): for e-book management
+- [Obsidian](https://obsidian.md/)
+- [Calibre](https://calibre-ebook.com/)
 
-## Books
+## books
 - [Foundation series](https://en.wikipedia.org/wiki/Foundation_series) by Isaac Asimov
     - Few books made me cry like the end of Second Foundation.
 - The Silmarillion by JRR Tolkien
@@ -26,8 +26,8 @@
 - The Silver Chair by C.S. Lewis
     - Read the whole Chronicles of Narnia as a teenager and this one is my favourite
 
-## Music
-### These songs in particular
+## music
+### these songs in particular
 - [Solo - Frank Ocean](https://www.youtube.com/watch?v=X_SEwgDl02E)
 - [For a Better Day - Avicii](https://www.youtube.com/watch?v=Xq-knHXSKYY)
 - [A los jóvenes de ayer - Serú Girán](https://www.youtube.com/watch?v=myNv-im5yMg)
@@ -37,7 +37,7 @@
 - [Norwegian Wood - The Beatles](https://www.youtube.com/watch?v=Y_V6y1ZCg_8)
 - [Us and Them - Pink Floyd](https://www.youtube.com/watch?v=HoLhKJuGhK0)
 
-## Movies
+## movies
 - Interstellar from Christopher Nolan
 - The Alien saga (all of them are worthwhile IMO)
 - Pan's Labyrinth
