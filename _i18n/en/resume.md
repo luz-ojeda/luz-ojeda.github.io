@@ -22,7 +22,7 @@ A summary of my career so far including some tasks I was responsible for in each
 ## Courses and certifications
 ---
 
-- [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Jan 2023 - Today)
+- [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Jan 2023 - Apr 2023)
 
 - [Coderhouse UX/UI Design](https://www.coderhouse.com/online/ux-ui-online) (Jun 2020 - Sep 2021)
 
