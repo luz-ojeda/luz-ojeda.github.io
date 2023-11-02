@@ -8,6 +8,7 @@ namespace: projects
 sidebar_sort_order: 1
 emoji: 👨‍💻
 area: work
+group_sort_order: 2
 ---
 
 {% translate_file projects.md %}

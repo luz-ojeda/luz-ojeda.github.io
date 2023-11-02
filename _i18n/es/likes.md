@@ -37,7 +37,7 @@
 ## películas
 - Interestellar de Christopher Nolan
 - La saga de Alien (en mi opinión, todas valen la pena)
-- El Laberinto del Fauno
+- El Laberinto del Fauno de Guillermo del Toro
 - La Trilogía del Señor de los Anillos
 - Sleepy Hollow
 - La Pesadilla antes de Navidad (A Nightmare Before Christmas) de Henry Selick/Tim Burton

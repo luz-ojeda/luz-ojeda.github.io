@@ -9,10 +9,22 @@ What else do I do besides coding? I enjoy [reading](/reading), particularly sci-
 
 **Hi there**, I am Luz, another 29 years old human from **Buenos Aires, Argentina**.
 
-I originally started this website with professional purposes but since its first commit in february 2023 I started expanding it to make it my little corner in the internet where I publish pictures, thoughts, rants, projects, what I'm reading, what I like, etc.
+This website started with professional purposes but around september 2023 I started to expand it and it has now become my little corner in the internet where I publish pictures, thoughts, rants, projects, what I'm reading, what I like, etc. Although I've enjoyed writing since a teenager, it was always in a private journal. Notebooks, notes in my cellphone, Google Docs, etc.
 
-I've kept a physical and then digital private journal for 6 years already and have always enjoyed writing although never very consistently (not that it should be more or less consistent since it was just for me).
+But lately, I became motivated enough from [reading](https://jsomers.net/blog/more-people-should-write) [some](https://moretothat.com/writing-and-wisdom/) [articles](https://blog.whiona.me/what-happened-to-blogging-for-the-hell-of-it/) out there among other personal things to write and publish more. It helps me. In many ways. Such as understanding the things I write about better, reflecting, gathering my thoughts, improving my english writing skills, etc. And I hope in the future some people enjoy reading my content as too. 
 
-I studied Biology from 2011 to 2019, did a career switch to web developing in 2019 and started studying software engineering in 2023. During one of my statistics course in Biology is that I started programming with R which then later led me to pick up HTML, CSS and JavaScript.
+Sometimes I write posts in my native language (spanish) first and then translate them (with DeepL or Google Translate and manual adjustments afterwards, not going to lie here) and some others english first. Just a disclaimer in case that you find any "weird" sounding sentence that it may be because it was probably written spanish first.
 
-Besides coding I like to [read](/reading), hike (whenever I can travel to the mountains), run, play videogames (RTS, simulators and shooters), cook and lately write and publish (since I keep a private journal since 2017 and always enjoyed writing here and there)
+I studied Biology from 2011 to 2019, when I graduated. Then did a career switch to web developing in 2019, which is my current full-time job and started studying software engineering in 2023.
+
+Interests.
+
+- [Reading](/reading): Books of non-fiction essays about modern stuff, history, classics, science fiction, fantasy, etc. Would love to read more horror/suspense. I have a [Goodreads](https://www.goodreads.com/user/show/116528903?ref=nav_profile_l) profile too. But I love reading _anything_. Been browsing lots of blogs and personal webpages in the last few months.
+- Hiking, although I live ~500km from the nearest interesting hiking spot it is something I love every time I have the opportunity to get close to the Andes mountains or the Córdoba Sierras (mountains of a lower altitude).
+- Running
+- Videogames: Been too busy with work, university, exercise and some other things but I enjoy PC gaming as well. Fallout New Vegas, Age of Empires, Kerbal Space Program and Hollow Knight are some of my must beloved games I've played. I keep a [Backloggd](https://www.backloggd.com/u/synthopia/) too.
+- Cooking and baking
+- Driving (no matter where, but _not_ in the city though)
+- Electronic music [in general](https://open.spotify.com/playlist/5b63esqqeHwZTCTkAFG0VA?si=a1370cce90044fe3) (techno, progressive house, melodic techno), 80s classics, EDM, progressive rock, alternative, and others. Can't have enough playlists.
+
+[Reach out](/contact)

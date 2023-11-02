@@ -8,6 +8,7 @@ namespace: pictures
 sidebar_sort_order: 2
 emoji: 📷
 area: personal
+group_sort_order: 1
 ---
 
 {% include pictures.html %}

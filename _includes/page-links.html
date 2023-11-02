@@ -1,4 +1,4 @@
-{% assign pages_grouped = site.pages | group_by:"area" | reverse %} 
+{% assign pages_grouped = site.pages | sort: 'group_sort_order' | group_by:"area" %} 
 
 {% for group in pages_grouped %}
 {% if group.name != "" %}
@@ -8,7 +8,7 @@
             class="{% if page.url == '/' %} active {% endif %} text section-link"
             href="{% if site.lang == 'en' %} / {% else %} /es {% endif %}"
         >
-            📝 blog
+            <span class="emoji">📝</span>blog
         </a>
         {% endif %}
     

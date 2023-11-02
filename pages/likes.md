@@ -8,6 +8,7 @@ namespace: likes
 sidebar_sort_order: 3
 emoji: 💜
 area: personal
+group_sort_order: 1
 ---
 
 {% translate_file likes.md %}

@@ -16,23 +16,9 @@
     display: flex;
 }
 
-.sidebar nav > .icon {
-    display: flex;
-    align-items: center;
-
-    &:not(:last-of-type) {
-        margin-right: 6px;
-    }
-}
-
 #sidebar-nav-links {
+    margin-bottom: 24px;
     flex-flow: column nowrap;
-    margin-bottom: $navbarSectionSpacing;
-}
-
-#sidebar-icon-links {
-    flex-flow: row wrap;
-    margin-bottom: $navbarSectionSpacing;
 }
 
 /* ----------
@@ -53,23 +39,6 @@
 
     #sidebar-nav-links {
         margin-bottom: $mobileNavbarSectionSpacing;
-
-        > :not(:last-child),
-        > :not(:first-child) {
-            margin-bottom: 16px;
-        }
-    }
-
-    #sidebar-icon-links {
-        display: flex;
-        justify-content: center;
-        margin-bottom: $mobileNavbarSectionSpacing;
-    }
-
-    .sidebar nav > .icon {
-        &:not(:last-of-type) {
-            margin-right: 16px;
-        }
     }
 
     .skills-list li {
