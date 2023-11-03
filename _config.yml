@@ -26,9 +26,8 @@ current_company: Southworks
 current_company_url: https://www.southworks.com/
 
 imagesurl: "/assets/images/"
-thumbsurl: "/assets/images/"
 
-# Multiple l.anguages plugin
+# Multiple languages plugin
 languages: ['en', 'es']
 
 exclude_from_localizations: ['javascript', 'images', 'css', 'assets']
