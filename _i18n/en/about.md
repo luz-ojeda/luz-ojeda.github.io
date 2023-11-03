@@ -1,18 +1,18 @@
-**Hello!** I'm Luz, 29 years old human from Buenos Aires, Argentina, South America.
+**Hello!** I'm Luz, a 29 years old human from Buenos Aires, Argentina, South America.
 
 ## This website
 
-It started with professional purposes but around september 2023 I started to expand it and has now become my little corner on the internet where I publish pictures, thoughts, rants, projects, what I'm reading, what I like, etc. Although I've enjoyed writing since a teenager, it has always been in a private journal. In physical notebooks, notes on my cellphone, Google Docs, etc. 
+It started with professional purposes but around September 2023 I started to expand it and has now become my little corner on the internet where I publish pictures, thoughts, rants, projects, what I'm reading, what I like, etc. And more in the future, probably. I like to think of it more as a _[digital garden](https://joelhooks.com/digital-garden/)_ instead of a static website where I just publish posts and nothing else. Even this section will be updated many more times in the future, until I get bored for a while and then come back at it again. My interests change, as do the interests of many people.
 
 ## Writing
 
-Lately, I became motivated enough from [reading](https://jsomers.net/blog/more-people-should-write){:.external-link} [some](https://moretothat.com/writing-and-wisdom/){:.external-link} [articles](https://blog.whiona.me/what-happened-to-blogging-for-the-hell-of-it/){:.external-link} out there among other personal things to write and publish more. It helps me. In many ways. Such as understanding the things I write about better, reflecting, gathering my thoughts, improving my english writing skills, etc. And I hope in the future some people enjoy reading my content as too. 
+Although I've enjoyed writing since I was a teenager, it has always been in a private journal. In physical notebooks, notes on my cellphone, a WhatsApp conversation with myself, Google Docs, etc. Lately, I became motivated enough from [reading](https://jsomers.net/blog/more-people-should-write){:.external-link} [some](https://moretothat.com/writing-and-wisdom/){:.external-link} [articles](https://blog.whiona.me/what-happened-to-blogging-for-the-hell-of-it/){:.external-link} out there among other personal things to write and _publish_ more. It helps me. In many ways. Such as understanding better the things I write about, reflecting, gathering my thoughts, improving my english writing skills, etc. And I hope in the future some people will enjoy reading what I write as well.
 
 Sometimes I write posts in my native language (spanish) first and then translate them (with DeepL or Google Translate and manual adjustments afterwards, not going to lie here). Some other times I write english first. Just a disclaimer in case that you find any "weird" sounding sentence that it may be because it was probably written spanish first.
 
 ## What I do
 
-I studied Biology in Buenos Aires University (UBA) from 2011 to 2019, when I graduated. Then did a career switch to web developing in 2019, which is my current full-time job. I started studying software engineering in august 2023.
+I studied Biology in Buenos Aires University (UBA) from 2011 to 2019, when I graduated. Then did a career switch to web developing in 2019, which is my current full-time job. I started studying software engineering in August 2023.
 
 ### Interests
 
