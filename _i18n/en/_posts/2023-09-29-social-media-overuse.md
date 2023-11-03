@@ -8,3 +8,5 @@ The days when I end up overusing social media (in all its shapes and forms like 
 It doesn't scratch the itch of my daily social need so I end up _exhausted_ but still needing some real face-to-face interaction. Communicating with just written words (without tone and body language) doesn't even compare to face to face communication which includes both three.
 
 I may be irremediably nostalgic but everyday I miss the times before constant communication and social media apps.
+
+Edit on november 2, 2023: [This manifesto](https://flamedfury.com/manifesto/#the-old-web) expressed very clear what I mean in the last sentence (in part)

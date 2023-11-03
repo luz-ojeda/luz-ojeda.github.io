@@ -8,3 +8,5 @@ Los días en los que termino excediéndome en el uso de redes sociales (en todas
 No termina de satisfacer la "necesidad diaria" de lo social que tengo y tenemos todos los seres humanos por lo que termino _exhausta_ pero aún necesitando interacción cara a cara. La comunicación digital por texto (sin el tono ni el lenguaje corporal) no se compara a la comunicación cara a cara que incluye estos tres componentes.
 
 Podré ser irremediablemente nostálgica pero todos los días extraño los tiempos antes de la comunicación constante y las redes sociales.
+
+Editado el 2 de noviembre de 2023: [Este manifiesto](https://flamedfury.com/manifesto/#the-old-web) expresa muy claro lo que quiero decir en la última oración (en parte)

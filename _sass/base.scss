@@ -69,6 +69,11 @@ a {
     }
 }
 
+a.external-link::after {
+    content: "↗";
+    width: 0.1px;
+}
+
 li {
     &:not(:first-child) {
         margin-top: 8px;

@@ -11,13 +11,13 @@
 - Some degree of minimalism. Especially on web pages, my desk and my devices screens.
 
 ## digital
-- [Anki](https://apps.ankiweb.net/)
-- The [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/) Firefox add-on
-- [Obsidian](https://obsidian.md/)
-- [Calibre](https://calibre-ebook.com/)
+- [Anki](https://apps.ankiweb.net/){:.external-link}
+- The [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} Firefox add-on
+- [Obsidian](https://obsidian.md/){:.external-link}
+- [Calibre](https://calibre-ebook.com/){:.external-link}
 
 ## books
-- [Foundation series](https://en.wikipedia.org/wiki/Foundation_series) by Isaac Asimov
+- [Foundation series](https://en.wikipedia.org/wiki/Foundation_series){:.external-link} by Isaac Asimov
     - Few books made me cry like the end of Second Foundation.
 - The Silmarillion by JRR Tolkien
 - Journey to the Center of the Earth by Jules Verne

@@ -9,13 +9,13 @@
 - Manejar en la ruta/autopistas (no en la ciudad)
 
 ## digital
-- [Anki](https://apps.ankiweb.net/)
-- El complemento [Tranquilidad](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/) de Firefox
-- [Obsidian](https://obsidian.md/)
-- [Calibre](https://calibre-ebook.com/)
+- [Anki](https://apps.ankiweb.net/){:.external-link}
+- El complemento [Tranquilidad](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} de Firefox
+- [Obsidian](https://obsidian.md/){:.external-link}
+- [Calibre](https://calibre-ebook.com/){:.external-link}
 
 ## libros
-- [Serie de la Fundación](https://en.wikipedia.org/wiki/Foundation_series) por Isaac Asimov
+- [Serie de la Fundación](https://en.wikipedia.org/wiki/Foundation_series){:.external-link} por Isaac Asimov
      - Pocos libros me hicieron llorar como el final de Segunda Fundación.
 - El Silmarillion de JRR Tolkien
 - Viaje al Centro de la Tierra de Julio Verne

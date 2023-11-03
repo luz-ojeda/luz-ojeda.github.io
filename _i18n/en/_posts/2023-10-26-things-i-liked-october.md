@@ -3,6 +3,8 @@ layout: post
 title: Things I liked in october
 ---
 
+All links are external.
+
 - [Ishkur's Guide to Electronic Music](https://ishkur.kenxaj.cyou/): nice 1.0 Web-style graphical representation of the different electronic music genres with example tracks for each one
 - [How I Read](https://sirupsen.com/read) by Simon Hørup Eskildsen
     - A nice 4 step (sourcing, choosing, reading and processing) detailed process on how to improve which books to read and how to retain more about what we read. Convinced me to give [Readwise](https://readwise.io/) a try since I like to highlight books and would like to revisit them after finishing them.
