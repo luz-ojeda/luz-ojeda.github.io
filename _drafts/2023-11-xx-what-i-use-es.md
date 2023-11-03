@@ -5,9 +5,7 @@ title: Qué uso para almacenar información y realizar un seguimiento de cosas
 
 Escribir esto me ayudó a tener una idea general de cuán extendido o limitado es mi enfoque en cómo almaceno/trackeo ciertos aspectos de mi vida e información relacionada e importante para mí. En mi constante deseo de mayor simplicidad me gustaría reducir la variedad de programas y formas de gestionar toda esta información. Sin embargo, no quiero obsesionarme demasiado...
 
-Por ejemplo, me gusta dejar mis pensamientos en cualquier cosa que tenga a mano, como mi diario en Google Docs, si solo tengo mi teléfono. Si salgo de casa sin mi teléfono, prefiero el Bullet Journal físico. Si quiero escribir mucho sobre algo, prefiero el diario de Documentos de mi PC, donde puedo escribir muy rápidamente. La versatilidad tiene un costo.
-
-
+Por ejemplo, me gusta descargar mis pensamientos en cualquier cosa que tenga a mano, como mi diario en Google Docs, si solo tengo mi teléfono. Si salgo de casa sin mi teléfono, prefiero el Bullet Journal físico. Si quiero escribir mucho sobre algo, prefiero el diario de Documentos de mi PC, donde puedo escribir muy rápidamente. La versatilidad tiene un costo.
 
 ## [Bullet Journal](https://bulletjournal.com/) físico
 Me gusta alejarme de las pantallas cuanto pueda considerando mi trabajo (desarrolli web) y algunos de mis hobbies (leer principalmente en un Kindle, YouTube, videojuegos...)

@@ -5,7 +5,7 @@ title: What I use to store information and keep track of things
 
 Writing this helped me get a big picture on how spread or narrow my focus is on how I store/track certain aspects of my life and information related and important to me. In my constant desire for more simplicity I'd like to reduce the variety of programs and ways all this information is managed. However I don't want to get too _obsessed_...
 
-For example, I like to dump my thoughts on whatever I have at hand such as my journal in Google Docs if I only have my phone. If I left my home without my phone I prefer the physical bullet journal. If I want to write extensively about something I prefer the Docs journal from my PC where I can type very quickly. The versatility comes with a cost.
+For example, I like to unload my thoughts on whatever I have at hand such as my journal in Google Docs if I only have my phone. If I left my home without my phone I prefer the physical bullet journal. If I want to write extensively about something I prefer the Docs journal from my PC where I can type very quickly. The versatility comes with a cost.
 
 ## Physical [Bullet journal](https://bulletjournal.com/)
 I like to step away from screens considering my job (web dev) and some of my hobbies (reading mostly in a Kindle, YouTube, videogames...)
