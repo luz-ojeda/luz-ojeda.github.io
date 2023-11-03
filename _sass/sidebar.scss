@@ -31,10 +31,6 @@
     font-weight: bold;
 }
 
-.sidebar nav > .icon > svg {
-    height: 24px;
-}
-
 /* hide emoji if not supported */
 /* Thismin resolution is equivalent to a minimum resolution of 0.0254 dots per inch (dpi), 
    which is a very low resolution that is not typically used for modern devices. */
@@ -89,8 +85,18 @@
         font-size: 20px;
     }
 
-    .sidebar nav > .icon > svg {
-        height: 28px;
+    .emoji {
+        display: none;
+    }
+
+    .section-link:not(:last-of-type) {
+        margin-bottom: 12px;
+    }
+
+    .page-links-group {
+        &:not(:last-of-type) {
+            margin-bottom: 32px;
+        }
     }
 }
 
@@ -101,14 +107,6 @@ Dark mode
 @media (prefers-color-scheme: dark) {
     .sidebar a {
         color: $bgColor;
-    
-        svg {
-            fill: $darkModeFgColor;
-
-            &:hover {
-                fill: $darkModePrimaryColor;
-            }
-        }
 
         &:hover {
             color: $darkModePrimaryColor;

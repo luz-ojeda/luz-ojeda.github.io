@@ -8,6 +8,7 @@ namespace: reading
 sidebar_sort_order: 1
 emoji: 📖
 area: personal
+group_sort_order: 1
 ---
 
 <a href="https://www.goodreads.com/user/show/116528903-luz" target="_blank">

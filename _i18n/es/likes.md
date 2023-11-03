@@ -8,8 +8,14 @@
 - Las montañas
 - Manejar en la ruta/autopistas (no en la ciudad)
 
-## Libros
-- [Serie de la Fundación](https://en.wikipedia.org/wiki/Foundation_series) por Isaac Asimov
+## digital
+- [Anki](https://apps.ankiweb.net/){:.external-link}
+- El complemento [Tranquilidad](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} de Firefox
+- [Obsidian](https://obsidian.md/){:.external-link}
+- [Calibre](https://calibre-ebook.com/){:.external-link}
+
+## libros
+- [Serie de la Fundación](https://en.wikipedia.org/wiki/Foundation_series){:.external-link} por Isaac Asimov
      - Pocos libros me hicieron llorar como el final de Segunda Fundación.
 - El Silmarillion de JRR Tolkien
 - Viaje al Centro de la Tierra de Julio Verne
@@ -18,8 +24,8 @@
 - La silla plateada de C.S. Lewis
      - Leí todos los libros de las Crónicas de Narnia cuando era adolescente y este es mi favorito.
 
-## Música
-### Estas canciones en particular
+## música
+### estas canciones en particular
 - [Solo - Frank Ocean](https://www.youtube.com/watch?v=X_SEwgDl02E)
 - [For a Better Day - Avicii](https://www.youtube.com/watch?v=Xq-knHXSKYY)
 - [A los jóvenes de ayer - Serú Girán](https://www.youtube.com/watch?v=myNv-im5yMg)
@@ -28,10 +34,10 @@
 - [Norwegian Wood - The Beatles](https://www.youtube.com/watch?v=Y_V6y1ZCg_8)
 - [Us and Them - Pink Floyd](https://www.youtube.com/watch?v=HoLhKJuGhK0)
 
-## Películas
+## películas
 - Interestellar de Christopher Nolan
 - La saga de Alien (en mi opinión, todas valen la pena)
-- El Laberinto del Fauno
+- El Laberinto del Fauno de Guillermo del Toro
 - La Trilogía del Señor de los Anillos
 - Sleepy Hollow
 - La Pesadilla antes de Navidad (A Nightmare Before Christmas) de Henry Selick/Tim Burton

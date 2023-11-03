@@ -15,7 +15,7 @@ h6,
     margin: 0;
 }
 
-h1 {
+h1, .site-title {
     font-family: $headingFontFamily;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -60,7 +60,6 @@ p {
 .site-title {
     font-family: $headingFontFamily;
     font-size: 2rem;
-    margin-bottom: 8px;
 }
 
 /* ----------

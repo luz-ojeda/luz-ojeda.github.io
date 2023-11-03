@@ -1,7 +1,28 @@
-**Hi there**, I am a 29 years old web developer from **Buenos Aires (Argentina)** working in [**{{site.current_company}}**]({{site.current_company_url}}) since January, 2023.
+**Hello!** I'm Luz, a 29 years old human from Buenos Aires, Argentina, South America.
 
-I have mainly studied web development during 2019 at [FreeCodeCamp.org](https://www.freecodecamp.org/), among other resources such as related channels in YouTube (like [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) which I recommend a lot), the Mozilla Developer Network and [JavaScript.info](https://javascript.info/) which led me to work on several small projects present on my [**GitHub account**](https://github.com/luz-ojeda). In August 2023 I've started the career of Software Engineering in UADE (Universidad Argentina de la Empresa).
+## This website
 
-I have also studied and graduated in Biology at the *Universidad de Buenos Aires* from 2011 to 2019 including a final lab thesis where I studied plant physiology. It was during one of my Statistics courses that I started programming with R which later led to my interest in web development and career shift.
+It started with professional purposes but around September 2023 I started to expand it and has now become my little corner on the internet where I publish pictures, thoughts, rants, projects, what I'm reading, what I like, etc. And more in the future, probably. I like to think of it more as a _[digital garden](https://joelhooks.com/digital-garden/)_ instead of a static website where I just publish posts and nothing else. Even this section will be updated many more times in the future, until I get bored for a while and then come back at it again. My interests change, as do the interests of many people.
 
-What else do I do besides coding? I enjoy [reading](/reading), particularly sci-fi, history, and non-fiction essays ([my goodreads profile](https://www.goodreads.com/user/show/116528903?ref=nav_profile_l)). I also like to hit the hiking trails whenever I can travel to the mountains or go for a run in my neighborhood and spend some time playing video games on my PC as well. If you are on Steam, feel free to add me 66021605.
+## Writing
+
+Although I've enjoyed writing since I was a teenager, it has always been in a private journal. In physical notebooks, notes on my cellphone, a WhatsApp conversation with myself, Google Docs, etc. Lately, I became motivated enough from [reading](https://jsomers.net/blog/more-people-should-write){:.external-link} [some](https://moretothat.com/writing-and-wisdom/){:.external-link} [articles](https://blog.whiona.me/what-happened-to-blogging-for-the-hell-of-it/){:.external-link} out there among other personal things to write and _publish_ more. It helps me. In many ways. Such as understanding better the things I write about, reflecting, gathering my thoughts, improving my english writing skills, etc. And I hope in the future some people will enjoy reading what I write as well.
+
+Sometimes I write posts in my native language (spanish) first and then translate them (with DeepL or Google Translate and manual adjustments afterwards, not going to lie here). Some other times I write english first. Just a disclaimer in case that you find any "weird" sounding sentence that it may be because it was probably written spanish first.
+
+## What I do
+
+I studied Biology in Buenos Aires University (UBA) from 2011 to 2019, when I graduated. Then did a career switch to web developing in 2019, which is my current full-time job. I started studying software engineering in August 2023.
+
+### Interests
+
+- **[Reading](/reading)**: Non-fiction essays about modern stuff, history, classics, science fiction, fantasy, etc. Would love to read more horror/suspense. But I love reading _anything_. Been browsing lots of blogs and personal webpages in the last few months.
+- **Hiking**, although I live ~500km from the nearest interesting hiking spot it is something I love every time I have the opportunity to get close to the Andes mountains or the Córdoba Sierras (mountains of a lower altitude).
+- **Running**. Long distance-ish. Although I come and go, I really enjoy when I can go beyond 8km. Most I've ran is 13km. Always with music on.
+- **Videogames**: Fallout New Vegas, Age of Empires, Kerbal Space Program and Hollow Knight are some games I've loved the most. I keep a [Backloggd](https://www.backloggd.com/u/synthopia/){:.external-link} too.
+- **Cooking and baking**
+- **Driving** (no matter where, but _not_ in the city though)
+- Electronic music [in general](https://open.spotify.com/playlist/5b63esqqeHwZTCTkAFG0VA?si=a1370cce90044fe3){:.external-link} (techno, progressive house, melodic techno), 80s classics, EDM, progressive rock, alternative, and others. Can't have enough playlists.
+- Plants. Although I live in an apartment, I care for many plants and would love to have a garden some day to grow my own food and flowers.
+
+**[Reach out](/contact)**

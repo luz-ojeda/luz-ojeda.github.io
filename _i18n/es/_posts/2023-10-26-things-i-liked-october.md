@@ -3,6 +3,8 @@ layout: post
 title: Cosas interesantes de Octubre
 ---
 
+Todos los links son externos.
+
 - [Guía de música electrónica de Ishkur](https://ishkur.kenxaj.cyou/): linda representación gráfica estilo Web 1.0 de los diferentes géneros de música electrónica con tracks de ejemplo para cada uno
 - [How I read](https://sirupsen.com/read) de Simon Hørup Eskildsen
      - Un interesante proceso detallado de 4 pasos (obtención, elección, lectura y procesamiento) sobre cómo mejorar qué libros leer y cómo retener más sobre lo que leemos. Me convenció de probar [Readwise](https://readwise.io/) ya que me gusta resaltar libros y me gustaría volver a recordar los extractos/subrayados después de terminarlos.

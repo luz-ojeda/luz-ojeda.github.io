@@ -1,4 +1,5 @@
-.posts-container {
+.posts-list {
+    margin-top: 56px;
     padding-top: 12px;
 }
 
@@ -24,8 +25,10 @@
     Mobile
 -----------*/
 @media (max-width: $tabletBreakpoint) {
-    .posts-container {
-        padding-top: 24px;
+    .posts-list {
+        margin-top: 0;
+        padding-top: 0;
+        margin-left: -12px;
     }
 
     .post-item-container {
