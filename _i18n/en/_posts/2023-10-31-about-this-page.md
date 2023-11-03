@@ -18,3 +18,9 @@ The images in [pictures](/pictures) and in [reading](/reading) are loaded lazily
 In order to reduce the weight of the images sent in the pictures section as much as possible before including them in the repository, I compress them using [Tinyjpg](https://tinyjpg.com/). A 235.8KB image with 1280px width is reduced to 166.4KB for example, **29%** less. It's worth the little effort. For a single image it may not be much but considering that in the future I would like to add as many images as I would like and we do not always have Wi-Fi available so as not to worry about the weight of the files received, it includes this extra step.
 
 For the [photos](/es/photos) I use a custom [collection](https://jekyllrb.com/docs/collections/) since I wanted to have a markdown file for each one. Which allows me to add a title and an `alt` attribute for the Spanish and English versions of the page respectively.
+
+## Hosting
+
+I use [GitHub Pages](https://pages.github.com/) with a custom domain. The repository for the page can be found [here](https://github.com/luz-ojeda/luz-ojeda.github.io).
+
+I configured GitHub actions so any push to the `master` branch triggers a build and deploy. Since I use `jekyll-multiple-languages-plugin` which I found out it is not present in GitHub Pages [set of allow-listed plugins](https://pages.github.com/versions/) I use the GitHub action [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action). The project is first built locally and then a commit is made to the branch `gh-pages` which in turn will trigger the publish to GitHub pages and show the latest changes.
