@@ -1,8 +1,8 @@
 - Owls
-- Tea in a cold day (even better if it is raining)
+- Tea and/or Mate 🧉 in a cold day (even better if it is raining) as windows fog up
 - Mushrooms (specially finding one in the wild)
 - Flowers, in all their colors, shapes and sizes
-- Spending time on my balcony on spring/summer times
+- Spending time on my balcony on spring/summer times. And summer nights themselves.
 - Taking care of my plants
 - Cooking while hearing music with headphones on
 - Saturday mornings with no errands to run nor things to do
@@ -37,11 +37,15 @@
 - [Norwegian Wood - The Beatles](https://www.youtube.com/watch?v=Y_V6y1ZCg_8)
 - [Us and Them - Pink Floyd](https://www.youtube.com/watch?v=HoLhKJuGhK0)
 
-## movies
+## movies/tv series
 - Interstellar from Christopher Nolan
-- The Alien saga (all of them are worthwhile IMO)
+- The Alien saga (all worthwhile IMO)
 - Pan's Labyrinth
 - Lord of the Rings trilogy
 - Sleepy Hollow
 - The Nightmare Before Christmas by Henry Selick/Tim Burton
 - Nausicaa of the Valley of the Wind by Hayao Miyazaki
+- Better Call Saul
+- Adventure Time
+- Lost
+- Midnight Gospel
