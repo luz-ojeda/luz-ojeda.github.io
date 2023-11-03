@@ -10,7 +10,7 @@
 
 ## digital
 - [Anki](https://apps.ankiweb.net/){:.external-link}
-- El complemento [Tranquilidad](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} de Firefox
+- El addon [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} de Firefox
 - [Obsidian](https://obsidian.md/){:.external-link}
 - [Calibre](https://calibre-ebook.com/){:.external-link}
 
