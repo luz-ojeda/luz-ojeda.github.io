@@ -10,7 +10,7 @@
 
 ## digital
 - [Anki](https://apps.ankiweb.net/){:.external-link}
-- El complemento [Tranquilidad](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} de Firefox
+- El addon [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} de Firefox
 - [Obsidian](https://obsidian.md/){:.external-link}
 - [Calibre](https://calibre-ebook.com/){:.external-link}
 
@@ -33,6 +33,7 @@
 - [Animal Spirits - Vulfpeck](https://www.youtube.com/watch?v=qTUnDV3MgVQ)
 - [Norwegian Wood - The Beatles](https://www.youtube.com/watch?v=Y_V6y1ZCg_8)
 - [Us and Them - Pink Floyd](https://www.youtube.com/watch?v=HoLhKJuGhK0)
+- [Self Control - Laura Branigan](https://youtu.be/RP0_8J7uxhs?si=rx8X3ljfUWB3msiH)
 
 ## películas
 - Interestellar de Christopher Nolan
