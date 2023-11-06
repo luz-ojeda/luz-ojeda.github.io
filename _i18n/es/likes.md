@@ -23,6 +23,7 @@
 - Rubicón: Los últimos años de la República Romana de Tom Holland
 - La silla plateada de C.S. Lewis
      - Leí todos los libros de las Crónicas de Narnia cuando era adolescente y este es mi favorito.
+- Las Malas de Camila Sosa Villada
 
 ## música
 ### estas canciones en particular
@@ -42,4 +43,4 @@
 - La Trilogía del Señor de los Anillos
 - Sleepy Hollow
 - La Pesadilla antes de Navidad (A Nightmare Before Christmas) de Henry Selick/Tim Burton
-- Nausicaa del Valle del Viento de Hayao Miyazaki
+- Nausicaa del Valle del Viento de Hayao Miyazaki (y todo lo que haga Studio Ghibli, obviamente)
