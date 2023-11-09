@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Things I liked in october
+title: Things I liked in October
 ---
 
 All links are external.

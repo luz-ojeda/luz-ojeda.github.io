@@ -9,4 +9,4 @@ It doesn't scratch the itch of my daily social need so I end up _exhausted_ but 
 
 I may be irremediably nostalgic but everyday I miss the times before constant communication and social media apps.
 
-Edit on november 2, 2023: [This manifesto](https://flamedfury.com/manifesto/#the-old-web) expressed very clear what I mean in the last sentence (in part)
+Edit on November 2, 2023: [This manifesto](https://flamedfury.com/manifesto/#the-old-web) expressed very clear what I mean in the last sentence (in part)
