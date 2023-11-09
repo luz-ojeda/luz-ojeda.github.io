@@ -65,9 +65,9 @@ Algunas personas incluso han (hemos, me incluyo) perdido el _segundo lugar_, el 
 
 ### 2. Trabajo remoto
 
-No tengo un libro de un sociólogo para citar al respecto en este caso. Pero creo se sobreentiende por qué el trabajo remoto full time sin posibilidad alguna de ir a una oficina puede llevar a sufrir la soledad en algunos casos. Conste, **no** abogo por volver a oficinas e incluso si me dieran a elegir entre un trabajo completamente remoto y tener que gastar 10 horas de mi vida por semana en ir a una oficina elijo lo primero. Sin dudarlo. 
+No tengo un libro de un sociólogo para citar al respecto en este caso. Pero creo se sobreentiende por qué el trabajo remoto full time sin posibilidad alguna de ir a una oficina puede llevar a sufrir la soledad en algunos casos. Conste, **no** abogo por volver a oficinas e incluso si me dieran a elegir entre un trabajo completamente remoto y tener que gastar 10 horas de mi vida por semana en ir a una oficina elijo lo primero. Sin dudarlo.
 
-_Pero_ me gustaría algo híbrido ya que en mi opinión no creo que sea sano estar 40hs semanales sin ver gente con la cual tenés un mínimo vínculo cara a cara. Es un tema polémico y quizás mucha gente al leer esto pondrá el grito al cielo. Entiendo completamente a quienes son padres, por ejemplo, que no necesitan ni les interesa ver otras personas porque el tiempo con sus hijos es invaluable, por supuesto. Y por eso repito que no abogo, ni de cerca, el volver a cómo eran las cosas pre pandemia 100%.
+_Pero_ me gustaría algo híbrido ya que en mi opinión no creo que sea sano estar 40hs semanales sin ver gente con la cual tenés un mínimo vínculo cara a cara. Es un tema polémico y quizás mucha gente al leer esto pondrá el grito al cielo. Entiendo completamente a quienes son padres, por ejemplo, que no necesitan ni les interesa ver otras personas porque el tiempo con sus hijos es invaluable, por supuesto. Y por eso repito que no abogo, ni de cerca, el volver a cómo eran las cosas pre pandemia 100%. Pero a la vez me consta que no soy la única persona que por momentos la agota y drena el trabajo remoto 100%.
 
 ### 3. La internet, digitalidad, redes sociales
 
@@ -88,6 +88,16 @@ Junto a los demás puntos se genera una especie de el huevo y la gallina. Aument
 .
 
 ### Entonces?
+
+Quizás leíste todo lo anterior (o por arriba, entendible) y sentís que nada de todo lo que describo y se describe en los distintos links te afecta.
+
+Aún tenés una especie de tercer o incluso hasta un cuarto lugar, con suerte.
+
+Quizás no trabajes de forma remota como yo (o al menos no un 100%) y después de trabajar todo el día con gente lo único que querés es no ver a nadie al llegar a tu hogar.
+
+Quizás estés en la universidad donde es muy difícil _no_ hacerse un grupo de amigos o pares por más chico que sea.
+
+Las experiencias son muy diversas y no puedo ni pretendo atajarme con todas. Y no me puedo imaginar ni tener idea de qué tipo de persona puede leer esto. Pero el punto es que _algo_ sucede sobre estos temas y una sociedad más atomizada y compuesta por cada vez más individuos que sufren la soledad no es bueno para nadie.
 
 Hay una/s solución/es? Brevemente, no.
 
