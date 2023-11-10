@@ -17,7 +17,9 @@ En español (hasta dónde sé y al día de la fecha) sólo tenemos una palabra p
 
 **Soledad**. 
 
-Esté uno/a infeliz, neutral o feliz al respecto de _estar sólo sin otras personas_, la palabra es la misma. Y es una limitación. Pues creo que muchos pasamos por ambos estados. El de sufrir por estar solos y otros donde necesitábamos recluirnos para pasar tiempo con nosotros mismos/solos.
+Esté uno/a infeliz, neutral o feliz al respecto de _estar sólo sin otras personas_, la palabra es la misma. Y es una limitación. Pues creo que muchos pasamos por ambos estados. El de sufrir por estar solos y otros donde necesitamos recluirnos para pasar tiempo con nosotros mismos/solos.
+
+Y hasta se puede mencionar un tercero de estar con gente y _aún_ sentirnos solos. Pero creo no hay una palabra que defina este último o al menos no la conozco.
 
 Cuánto nos gusta estar más o menos solos depende de la personalidad y gustos particulares de cada uno. Cuánto tiempo. Con _cuánta_ gente compartir los momentos que _no_ estamos solos (una fiesta con 100 personas o una reunión con 5 amigos cercanos, que no son mutuamente excluyentes, igual).
 
