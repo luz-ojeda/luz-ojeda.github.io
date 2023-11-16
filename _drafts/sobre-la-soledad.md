@@ -77,7 +77,7 @@ Se ha escrito hasta el [cansancio](https://www.psycom.net/how-social-media-incre
 
 Creo que las redes sociales son causa, en parte, de lo ocurrido al tercer lugar y _a la vez_ consecuencia de la disminución en popularidad del mismo y el crecimiento del trabajo remoto. Son un síntoma, en parte, de a veces no tener _dónde_ ir.
 
-A mi parecer, empeoran la situación. Las redes sociales tienen un grado de anonimato y deshumanización que no permiten una conexión genuina. Alimentan una competencia insana (que siempre estuvo ahí pero desde los likes en Facebook y la replicación de esta feature en casi toda red social de la que tengo noción es _cuantificable_). Tienen sus beneficios, sin embargo, lo reconozco (uso Instagram, por ejemplo). Pero no creo que sean mayores a los costos. Especialmente en lo relacionado a la soledad, conocer gente, etcétera. El sólo hecho de que apliquemos el término _detox_ para referirnos a reducir drásticamente su uso como si de una droga se hablara creo nos dice bastante sobre sus beneficios y costos.
+A mi parecer, empeoran la situación. Las redes sociales tienen un grado de anonimato y deshumanización que no permiten una conexión genuina. Alimentan una competencia insana (que siempre estuvo ahí pero desde los likes en Facebook y la replicación de esta feature en casi toda red social es _cuantificable_). Tienen sus beneficios, sin embargo, lo reconozco (uso Instagram, por ejemplo). Pero no creo que sean mayores a los costos. Especialmente en lo relacionado a la soledad, conocer gente, etcétera. El sólo hecho de que apliquemos el término _detox_ para referirnos a reducir drásticamente su uso como si de una droga se hablara creo nos dice bastante sobre sus beneficios y costos.
 
 El punto es, no sustituyen completamente la interacción cara a cara ni la vida en comunidad como sucedía en un tercer lugar. Pueden parecer un sustituto temporal pero es superficial, y a veces hasta perjudicial.
 
@@ -97,10 +97,10 @@ Aún tenés una especie de tercer o incluso hasta un cuarto lugar, con suerte.
 
 Quizás no trabajes de forma remota como yo (o al menos no un 100%) y después de trabajar todo el día con gente lo único que querés es no ver a nadie al llegar a tu hogar.
 
-Quizás estés en la universidad donde es muy difícil _no_ hacerse un grupo de amigos o pares por más chico que sea.
+Quizás estés en la universidad donde es difícil _no_ hacerse un grupo de amigos o pares por más chico que sea.
 
-Las experiencias son muy diversas y no puedo ni pretendo atajarme con todas. Y no me puedo imaginar ni tener idea de qué tipo de persona puede leer esto. Pero el punto es que _algo_ sucede sobre estos temas y una sociedad más atomizada y compuesta por cada vez más individuos que sufren la soledad no es bueno para nadie.
+Las experiencias son muy diversas y no puedo ni pretendo atajarme con todas. Y no me puedo imaginar ni tener idea de qué tipo de persona puede leer esto. Pero el punto es que _algo_ sucede sobre este tema y una sociedad más atomizada y compuesta por cada vez más individuos que sufren la soledad no es bueno para nadie.
 
 Hay una/s solución/es? Brevemente, no.
 
-Soy pesimista sobre todos estos temas. No creo que se vayan a resolver naturalmente por mucho tiempo. Sólo van a empeorar 
+Soy pesimista sobre todos estos temas. No creo que se vayan a resolver naturalmente por mucho tiempo. No hay forma de volver a la "pre-digitalidad". Muchos terceros lugares siguen existiendo sólo que requiere un esfuerzo extra encontrarlos y buscar integrarse. Antes sin redes sociales, apps de citas, foros, etc. no había alternativa. O buscabas conocer gente en el trabajo o en el tercer lugar (o fiestas, recitales, etc.).
