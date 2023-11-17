@@ -13,7 +13,7 @@ Un detalle que me gusta del inglés es la diferencia entre _solitude_ y _lonelin
 
 Y [_lonely_](https://dictionary.cambridge.org/dictionary/english/lonely){:.external-link}: infeliz al no estar con otras personas
 
-En español (hasta dónde sé y al día de la fecha) sólo tenemos una palabra para ambos casos:
+En español (hasta dónde sé) sólo tenemos una palabra para ambos casos:
 
 **Soledad**. 
 
@@ -21,19 +21,23 @@ Esté uno/a infeliz, neutral o feliz al respecto de _estar sólo sin otras perso
 
 Y hasta se puede mencionar un tercero de estar con gente y _aún_ sentirnos solos. Pero creo no hay una palabra que defina este último o al menos no la conozco.
 
-Cuánto nos gusta estar más o menos solos depende de la personalidad y gustos particulares de cada uno. Cuánto tiempo. Con _cuánta_ gente compartir los momentos que _no_ estamos solos (una fiesta con 100 personas o una reunión con 5 amigos cercanos, que no son mutuamente excluyentes, igual).
+Cuánto nos gusta estar más o menos solos depende de la personalidad y gustos particulares de cada uno. Cuánto tiempo. Con _cuánta_ gente compartir los momentos que _no_ estamos solos.
 
 Pero más allá de estas particularidades, todos necesitamos de ambos momentos de soledad y compañía. Cuánto necesitamos y/o queremos soledad o compañía varía a lo largo de la vida también.
 
-Personalmente pasé por momentos en los cuales [sufría mucho la soledad](https://www.luzojeda.com/2023/04/04/on-growing.html). Y otros donde la necesitaba. Por ejemplo: hoy trabajando de forma remota full time a veces, al terminar el día, me invade más un peso por la soledad (_loneliness_) que cuando estudiaba en la universidad y pasaba 10 horas o más con gente. En ese entonces llegaba a mi casa y necesitaba estar conmigo misma y nadie más (generalmente).
+Personalmente pasé por momentos en los cuales [sufría mucho la soledad](https://www.luzojeda.com/2023/04/04/on-growing.html) (ya lo voy a traducir, sepa disculpar). Y otros donde la necesitaba. Por ejemplo: hoy trabajando de forma remota full time a veces, al terminar el día, me invade más un peso por la soledad (_loneliness_) que cuando estudiaba en la universidad de forma presencial y pasaba 10 horas o más con gente. En ese entonces llegaba a mi casa y necesitaba estar conmigo misma y nadie más (generalmente).
 
 ## Sentirse sólo
 
-Sobre este tema en particular tengo un sesgo de consumir mucho material en inglés enfocado a USA, Europa, Australia y NZ ("occidente"). No creo ni afirmo que haya un problema de _igual_ magnitud en Argentina ni en Latinoamérica que el de aquellas regiones. Tenemos diferencias culturales muy importantes, especialmente en el modo de relacionarnos entre las personas, pero también similitudes y muchas veces fenómenos culturales de allá se replican acá. Tampoco soy socióloga, esto no es ninguna tesis seria de investigación. Es un simple post en mi página personal recopilando mezcla de links, observaciones y opiniones propias sobre un tema que siempre me interesó mucho por lo relevante de la actualidad, cómo parece seguir empeorando, y atraviesa otras problemáticas de igual o mayor magnitud (como la pérdida del tercer lugar).
+Sobre este tema en particular tengo un sesgo de consumir mucho material en inglés enfocado a USA, Europa, Australia y NZ ("occidente"). No creo ni afirmo que haya un problema de _igual_ magnitud en Argentina ni en Latinoamérica que el de aquellas regiones.
+
+Tenemos diferencias culturales muy importantes, especialmente en el modo de relacionarnos entre las personas, pero también similitudes y muchas veces fenómenos culturales de allá se replican acá. Tampoco soy socióloga, esto no es ninguna tesis seria de investigación. Es un simple post en mi página personal recopilando mezcla de links, observaciones y opiniones propias sobre un tema que siempre me interesó mucho por lo relevante de la actualidad, cómo parece seguir empeorando, y atraviesa otras problemáticas de igual o mayor magnitud (como la pérdida del tercer lugar).
 
 Allá, [varios](https://nypost.com/2021/07/27/americans-have-fewer-friends-than-ever-before-study/) [estudios](https://novum.substack.com/p/social-recession-by-the-numbers#%C2%A7friendships) [mencionan](https://www.vice.com/en/article/z3n5aj/loneliness-epidemic-young-people) el [problema](https://www.economist.com/graphic-detail/2018/08/31/loneliness-is-pervasive-and-rising-particularly-among-the-young) de una [soledad](https://theweek.com/articles/815518/epidemic-loneliness){:.external-link} en crecimiento. Donde cada vez más gente tiene [menos amigos cercanos](https://www.americansurveycenter.org/why-mens-social-circles-are-shrinking/){:.external-link}. Por ejemplo: en EEUU, en 1990, 40% de los hombres decían tener 10 o más amigos cercanos (sin contar familiares), un 28% las mujeres. En 2021, el porcentaje se reduce a 28 en hombres y a 11 en mujeres. *15% de hombres y 10% de mujeres respondieron no tener ningún amigo cercano en 2021*.
 
-Aún si uno descarta completamente estos fenómenos, alegando que es algo **exclusivo** del hemisferio norte/la angloesfera, resulta interesante de analizar algo que potencialmente podría suceder acá.
+1 en 2 adultos reportan niveles "medibles" de soledad según se cuenta en este [video](https://youtu.be/vSQjk9jKarg?si=RIvjhB6tVr_QdwhY&t=541) subido hace muy poco de Veritasium. Si bien el mismo habla sobre la felicidad, inevitablemente termina tocando el tema del a soledad.
+
+Aún si uno descartara completamente estos fenómenos, alegando que es algo **exclusivo** del hemisferio norte/la angloesfera, resulta interesante de analizar algo que potencialmente podría suceder acá.
 
 Sin embargo parece ser que la [soledad](https://elpais.com/sociedad/2023-03-19/el-nuevo-perfil-de-la-soledad-joven-y-precario.html){:.external-link} [es](https://www.perfil.com/noticias/elobservador/la-epidemia-de-soledad.phtml){:.external-link} [un](https://www.aceprensa.com/sociedad/cada-vez-tenemos-menos-amigos-cercanos/){:.external-link} problema en crecimiento también en Latinoamérica y España.
 
@@ -45,23 +49,21 @@ Algunos extractos de los links anteriores:
 
 *“Para terminar de confirmar el combo, las búsquedas en Google de “¿dónde conocer gente?”, “¿cómo hacer amigos?” alcanzaron su máximo histórico este año.”*
 
-No me quiero extender _demasiado_ sobre el fenómeno en sí. Si realmente la soledad es un problema en crecimiento o no. Me interesa más escribir acerca de las causas que en mi humildísima opinión, en parte, alimentan este fenómeno.
-
-Probablemente (seguramente) haya más de las que voy a mencionar.
+Probablemente (seguramente) haya más de las que voy a mencionar, pero, cuáles son las causas?
 
 ### 1. Pérdida/disminución en popularidad de un “tercer lugar”
 
-El [*tercer lugar*](https://en.wikipedia.org/wiki/Third_place){:.external-link} es un término sociológico acuñado por el sociólogo estadounidense Ray Oldenburg en su libro _The Great Good Place_ de 1989. Es aquel lugar que no es ni el hogar ni donde trabajamos. De bajo perfil.
+El [*tercer lugar*](https://en.wikipedia.org/wiki/Third_place){:.external-link} es un término sociológico acuñado por el sociólogo estadounidense Ray Oldenburg en su libro _The Great Good Place_ de 1989. Es aquel lugar que no es ni el hogar ni donde trabajamos pero que pasamos una importante cantidad de tiempo de forma regular.
 
-Un club, una plaza, una peluquería, un café, una biblioteca, un bar, la iglesia, los shoppings (especialmente en los 90s y 2000s en Argentina), etcétera.
+De bajo perfil. Un club, una plaza, una peluquería, un café, una biblioteca, un bar, la iglesia, los shoppings (especialmente en los 90s y 2000s en Argentina), etcétera.
 
 Todos ellos podían y pueden ser un tercer lugar. La conversación cumpliendo siempre un lugar fundamental y central. Y en una igualdad de condiciones sin una estructura jerárquica.
 
-Oldenburg afirmaba que estos lugares contribuyen al sentimiento de intgración social y la vida en comunidad. Un lugar completamente neutral (a diferencia del hogar de uno) donde todos éramos o somos relativamente iguales sin necesidad de necesariamente gastar una importante cantidad de dinero.
+Oldenburg afirmaba que estos lugares contribuyen al sentimiento de integración social y la vida en comunidad. Un lugar completamente neutral (a diferencia del hogar de uno o el trabajo) donde todos éramos o somos relativamente iguales sin necesariamente gastar una importante cantidad de dinero.
 
-La pérdida o disminución en popularidad, pues siguen habiendo iglesias o bares con regulares, de este lugar es compleja y multicausal. Se podría escribir un post entero acerca de eso. [Este video](https://www.youtube.com/watch?v=MD_CMrCpBMc) entra en mejor detalle y lo recomiendo. (Este también)[https://www.youtube.com/watch?v=9Ku9csXhvJY]. Algunas que se hipotetizan son el crecimiento del agnosticismo/ateísmo y la adopción de otras religiones distintas al cristianismo; el boom del comercio electrónico; la [desconfianza](https://www.infobae.com/america/america-latina/2022/01/13/la-tragedia-de-no-confiar-en-el-que-tenemos-al-lado-y-como-esa-desconfianza-frena-el-futuro-de-argentina-y-de-toda-america-latina/){:.external-link} en el prójimo; las consecuencias de la pandemia; “ciudades auto-céntricas”.
+La pérdida o disminución en popularidad (pues siguen habiendo iglesias o bares con regulares) de este lugar es compleja y multicausal. Se podría escribir un post entero acerca de eso. [Este video](https://www.youtube.com/watch?v=MD_CMrCpBMc) entra en mejor detalle y lo recomiendo. [Este también](https://www.youtube.com/watch?v=9Ku9csXhvJY). Algunas que se hipotetizan son el crecimiento del agnosticismo/ateísmo y la adopción de otras religiones distintas al cristianismo; el boom del comercio electrónico; la [desconfianza](https://www.infobae.com/america/america-latina/2022/01/13/la-tragedia-de-no-confiar-en-el-que-tenemos-al-lado-y-como-esa-desconfianza-frena-el-futuro-de-argentina-y-de-toda-america-latina/){:.external-link} en el prójimo; las consecuencias de la pandemia; “ciudades auto-céntricas”.
 
-Hay quienes pueden argumentar que fueron y están siendo reemplazados por terceros lugares _virtuales_. Discrepo totalmente. La comunicación digital por texto, aún incluyendo emojis, la ocasional videollamada, fotos, etcétera. nunca va a poder reemplazar la comunicación cara a cara. Se pierde el tono y el lenguaje corporal, quedando únicamente el componente verbal. Servers de Discord, foros, redes sociales, etc. podrán ser excelentes lugares de entretenimiento y/o comunicación pero _no es lo mismo_. Son sustitutos superficiales.
+Hay quienes pueden argumentar que fueron y están siendo reemplazados por terceros lugares _virtuales_. Discrepo totalmente. La comunicación digital por texto, aún incluyendo emojis, la ocasional videollamada, fotos, etcétera. **nunca** va a poder reemplazar la comunicación cara a cara. Se pierde el tono y el lenguaje corporal, quedando únicamente el componente verbal. Servers de Discord, foros, redes sociales, etc. podrán ser excelentes lugares de entretenimiento y/o comunicación pero _no es lo mismo_. Son sustitutos superficiales.
 
 Algunas personas incluso han (hemos, me incluyo) perdido el _segundo lugar_, el de trabajo. Lo que me lleva al próximo punto:
 
@@ -81,26 +83,24 @@ A mi parecer, empeoran la situación. Las redes sociales tienen un grado de anon
 
 El punto es, no sustituyen completamente la interacción cara a cara ni la vida en comunidad como sucedía en un tercer lugar. Pueden parecer un sustituto temporal pero es superficial, y a veces hasta perjudicial.
 
-4. Depresión y otros trastornos en aumento
+### 4. Depresión y otros trastornos en aumento
 
-Junto a los demás puntos se genera una especie de el huevo y la gallina. Aumenta la depresión porque aumenta la soledad y/o aumenta la soledad porque aumenta la depresión? Ambos, para mi. _Todo tiene que ver con todo._ Es un sistema de feedback positivo. De haber pasado por una depresión sé en carne propia cómo te lleva a aislarte aquella enfermedad, profundizando el ciclo vicioso de no ver gente, empeorar anímicamente, tener menos ganas de ver gente, etc.
+Junto a los demás puntos se genera una especie de el huevo y la gallina. [Aumenta la depresión](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3330161/) (entre otros trastornos mentales) porque aumenta la soledad y/o aumenta la soledad porque aumenta la depresión? Ambos. _Todo tiene que ver con todo._ Es un sistema de feedback positivo. De haber pasado por una depresión sé muy bien cómo te lleva a aislarte, profundizando el ciclo vicioso de no ver gente -> empeorar anímicamente en parte por este aislamiento -> tener aún menos ganas de ver gente, etc.
 
-.
-.
-.
+## Entonces?
 
-### Entonces?
-
-Quizás leíste todo lo anterior (o por arriba, entendible) y sentís que nada de todo lo que describo y se describe en los distintos links te afecta.
+Quizás leíste todo lo anterior (o por arriba, entendible) y sentís que nada de todo lo que describo o pienso y se describe en los distintos links te afecta.
 
 Aún tenés una especie de tercer o incluso hasta un cuarto lugar, con suerte.
 
 Quizás no trabajes de forma remota como yo (o al menos no un 100%) y después de trabajar todo el día con gente lo único que querés es no ver a nadie al llegar a tu hogar.
 
-Quizás estés en la universidad donde es difícil _no_ hacerse un grupo de amigos o pares por más chico que sea.
+Quizás estés en la universidad donde es más fácil hacerse un grupo de amigos o pares por más chico que sea (mucho tiempo juntos + intereses y objetivos en común = facilidad de establecer vínculos).
 
 Las experiencias son muy diversas y no puedo ni pretendo atajarme con todas. Y no me puedo imaginar ni tener idea de qué tipo de persona puede leer esto. Pero el punto es que _algo_ sucede sobre este tema y una sociedad más atomizada y compuesta por cada vez más individuos que sufren la soledad no es bueno para nadie.
 
-Hay una/s solución/es? Brevemente, no.
+Hay una/s solución/es? Depende la situación de cada uno.
 
-Soy pesimista sobre todos estos temas. No creo que se vayan a resolver naturalmente por mucho tiempo. No hay forma de volver a la "pre-digitalidad". Muchos terceros lugares siguen existiendo sólo que requiere un esfuerzo extra encontrarlos y buscar integrarse. Antes sin redes sociales, apps de citas, foros, etc. no había alternativa. O buscabas conocer gente en el trabajo o en el tercer lugar (o fiestas, recitales, etc.).
+Y lamentablemente soy pesimista sobre todos estos temas. No creo que se vayan a resolver naturalmente por mucho tiempo. No hay forma de volver a la "pre-digitalidad". Muy irónicamente este post lo compartí por Instagram, porque es la forma más conveniente de compartirlo con amigos, conocidos y familiares (pero prefiero mantenerlo con poca gente porque creo sus efectos "perjudiciales" suelen venir de seguir/ser seguido/a por mucha gente, incluso desconocida).
+
+Creo que a cualquier persona le haría bien tener el famoso tercer lugar, si no lo tiene. Muchos terceros lugares siguen existiendo. Sólo que hoy en día, creo yo, requiere un esfuerzo extra encontrarlos y buscar integrarse. Antes, sin trabajo remoto, redes sociales, apps de citas, foros, comercio electrónico, etc. y tantas otras conveniencias que se acumulan de la era digital en el siglo 21 no había alternativa. O buscabas conocer gente en el trabajo o en el tercer lugar (o fiestas, recitales, etc., también, por qué no).
