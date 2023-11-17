@@ -21,7 +21,7 @@ Esté uno/a infeliz, neutral o feliz al respecto de _estar solo sin otras person
 
 Hasta se puede mencionar un tercero de estar con gente y _aún_ sentirnos solos. Pero creo no hay una palabra que defina este último o al menos no la conozco.
 
-Y también cabe mencionar que no es lo mismo elegir estar solos sabiendo que tenemos a personas esperándonos o que quieren vernos que estar solos sin que haya nadie ahí para nosotros.
+Y tampoco es lo mismo  elegir estar solos sabiendo que tenemos a personas esperándonos o que quieren vernos que estar solos sin que haya nadie ahí para nosotros.
 
 Cuánto nos gusta estar más o menos solos depende de la personalidad y gustos particulares de cada uno. Cuánto tiempo. Con _cuánta_ gente compartir los momentos que _no_ estamos solos.
 
