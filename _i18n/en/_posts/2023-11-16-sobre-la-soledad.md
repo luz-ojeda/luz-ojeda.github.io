@@ -87,6 +87,8 @@ El punto es, no sustituyen completamente la interacción cara a cara ni la vida 
 
 Junto a los demás puntos se genera una especie de el huevo y la gallina. [Aumenta la depresión](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3330161/) (entre otros trastornos mentales) porque aumenta la soledad y/o aumenta la soledad porque aumenta la depresión? Ambos. _Todo tiene que ver con todo._ Es un sistema de feedback positivo. De haber pasado por una depresión sé muy bien cómo te lleva a aislarte, profundizando el ciclo vicioso de no ver gente -> empeorar anímicamente en parte por este aislamiento -> tener aún menos ganas de ver gente, etc.
 
+La/s pregunta/s de _por qué_ están aumentando los trastornos como la depresión (además de los 3 puntos anteriores, porque creo es aún más complejo) me es imposible de responder y ya es bastante largo este post realmente, será para otro, si es qué.
+
 ## Entonces?
 
 Quizás leíste todo lo anterior (o por arriba, entendible) y sentís que nada de todo lo que describo o pienso y se describe en los distintos links te afecta.
