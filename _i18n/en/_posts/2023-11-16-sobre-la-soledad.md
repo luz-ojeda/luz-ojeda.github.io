@@ -7,7 +7,7 @@ title: Sobre la soledad
 
 Un detalle que me gusta del inglés es la diferencia entre _solitude_ y _loneliness_:
 
-[Solitude](https://dictionary.cambridge.org/dictionary/english/solitude){:.external-link}: la situación de estar solo/a sin otras personas.
+[Solitude](https://dictionary.cambridge.org/dictionary/english/solitude){:.external-link}: la situación de estar solo/a (_alone_) sin otras personas.
 
 [Loneliness](https://dictionary.cambridge.org/dictionary/english/loneliness){:.external-link}: el estado de estar _solo_ ("the state of being _lonely_")
 
@@ -105,7 +105,7 @@ Quizás estés en la universidad donde es más fácil hacerse un grupo de amigos
 
 Las experiencias son muy diversas y no puedo ni pretendo atajarme con todas. Y no me puedo imaginar ni tener idea de qué tipo de persona puede leer esto. Pero el punto es que _algo_ sucede sobre este tema y una sociedad más atomizada y compuesta por cada vez más individuos que sufren la soledad no es bueno para nadie.
 
-Hay una/s solución/es? Depende la situación de cada uno.
+Hay alguna solución? Depende la situación de cada uno.
 
 Y lamentablemente soy pesimista sobre todos estos temas. No creo que se vayan a resolver naturalmente por mucho tiempo. No hay forma de volver a la "pre-digitalidad". Muy irónicamente este post lo compartí por Instagram, porque es la forma más conveniente de compartirlo con amigos, conocidos y familiares (pero prefiero mantenerlo con poca gente porque creo sus efectos "perjudiciales" suelen venir de seguir/ser seguido/a por mucha gente, incluso desconocida).
 
