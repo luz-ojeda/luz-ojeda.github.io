@@ -7,19 +7,21 @@ title: Sobre la soledad
 
 Un detalle que me gusta del inglés es la diferencia entre _solitude_ y _loneliness_:
 
-[Solitude](https://dictionary.cambridge.org/dictionary/english/solitude){:.external-link}: la situación de estar sólo/a sin otras personas.
+[Solitude](https://dictionary.cambridge.org/dictionary/english/solitude){:.external-link}: la situación de estar solo/a sin otras personas.
 
-[Loneliness](https://dictionary.cambridge.org/dictionary/english/loneliness){:.external-link}: el estado de estar _sólo_ ("the state of being _lonely_")
+[Loneliness](https://dictionary.cambridge.org/dictionary/english/loneliness){:.external-link}: el estado de estar _solo_ ("the state of being _lonely_")
 
 Y [_lonely_](https://dictionary.cambridge.org/dictionary/english/lonely){:.external-link}: infeliz al no estar con otras personas
 
-En español (hasta dónde sé) sólo tenemos una palabra para ambos casos:
+En español (hasta dónde sé) solo tenemos una palabra para ambos casos:
 
 **Soledad**. 
 
-Esté uno/a infeliz, neutral o feliz al respecto de _estar sólo sin otras personas_, la palabra es la misma. Y es una limitación. Pues creo que muchos pasamos por ambos estados. El de sufrir por estar solos y otros donde necesitamos recluirnos para pasar tiempo con nosotros mismos/solos.
+Esté uno/a infeliz, neutral o feliz al respecto de _estar solo sin otras personas_, la palabra es la misma. Y es una limitación. Pues creo que muchos pasamos por ambos estados. El de sufrir por estar solos y otros donde necesitamos recluirnos para pasar tiempo con nosotros mismos/solos.
 
-Y hasta se puede mencionar un tercero de estar con gente y _aún_ sentirnos solos. Pero creo no hay una palabra que defina este último o al menos no la conozco.
+Hasta se puede mencionar un tercero de estar con gente y _aún_ sentirnos solos. Pero creo no hay una palabra que defina este último o al menos no la conozco.
+
+Y también cabe mencionar que no es lo mismo elegir estar solos sabiendo que tenemos a personas esperándonos o que quieren vernos que estar solos sin que haya nadie ahí para nosotros.
 
 Cuánto nos gusta estar más o menos solos depende de la personalidad y gustos particulares de cada uno. Cuánto tiempo. Con _cuánta_ gente compartir los momentos que _no_ estamos solos.
 
@@ -27,7 +29,9 @@ Pero más allá de estas particularidades, todos necesitamos de ambos momentos d
 
 Personalmente pasé por momentos en los cuales [sufría mucho la soledad](https://www.luzojeda.com/2023/04/04/on-growing.html) (ya lo voy a traducir, sepa disculpar). Y otros donde la necesitaba. Por ejemplo: hoy trabajando de forma remota full time a veces, al terminar el día, me invade más un peso por la soledad (_loneliness_) que cuando estudiaba en la universidad de forma presencial y pasaba 10 horas o más con gente. En ese entonces llegaba a mi casa y necesitaba estar conmigo misma y nadie más (generalmente).
 
-## Sentirse sólo
+Sin embargo, hoy considero tengo el "privilegio" de disfrutar la _solitude_ la mayoría de las veces que estoy sola.
+
+## Sentirse solo
 
 Sobre este tema en particular tengo un sesgo de consumir mucho material en inglés enfocado a USA, Europa, Australia y NZ ("occidente"). No creo ni afirmo que haya un problema de _igual_ magnitud en Argentina ni en Latinoamérica que el de aquellas regiones.
 
@@ -79,7 +83,7 @@ Se ha escrito hasta el [cansancio](https://www.psycom.net/how-social-media-incre
 
 Creo que las redes sociales son causa, en parte, de lo ocurrido al tercer lugar y _a la vez_ consecuencia de la disminución en popularidad del mismo y el crecimiento del trabajo remoto. Son un síntoma, en parte, de a veces no tener _dónde_ ir.
 
-A mi parecer, empeoran la situación. Las redes sociales tienen un grado de anonimato y deshumanización que no permiten una conexión genuina. Alimentan una competencia insana (que siempre estuvo ahí pero desde los likes en Facebook y la replicación de esta feature en casi toda red social es _cuantificable_). Tienen sus beneficios, sin embargo, lo reconozco (uso Instagram, por ejemplo). Pero no creo que sean mayores a los costos. Especialmente en lo relacionado a la soledad, conocer gente, etcétera. El sólo hecho de que apliquemos el término _detox_ para referirnos a reducir drásticamente su uso como si de una droga se hablara creo nos dice bastante sobre sus beneficios y costos.
+A mi parecer, empeoran la situación. Las redes sociales tienen un grado de anonimato y deshumanización que no permiten una conexión genuina. Alimentan una competencia insana (que siempre estuvo ahí pero desde los likes en Facebook y la replicación de esta feature en casi toda red social es _cuantificable_). Tienen sus beneficios, sin embargo, lo reconozco (uso Instagram, por ejemplo). Pero no creo que sean mayores a los costos. Especialmente en lo relacionado a la soledad, conocer gente, etcétera. El solo hecho de que apliquemos el término _detox_ para referirnos a reducir drásticamente su uso como si de una droga se hablara creo nos dice bastante sobre sus beneficios y costos.
 
 El punto es, no sustituyen completamente la interacción cara a cara ni la vida en comunidad como sucedía en un tercer lugar. Pueden parecer un sustituto temporal pero es superficial, y a veces hasta perjudicial.
 
@@ -105,4 +109,4 @@ Hay una/s solución/es? Depende la situación de cada uno.
 
 Y lamentablemente soy pesimista sobre todos estos temas. No creo que se vayan a resolver naturalmente por mucho tiempo. No hay forma de volver a la "pre-digitalidad". Muy irónicamente este post lo compartí por Instagram, porque es la forma más conveniente de compartirlo con amigos, conocidos y familiares (pero prefiero mantenerlo con poca gente porque creo sus efectos "perjudiciales" suelen venir de seguir/ser seguido/a por mucha gente, incluso desconocida).
 
-Creo que a cualquier persona le haría bien tener el famoso tercer lugar, si no lo tiene. Muchos terceros lugares siguen existiendo. Sólo que hoy en día, creo yo, requiere un esfuerzo extra encontrarlos y buscar integrarse. Antes, sin trabajo remoto, redes sociales, apps de citas, foros, comercio electrónico, etc. y tantas otras conveniencias que se acumulan de la era digital en el siglo 21 no había alternativa. O buscabas conocer gente en el trabajo o en el tercer lugar (o fiestas, recitales, etc., también, por qué no).
+Creo que a cualquier persona le haría bien tener el famoso tercer lugar, si no lo tiene. Muchos terceros lugares siguen existiendo. solo que hoy en día, creo yo, requiere un esfuerzo extra encontrarlos y buscar integrarse. Antes, sin trabajo remoto, redes sociales, apps de citas, foros, comercio electrónico, etc. y tantas otras conveniencias que se acumulan de la era digital en el siglo 21 no había alternativa. O buscabas conocer gente en el trabajo o en el tercer lugar (o fiestas, recitales, etc., también, por qué no).
