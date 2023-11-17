@@ -25,4 +25,4 @@ Estudié Biología en la Universidad de Buenos Aires (UBA) del 2011 al 2019, cua
 - Música electrónica [en general](https://open.spotify.com/playlist/5b63esqqeHwZTCTkAFG0VA?si=a1370cce90044fe3){:.external-link} (techno, house progresivo, techno melódico); clásicos de los 80, EDM, rock progresivo , alternative rock y otros.
 - Plantas. Aunque vivo en un apartamento, cuido de muchas plantas y algún día me encantaría tener un jardín para cultivar mi propia comida y hasta flores.
 
-**[Contacto](/contacto)**
+**[Contacto](/es/contacto)**
