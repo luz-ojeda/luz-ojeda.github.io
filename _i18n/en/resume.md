@@ -41,6 +41,7 @@ A summary of my career so far including some tasks I was responsible for in each
 ### **Languages**
   * {: .skill} JavaScript and TypeScript
   * {: .skill} C# (basic)
+  * {: .skill} Python
   * {: .skill} SQL
   * HTML and CSS
 {: .skills-list}
