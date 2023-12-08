@@ -9,6 +9,7 @@
 - The mountains
 - Driving (on country roads, highways, etc. not in the city)
 - Some degree of minimalism. Especially on web pages, my desk and my devices screens.
+- Candles
 
 ## digital
 - [Anki](https://apps.ankiweb.net/){:.external-link}
@@ -25,6 +26,7 @@
 - Rubicon: The Last Years of the Roman Republic by Tom Holland
 - The Silver Chair by C.S. Lewis
     - Read the whole Chronicles of Narnia as a teenager and this one is my favourite
+- Las Malas by Camila Sosa Villada
 
 ## music
 ### these songs in particular
@@ -37,6 +39,7 @@
 - [Norwegian Wood - The Beatles](https://www.youtube.com/watch?v=Y_V6y1ZCg_8)
 - [Us and Them - Pink Floyd](https://www.youtube.com/watch?v=HoLhKJuGhK0)
 - [Self Control - Laura Branigan](https://youtu.be/RP0_8J7uxhs?si=rx8X3ljfUWB3msiH)
+- [Just Like Heaven - The Cure](https://youtu.be/n3nPiBai66M?si=qRFzxtmgIhNNPy_Q)
 
 ## movies/tv series
 - Interstellar from Christopher Nolan
@@ -45,7 +48,7 @@
 - Lord of the Rings trilogy
 - Sleepy Hollow
 - The Nightmare Before Christmas by Henry Selick/Tim Burton
-- Nausicaa of the Valley of the Wind by Hayao Miyazaki
+- Nausicaa of the Valley of the Wind by Hayao Miyazaki (and everything from Studio Ghibli of course)
 - Better Call Saul
 - Adventure Time
 - Lost

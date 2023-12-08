@@ -1,6 +1,6 @@
 (This is a now page, [you could make one](https://nownownow.com/about) on your own website too.)
 
-Updated october 28, 2023, from my home in **Buenos Aires, Argentina**.
+Updated October 28, 2023, from my home in **Buenos Aires, Argentina**.
 
 ## working on (besides my full time job)
 This website. A lot. In the last month I added the [pictures](/pictures) section which led me to create two Python scripts for the pipeline of: 1. Generating two pictures from the one I want to upload (one for mobile/table another one for big screens) and 2. Creating the corresponding markdown file used in the pictures folder collection. 
@@ -10,7 +10,7 @@ Maybe I will try to automate the whole thing after adding the file in the projec
 I updated the reading and resume sections as well as some general design/styling features.
 
 ## exercise
-Running two times a week, came back to it in august. I really needed to start working out again and it's doing wonders.
+Running two times a week, came back to it in August. I really needed to start working out again and it's doing wonders.
 
 ## [reading](/reading)
 A Tale of Two Cities

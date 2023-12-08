@@ -1,3 +1,19 @@
+- title: 'A History of God: The 4,000-Year Quest of Judaism, Christianity, and Islam'
+  link: https://www.goodreads.com/book/show/3873.A_History_of_God
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924363i/3873.jpg
+  genre: [religion, history, nonfiction]
+  status: currently reading
+  author: Karen Armstrong
+  reading_year: 2023
+
+- title: 'Tesis sobre una domesticación'
+  link: https://www.goodreads.com/book/show/49579871-tesis-sobre-una-domesticaci-n
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1576881109i/49579871.jpg
+  genre: [fiction, LGBT]
+  status: 2023-11-06
+  author: Camila Sosa Villada
+  reading_year: 2023
+
 - title: 'A Tale of Two Cities'
   link: https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344922523i/1953.jpg
@@ -205,7 +221,7 @@
 
 - title: 'Digital Minimalism: Choosing a Focused Life in a Noisy World'
   link: https://www.goodreads.com/book/show/40672036-digital-minimalism
-  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320470983i/91017.jpg
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1549433350i/40672036.jpg
   genre: [nonfiction, self help, productivity]
   status: 2022-07-15
   author: Cal Newport
@@ -221,15 +237,23 @@
 
 - title: 'Chatter: The Voice in Our Head, Why It Matters, and How to Harness It'
   link: https://www.goodreads.com/book/show/53330118-chatter
-  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320470983i/91017.jpg
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1606106010i/53330118.jpg
   genre: [history, nonfiction, ancient history]
   status: 2022-06-04
   author: Ethan Kross
   reading_year: 2022
 
+- title: 'Las Malas'
+  link: https://www.goodreads.com/book/show/44438256-las-malas
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552687189i/44438256.jpg
+  genre: [LGBT, fiction, queer]
+  status: 2022-03-01
+  author: Camila Sosa Villada
+  reading_year: 2022
+
 - title: 'Rubicon: The Last Years of the Roman Republic'
   link: https://www.goodreads.com/book/show/91017.Rubicon
-  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1606106010i/53330118.jpg
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320470983i/91017.jpg
   genre: [nonfiction, psychology, self help]
   status: 2022-01-30
   author: Tom Holland

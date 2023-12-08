@@ -21,8 +21,8 @@ Estudié Biología en la Universidad de Buenos Aires (UBA) del 2011 al 2019, cua
 - **Correr**. De larga distancia. Aunque voy y vengo, disfruto mucho cuando puedo ir más allá de los 8 km. Lo máximo que he corrido son 13 km. Siempre con música.
 - **Videojuegos**: Fallout New Vegas, Age of Empires, Kerbal Space Program y Hollow Knight son algunos de los juegos que más amé. También tengo un [Backloggd](https://www.backloggd.com/u/synthopia/){:.external-link}.
 - **Cocinar**
-- **Conducir** (en rutas y autopistas, sin importar a dónde)
+- **Manejar** (en rutas y autopistas, sin importar a dónde)
 - Música electrónica [en general](https://open.spotify.com/playlist/5b63esqqeHwZTCTkAFG0VA?si=a1370cce90044fe3){:.external-link} (techno, house progresivo, techno melódico); clásicos de los 80, EDM, rock progresivo , alternative rock y otros.
 - Plantas. Aunque vivo en un apartamento, cuido de muchas plantas y algún día me encantaría tener un jardín para cultivar mi propia comida y hasta flores.
 
-**[Contacto](/contacto)**
+**[Contacto](/es/contacto)**

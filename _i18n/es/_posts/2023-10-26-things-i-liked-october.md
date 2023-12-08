@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cosas interesantes de Octubre
+title: Cosas interesantes de octubre
 ---
 
 Todos los links son externos.

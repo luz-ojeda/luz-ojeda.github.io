@@ -43,6 +43,7 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
 ### **Lenguajes**
   * {: .skill} JavaScript and TypeScript
   * {: .skill} C# (basic)
+  * {: .skill} Python
   * {: .skill} SQL
   * HTML and CSS
 {: .skills-list}
