@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1
+title: Tiempo pasado
 ---
 
 No _todo_ tiempo pasado fue mejor.
