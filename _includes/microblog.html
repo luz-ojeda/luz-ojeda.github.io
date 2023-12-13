@@ -1,1 +1,19 @@
-<div>hello</div>
+{%- assign date_format = "%b %-d, %Y" -%}
+{% assign sorted_microposts = site.microposts | reverse %}
+<ul class="microposts-list posts-list-padding">
+    {% for micropost in sorted_microposts %}
+        {% assign micropost_lang = micropost.url | slice: 12, 2 %}
+        {% if micropost_lang == site.lang %}
+        <li>
+            <div class="flex justify-content-between">
+                <h3>
+                    {{ micropost.title }}
+                </h3>
+                <span class="date">{{ micropost.date | date: date_format }}</span>
+            </div>
+            <p>{{ micropost.content }}</p>
+        </li>
+        <hr />
+        {% endif %}
+    {% endfor %}
+</ul>

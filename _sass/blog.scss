@@ -3,6 +3,14 @@
     padding-top: 12px;
 }
 
+.microposts-list {
+    list-style: none;
+}
+
+.posts-list-padding {
+    padding-left: 0;
+}
+
 .post {
     &:not(:last-of-type) {
         margin-bottom: 16px;
