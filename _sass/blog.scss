@@ -33,6 +33,10 @@
     Mobile
 -----------*/
 @media (max-width: $tabletBreakpoint) {
+    .posts-list-padding {
+        padding-left: 20px;
+    }
+
     .posts-list {
         margin-top: 0;
         padding-top: 0;
