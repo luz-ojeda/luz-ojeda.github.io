@@ -1,8 +1,16 @@
+- title: 'The Left Hand of Darkness'
+  link: https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1488213612i/18423.jpg
+  genre: [science fiction, fiction, fantasy]
+  status: currently reading
+  author: Ursula K. Le Guin
+  reading_year: 2023
+
 - title: 'A History of God: The 4,000-Year Quest of Judaism, Christianity, and Islam'
   link: https://www.goodreads.com/book/show/3873.A_History_of_God
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924363i/3873.jpg
   genre: [religion, history, nonfiction]
-  status: currently reading
+  status: 2023-12-10
   author: Karen Armstrong
   reading_year: 2023
 
