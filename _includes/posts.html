@@ -1,11 +1,11 @@
-<ul class="posts-list">
+<ul class="posts-list posts-list-padding">
     {%- assign date_format = "%b %-d, %Y" -%} {%- for post in site.posts -%}
     <li class="post">
-        <h3 class="post-title">
+        <h2 class="post-title">
             <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
                 {{ post.title | escape }}
             </a>
-        </h3>
+        </h2>
         <span class="date">{{ post.date | date: date_format }}</span>
     </li>
     {%- endfor -%}

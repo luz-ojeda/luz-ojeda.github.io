@@ -12,6 +12,7 @@ plugins:
 
 collections:
   - pictures
+  - microposts
 
 # Custom variables
 github_url: 'https://github.com/luz-ojeda'
