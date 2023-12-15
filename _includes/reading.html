@@ -20,6 +20,7 @@
                     <div>
                         <h3 class="book-title">
                             <a class="book-title" href="{{ book.link }}" target="_blank">{{ book.title }}</a>
+                            {% if book.loved %}*{% endif %}
                         </h3>
                         <div class="book-author">
                             {% if site.lang == 'en' %} by {% endif %}
