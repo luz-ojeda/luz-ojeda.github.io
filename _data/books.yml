@@ -219,6 +219,70 @@
   author: Cal Newport
   reading_year: 2022
 
+- title: 'The Fountains of Paradise'
+  link: https://www.goodreads.com/book/show/149049.The_Fountains_of_Paradise
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344265959i/149049.jpg
+  genre: [science fiction, fiction, classics]
+  status: 2022-11-19
+  author: Arthur C. Clarke
+  reading_year: 2022
+
+- title: 'What I Talk About When I Talk About Running'
+  link: https://www.goodreads.com/book/show/2195464.What_I_Talk_About_When_I_Talk_About_Running
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473397159i/2195464.jpg
+  genre: [fiction, memoir, biography]
+  status: 2022-11-11
+  author: Haruki Murakami
+  reading_year: 2022
+
+- title: 'Sum: Forty Tales from the Afterlives'
+  link: https://www.goodreads.com/book/show/4948826-sum
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320528453i/4948826.jpg
+  genre: [fiction, short stories, philosophy]
+  status: 2022-11-06
+  author: David Eagleman
+  reading_year: 2022
+
+- title: 'The Collapse of Complex Societies'
+  link: https://www.goodreads.com/book/show/8211037-the-collapse-of-complex-societies
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328316731i/8211037.jpg
+  genre: [history, nonfiction, politics]
+  status: 2022-09-30
+  author: Joseph A. Tainter
+  reading_year: 2022
+
+- title: 'Four Thousand Weeks: Time Management for Mortals'
+  link: https://www.goodreads.com/book/show/54785515-four-thousand-weeks
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627425434i/54785515.jpg
+  genre: [nonfiction, self help, productivity, philosophy]
+  status: 2022-09-20
+  author: Oliver Burkem
+  reading_year: 2022
+
+- title: 'Stolen Focus'
+  link: https://www.goodreads.com/book/show/57933306-stolen-focus
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626718328i/57933306.jpg
+  genre: [nonfiction, self help, psychology]
+  status: 2022-09-16
+  author: Johann Hari
+  reading_year: 2022
+
+- title: 'Stop Reading the News: A Manifesto for a Happier, Calmer and Wiser Life'
+  link: https://www.goodreads.com/book/show/48581422-stop-reading-the-news
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1572070830i/48581422.jpg
+  genre: [nonfiction, self help, psychology]
+  status: 2022-09-03
+  author: Rolf Dobelli
+  reading_year: 2022
+
+- title: 'Dynasty: The Rise and Fall of the House of Caesar'
+  link: https://www.goodreads.com/book/show/40605640-dynasty
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1529614810i/40605640.jpg
+  genre: [history, nonfiction, ancient history]
+  status: 2022-08-28
+  author: Tom Holland
+  reading_year: 2022
+
 - title: '21 Lessons for the 21st Century'
   link: https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1564577305i/38820046.jpg
@@ -251,12 +315,52 @@
   author: Ethan Kross
   reading_year: 2022
 
+- title: 'Hyperion'
+  link: https://www.goodreads.com/book/show/77566.Hyperion
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405546838i/77566.jpg
+  genre: [fiction, science fiction, fantasy]
+  status: 2022-28-05
+  author: Dan Simmons
+  reading_year: 2022
+
+- title: 'Hyperion'
+  link: https://www.goodreads.com/book/show/77566.Hyperion
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405546838i/77566.jpg
+  genre: [fiction, science fiction, fantasy]
+  status: 2022-28-05
+  author: Dan Simmons
+  reading_year: 2022
+
+- title: 'Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones'
+  link: https://www.goodreads.com/book/show/40121378-atomic-habits
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg
+  genre: [nonfiction, self help, psychology]
+  status: 2022-12-04
+  author: James Clear
+  reading_year: 2022
+
+- title: 'The Psychedelic Renaissance: Reassessing the Role of Psychedelic Drugs in 21st Century Psychiatry and Society'
+  link: https://www.goodreads.com/book/show/16202556-the-psychedelic-renaissance
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356115469i/16202556.jpg
+  genre: [psychology, psychiatry, nonfiction]
+  status: 2022-04-04
+  author: Ben Sessa
+  reading_year: 2022
+
 - title: 'Las Malas'
   link: https://www.goodreads.com/book/show/44438256-las-malas
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552687189i/44438256.jpg
   genre: [LGBT, fiction, queer]
   status: 2022-03-01
   author: Camila Sosa Villada
+  reading_year: 2022
+
+- title: 'The Humans'
+  link: https://www.goodreads.com/book/show/16130537-the-humans
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353739654i/16130537.jpg
+  genre: [fiction, science fiction, fantasy]
+  status: 2022-02-23
+  author: Matt Haig
   reading_year: 2022
 
 - title: 'Rubicon: The Last Years of the Roman Republic'
