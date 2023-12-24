@@ -1,6 +1,6 @@
 (Esta es una página "now" (ahora), [también podés crear una](https://nownownow.com/about) en tu propio sitio web).
 
-Actualizado el  de diciembre de 2023, desde mi departamento en **Buenos Aires, Argentina**.
+Actualizado el 24 de diciembre de 2023, desde mi departamento en **Buenos Aires, Argentina**.
 
 Cerrando el año. Terminé la facultad aprobando las 3 materias que me anoté, sintiéndome un poco saturada y con muy poco tiempo. 
 

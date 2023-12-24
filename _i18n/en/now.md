@@ -1,6 +1,6 @@
 (This is a now page, [you could make one](https://nownownow.com/about) on your own website too.)
 
-Updated on December 2023, from my apartment in **Buenos Aires, Argentina**.
+Updated on December 24 2023, from my apartment in **Buenos Aires, Argentina**.
 
 Closing the year. I finished the semester passing the 3 subjects I signed up for, feeling a little saturated and with very little time.
 
