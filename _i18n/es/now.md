@@ -1,20 +1,21 @@
 (Esta es una página "now" (ahora), [también podés crear una](https://nownownow.com/about) en tu propio sitio web).
 
-Actualizado el 28 de octubre de 2023, desde mi departamento en **Buenos Aires, Argentina**.
+Actualizado el  de diciembre de 2023, desde mi departamento en **Buenos Aires, Argentina**.
+
+Cerrando el año. Terminé la facultad aprobando las 3 materias que me anoté, sintiéndome un poco saturada y con muy poco tiempo. 
 
 ## trabajando en
-Esta página web. Mucho. En el último mes agregué la sección [imágenes](/imágenes), lo que me llevó a crear dos scripts en Python para el proceso de: 1. Generar dos imágenes a partir de la que quiero cargar (una para celular/tablet y otra para pantallas grandes) y 2. Crear el archivo de rebajas correspondiente utilizado en la colección de carpetas de imágenes.
+En nada hasta enero. Un breve receso al mismo tiempo que la semana de "recargo" de mi empresa (donde nadie trabaja del 24 al 2 de enero) y después el terminar la facultad, haber trabajado bastante en esta página y ya estar conforme con ella.
 
-Tal vez intente automatizar todo a partir de subir la imagen a la carpeta de activos del proyecto. También actualicé las secciones de lectura y cv, así como algunos aspectos del diseño/estilo general de la página.
+Mi plan es empezar en enero una nueva web app a la cual le quiero dedicar todo 2024, sin apurarme, con el objetivo de deployarla a un ambiente productivo con dominio propio. Ampliaremos.
 
 ## ejercicio
-Corriendo dos veces por semana, desde agosto. Realmente necesitaba empezar a hacer ejercicio de nuevo y me está haciendo muy bien, en todo sentido.
+Cambie el running por el gimnasio al cual voy 3 veces por semana ya hace un mes y diez días. Sentía más ganas de levantar peso y terminar más agotada de lo que quedaba corriendo. Extraño un poco el running ya, igual.
 
 ## [leyendo](/leyendo)
-A Tale of Two Cities de Charles Dickens
+Ahora mismo On Writing de Stephen King.
 
-## estudiando
-Terminando mi primer cuatrimestre de ingeniería en informática en la universidad. Empecé con arquitectura de computadores, sistemas de información y el primer curso de programación (de un total de 4). Primera vez estudiando con un trabajo de tiempo completo porque durante la carrera de Biología no trabajé o trabajé medio tiempo. Muy agotador, pero gratificante.
+Este mes terminé [A history of God](https://www.goodreads.com/book/show/3873.A_History_of_God), más que recomendado. Y leí también [The Left Hand of Darkness](https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness) y [Hell Yeah or No](https://www.goodreads.com/book/show/52523856-hell-yeah-or-no)
 
 ## otros
-Estoy cocinando muchas recetas nuevas del libro [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science). Le di una lectura amplia y, durante el último mes, me centré principalmente en el primer capítulo.
+Intentando recetas de los capítulos 3 y 4 de [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science)
