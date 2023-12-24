@@ -1,22 +1,21 @@
 (This is a now page, [you could make one](https://nownownow.com/about) on your own website too.)
 
-Updated October 28, 2023, from my home in **Buenos Aires, Argentina**.
+Updated on December 2023, from my apartment in **Buenos Aires, Argentina**.
 
-## working on (besides my full time job)
-This website. A lot. In the last month I added the [pictures](/pictures) section which led me to create two Python scripts for the pipeline of: 1. Generating two pictures from the one I want to upload (one for mobile/table another one for big screens) and 2. Creating the corresponding markdown file used in the pictures folder collection. 
+Closing the year. I finished the semester passing the 3 subjects I signed up for, feeling a little saturated and with very little time.
 
-Maybe I will try to automate the whole thing after adding the file in the project assets folder. 
+## working in
+Nothing until January. A short break at the same time as my company's "recharge" week (where no one works from December 24 to January 2) as well as finishing college, having worked a lot on this page and already being satisfied with it.
 
-I updated the reading and resume sections as well as some general design/styling features.
+My plan is to start a new web app in January to which I want to dedicate all of 2024, without rushing, with the aim of deploying it to a productive environment with its own domain.
 
 ## exercise
-Running two times a week, came back to it in August. I really needed to start working out again and it's doing wonders.
+I exchanged running for the gym, which I go to 3 times a week for a month and ten days already. I felt more like lifting weights and ending up more exhausted than running. I miss running already a little now, tho.
 
 ## [reading](/reading)
-A Tale of Two Cities
+Right now [On Writing](https://www.goodreads.com/book/show/10569.On_Writing) by Stephen King.
 
-## studying
-Finishing my first term of software engineering in college. Started with computer architecture, information systems and a the first course on programming (of a total of 4). First time studying with a full time job because during my Biology studies I didn't work or worked part time. Very tiring, but rewarding of course.
+This month I finished [A History of God](https://www.goodreads.com/book/show/3873.A_History_of_God), highly recommended. And I also read [The Left Hand of Darkness](https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness) and [Hell Yeah or No](https://www.goodreads.com/book/show /52523856-hell-yeah-or-no)
 
-## other
-I am cooking a lot of new recipes from the book [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science). Gave it a broad read and, for the last month, focused mainly on the first chapter.
+## others
+Trying recipes from chapters 3 and 4 of [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science)

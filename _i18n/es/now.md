@@ -5,7 +5,7 @@ Actualizado el  de diciembre de 2023, desde mi departamento en **Buenos Aires, A
 Cerrando el año. Terminé la facultad aprobando las 3 materias que me anoté, sintiéndome un poco saturada y con muy poco tiempo. 
 
 ## trabajando en
-En nada hasta enero. Un breve receso al mismo tiempo que la semana de "recargo" de mi empresa (donde nadie trabaja del 24 al 2 de enero) y después el terminar la facultad, haber trabajado bastante en esta página y ya estar conforme con ella.
+En nada hasta enero. Un breve receso al mismo tiempo que la semana de "recargo" de mi empresa (donde nadie trabaja del 24 de diciembre al 2 de enero) y después el terminar la facultad, haber trabajado bastante en esta página y ya estar conforme con ella.
 
 Mi plan es empezar en enero una nueva web app a la cual le quiero dedicar todo 2024, sin apurarme, con el objetivo de deployarla a un ambiente productivo con dominio propio. Ampliaremos.
 
