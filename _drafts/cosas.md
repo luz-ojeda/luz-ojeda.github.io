@@ -1,1 +1,0 @@
-Siempre se puede (y a veces esta bueno querer) tener más. Pero nunca todo. Y eso no debe afectar la capacidad para disfrutar y valorar lo que ya tenemos.
