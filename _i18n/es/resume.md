@@ -18,8 +18,8 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
 
 ## Educación
 ---
-
 - Ingeniería en Informática - Universidad Argentina de la Empresa (Agosto 2023 - En curso)
+- Licenciatura en Ciencias Biológicas - Universidad de Buenos Aires (UBA) (Abr 2012 - may 2019)
 
 ## Cursos y certificaciones
 ---
