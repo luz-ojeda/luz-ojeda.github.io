@@ -1,4 +1,4 @@
-**¡Hola!** Soy Luz, una humana de 29 años de Buenos Aires, Argentina, Sudamérica.
+**¡Hola!** Soy Luz, una humana de 30 años de Buenos Aires, Argentina, Sudamérica.
 
 ## Esta página
 
