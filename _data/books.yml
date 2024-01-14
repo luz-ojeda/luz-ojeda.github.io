@@ -1,8 +1,32 @@
+- title: 'Exercised: Why Something We Never Evolved to Do Is Healthy and Rewarding'
+  link: https://www.goodreads.com/book/show/49358915-exercised
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594006013i/49358915.jpg
+  genre: [nonfiction, health, science]
+  status: currently reading
+  author: Daniel E. Lieberman
+  reading_year: 2024
+
+- title: 'Ficciones'
+  link: https://www.goodreads.com/book/show/426504.Ficciones
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621713120i/426504.jpg
+  genre: [fiction, short stories, fantasy]
+  status: 2024-01-04
+  author: Jorge Luis Borges
+  reading_year: 2024
+
+- title: "Hell Yeah or No: What's Worth Doing"
+  link: https://www.goodreads.com/book/show/52523856-hell-yeah-or-no
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594784873i/52523856.jpg
+  genre: [self help, nonfiction, personal development]
+  status: 2023-12-21
+  author: Derek Sivers
+  reading_year: 2023
+
 - title: 'The Left Hand of Darkness'
   link: https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1488213612i/18423.jpg
   genre: [science fiction, fiction, fantasy]
-  status: currently reading
+  status: 2023-12-18
   author: Ursula K. Le Guin
   reading_year: 2023
 
