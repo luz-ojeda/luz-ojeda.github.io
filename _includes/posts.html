@@ -2,7 +2,7 @@
     {%- assign date_format = "%b %-d, %Y" -%} {%- for post in site.posts -%}
     <li class="post">
         <h2 class="post-title">
-            <a href="{{ site.baseurl }}{{ post.url | relative_url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}">
                 {{ post.title | escape }}
             </a>
         </h2>
