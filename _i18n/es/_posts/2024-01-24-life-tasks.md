@@ -5,7 +5,7 @@ title: Tareas de la vida
 
 ## Resumen
 
-David Brooks propone en su libro [“Cómo conocer a una persona”](https://www.goodreads.com/book/show/112974860-how-to-know-a-person) una teoría de “tareas de la vida”, adaptada de psicólogos como Erikson y Kegan. Se dividen en Imperial (control y reconocimiento), Interpersonal (relaciones y pertenencia), Consolidación de carrera (encontrar una vocación), Generativa (servir al mundo) y la última de Integridad vs Desesperanza (aceptar la vida). No todos pasan por las mismas tareas ni al mismo ritmo, pero este modelo ayuda a entender el crecimiento personal y fomenta la empatía hacia los demás.
+David Brooks propone en su libro [“Cómo conocer a una persona”](https://www.goodreads.com/book/show/112974860-how-to-know-a-person) una teoría de “tareas de la vida”, adaptada de psicólogos como Erikson y Kegan. Se dividen en Imperial (control y reconocimiento), Interpersonal (relaciones y pertenencia), Consolidación de carrera (encontrar una vocación), Generativa (servir al mundo) y la última de Integridad vs Desesperanza (aceptar la vida frente a la muerte o caer en la desesperanza). No todos pasan por las mismas tareas ni al mismo ritmo, pero este modelo ayuda a entender el crecimiento personal y fomenta la empatía hacia los demás.
 
 ---
 
