@@ -43,7 +43,7 @@ Alguien con conciencia interpersonal posee una mayor capacidad de experimentar l
 
 Durante esta tarea es que podemos pasar a planos metafísicos (no vemos solo lo que somos si no lo que podríamos ser en un ideal).
 
-Las separaciones pueden resultar devastadores ya que sentimos perder nuestra identidad o parte de la misma, ya que otros son la fuente de nuestro valor y aprobación.
+Las separaciones pueden resultar devastadoras ya que sentimos perder nuestra identidad o parte de la misma, ya que otros son la fuente de nuestro valor y aprobación.
 
 Al notar las limitaciones de esta conciencia puramente interpersonal es que nos damos cuenta de que si bien las relaciones son importantes y cruciales en la vida, no podemos dejarnos controlar por las mismas ni basar nuestra identidad enteras en ellas. Debemos encontrar otra tarea.
 
@@ -53,7 +53,7 @@ En cierto punto de nuestras vidas tenemos que encontrar una carrera a la cual de
 
 Durante esta tarea es que alcanzamos la consolidación de esta carrera o experimentamos “deriva”.
 
-Pasamos por un necesario periodo de experimentación donde descubrimos qué nos gusta y qué no. Hasta que, idealmente, encontramos algo que nos apasiona.
+Pasamos por un necesario período de experimentación donde descubrimos qué nos gusta y qué no. Hasta que, idealmente, encontramos algo que nos apasiona.
 
 Las personas en esta tarea se dejan llevar por un deseo de maestría, el placer de ser o volverse realmente buenos en algo. Como ocurre en las demás tareas, la conciencia cambia.
 
