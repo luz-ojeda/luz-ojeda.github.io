@@ -17,7 +17,7 @@ title: Things I liked in December 2023 and January
     - In decreasing order of retention rate: teach > practice > engage in group discussion > watch a demonstration > watch audovisual > read > listen to a lecture
 - [The quality of your life is the quality of the people you get to know: Illuminating the David Brooks way](https://jakeseliger.com/2023/11/28/the-quality-of-your-life-is-the-quality-of-the-people-you-get-to-know-illuminating-the-david-brooks-way/)
     - Post that led me to read [How to Know a Person](https://www.goodreads.com/book/show/112974860-how-to-know-a-person)
-- [We will al become boring](https://www.louiseperry.co.uk/p/we-will-all-become-boring)
+- [We will all become boring](https://www.louiseperry.co.uk/p/we-will-all-become-boring)
     - "Liberal individualism is great for people when they don’t depend on others. It’s not so great when they do."
 - [40 questions to ask yourself every year](https://stephango.com/40-questions)
     - One of the greatest blog posts I've come across from the creator of Obsidian. 40 interesting questions that make you _really_ think about the past year.

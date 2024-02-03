@@ -42,8 +42,12 @@ footer {
     display: none;
 
     @media (max-width: $smallScreenBreakpoint) {
+        background-color: $bgColor;
+        bottom: 0;
         display: block;
-        height: 32px;
+        height: 72px;
+        position: fixed;
+        width: 100%;
     }
 }
 
@@ -124,6 +128,12 @@ Dark mode
     @media (max-width: $tabletBreakpoint) {
         li {
             line-height: 1.8;
+        }
+    }
+
+    footer {
+        @media (max-width: $smallScreenBreakpoint) {
+            background-color: $fgColor;
         }
     }
 }
