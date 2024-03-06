@@ -13,7 +13,7 @@ retailers and brands. Data was then processed into Excel files for later analysi
 - ### May 2020 - Aug 2021: **Southworks**
   - Developed an API for a social network app using an infrastructure with **Microsoft Azure** and **C#** in the backend in a repository-service pattern. It also included a front-end backoffice made with React for the app employees.
   - npm package including a React component for Discovery backed up by a serverless architecture (AWS Lambda, API Gateway and CloudFront)
-- ### Oct 2019 - Apr 2021: **[BigBox](https://www.bigbox.com.ar/)**
+- ### Oct 2019 - Apr 2020: **[BigBox](https://www.bigbox.com.ar/)**
   - Redesigned the user panel consisting of **VueJS** components
   - Redesigned the checkout flow along with 3 colleagues from the front-end area with a one-month deadline. Tasks included the creation and design of new components, routing configuration and creation/modification of GraphQL queries and mutations
 
