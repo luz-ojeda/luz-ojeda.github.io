@@ -1,20 +1,14 @@
 (Esta es una página "now" (ahora), [también podés crear una](https://nownownow.com/about) en tu propio sitio web).
 
-Actualizado el 28 de octubre de 2023, desde mi departamento en **Buenos Aires, Argentina**.
+Actualizado el 7 de marzo de 2023, desde mi departamento en **Buenos Aires, Argentina**.
 
 ## trabajando en
-Esta página web. Mucho. En el último mes agregué la sección [imágenes](/imágenes), lo que me llevó a crear dos scripts en Python para el proceso de: 1. Generar dos imágenes a partir de la que quiero cargar (una para celular/tablet y otra para pantallas grandes) y 2. Crear el archivo de rebajas correspondiente utilizado en la colección de carpetas de imágenes.
-
-Tal vez intente automatizar todo a partir de subir la imagen a la carpeta de activos del proyecto. También actualicé las secciones de lectura y cv, así como algunos aspectos del diseño/estilo general de la página.
-
-## ejercicio
-Corriendo dos veces por semana, desde agosto. Realmente necesitaba empezar a hacer ejercicio de nuevo y me está haciendo muy bien, en todo sentido.
+Una aplicación web de cocina en Svelte/C#. Terminé la API CRUD con recetas que encontré en una base de datos libre. Los analicé y obtuve la información necesaria de cada una con scripts de Python. Ahora estoy trabajando en el front-end, haciendo los diseños de forma esquemática con Figma e implementándolos con SvelteKit.
 
 ## [leyendo](/leyendo)
-A Tale of Two Cities de Charles Dickens
+[The Design of Everyday Things] (https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things) de Donald A. Norman.
 
-## estudiando
-Terminando mi primer cuatrimestre de ingeniería en informática en la universidad. Empecé con arquitectura de computadores, sistemas de información y el primer curso de programación (de un total de 4). Primera vez estudiando con un trabajo de tiempo completo porque durante la carrera de Biología no trabajé o trabajé medio tiempo. Muy agotador, pero gratificante.
+[Rebecca](https://www.goodreads.com/book/show/203466580-rebecca), una novela de misterio gótica de Daphne du Maurier.
 
 ## otros
-Estoy cocinando muchas recetas nuevas del libro [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science). Le di una lectura amplia y, durante el último mes, me centré principalmente en el primer capítulo.
+Aprendiendo a cocinar y terminando el libro [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science). No puedo recomendarlo lo suficiente para cualquiera que quiera aprender a cocinar sabiendo los porqués detrás de los cómos.

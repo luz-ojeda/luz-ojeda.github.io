@@ -12,7 +12,7 @@ title: Cosas interesantes de noviembre
      - El conocimiento tácito es aquel que no se puede captar únicamente con palabras.
 - [Por qué tengo una página de inicio](https://flamedfury.com/manifesto/#why-i-have-a-homepage)
 - [cabagge sorter](https://cabbagesorter.neocities.org/)
-     - Me encantaron las vibraciones web de estilo antiguo de este sitio web.
+     - Me encantaron las vibes de los 2000s de esta página.
 - [Escribiendo una oración por renglón](https://sive.rs/1s)
      - Vengo aplicando consejo últimamente y me resulta excelente. Ayuda a evitar oraciones largas innecesarias y a escribir con mayor claridad.
 - [La IndieWeb para todos](https://mxb.dev/blog/the-indieweb-for-everyone/)

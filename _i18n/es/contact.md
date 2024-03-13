@@ -1,5 +1,5 @@
 - [Linkedin]({{site.linkedin_url}})
-- [Email](mailto:lezojeda@gmail.com)
+- [Email](mailto:{{site.email}})
 - [Instagram]({{site.instagram_url}})
 - [Steam]({{site.steam_url}})
 

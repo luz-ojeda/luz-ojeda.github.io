@@ -25,10 +25,13 @@ h1, .site-title {
 h2 {
     font-size: 22px;
     line-height: 1.2;
+    margin-bottom: 16px;
+    margin-top: 24px;
 }
 
 h3 {
     margin-bottom: 8px;
+    margin-top: 16px;
 }
 
 h2 {
@@ -72,5 +75,9 @@ p {
         @media (prefers-color-scheme: dark) {
             line-height: 2;
         }
+    }
+
+    h2 {
+        font-size: 18px;
     }
 }

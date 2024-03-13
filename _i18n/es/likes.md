@@ -16,7 +16,6 @@
 
 ## libros
 - [Serie de la Fundación](https://en.wikipedia.org/wiki/Foundation_series){:.external-link} por Isaac Asimov
-     - Pocos libros me hicieron llorar como el final de Segunda Fundación.
 - El Silmarillion de JRR Tolkien
 - Viaje al Centro de la Tierra de Julio Verne
      - Uno de los primeros libros que leí cuando era adolescente, me enganchó desde el principio.

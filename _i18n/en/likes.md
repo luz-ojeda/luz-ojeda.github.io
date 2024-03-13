@@ -19,7 +19,6 @@
 
 ## books
 - [Foundation series](https://en.wikipedia.org/wiki/Foundation_series){:.external-link} by Isaac Asimov
-    - Few books made me cry like the end of Second Foundation.
 - The Silmarillion by JRR Tolkien
 - Journey to the Center of the Earth by Jules Verne
     - One of the first books I read when I was a teenager, hooked me from the beginning

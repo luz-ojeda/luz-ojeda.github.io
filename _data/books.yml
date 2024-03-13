@@ -1,8 +1,49 @@
+- title: "Salem's lot"
+  link: https://www.goodreads.com/book/show/11590._Salem_s_Lot
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327891565i/11590.jpg
+  genre: [horror, fiction, vampires]
+  status: 2024-02-18
+  author: Stephen King
+  reading_year: 2024
+  loved: true
+
+- title: 'How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen'
+  link: https://www.goodreads.com/book/show/112974860-how-to-know-a-person
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1684815605i/112974860.jpg
+  genre: [nonfiction, psychology, relationships]
+  status: 2024-01-26
+  author: David Brooks
+  reading_year: 2024
+
+- title: 'Exercised: Why Something We Never Evolved to Do Is Healthy and Rewarding'
+  link: https://www.goodreads.com/book/show/49358915-exercised
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594006013i/49358915.jpg
+  genre: [nonfiction, health, science]
+  status: 2024-01-19
+  author: Daniel E. Lieberman
+  reading_year: 2024
+
+- title: 'Ficciones'
+  link: https://www.goodreads.com/book/show/426504.Ficciones
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1621713120i/426504.jpg
+  genre: [fiction, short stories, fantasy]
+  status: 2024-01-04
+  author: Jorge Luis Borges
+  reading_year: 2024
+
+- title: "Hell Yeah or No: What's Worth Doing"
+  link: https://www.goodreads.com/book/show/52523856-hell-yeah-or-no
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594784873i/52523856.jpg
+  genre: [self help, nonfiction, personal development]
+  status: 2023-12-21
+  author: Derek Sivers
+  reading_year: 2023
+
 - title: 'The Left Hand of Darkness'
   link: https://www.goodreads.com/book/show/18423.The_Left_Hand_of_Darkness
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1488213612i/18423.jpg
   genre: [science fiction, fiction, fantasy]
-  status: currently reading
+  status: 2023-12-18
   author: Ursula K. Le Guin
   reading_year: 2023
 
@@ -13,6 +54,7 @@
   status: 2023-12-10
   author: Karen Armstrong
   reading_year: 2023
+  loved: true
 
 - title: 'Tesis sobre una domesticación'
   link: https://www.goodreads.com/book/show/49579871-tesis-sobre-una-domesticaci-n
@@ -21,6 +63,7 @@
   status: 2023-11-06
   author: Camila Sosa Villada
   reading_year: 2023
+  loved: true
 
 - title: 'A Tale of Two Cities'
   link: https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities
@@ -45,6 +88,7 @@
   status: 2023-08-31
   author: Liu Cixin
   reading_year: 2023
+  loved: true
 
 - title: "The Inner Level: How More Equal Societies Reduce Stress, Restore Sanity and Improve Everyone's Well-Being"
   link: https://www.goodreads.com/book/show/40163368-the-inner-level
@@ -53,6 +97,7 @@
   status: 2023-08-17
   author: Richard G. Wilkinson
   reading_year: 2023
+  loved: true
 
 - title: 'Post Office'
   link: https://www.goodreads.com/book/show/40409718-post-office
@@ -70,6 +115,7 @@
   status: 2023-08-04
   author: Liu Cixin
   reading_year: 2023
+  loved: true
 
 - title: 'Cómo desaparecer completamente'
   link: https://www.goodreads.com/book/show/6759914-c-mo-desaparecer-completamente
@@ -79,6 +125,7 @@
   highlight: 'No me gusta el nombre chicharra: ojalá mantuvieran siempre el nombre cícadas, que se usa sólo cuando están en etapa ninfal. Si se llamaran cícadas, su ruido de verano me recordaría las flores violetas de los jacarandás en la costanera del Paraná o las mansiones de piedra blanca con sus escalinatas y sus sauces. Pero así, como chicharras, me recuerdan el calor, la carne podrida, los cortes de electricidad, a los borrachos que miran con ojos ensangrentados desde los bancos de la plaza.'
   author: Mariana Enríquez
   reading_year: 2023
+  loved: true
 
 - title: 'Las cosas que perdimos en el fuego'
   link: https://www.goodreads.com/book/show/28787166-las-cosas-que-perdimos-en-el-fuego
@@ -111,6 +158,7 @@
   status: 2023-05-20
   author: Peter Turchin
   reading_year: 2023
+  loved: true
 
 - title: 'Ubik'
   link: https://www.goodreads.com/book/show/22590.Ubik
@@ -128,6 +176,7 @@
   highlight: "The price we pay to assume technology’s power is alienation. The toll can be particularly high with our intellectual technologies. The tools of the mind amplify and in turn numb the most intimate, the most human, of our natural capacities—those for reason, perception, memory, emotion."
   author: Nicholas Charr
   reading_year: 2023
+  loved: true
 
 - title: 'Frankenstein'
   link: https://www.goodreads.com/book/show/35031085-frankenstein
@@ -202,6 +251,7 @@
   status: 2023-01-16
   author: Ursula K. Le Guin
   reading_year: 2023
+  loved: true
 
 - title: 'The Hungry Brain: Outsmarting the Instincts That Make Us Overeat'
   link: https://www.goodreads.com/book/show/29243729-the-hungry-brain
@@ -218,6 +268,75 @@
   status: 2022-11-26
   author: Cal Newport
   reading_year: 2022
+
+- title: 'The Fountains of Paradise'
+  link: https://www.goodreads.com/book/show/149049.The_Fountains_of_Paradise
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1344265959i/149049.jpg
+  genre: [science fiction, fiction, classics]
+  status: 2022-11-19
+  author: Arthur C. Clarke
+  reading_year: 2022
+
+- title: 'What I Talk About When I Talk About Running'
+  link: https://www.goodreads.com/book/show/2195464.What_I_Talk_About_When_I_Talk_About_Running
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473397159i/2195464.jpg
+  genre: [fiction, memoir, biography]
+  status: 2022-11-11
+  author: Haruki Murakami
+  reading_year: 2022
+
+- title: 'Sum: Forty Tales from the Afterlives'
+  link: https://www.goodreads.com/book/show/4948826-sum
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320528453i/4948826.jpg
+  genre: [fiction, short stories, philosophy]
+  status: 2022-11-06
+  author: David Eagleman
+  reading_year: 2022
+  loved: true
+
+- title: 'The Collapse of Complex Societies'
+  link: https://www.goodreads.com/book/show/8211037-the-collapse-of-complex-societies
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328316731i/8211037.jpg
+  genre: [history, nonfiction, politics]
+  status: 2022-09-30
+  author: Joseph A. Tainter
+  reading_year: 2022
+  loved: true
+
+- title: 'Four Thousand Weeks: Time Management for Mortals'
+  link: https://www.goodreads.com/book/show/54785515-four-thousand-weeks
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627425434i/54785515.jpg
+  genre: [nonfiction, self help, productivity, philosophy]
+  status: 2022-09-20
+  author: Oliver Burkem
+  reading_year: 2022
+  loved: true
+
+- title: 'Stolen Focus'
+  link: https://www.goodreads.com/book/show/57933306-stolen-focus
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626718328i/57933306.jpg
+  genre: [nonfiction, self help, psychology]
+  status: 2022-09-16
+  author: Johann Hari
+  reading_year: 2022
+  loved: true
+
+- title: 'Stop Reading the News: A Manifesto for a Happier, Calmer and Wiser Life'
+  link: https://www.goodreads.com/book/show/48581422-stop-reading-the-news
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1572070830i/48581422.jpg
+  genre: [nonfiction, self help, psychology]
+  status: 2022-09-03
+  author: Rolf Dobelli
+  reading_year: 2022
+
+- title: 'Dynasty: The Rise and Fall of the House of Caesar'
+  link: https://www.goodreads.com/book/show/40605640-dynasty
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1529614810i/40605640.jpg
+  genre: [history, nonfiction, ancient history]
+  status: 2022-08-28
+  author: Tom Holland
+  reading_year: 2022
+  loved: true
 
 - title: '21 Lessons for the 21st Century'
   link: https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century
@@ -251,12 +370,46 @@
   author: Ethan Kross
   reading_year: 2022
 
+- title: 'Hyperion'
+  link: https://www.goodreads.com/book/show/77566.Hyperion
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405546838i/77566.jpg
+  genre: [fiction, science fiction, fantasy]
+  status: 2022-05-28
+  author: Dan Simmons
+  reading_year: 2022
+
+- title: 'Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones'
+  link: https://www.goodreads.com/book/show/40121378-atomic-habits
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg
+  genre: [nonfiction, self help, psychology]
+  status: 2022-12-04
+  author: James Clear
+  reading_year: 2022
+
+- title: 'The Psychedelic Renaissance: Reassessing the Role of Psychedelic Drugs in 21st Century Psychiatry and Society'
+  link: https://www.goodreads.com/book/show/16202556-the-psychedelic-renaissance
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1356115469i/16202556.jpg
+  genre: [psychology, psychiatry, nonfiction]
+  status: 2022-04-04
+  author: Ben Sessa
+  reading_year: 2022
+  loved: true
+
 - title: 'Las Malas'
   link: https://www.goodreads.com/book/show/44438256-las-malas
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552687189i/44438256.jpg
   genre: [LGBT, fiction, queer]
   status: 2022-03-01
   author: Camila Sosa Villada
+  reading_year: 2022
+  loved: true
+
+- title: 'The Humans'
+  link: https://www.goodreads.com/book/show/16130537-the-humans
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353739654i/16130537.jpg
+  genre: [fiction, science fiction, fantasy]
+  status: 2022-02-23
+  author: Matt Haig
   reading_year: 2022
 
 - title: 'Rubicon: The Last Years of the Roman Republic'
@@ -266,3 +419,4 @@
   status: 2022-01-30
   author: Tom Holland
   reading_year: 2022
+  loved: true

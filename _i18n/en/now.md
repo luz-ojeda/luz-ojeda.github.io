@@ -1,22 +1,14 @@
 (This is a now page, [you could make one](https://nownownow.com/about) on your own website too.)
 
-Updated October 28, 2023, from my home in **Buenos Aires, Argentina**.
+Updated on March 7 2023, from my apartment in **Buenos Aires, Argentina**.
 
-## working on (besides my full time job)
-This website. A lot. In the last month I added the [pictures](/pictures) section which led me to create two Python scripts for the pipeline of: 1. Generating two pictures from the one I want to upload (one for mobile/table another one for big screens) and 2. Creating the corresponding markdown file used in the pictures folder collection. 
-
-Maybe I will try to automate the whole thing after adding the file in the project assets folder. 
-
-I updated the reading and resume sections as well as some general design/styling features.
-
-## exercise
-Running two times a week, came back to it in August. I really needed to start working out again and it's doing wonders.
+## working in
+A cooking web app in Svelte/C#. Finished the simple CRUD API with recipes I found in a db out there in the internet. Parsed them with Python scripts obtaining the necessary information. Now I am working in the front end, sketching the designs with Figma and implementing them with SvelteKit.
 
 ## [reading](/reading)
-A Tale of Two Cities
+[The Design of Everyday Things](https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things) by Donald A. Norman.
 
-## studying
-Finishing my first term of software engineering in college. Started with computer architecture, information systems and a the first course on programming (of a total of 4). First time studying with a full time job because during my Biology studies I didn't work or worked part time. Very tiring, but rewarding of course.
+[Rebecca](https://www.goodreads.com/book/show/203466580-rebecca), a gothic mystery novel by Daphne du Maurier.
 
-## other
-I am cooking a lot of new recipes from the book [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science). Gave it a broad read and, for the last month, focused mainly on the first chapter.
+## others
+Learning to cook and finishing the book [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science). Can't recommend it enough for anyone who wants to learn to cook while knowing the whys behind the hows.
