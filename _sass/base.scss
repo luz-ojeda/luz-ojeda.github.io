@@ -105,8 +105,11 @@ img {
 blockquote {
     padding-left: 10px;
     border-left: 6px solid $primaryColor;
-  }
-  
+
+    @media (max-width: $tabletBreakpoint) {
+        margin: 0;
+    }
+}
 
 /* ----------
 Dark mode
