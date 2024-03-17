@@ -19,20 +19,22 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
 ## Educación
 ---
 - Ingeniería en Informática - Universidad Argentina de la Empresa (Agosto 2023 - En curso)
-- Licenciatura en Ciencias Biológicas - Universidad de Buenos Aires (UBA) (Abr 2012 - may 2019)
+- Licenciatura en Ciencias Biológicas - Universidad de Buenos Aires (UBA) (Abril 2012 - mayo 2019)
 
 ## Cursos y certificaciones
 ---
 
-- [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Ene 2023 - abr 2023)
+- .NET Microservices: CQRS & Event Sourcing with Kafka - Udemy (Enero 2024)
 
-- [Coderhouse Diseño UX/UI](https://www.coderhouse.com/online/ux-ui-online) (Jun 2020 - sep 2021)
+- [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Abril 2023)
+
+- [Coderhouse Diseño UX/UI](https://www.coderhouse.com/online/ux-ui-online) (Septiembre 2021)
 
 - AWS Certified Cloud Practitioner (Julio 2020)
 
-- [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) from Colt Steele (Abril 2020)
+- [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) de Colt Steele (Abril 2020)
 
-- [FreeCodeCamp Inc.](https://www.freecodecamp.org/learn) (Jun 2019 - sep 2019)
+- [FreeCodeCamp Inc.](https://www.freecodecamp.org/learn) (Septiembre 2019)
   - Responsive Web Design
   - JavaScript Algorithms and Data Structures
   - Front End Development Libraries
