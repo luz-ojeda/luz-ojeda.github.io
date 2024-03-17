@@ -1,3 +1,19 @@
+- title: "Rebecca"
+  link: https://www.goodreads.com/book/show/203466580-rebecca
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1702023105i/203466580.jpg
+  genre: [fiction, mystery, gothic]
+  status: currently reading
+  author: Daphne du Maurier
+  reading_year: 2024
+
+- title: "The Design of Everyday Things"
+  link: https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442460745i/840.jpg
+  genre: [design, nonfiction, business]
+  status: 2024-03-09
+  author: Donald A. Norman
+  reading_year: 2024
+
 - title: "Salem's lot"
   link: https://www.goodreads.com/book/show/11590._Salem_s_Lot
   image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327891565i/11590.jpg
