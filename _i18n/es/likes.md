@@ -7,6 +7,7 @@
 - Sábados por la mañana sin deberes ni nada que hacer
 - Las montañas
 - Manejar en la ruta/autopistas (no en la ciudad)
+- Duchas con agua muy caliente
 
 ## digital
 - [Anki](https://apps.ankiweb.net/){:.external-link}

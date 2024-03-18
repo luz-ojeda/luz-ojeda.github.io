@@ -10,6 +10,7 @@
 - Driving (on country roads, highways, etc. not in the city)
 - Some degree of minimalism. Especially on web pages, my desk and my devices screens.
 - Candles
+- Very hot showers
 
 ## digital
 - [Anki](https://apps.ankiweb.net/){:.external-link}
