@@ -1,3 +1,9 @@
+- title: Cook web app
+  description: Web app full stack desarrollada en Svelte y .NET para el manejo de recetas de cocina
+  url: https://cook-web-weathered-thunder-7639.fly.dev/
+  url_repo: https://github.com/luz-ojeda/cook-web
+  image: /assets/images/projects/cook.png
+
 - title: API para presupuesto de sobres
   description: Permite a los clientes crear y administrar un presupuesto personal. Utilizando los principios de Envelope Budgeting, permite a los usuarios administrar sobres presupuestarios y realizar un seguimiento del saldo de cada uno. Usé Express, PostgreSQL, swagger, entre otras herramientas.
   url: https://github.com/lezojeda/personal-budget#readme

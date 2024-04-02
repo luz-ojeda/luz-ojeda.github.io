@@ -8,6 +8,9 @@
                 {{ project.title }}
             </h2>
         </a>
+        {% if project.url_repo %}
+            <a href="{{project.url_repo}}">{% if site.lang == 'en' %}Repository{% else %}Repositorio{% endif %}</a>
+        {% endif %}
         <p>{{ project.description }}</p>
     </div>
     {% endfor %}
