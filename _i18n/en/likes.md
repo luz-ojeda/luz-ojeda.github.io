@@ -19,7 +19,7 @@
 - [Calibre](https://calibre-ebook.com/){:.external-link}
 
 ## books
-- [Foundation series](https://en.wikipedia.org/wiki/Foundation_series){:.external-link} by Isaac Asimov
+- Foundation serieshttps://en.wikipedia.org/wiki/Foundation_series by Isaac Asimov
 - The Silmarillion by JRR Tolkien
 - Journey to the Center of the Earth by Jules Verne
     - One of the first books I read when I was a teenager, hooked me from the beginning

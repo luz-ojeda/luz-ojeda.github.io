@@ -16,7 +16,7 @@
 - [Calibre](https://calibre-ebook.com/){:.external-link}
 
 ## libros
-- [Serie de la Fundación](https://en.wikipedia.org/wiki/Foundation_series){:.external-link} por Isaac Asimov
+- Serie de la Fundación por Isaac Asimov
 - El Silmarillion de JRR Tolkien
 - Viaje al Centro de la Tierra de Julio Verne
      - Uno de los primeros libros que leí cuando era adolescente, me enganchó desde el principio.

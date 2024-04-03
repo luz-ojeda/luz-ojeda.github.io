@@ -1,5 +1,5 @@
 - title: Cook web app
-  description: Full stack web app developed in Svelte and .NET for managing of cooking recipes
+  description: Full stack web app developed in Svelte, .NET and PostgreSQL for managing of cooking recipes
   url: https://cook-web-weathered-thunder-7639.fly.dev/
   url_repo: https://github.com/luz-ojeda/cook-web
   image: /assets/images/projects/cook.png
