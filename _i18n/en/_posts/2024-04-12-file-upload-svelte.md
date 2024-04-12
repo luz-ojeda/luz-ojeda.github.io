@@ -53,6 +53,7 @@ The SvelteKit client side is relatively simple, in a page `+page.svelte` we plac
 Something important to note is the value of the `enctype` attribute on the `form` element. It is necessary because if you use [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement) as described in this [issue](https://github.com/ sveltejs/kit/issues9819). If not, when you press the submit button, this console error occurs and the POST action is not executed:
 
 ![alt text](/assets/images/svelte_file_upload/enctype_error.png)
+{: .wide-img}
 
 For ilustrative purposes I didn't set use:enhance there but since I did in my repository I thought it was worth mentioning, took me a few minutes to open the console to figure out why nothing was happening when I was trying to submit the form.
 
@@ -229,7 +230,7 @@ export const actions = {
 
 The `uploadFile` function can be included in the same file or another, depending on the organization of the project.
 
-If you have any questions, feel free to reach me via e-mail with me (luzojeda@proton.me). In [cook-web](https://github.com/luz-ojeda/cook-web) in `src/routes/admin/crear-receta` there is a specific example using all of the above but depending on the date there may already be differences about the concrete implementation.
+If you have any questions, feel free to reach me via e-mail (luzojeda@proton.me). In [cook-web](https://github.com/luz-ojeda/cook-web) in `src/routes/admin/crear-receta` there is a specific example using all of the above but depending on the date there may already be differences about the concrete implementation.
 
 References:
 - [How to implement file upload with SvelteKit](https://www.okupter.com/blog/sveltekit-file-upload)
