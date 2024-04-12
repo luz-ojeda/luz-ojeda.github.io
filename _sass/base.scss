@@ -119,8 +119,9 @@ blockquote {
 }
 
 pre {
-    border: 1px solid darkgrey;
-    overflow-x: scroll;
+    border: 1px solid dimgrey;
+    overflow-x: auto;
+    padding: 4px;
 }
 
 /* ----------
