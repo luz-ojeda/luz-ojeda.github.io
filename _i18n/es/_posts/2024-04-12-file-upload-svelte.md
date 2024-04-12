@@ -34,7 +34,7 @@ La parte del cliente de SvelteKit es relativamente sencilla, en una página `+pa
 
 ```html
 <form method="POST" enctype="multipart/form-data">
-    <!-- Accept attribute value is an example, use whatever value you desire -->
+    <!-- El valor del atributo Accept es un ejemplo, podemos usar el valor que deseemos -->
     <input 
 	accept="image/png, image/jpg" 
 	bind:files 
@@ -50,9 +50,11 @@ La parte del cliente de SvelteKit es relativamente sencilla, en una página `+pa
 </form>
 ```
 
-Algo importante a destacar es el valor del atributo `enctype` en el elemento `form`. Es necesario utilizarlo si usas [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement) por lo descripto en esta [issue](https://github.com/sveltejs/kit/issues9819). Si no al momento de presionar el botón submit se produce este error de consola y no se ejecuta la acción de POST:
+Algo importante a destacar es el valor del atributo `enctype` en el elemento `form`. Es necesario utilizarlo si usas [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement) por lo descrito en esta [issue](https://github.com/sveltejs/kit/issues9819). Si no al momento de presionar el botón submit se produce este error de consola y no se ejecuta la acción de POST:
 
 ![alt text](/assets/images/svelte_file_upload/enctype_error.png)
+
+Para fines ilustrativos, no configuré use:enhance en el ejemplo anterior. Pero como sí lo hice en mi repositorio pensé que valía la pena mencionarlo. En su momento, me tomó unos minutos hasta abrir la consola para descubrir por qué no pasaba nada cuando intentaba enviar el formulario.
 
 ## 2 - 4
 En la misma ruta del archivo `+page.svelte` debemos tener un archivo `+page.server.ts` que exporte una *acción*, la cual será gatillada al ser submitteado el formulario ([docs](https://kit.svelte.dev/docs/form-actions)). El archivo puede exportar más de una acción además de la exportada por defecto (*named actions* se las llama en la documentación). En este caso solo necesitamos una.
@@ -67,11 +69,11 @@ export const actions = {
 		// es una unión de File y string por lo que podemos hacer un assert
 		// a File con la keyword as
 
-		const entityName = data.get('name');
+		const entityName = data.get('nombre');
 
 		// Creación de la entidad a través de la API en la DB
 		const body = {
-			name,
+			name: entityName,
 			files: [`https://${AZURE_STORAGE_ACCOUNT_NAME}.blob.core.windows.net/${name}`]
 		};
 
@@ -99,8 +101,8 @@ Aún en la acción `default` de `+page.server.ts`, si la respuesta de la API es 
 	if (response.status === 201) {
 		const responseJson = await response.json();
 
-		if (file !== null) {
-			await uploadFile(file, entityName);
+		if (fileToUpload !== null) {
+			await uploadFile(fileToUpload, entityName);
 		}
 		return { success: true, data: responseJson };
 	}
@@ -213,7 +215,7 @@ export const actions = {
 		if (response.status === 201) {
 			const responseJson = await response.json();
 
-			if (file !== null) {
+			if (fileToUpload !== null) {
 				// 6 y 7 generación de token SAS y subida de archivo a Azure Blob Storage
 				await uploadFile(file, entityName);
 			}
