@@ -43,7 +43,7 @@ There are [various](https://nypost.com/2021/07/27/americans-have-fewer-friends-t
 
 Even if one were to completely dismiss these phenomena, claiming that it is something **exclusive** to the northern hemisphere/Anglosphere, it is interesting to analyze something that could potentially happen in my country and Latin America in general.
 
-However, it seems that [loneliness](https://elpais.com/sociedad/2023-03-19/el-nuevo-perfil-de-la-soledad-joven-y-precario.html){:.external -link} [is](https://www.perfil.com/noticias/elobservador/la-epidemia-de-soledad.phtml){:.external-link} [a](https://www.aceprensa. com/sociedad/cada-vez-tenemos-menos-amigos-cercanos/){:.external-link} a growing problem also in Latin America and Spain.
+Nevertheless, it seems that [loneliness](https://elpais.com/sociedad/2023-03-19/el-nuevo-perfil-de-la-soledad-joven-y-precario.html){:.external -link} [is](https://www.perfil.com/noticias/elobservador/la-epidemia-de-soledad.phtml){:.external-link} [a](https://www.aceprensa. com/sociedad/cada-vez-tenemos-menos-amigos-cercanos/){:.external-link} a growing problem also in Latin America and Spain.
 
 Some excerpts from the previous links:
 
@@ -83,7 +83,7 @@ It has been written a lot about [this](https://www.psycom.net/how-social-media-i
 
 I believe that social networks are the cause, in part, of what happened to third place and _at the same time_ a consequence of its decline in popularity and the growth of remote work. They are a symptom, in part, of sometimes having _nowhere_ to go.
 
-In my opinion, they make the situation worse. Social media has a degree of anonymity and dehumanization that does not allow for genuine connection. They fuel an unhealthy competition (which has always been there but from the likes on Facebook and the replication of this feature in almost every social network it is _quantifiable_). They have their benefits, however, I admit (I use Instagram, for example). But I don't think they are greater than the costs. Especially in relation to loneliness, meeting people, etc. The mere fact that we apply the term _detox_ to refer to drastically reducing its use as if we were talking about a drug, I think, tells us a lot about its benefits and costs.
+In my opinion, they make the situation worse. Social media has a degree of anonymity and dehumanization that does not allow for genuine connection. They fuel an unhealthy competition (which has always been there but from the likes on Facebook and the replication of this feature in almost every social network it has become _quantifiable_). Although they have some benefits (I use Instagram, for example) I don't think these are greater than the costs. Especially in relation to loneliness, meeting people, etc. The mere fact that we apply the term _detox_ to refer to drastically reducing its use as if we were talking about a drug, I think, tells us a lot about its benefits and costs.
 
 The point is, they don't and can't completely replace face-to-face interaction and community life like third places did. They may seem like a temporary substitute but it is superficial, and sometimes even harmful.
 
