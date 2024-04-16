@@ -4,7 +4,7 @@ title: Things I liked in November
 ---
 
 - [Object-Oriented Programming is Bad](https://m.youtube.com/watch?si=H7BOm06UbdgiU0et&v=QM1iUe6IofM&feature=youtu.be)
-    - A bit of a click-baity title since the author then uploaded [another video](https://www.youtube.com/watch?v=0iyB0_qPvWk&list=WL&index=5) arguing in favour of OOP, but well used. This video criticizes OOP from a point of view I haven't heard/read before and gives very nice takeaways on how to tackle its problems.
+    - A click-baity title since the author then uploaded [another video](https://www.youtube.com/watch?v=0iyB0_qPvWk&list=WL&index=5) arguing in favour of OOP, but well used. This video criticizes OOP from a point of view I haven't heard/read before and gives very nice takeaways on how to tackle its problems.
 - [Code is run more than read](https://olano.dev/2023-11-30-code-is-run-more-than-read/)
 - [The Lack of Compensation in Open Source Software is Unsustainable](https://trstringer.com/oss-compensation-broken/)
 - [Don’t Forget to Swim Now and Then](https://www.raptitude.com/2023/07/dont-forget-to-swim-now-and-then/)
