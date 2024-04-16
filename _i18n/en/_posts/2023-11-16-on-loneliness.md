@@ -51,7 +51,7 @@ Some excerpts from the previous links:
 
 *“The WHO revealed that between 20% and 34% of older people in Latin America, Europe, China and the United States feel lonely.”*
 
-*“To finish confirming the combo, Google searches for “where to meet people?”, “how to make friends?” They reached their all-time high this year.”*
+*“To finish the combo, Google searches for “where to meet people?”, “how to make friends?” reached their all-time high this year.”*
 
 There are probably (surely) more than I am going to mention, but what are the causes?
 
