@@ -21,7 +21,7 @@
                     </h2>
                 </a>
                 {% if project.repo_url %}
-                    <a class="project-repo-url" href="{{ project.repo_url }}">Repository</a>
+                    <a class="project-repo-url" href="{{ project.repo_url }}">{% if site.lang == 'en' %}Repository{% else %}Repositorio{% endif %}</a>
                 {% endif %}
             {% else %}
                 <a href="{{ project.repo_url }}">
@@ -30,9 +30,6 @@
                     </h2>
                 </a>
             {% endif %}
-            <!-- {% if project.url %}
-                <a href="{{project.url_repo}}">{% if site.lang == 'en' %}Repository{% else %}Repositorio{% endif %}</a>
-            {% endif %} -->
             <div></div>
             <p>{{ project.description }}</p>
         </div>
