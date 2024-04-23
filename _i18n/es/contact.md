@@ -1,5 +1,5 @@
 - [Linkedin]({{site.linkedin_url}})
-- [Email](mailto:{{site.email}})
+- [Email](mailto:{{site.email}}): {{site.email}}
 - [Instagram]({{site.instagram_url}})
 - [Steam]({{site.steam_url}})
 
