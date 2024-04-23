@@ -1,25 +1,39 @@
+- title: Endgame
+  description: C# Console application role-playing game
+  repo_url: https://github.com/luz-ojeda/c-players-guide-endgame#readme
+  year: 2024
+
 - title: Cook web app
-  description: Full stack web app developed in Svelte, .NET and PostgreSQL for managing of cooking recipes
+  description: Full stack web app developed in Svelte, .NET and PostgreSQL for managing of cooking recipes deployed in Fly.io
+  repo_url: https://github.com/luz-ojeda/cook-web#readme
   url: https://cook-web-weathered-thunder-7639.fly.dev/
-  url_repo: https://github.com/luz-ojeda/cook-web
-  image: /assets/images/projects/cook.jpg
+  year: 2024
+
+- title: Cook web API
+  description: .NET C# controlled based web API using a PostgreSQL DB
+  repo_url: https://github.com/luz-ojeda/cook-api#readme
+  year: 2024
+
+- title: Personal
+  description: The website you are currently seeing. Used Jekyll.
+  repo_url: https://github.com/luz-ojeda/luz-ojeda.github.io
+  year: 2023
 
 - title: Envelope Budget API
-  description: Allows clients to create and manage a personal budget. Using Envelope Budgeting principles, it allow users to manage budget envelopes and track the balance of each one. Used Express, PostgreSQL, swagger, among other tools.
-  url: https://github.com/lezojeda/personal-budget#readme
-  image: /assets/images/projects/envelope_budget.jpg
+  description: Used Express, PostgreSQL, swagger, among other tools.
+  repo_url: https://github.com/lezojeda/personal-budget#readme
+  year: 2023
+  finished: 2023
 
 - title: Envelope Budget web
   description: Minimal front-end built with preact to make use of the Envelope Budget API.
-  url: https://github.com/lezojeda/personal-budget-web#readme
-  image: /assets/images/projects/envelope_budget_web.png
+  repo_url: https://github.com/lezojeda/personal-budget-web#readme
+  year: 2023
+  finished: 2023
 
-- title: Book Tracking API
-  description: Manage read/want to read/currently reading books. Connected to the Google Books API for book information. Used this project as an excuse to learn NestJS and Prisma.
-  url: https://github.com/lezojeda/books-api#readme
-  image: /assets/images/projects/books_api.jpg
-
-- title: Book Tracking web
-  description: Front-end built with React, Tailwind, React Hook Form, among other tools to make use of the Book Tracking API.
-  url: https://github.com/lezojeda/books-web
-  image: /assets/images/projects/books_web.png
+- title: FreeCodeCamp front end libraries projects
+  description: React, Redux, bootstrap and DOM vanilla JavaScriptbased projects from FreeCodeCamp front end libraries section.
+  repo_url: https://github.com/luz-ojeda/freecodecamp-front-end-libraries
+  url: https://codepen.io/collection/XmkpWM
+  year: 2019
+  finished: 2025

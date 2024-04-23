@@ -1,18 +1,43 @@
-<div class ="image-gallery">
+<div>
     {% assign project_file = "projects" | append: site.lang %}
     {% for project in site.data[project_file] %}
-    <div class="box">
-        <a href="{{ project.url }}" title="See project in Codepen">
-            <img src="{{ project.image }}" alt="{{ project.title }}" class="img">
-            <h2>
-                {{ project.title }}
-            </h2>
-        </a>
-        {% if project.url_repo %}
-            <a href="{{project.url_repo}}">{% if site.lang == 'en' %}Repository{% else %}Repositorio{% endif %}</a>
-        {% endif %}
-        <p>{{ project.description }}</p>
+    <div class="flex">
+        <div class="project-year">
+            {{project.year}}
+            {% if project.finished %}
+                {% if project.finished != project.year %}
+                — {{project.finished}}
+                {% endif %}
+            {% else %}
+                —
+            {% endif %}
+        </div>
+
+        <div>
+            {% if project.url %}
+                <a href="{{ project.url }}">
+                    <h2 class="project-title">
+                        {{ project.title }}
+                    </h2>
+                </a>
+                {% if project.repo_url %}
+                    <a class="project-repo-url" href="{{ project.repo_url }}">Repository</a>
+                {% endif %}
+            {% else %}
+                <a href="{{ project.repo_url }}">
+                    <h2 class="project-title">
+                        {{ project.title }}
+                    </h2>
+                </a>
+            {% endif %}
+            <!-- {% if project.url %}
+                <a href="{{project.url_repo}}">{% if site.lang == 'en' %}Repository{% else %}Repositorio{% endif %}</a>
+            {% endif %} -->
+            <div></div>
+            <p>{{ project.description }}</p>
+        </div>
     </div>
+    <hr>
     {% endfor %}
 </div>
   
