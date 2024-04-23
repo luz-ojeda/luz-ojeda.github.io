@@ -2,17 +2,19 @@
 
 ## Esta página
 
-Empezó con fines profesionales pero hacia septiembre de 2023 comencé a ampliarla y ahora se ha convertido en mi pequeño rincón en internet donde publico fotos, pensamientos, desahogos, proyectos, lo que leo, lo que me gusta, etc. Y más cosas en el futuro, probablemente. Me gusta pensar en esta página más como un _[jardín digital](https://joelhooks.com/digital-garden/)_ en lugar de un sitio web estático donde solo publico publicaciones y nada más. Incluso esta misma sección será actualizada muchas más veces en el futuro, hasta que me aburra por un tiempo y luego vuelva una vez más a cambiar cosas. Mis intereses cambian, al igual que los intereses de muchas personas.
+Empezó con fines profesionales pero hacia septiembre de 2023 comencé a ampliarla y se ha convertido en mi pequeño rincón en internet donde publico fotos, pensamientos, desahogos, proyectos, lo que leo, lo que me gusta, etc. Y más cosas en el futuro, probablemente. Me gusta pensar en esta página como un _[jardín digital](https://joelhooks.com/digital-garden/)_ en lugar de un sitio web estático donde solo subo artículos y nada más. Incluso esta misma sección será actualizada muchas más veces en el futuro, hasta que me aburra por un tiempo y luego vuelva una vez más a cambiar cosas.
 
 ## Escribiendo
 
 Aunque disfruto escribir desde que era adolescente, siempre lo hice en un diario privado. En cuadernos físicos, notas en mi teléfono celular, una conversación en Whatsapp conmigo misma, Google Docs, etc. Últimamente, me motivé bastante [leyendo](https://jsomers.net/blog/more-people-should-write){:.external-link} [algunos](https://moretothat.com/writing-and-wisdom/){:.external-link} [artículos](https://blog.whiona.me/what-happened-to-blogging-for- the-hell-of-it/){:.external-link} por ahí, entre otras cosas personales, para escribir y _publicar_ más. Me ayuda. De muchas maneras. Como para comprender mejor las cosas sobre las que escribo, reflexionar, ordenar mis pensamientos, mejorar mis habilidades de escritura en inglés, etc. Y espero que en el futuro algunas personas también disfruten leyendo lo que escribo.
 
-A veces escribo posts en mi idioma nativo (español) primero y luego los traduzco (con DeepL o Google Translate y ajustes manuales después, no voy a mentir). Otras veces escribo primero en inglés. Solo un péqueño aviso en caso de que encuentres alguna oración que suene "rara", puede deberse a que probablemente fue escrita primero en español.
+A veces escribo en mi idioma nativo (español) primero y luego los traduzco (con DeepL o Google Translate y ajustes manuales después). Otras escribo primero en inglés. Solo un pequeño aviso en caso de que encuentres alguna oración que suene "rara". Puede deberse a que fue escrita primero en inglés.
 
 ## Lo que hago
 
-Estudié Biología en la Universidad de Buenos Aires (UBA) del 2011 al 2019, cuando me recibí. Luego cambié de carrera a desarrollo web en 2019 de forma autodidacta. Lo que es mi trabajo actual de tiempo completo. Comencé a estudiar ingeniería informática en agosto de 2023.
+Estudié biología en la Universidad de Buenos Aires (UBA) del 2011 al 2019, cuando me recibí. Luego cambié de carrera a desarrollo web en 2019 de forma autodidacta (mi primera interacción fue con R y Python durante la carrera para análisis estadísticos).
+
+Hoy en día el desarrollo web es mi trabajo actual de tiempo completo y comencé a estudiar ingeniería informática en agosto de 2023.
 
 ### Intereses
 
