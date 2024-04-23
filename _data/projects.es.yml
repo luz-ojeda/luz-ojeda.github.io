@@ -1,15 +1,39 @@
+- title: Endgame
+  description: Aplicación de consola en C# de un juego de rol
+  repo_url: https://github.com/luz-ojeda/c-players-guide-endgame#readme
+  year: 2024
+
 - title: Cook web app
-  description: Web app full stack desarrollada en Svelte, .NET y PostgreSQL para el manejo de recetas de cocina
+  description: Aplicación web full stack para la gestión de recetas de cocina deployada en Fly.io. Svelte, .NET y PostgreSQL
+  repo_url: https://github.com/luz-ojeda/cook-web#readme
   url: https://cook-web-weathered-thunder-7639.fly.dev/
-  url_repo: https://github.com/luz-ojeda/cook-web
-  image: /assets/images/projects/cook.jpg
+  year: 2024
 
-- title: API para presupuesto de sobres
-  description: Permite a los clientes crear y administrar un presupuesto personal. Utilizando los principios de Envelope Budgeting, permite a los usuarios administrar sobres presupuestarios y realizar un seguimiento del saldo de cada uno. Usé Express, PostgreSQL, swagger, entre otras herramientas.
-  url: https://github.com/lezojeda/personal-budget#readme
-  image: /assets/images/projects/envelope_budget.jpg
+- title: Cook web API
+  description: API web basada en .NET C# utilizando una base de datos PostgreSQL
+  repo_url: https://github.com/luz-ojeda/cook-api#readme
+  year: 2024
 
-- title: Presupuesto de sobres Web
-  description: Un simple front-end creado con preact para utilizar la API de presupuesto de sobres
-  url: https://github.com/lezojeda/personal-budget-web#readme
-  image: /assets/images/projects/envelope_budget_web.png
+- title: Personal
+  description: El sitio web que estás viendo actualmente. Usé Jekyll.
+  repo_url: https://github.com/luz-ojeda/luz-ojeda.github.io
+  year: 2023
+
+- title: Envelope Budget API
+  description: Utilicé Express, PostgreSQL, swagger, entre otras herramientas.
+  repo_url: https://github.com/lezojeda/personal-budget#readme
+  year: 2023
+  finished: 2023
+
+- title: Envelope Budget web
+  description: Front-end minimalista creado con preact para hacer uso de la API de Envelope Budget.
+  repo_url: https://github.com/lezojeda/personal-budget-web#readme
+  year: 2023
+  finished: 2023
+
+- title: Proyectos de la sección librerías de front end de FreeCodeCamp
+  description: Proyectos basados en React, Redux, bootstrap y manipulación del DOM con JavaScript
+  repo_url: https://github.com/luz-ojeda/freecodecamp-front-end-libraries
+  url: https://codepen.io/collection/XmkpWM
+  year: 2019
+  finished: 2019

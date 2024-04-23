@@ -10,7 +10,7 @@
   year: 2024
 
 - title: Cook web API
-  description: .NET C# controlled based web API using a PostgreSQL DB
+  description: .NET C# controller based web API using a PostgreSQL DB
   repo_url: https://github.com/luz-ojeda/cook-api#readme
   year: 2024
 
@@ -36,4 +36,4 @@
   repo_url: https://github.com/luz-ojeda/freecodecamp-front-end-libraries
   url: https://codepen.io/collection/XmkpWM
   year: 2019
-  finished: 2025
+  finished: 2019
