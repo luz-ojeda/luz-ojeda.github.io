@@ -3,7 +3,7 @@
 Updated on April 2 2024, from my apartment in **Buenos Aires, Argentina**.
 
 ## working in
-Deployed the first version of the cooking web app in Svelte and .NET [here](https://cook-web-weathered-thunder-7639.fly.dev/) (will probably forget to update the link once I get a custom domain so if it's broken please excuse me and head over to [/projects](https://www.luzojeda.com/projects/) 😄). I still have to fill it with real recipes and yes, it is in spanish since my idea is to target a latin-american/spanish audience mainly. Maaaybe I will add i18n in the future, but would like to add many other things before. Also, there are tons of english good recipes websites out there such as Budget Bytes already.
+Deployed the first version of the cooking web app in Svelte and .NET [here](https://recetassimples.app). I still have to fill it with real recipes and yes, it is in spanish since my idea is to target a latin-american/spanish audience mainly. Maaaybe I will add i18n in the future, but would like to add many other things before. Also, there are tons of english good recipes websites out there such as Budget Bytes already.
 
 ## [reading](/reading)
 Just finished [Rebecca](https://www.goodreads.com/book/show/203466580-rebecca), a gothic mystery novel by Daphne du Maurier. Really pays off with some nice plot twists. Came across it looking for gothic gente books and it was a enticing read. I've enjoyed Lovecraft and Poe when I was a teen but didn't even consider many of their tales fell  under the gothic genre as well. I've been increasingly engaging in gothic content of all types such as movies as well (and becoming obsessed with candles in my apartment 😅).

@@ -6,7 +6,7 @@
 - title: Cook web app
   description: Full stack web app developed in Svelte, .NET and PostgreSQL for managing of cooking recipes deployed in Fly.io
   repo_url: https://github.com/luz-ojeda/cook-web#readme
-  url: https://cook-web-weathered-thunder-7639.fly.dev/
+  url: https://recetassimples.app
   year: 2024
 
 - title: Cook web API
