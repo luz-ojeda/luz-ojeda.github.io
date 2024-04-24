@@ -45,7 +45,7 @@ retailers and brands. Data was then processed into Excel files for later analysi
 ---
 ### **Languages**
   * {: .skill} JavaScript and TypeScript
-  * {: .skill} C# (basic)
+  * {: .skill} C#
   * {: .skill} Python
   * {: .skill} SQL
   * HTML and CSS
