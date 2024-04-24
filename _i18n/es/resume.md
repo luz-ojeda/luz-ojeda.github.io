@@ -42,7 +42,7 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
 
 ## Tecnologías
 ---
-### **Lenguajes**
+### Lenguajes
   * {: .skill} JavaScript y TypeScript
   * {: .skill} C#
   * {: .skill} Python
@@ -50,7 +50,7 @@ Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui r
   * HTML y CSS
 {: .skills-list}
 
-### **Frameworks, librerías y otras herramientas**
+### Frameworks, librerías y otras herramientas
 {: .second-skills-list}
   - Usadas en ámbito profesional:
     * {: .skill} React y Vue

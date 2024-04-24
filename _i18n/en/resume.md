@@ -43,7 +43,7 @@ retailers and brands. Data was then processed into Excel files for later analysi
 
 ## Skills
 ---
-### **Languages**
+### Languages
   * {: .skill} JavaScript and TypeScript
   * {: .skill} C#
   * {: .skill} Python
@@ -51,7 +51,7 @@ retailers and brands. Data was then processed into Excel files for later analysi
   * HTML and CSS
 {: .skills-list}
 
-### **Frameworks, libraries and other tools**
+### Frameworks, libraries and other tools
 {: .second-skills-list}
   - Used professionally:
     * {: .skill} React and Vue
