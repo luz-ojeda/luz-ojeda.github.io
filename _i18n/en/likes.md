@@ -14,12 +14,12 @@
 
 ## digital
 - [Anki](https://apps.ankiweb.net/){:.external-link}
-- The [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link} Firefox add-on
+- [Tranquility](https://addons.mozilla.org/en-US/firefox/addon/tranquility-1/){:.external-link}
 - [Obsidian](https://obsidian.md/){:.external-link}
 - [Calibre](https://calibre-ebook.com/){:.external-link}
 
 ## books
-- Foundation serieshttps://en.wikipedia.org/wiki/Foundation_series by Isaac Asimov
+- Foundation series by Isaac Asimov
 - The Silmarillion by JRR Tolkien
 - Journey to the Center of the Earth by Jules Verne
     - One of the first books I read when I was a teenager, hooked me from the beginning
