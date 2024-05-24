@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "An example of the interface segregation principle"
+tag: tech
 ---
 
 The interface segregation principle from [SOLID](https://en.wikipedia.org/wiki/SOLID) states that “clients should not be forced to depend upon interfaces that they do not use”.

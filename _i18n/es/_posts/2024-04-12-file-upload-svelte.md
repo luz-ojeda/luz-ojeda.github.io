@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Subida de archivos a Azure Blob Storage con SvelteKit"
+tag: tech
 ---
 
 Trabajando en la creación de recetas en [cook web](https://github.com/luz-ojeda/cook-web) implementé la subida de imágenes de estas a Azure Blob Storage.

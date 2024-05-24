@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "File upload to Azure Blob Storage using Svelte Kit"
+tag: tech
 ---
 
 Working on the creation of recipes in [cook-web](https://github.com/luz-ojeda/cook-web) I implemented the upload of their images to Azure Blob Storage.
@@ -55,10 +56,10 @@ Something important to note is the value of the `enctype` attribute on the `form
 ![alt text](/assets/images/svelte_file_upload/enctype_error.png)
 {: .wide-img}
 
-For ilustrative purposes I didn't set use:enhance there but since I did in my repository I thought it was worth mentioning, took me a few minutes to open the console to figure out why nothing was happening when I was trying to submit the form.
+For ilustrative purposes I didn't set `use:enhance` there but since I did in my repository I thought it was worth mentioning, took me a few minutes to open the console to figure out why nothing was happening when I was trying to submit the form.
 
 ## 2 - 4
-In the same path of the `+page.svelte` file we must have a `+page.server.ts` file that exports an *action*, which will be triggered when the form is submitted ([docs](https://kit .svelte.dev/docs/form-actions)). The file can export more than one action in addition to the one exported by default (*named actions* in the documentation). In this case we only need one.
+In the same path of `+page.svelte` we must have a `+page.server.ts` file that exports an *action*, which will be triggered when the form is submitted ([docs](https://kit.svelte.dev/docs/form-actions)). The file can export more than one action, besides the one exported by default (these additional are the *named actions* mentioned in the docs). In this case we only need the default one.
 
 ```typescript
 export const actions = {
@@ -90,9 +91,9 @@ export const actions = {
 	}
 } satisfies Actions;
 ```
-The file is obtained by calling [`FormData.get`](https://developer.mozilla.org/en-US/docs/Web/API/FormData). We then put together the request body to send to our API and use fetch to execute it.
+The file is obtained calling [`FormData.get`](https://developer.mozilla.org/en-US/docs/Web/API/FormData). We then put together the request body to send to our API and use `fetch` to execute it.
 
-The `files` property in the body of the request allows us, in a front end that consumes the API data, to know which URL corresponds to the image of the associated entity (a user, a post, a cooking recipe, etc. ).
+The `files` property in the body of the request allows us, in a front end that consumes the API data, to know which URL corresponds to the entity's image (a user, a post, a cooking recipe, etc.).
 
 ## 5-7
 Still in the `default` action of `+page.server.ts`, if the API response is successful (status code 201), we proceed with uploading the file to Azure:
@@ -115,14 +116,14 @@ For the upload we will need two elements:
 1. A [SAS shared access signature](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) (a.k.a. SAS token): Provides delegated access to resources on a certain time window, with limited permissions, etc.
 2. The Azure storage account [access key](https://learn.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage)
 
-Both elements should not be exposed to the client for security reasons and that is, in part, why we perform this process on the SvelteKit server side.
+Both elements should not be exposed to the client for security reasons and that is, in part, why we perform this process on SvelteKit server side.
 
 For SAS shared access signing we first need to install the package [@azure/storage-blob](https://www.npmjs.com/package/@azure/storage-blob):
 
 ```bash
 npm install @azure/storage-blob
 ```
-With the following function we can create the signature:
+With the following function we create the signature:
 
 ```typescript
 import {
