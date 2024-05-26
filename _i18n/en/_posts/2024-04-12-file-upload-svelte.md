@@ -4,7 +4,7 @@ title: "File upload to Azure Blob Storage using Svelte Kit"
 tag: tech
 ---
 
-Working on the creation of recipes in [cook-web](https://github.com/luz-ojeda/cook-web) I implemented the upload of their images to Azure Blob Storage.
+Working on the creation of recipes in [cook-web](https://github.com/luz-ojeda/cook-web){:target="_blank"} I implemented the upload of their images to Azure Blob Storage.
 
 The general diagram of the actual process in my application is as follows (I will use the numbers of each part for reference later):
 
@@ -51,7 +51,7 @@ The SvelteKit client side is relatively simple, in a page `+page.svelte` we plac
 </form>
 ```
 
-Something important to note is the value of the `enctype` attribute on the `form` element. It is necessary because if you use [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement) as described in this [issue](https://github.com/ sveltejs/kit/issues9819). If not, when you press the submit button, this console error occurs and the POST action is not executed:
+Something important to note is the value of the `enctype` attribute on the `form` element. It is necessary because if you use [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement){:target="_blank"} as described in this [issue](https://github.com/ sveltejs/kit/issues9819){:target="_blank"}. If not, when you press the submit button, this console error occurs and the POST action is not executed:
 
 ![alt text](/assets/images/svelte_file_upload/enctype_error.png)
 {: .wide-img}
@@ -59,7 +59,7 @@ Something important to note is the value of the `enctype` attribute on the `form
 For ilustrative purposes I didn't set `use:enhance` there but since I did in my repository I thought it was worth mentioning, took me a few minutes to open the console to figure out why nothing was happening when I was trying to submit the form.
 
 ## 2 - 4
-In the same path of `+page.svelte` we must have a `+page.server.ts` file that exports an *action*, which will be triggered when the form is submitted ([docs](https://kit.svelte.dev/docs/form-actions)). The file can export more than one action, besides the one exported by default (these additional are the *named actions* mentioned in the docs). In this case we only need the default one.
+In the same path of `+page.svelte` we must have a `+page.server.ts` file that exports an *action*, which will be triggered when the form is submitted ([docs](https://kit.svelte.dev/docs/form-actions){:target="_blank"}). The file can export more than one action, besides the one exported by default (these additional are the *named actions* mentioned in the docs). In this case we only need the default one.
 
 ```typescript
 export const actions = {
@@ -91,7 +91,7 @@ export const actions = {
 	}
 } satisfies Actions;
 ```
-The file is obtained calling [`FormData.get`](https://developer.mozilla.org/en-US/docs/Web/API/FormData). We then put together the request body to send to our API and use `fetch` to execute it.
+The file is obtained calling [`FormData.get`](https://developer.mozilla.org/en-US/docs/Web/API/FormData){:target="_blank"}. We then put together the request body to send to our API and use `fetch` to execute it.
 
 The `files` property in the body of the request allows us, in a front end that consumes the API data, to know which URL corresponds to the entity's image (a user, a post, a cooking recipe, etc.).
 
@@ -114,11 +114,11 @@ Still in the `default` action of `+page.server.ts`, if the API response is succe
 
 For the upload we will need two elements:
 1. A [SAS shared access signature](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview) (a.k.a. SAS token): Provides delegated access to resources on a certain time window, with limited permissions, etc.
-2. The Azure storage account [access key](https://learn.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage)
+2. The Azure storage account [access key](https://learn.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage){:target="_blank"}
 
 Both elements should not be exposed to the client for security reasons and that is, in part, why we perform this process on SvelteKit server side.
 
-For SAS shared access signing we first need to install the package [@azure/storage-blob](https://www.npmjs.com/package/@azure/storage-blob):
+For SAS shared access signing we first need to install the package [@azure/storage-blob](https://www.npmjs.com/package/@azure/storage-blob){:target="_blank"}:
 
 ```bash
 npm install @azure/storage-blob
