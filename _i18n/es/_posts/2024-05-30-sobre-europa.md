@@ -4,7 +4,7 @@ title: Sobre Europa
 tag: travel
 ---
 
-El 22 de mayo volví de viaje [sola](link a sobre viajar sola) por Europa, primera vez en otro continente. Recorrí 5 ciudades en 20 noches:
+El 22 de mayo volví de viaje sola por Europa, primera vez en otro continente. Recorrí 5 ciudades en 20 noches:
 - 🇨🇭 [Fribourg (Suiza)](#suiza)
 - 🇧🇪 [Ghent (Bélgica)](#bélgica)
 - 🇳🇱 [Amsterdam (Países Bajos)](#amsterdam)
