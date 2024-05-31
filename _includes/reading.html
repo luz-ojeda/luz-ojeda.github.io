@@ -13,8 +13,8 @@
         {% for book in year.items %}
         <li class="book-list-item">
             <div class="flex">
-                <a href="{{ book.link }}" target="_blank">
-                    <img class="book-cover" loading="lazy" src="{{ book.image }}" alt="{{ book.title }}" />
+                <a class="book-cover" href="{{ book.link }}" target="_blank">
+                    <img loading="lazy" src="{{ book.image }}" alt="{{ book.title }}" />
                 </a>
                 <div class="book-info flex justify-content-between">
                     <div>

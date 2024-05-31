@@ -33,7 +33,8 @@
 .book-cover {
     margin-right: 18px;
     height: 105px;
-    width: 75px;
+    min-width: 75px;
+    max-width: 75px;
 }
 
 .book-info {
