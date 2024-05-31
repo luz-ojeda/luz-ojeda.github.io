@@ -9,7 +9,6 @@ Working on the creation of recipes in [cook-web](https://github.com/luz-ojeda/co
 The general diagram of the actual process in my application is as follows (I will use the numbers of each part for reference later):
 
 ![Diagram of the file upload feature involving SvelteKit app, .NET API and Azure Blob Storage](/assets/images/svelte_file_upload/diagram.jpeg)
-{: .wide-img}
 
 For illustrative purposes I am going to try to abstract as much as possible from the specifics of my particular case.
 
@@ -54,7 +53,6 @@ The SvelteKit client side is relatively simple, in a page `+page.svelte` we plac
 Something important to note is the value of the `enctype` attribute on the `form` element. It is necessary because if you use [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement){:target="_blank"} as described in this [issue](https://github.com/ sveltejs/kit/issues9819){:target="_blank"}. If not, when you press the submit button, this console error occurs and the POST action is not executed:
 
 ![alt text](/assets/images/svelte_file_upload/enctype_error.png)
-{: .wide-img}
 
 For ilustrative purposes I didn't set `use:enhance` there but since I did in my repository I thought it was worth mentioning, took me a few minutes to open the console to figure out why nothing was happening when I was trying to submit the form.
 

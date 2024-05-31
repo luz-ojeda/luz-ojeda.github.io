@@ -9,7 +9,6 @@ Trabajando en la creación de recetas en [cook web](https://github.com/luz-ojeda
 El diagrama general del proceso real en mi aplicación es el siguiente (voy a usar los números de cada parte como referencia más adelante):
 
 ![Diagram of the file upload feature involving SvelteKit app, .NET API and Azure Blob Storage](/assets/images/svelte_file_upload/diagram.jpeg)
-{: .wide-img}
 
 Con fines ilustrativos voy a tratar de abstraerme lo máximo posible de lo concreto de mi caso en particular.
 
