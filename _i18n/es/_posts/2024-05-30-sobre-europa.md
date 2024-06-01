@@ -45,20 +45,20 @@ Como forma de resumir lo que me pareció más destacable y recomendaciones de al
 - Rijksmuseum
     - Ir lo más temprano posible, apenas abra.
     - Recomiendo bajar la app y contratar el tour guiado de una hora.
-    - Imposible de recorrer en un día. Hacer una lista de exhibiciones must-see antes (como [La Ronda de Noche](https://es.wikipedia.org/wiki/La_ronda_de_noche) de Rembrandt).
+    - Imposible de recorrer en un día. Hacer una lista de exhibiciones must-see antes, como [La Ronda de Noche](https://es.wikipedia.org/wiki/La_ronda_de_noche) de Rembrandt.
 
 ![Foto de un canal en la ciudad de Amsterdam](/assets/images/amsterdam1.jpg)
 
 ## Berlín
 ### Alojamiento
 - [Circus Hostel](https://circus-berlin.de/)
-- Recomiendo: depende. Si viajás solo/a, te interesa socializar y no te importa mucho la ubicación _no_. El área común no está bien diseñada para que ocurra interacción entre personas de forma natural ni tiene una cocina. Es más un hotel "barato" (y ni tanto) la verdad. Si te importa mucho la ubicación, que es excelente, y viajás en pareja/grupo podés buscar una habitación doble sin notar las contras que destaco.
+- Recomiendo: depende. Si viajás solo/a, te interesa socializar y no te importa mucho la ubicación _no_. El área común no está bien diseñada para que ocurra interacción entre personas de forma natural ni tiene una cocina. Es más un hotel "barato", y ni tanto. Si te importa mucho la ubicación, que es excelente, y viajás en pareja/grupo podés buscar una habitación doble sin notar las contras que destaco.
 
 ### Lo que amé
 - Berghain y Tresor. Ambas ex-fábricas reconvertidas en clubes de techno y tech-house.
 - Parques
 - Monumentos históricos: tengo un sesgo enorme por mi interés en la historia alemana desde que tengo memoria. No pude evitar emocionarme al ver la puerta de Brandenburgo.
-- Cementerio del sudoeste Stahnsdorf: lugar donde filmaron escenas de la serie de Netflix Dark, es un parque enorme tranquilo donde te podés perder por horas. A una hora de Berlín. Si te gustan los cementerios como a mi, recomendadísimo.
+- Cementerio del sudoeste Stahnsdorf: lugar donde filmaron escenas de la serie de Netflix Dark, es un parque enorme tranquilo donde te podés perder por horas. A una hora de Berlín. Si te gustan los cementerios como a mi recomendadísimo.
 
 ![Reloj de Alexanderplatz y torre de televisión en el fondo](/assets/images/berlin1.jpg)
 ![Cementerio de Stahnsdorf](/assets/images/berlin2.jpg)

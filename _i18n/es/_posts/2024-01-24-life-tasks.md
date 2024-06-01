@@ -27,7 +27,7 @@ Una salvedad: no todas las personas pasaríamos por las mismas tareas o etapas d
 
 ## Imperial
 
-Durante la primera intentamos establecer una sensación de **control** en nuestras vidas, una capacidad para influir en nuestros propios pensamientos y comportamiento, y tener fe en nuestra capacidad para manejar una amplia gama de tareas y situaciones.
+Durante la primera intentamos establecer una sensación de **control** en nuestras vidas, una capacidad para influir en nuestros propios pensamientos y comportamiento y tener fe en nuestra capacidad para manejar una amplia gama de tareas y situaciones.
 
 Para esto desarrollamos lo que Kegan (uno de los dos psicólogos en los que se basó el autor del libro) llama una _“conciencia imperial”_.
 

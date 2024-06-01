@@ -23,7 +23,7 @@ Versiones:
 ---
 
 ## 1
-La parte del cliente de SvelteKit es relativamente sencilla, en una página `+page.svelte` colocamos:
+La parte del cliente de SvelteKit es relativamente sencilla. En una página `+page.svelte` colocamos:
 
 ```html
 <script lang="ts">
