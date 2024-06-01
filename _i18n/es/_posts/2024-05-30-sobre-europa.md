@@ -24,7 +24,7 @@ Como forma de resumir lo que me pareció más destacable y recomendaciones de al
 
 ## Bélgica
 ### Alojamiento
-- [Cocomama](https://cocomamahostel.com/)
+- [Kaba hostel](http://www.kabahostel.be/en)
 - Recomiendo: sí. Buen desayuno y buena ubicación. No tiene ascensor y fue incómodo subir la valija tres pisos, pero es lo único malo que le encontré.
 
 ### Lo que amé
