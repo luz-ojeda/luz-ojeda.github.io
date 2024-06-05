@@ -1,10 +1,5 @@
 .posts-list {
-    margin-top: 56px;
     padding-top: 12px;
-}
-
-.microposts-list {
-    list-style: none;
 }
 
 .posts-list-padding {
@@ -13,12 +8,6 @@
 
 .microposts-list-padding {
     padding: 0;
-}
-
-.post {
-    &:not(:last-of-type) {
-        margin-bottom: 16px;
-    }
 }
 
 .post-title {
