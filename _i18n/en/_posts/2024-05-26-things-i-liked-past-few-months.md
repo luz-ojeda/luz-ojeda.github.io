@@ -12,6 +12,6 @@ title: Things I liked in the past few months
 - [No More Platforms Please](https://world.hey.com/dhh/no-more-platforms-please-8f01445e){:target="_blank"}
 - [They're Looting The Internet](https://www.wheresyoured.at/the-great-looting-of-the-internet/){:target="_blank"}
 - [Why Generation Y Yuppies Are Unhappy](https://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html){:target="_blank"}
-- [https://freedium.cfd/https://johndanielraines.medium.com/be-an-engineer-not-a-frameworker-c58fe28d0c88](https://freedium.cfd/https://johndanielraines.medium.com/be-an-engineer-not-a-frameworker-c58fe28d0c88){:target="_blank"}
+- [Be an Engineer, not a Frameworker](https://freedium.cfd/https://johndanielraines.medium.com/be-an-engineer-not-a-frameworker-c58fe28d0c88){:target="_blank"}
 - [30% of Children Ages 5-7 Are on TikTok](https://www.honest-broker.com/p/30-of-children-ages-5-7-are-on-tiktok){:target="_blank"}
 - [Things you forgot (or never knew) because of React](https://joshcollinsworth.com/blog/antiquated-react){:target="_blank"}
