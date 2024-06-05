@@ -4,7 +4,7 @@ title: "Caffeine capsules"
 ---
 While reading, I no longer remember _what_ exactly, I came across caffeine in capsules on the internet. I bought [these](https://www.mercadolibre.com.ar/caffeine-anhydrous-200-90-comp-cafeina-body-advance-energia/p/MLA20008829) (link is from an e-commerce like Amazon popular here in Argentina and rest of Latin America). They come in doses of 200mg. By comparison, an espresso has approximately 60mg of caffeine. A cup of filter coffee, depending on whether or not it is diluted with milk, from 70 to 140.
 
-My idea is not to drink regularly either now or in the future since it is known that a tolerance is generated and I would like to avoid that (plus I already consume caffeine in the form of mate, coffee and/or tea practically daily). But I found it interesting to try it for moments where I need periods of great concentration, such as studying before an exam.
+My idea is not to drink regularly either now or in the future since it is known you acquire a tolerance to it and I would like to avoid that (plus I already consume caffeine in the form of mate, coffee and/or tea almost daily). Though I found it interesting to try it for moments where I need periods of great concentration, such as studying before an exam.
 
 Dose: 100mg (half capsule)
 

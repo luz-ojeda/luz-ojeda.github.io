@@ -3,7 +3,7 @@
 
 A summary of my career so far including some tasks I was responsible for in each position:
 
-- ### Jan 2023 - Apr 2024: **[Southworks](https://www.southworks.com/)**
+- ### Jan 2023 - Today: **[Southworks](https://www.southworks.com/)**
   - Implemented **Python** scripts for scraping makeup webpages, using **Selenium** and **BeautifulSoup** extracting from various
 retailers and brands. Data was then processed into Excel files for later analysis.
   - Worked in the migration of the **Azure Virtual Desktop** service to React from Knockout JS along with testing (integration and e2e) of new features from the service

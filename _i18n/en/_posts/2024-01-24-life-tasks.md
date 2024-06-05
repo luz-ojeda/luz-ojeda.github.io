@@ -49,7 +49,7 @@ It is by noticing the limitations of this purely interpersonal awareness that we
 
 ## Career consolidation
 
-At a certain point in our lives we have to find a career to pursue, whether it's raising children, a job, volunteering, anything that allows us to feel like we're making a difference in the world.
+At a certain point in our lives we have to find a career to pursue, whether it's raising children, a job, volunteering or anything that allows us to feel like we're making a difference in the world.
 
 It is during this task that we achieve the consolidation of this career or experience “drift”.
 
@@ -57,7 +57,7 @@ We go through a necessary period of experimentation where we discover what we li
 
 People in this task are carried away by a desire for mastery, the pleasure of being or becoming really good at something. As happens in other tasks, consciousness changes.
 
-In this case, a more individualistic mentality develops. We become better at our self-control and emotional regulation. We develop a better ability to go against the masses. Sooner or later success in this career (which, again, does not necessarily have to be something work-related but is the word chosen by the author) stops satisfying us.
+In this case, a more individualistic mentality develops. We become better at our self-control and emotional regulation. We develop a better ability to go against the masses. Sooner or later success in this career (which again, does not necessarily have to be something work-related but is the word chosen by the author) stops satisfying us.
 
 According to Carl Jung “_The achievements that society rewards come at the cost of a decrease in personality_”. Eventually the costs become too high.
 

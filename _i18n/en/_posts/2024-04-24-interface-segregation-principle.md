@@ -102,7 +102,7 @@ public interface ICharacter
 
 Would led me to implement the same code for each character that died (`Skeleton` should have a `Die()` implementation as well as any other of tens of characters I would want to add later).
 
-So, regarding the post's title I created another interface:
+So regarding the post's title I created another interface:
 
 ```csharp
 public interface ICharacterCore
@@ -161,11 +161,11 @@ public async Task Run(ICharacter character, Battle battle)
 	// No need for RemoveCharacterFromParty() method
 ```
 
-So, using two interfaces (`ICharacterCore` and `ICharacter`) instead of only one (`ICharacter`) let me implement the Die and party removal feature from only one place instead of several. There may be other approaches to avoid the repetition of the Die() implementation besides several interfaces but I'm satisfied with this one.
+Using two interfaces (`ICharacterCore` and `ICharacter`) instead of only one (`ICharacter`) let me implement the Die and party removal feature from only one place instead of several. There may be other approaches to avoid the repetition of the `Die()` implementation besides several interfaces but I'm satisfied with this one.
 
-Also, you may have noticed both Characters had the same Act() implementation, that was modified afterwards and moved to each different attack class, as well.
+Also, you may have noticed both Characters had the same `Act()` implementation. That method was modified afterwards and moved to each different attack class, as well.
 
-The following isn't related to the interfaces segregation principle but if you're curious about how the feature works entirely, this is the `Party` class:
+The following isn't related to the interface segregation principle but if you're curious about how the feature works entirely, this is the `Party` class:
 
 ```csharp
 public class Party

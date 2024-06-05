@@ -3,7 +3,7 @@
 
 Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui responsable en cada posición:
 
-- ### Ene 2023 - abr 2024: **[Southworks](https://www.southworks.com/)**
+- ### Ene 2023 - actualidad: **[Southworks](https://www.southworks.com/)**
   - Migración del servicio **Azure Virtual Desktop** de Microsoft a React
   - Testing e2e de nuevas features del servicio Azure Virtual Desktop
 - ### Sep 2021 - dic 2022: **[IbisDev](https://ibisdev.tech/)**
