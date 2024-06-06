@@ -4,13 +4,13 @@
   url: https://kind-wave-02b99d910.5.azurestaticapps.net/
   year: 2024
 
-- title: Cook web app
+- title: Simple recipes web
   description: Full stack web app developed in Svelte, .NET and PostgreSQL for managing of cooking recipes deployed in Fly.io
   repo_url: https://github.com/luz-ojeda/cook-web#readme
   url: https://recetassimples.app
   year: 2024
 
-- title: Cook web API
+- title: Simple recipes API
   description: .NET C# controller based web API using a PostgreSQL DB
   repo_url: https://github.com/luz-ojeda/cook-api#readme
   year: 2024
