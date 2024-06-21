@@ -50,7 +50,7 @@ The SvelteKit client side is relatively simple, in a page `+page.svelte` we plac
 </form>
 ```
 
-Something important to note is the value of the `enctype` attribute on the `form` element. It is necessary because if you use [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement){:target="_blank"} as described in this [issue](https://github.com/ sveltejs/kit/issues9819){:target="_blank"}. If not, when you press the submit button, this console error occurs and the POST action is not executed:
+Something important to note is the value of the `enctype` attribute on the `form` element. It is necessary if you use [`use:enhance`](https://kit.svelte.dev/docs/form-actions#progressive-enhancement){:target="_blank"} as described in this [issue](https://github.com/ sveltejs/kit/issues9819){:target="_blank"}. If the enctype is no set, when you press the submit button, this console error occurs and the POST action is not executed:
 
 ![alt text](/assets/images/svelte_file_upload/enctype_error.png)
 
