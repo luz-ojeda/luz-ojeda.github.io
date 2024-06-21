@@ -1,6 +1,7 @@
 - Búhos/lechuzas
 - Un té y/o mate en un día frío mientras las ventanas se empañan
 - Los hongos (especialmente encontrar uno en la naturaleza) y las plantas
+- Programar & noche & música
 - Pasar tiempo en mi balcón en primavera/verano. Y las noches de verano en sí.
 - Cuidar de mis plantas
 - Cocinar mientras escucho música con auriculares

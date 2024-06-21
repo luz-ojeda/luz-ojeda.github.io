@@ -1,6 +1,7 @@
 - Owls
 - Tea and/or Mate 🧉 in a cold day (even better if it is raining) as windows fog up
 - Mushrooms (specially finding one in the wild)
+- Code & night & music
 - Flowers, in all their colors, shapes and sizes
 - Spending time on my balcony on spring/summer times. And summer nights themselves.
 - Taking care of my plants
