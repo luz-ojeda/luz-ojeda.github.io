@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An example of the interface segregation principle"
+title: "Un ejemplo del principio de segregación de interfaz"
 tag: tech
 ---
 
