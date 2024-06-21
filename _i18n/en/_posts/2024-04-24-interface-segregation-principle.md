@@ -161,7 +161,7 @@ public async Task Run(ICharacter character, Battle battle)
 	// No need for RemoveCharacterFromParty() method
 ```
 
-Using two interfaces (`ICharacterCore` and `ICharacter`) instead of only one (`ICharacter`) let me implement the Die and party removal feature from only one place instead of several. There may be other approaches to avoid the repetition of the `Die()` implementation besides several interfaces but I'm satisfied with this one.
+Using two interfaces (`ICharacterCore` and `ICharacter`) instead of only one (`ICharacter`) let me implement the `Die` and party removal feature from only one place instead of several. There may be other approaches to avoid the repetition of the `Die()` implementation besides several interfaces but I'm satisfied with this one.
 
 Also, you may have noticed both Characters had the same `Act()` implementation. That method was modified afterwards and moved to each different attack class, as well.
 
