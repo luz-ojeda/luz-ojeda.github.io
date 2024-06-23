@@ -19,7 +19,7 @@ En español (hasta dónde sé) solo tenemos una palabra para ambos casos:
 
 Esté uno/a infeliz, neutral o feliz [al respecto] de _estar solo sin otras personas_, la palabra es la misma. Y es una limitación. Pues creo que muchos pasamos por ambos estados. El de sufrir por estar solos y otros donde necesitamos recluirnos para pasar tiempo con nosotros mismos/solos.
 
-Hasta se puede mencionar un tercero de estar con gente y _aún_ sentirnos solos. Pero no conozco no hay una palabra que defina este último.
+Hasta se puede mencionar un tercero de estar con gente y _aún_ sentirnos solos. Pero no conozco o no hay una palabra que defina este último.
 
 Y tampoco es lo mismo elegir estar solos sabiendo que tenemos a personas esperándonos o que quieren vernos que estarlo sin que haya nadie ahí para nosotros.
 
