@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-06-25T15:07:03+00:00</updated><id>/feed.xml</id><title type="html">Luz Ojeda</title><author><name>Luz Ojeda</name></author><entry><title type="html">Things I liked in the past few months</title><link href="/2024/05/26/things-i-liked-past-few-months.html" rel="alternate" type="text/html" title="Things I liked in the past few months" /><published>2024-05-26T00:00:00+00:00</published><updated>2024-05-26T00:00:00+00:00</updated><id>/2024/05/26/things-i-liked-past-few-months</id><content type="html" xml:base="/2024/05/26/things-i-liked-past-few-months.html"><![CDATA[<ul>
+  <li><a href="https://taylor.town/daily-questions" target="_blank">Deep daily questions</a></li>
+  <li><a href="https://gist.github.com/jm3/6724931" target="_blank">Gin, Television, and Social Surplus</a>
+    <ul>
+      <li>Since the industrial revolution we have more free time and up until the internet we used it on alcohol and TV, but now that has changed. Some people now direct cognitive surplus to collaborative projects like Wikipedia.</li>
+    </ul>
+  </li>
+  <li><a href="https://liw.fi/40/" target="_blank">40 years of programming</a>
+    <ul>
+      <li>A noteworthy “What I wish I knew before learning to program” kind of article</li>
+    </ul>
+  </li>
+  <li><a href="https://evaparish.com/blog/how-i-edit" target="_blank">What I think about when I edit</a></li>
+  <li><a href="https://world.hey.com/dhh/no-more-platforms-please-8f01445e" target="_blank">No More Platforms Please</a></li>
+  <li><a href="https://www.wheresyoured.at/the-great-looting-of-the-internet/" target="_blank">They’re Looting The Internet</a></li>
+  <li><a href="https://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html" target="_blank">Why Generation Y Yuppies Are Unhappy</a></li>
+  <li><a href="https://freedium.cfd/https://johndanielraines.medium.com/be-an-engineer-not-a-frameworker-c58fe28d0c88" target="_blank">Be an Engineer, not a Frameworker</a></li>
+  <li><a href="https://www.honest-broker.com/p/30-of-children-ages-5-7-are-on-tiktok" target="_blank">30% of Children Ages 5-7 Are on TikTok</a></li>
+  <li><a href="https://joshcollinsworth.com/blog/antiquated-react" target="_blank">Things you forgot (or never knew) because of React</a></li>
+</ul>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[Deep daily questions Gin, Television, and Social Surplus Since the industrial revolution we have more free time and up until the internet we used it on alcohol and TV, but now that has changed. Some people now direct cognitive surplus to collaborative projects like Wikipedia. 40 years of programming A noteworthy “What I wish I knew before learning to program” kind of article What I think about when I edit No More Platforms Please They’re Looting The Internet Why Generation Y Yuppies Are Unhappy Be an Engineer, not a Frameworker 30% of Children Ages 5-7 Are on TikTok Things you forgot (or never knew) because of React]]></summary></entry><entry><title type="html">An example of the interface segregation principle</title><link href="/2024/04/24/interface-segregation-principle.html" rel="alternate" type="text/html" title="An example of the interface segregation principle" /><published>2024-04-24T00:00:00+00:00</published><updated>2024-04-24T00:00:00+00:00</updated><id>/2024/04/24/interface-segregation-principle</id><content type="html" xml:base="/2024/04/24/interface-segregation-principle.html"><![CDATA[<p>The interface segregation principle from <a href="https://en.wikipedia.org/wiki/SOLID">SOLID</a> states that “clients should not be forced to depend upon interfaces that they do not use”.</p>
+
+<p>Working in <a href="https://github.com/luz-ojeda/c-players-guide-endgame">Endgame</a>, the final project for the C# Player’s Guide book, I got the opportunity to apply it. The project is a role-playing game console application with characters in it. Each one in a party (heroes or monsters).</p>
+
+<p>In the beginning I had one single <code class="language-plaintext highlighter-rouge">ICharacter</code> interface which looked like this</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">ICharacter</span>
+<span class="p">{</span>
+	<span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+	<span class="kt">string</span> <span class="n">AttackName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+	<span class="n">Task</span> <span class="nf">Act</span><span class="p">(</span><span class="n">IAction</span> <span class="n">action</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>One implementation was the player’s character (before implementing the proper attack action):</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">TrueProgrammer</span> <span class="p">:</span> <span class="n">ICharacter</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"TOG"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">AttackName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"PUNCH"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">MaxHP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="m">25</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">HP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+
+	<span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Act</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">await</span> <span class="n">Statics</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="nf">WriteLine</span><span class="p">(</span><span class="s">$"</span><span class="p">{</span><span class="n">Name</span><span class="p">}</span><span class="s"> did NOTHING."</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>I also had other characters such as the final boss and skeletons:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Skeleton</span> <span class="p">:</span> <span class="n">ICharacter</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"Skeleton"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">AttackName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"BONE CRUNCH"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">MaxHP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="m">5</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">HP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+
+	<span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Act</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">await</span> <span class="n">Statics</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="nf">WriteLine</span><span class="p">(</span><span class="s">$"</span><span class="p">{</span><span class="n">Name</span><span class="p">}</span><span class="s"> did NOTHING."</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The other related classes to run the game were the <code class="language-plaintext highlighter-rouge">Battle</code>, <code class="language-plaintext highlighter-rouge">Party</code> and <code class="language-plaintext highlighter-rouge">AttackAction</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Battle</code> represented each battle in the game with the parties associated playing each party’s turn alternatively. When user or the computer chose to attack a target from the other party the <code class="language-plaintext highlighter-rouge">Run</code> method of the <code class="language-plaintext highlighter-rouge">AttackAction</code> was executed:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Run</span><span class="p">(</span><span class="n">ICharacter</span> <span class="n">character</span><span class="p">,</span> <span class="n">Battle</span> <span class="n">battle</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="kt">float</span> <span class="n">damage</span> <span class="p">=</span> <span class="n">character</span><span class="p">.</span><span class="n">Attack</span><span class="p">.</span><span class="n">Damage</span><span class="p">;</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">-</span> <span class="n">damage</span> <span class="p">&lt;=</span> <span class="m">0</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+			<span class="nf">RemoveCharacterFromParty</span><span class="p">(</span><span class="n">_target</span><span class="p">,</span> <span class="n">battle</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span>
+		<span class="p">{</span>
+			<span class="c1">// reduce hp</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">RemoveCharacterFromParty</span><span class="p">(</span><span class="n">ICharacter</span> <span class="n">character</span><span class="p">,</span> <span class="n">Battle</span> <span class="n">battle</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">character</span><span class="p">.</span><span class="n">PartyType</span> <span class="p">==</span> <span class="n">PartyType</span><span class="p">.</span><span class="n">Monsters</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">battle</span><span class="p">.</span><span class="n">Monsters</span><span class="p">.</span><span class="n">Characters</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="n">character</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span>
+		<span class="p">{</span>
+			<span class="n">battle</span><span class="p">.</span><span class="n">Heroes</span><span class="p">.</span><span class="n">Characters</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="n">character</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This started looking weird to me since I had to pass the whole <code class="language-plaintext highlighter-rouge">Battle</code> instance to each action <em>just</em> to remove the character from the party (going “up” to battle, then down to the character’s party).</p>
+
+<p>My first idea was to create a <code class="language-plaintext highlighter-rouge">Die()</code> method that would emit an <code class="language-plaintext highlighter-rouge">event</code>. Parties would then subscribe to it and remove characters that emitted the event.</p>
+
+<p>But doing this:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">ICharacter</span>
+<span class="p">{</span>
+	<span class="p">...</span>
+    <span class="k">void</span> <span class="nf">Die</span><span class="p">();</span>
+    <span class="k">event</span> <span class="n">Action</span><span class="p">&lt;</span><span class="n">ICharacterCore</span><span class="p">&gt;?</span> <span class="n">CharacterDied</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Would led me to implement the same code for each character that died (<code class="language-plaintext highlighter-rouge">Skeleton</code> should have a <code class="language-plaintext highlighter-rouge">Die()</code> implementation as well as any other of tens of characters I would want to add later).</p>
+
+<p>So regarding the post’s title I created another interface:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">ICharacterCore</span>
+<span class="p">{</span>
+	<span class="k">void</span> <span class="nf">Die</span><span class="p">();</span>
+	<span class="k">event</span> <span class="n">Action</span><span class="p">&lt;</span><span class="n">ICharacterCore</span><span class="p">&gt;?</span> <span class="n">CharacterDied</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>One that implemented both:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">IPartyCharacter</span> <span class="p">:</span> <span class="n">ICharacter</span><span class="p">,</span> <span class="n">ICharacterCore</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>…a base class that implemented <code class="language-plaintext highlighter-rouge">ICharacterCore</code> and the <code class="language-plaintext highlighter-rouge">Die()</code> method:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Character</span> <span class="p">:</span> <span class="n">ICharacterCore</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="k">event</span> <span class="n">Action</span><span class="p">&lt;</span><span class="n">ICharacterCore</span><span class="p">&gt;?</span> <span class="n">CharacterDied</span><span class="p">;</span>
+
+	<span class="k">public</span> <span class="k">void</span> <span class="nf">Die</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="n">CharacterDied</span><span class="p">?.</span><span class="nf">Invoke</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>And finally updated the character classes to inherit <code class="language-plaintext highlighter-rouge">Character</code>, implement <code class="language-plaintext highlighter-rouge">IPartyCharacter</code> and thus inherit <code class="language-plaintext highlighter-rouge">Die()</code>:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">TrueProgrammer</span> <span class="p">:</span> <span class="n">Character</span><span class="p">,</span> <span class="n">IPartyCharacter</span>
+<span class="p">{</span>
+	<span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>This led to a simplified <code class="language-plaintext highlighter-rouge">Run</code> method and also a more intuitive approach. Since, IMO, it’s better for the <code class="language-plaintext highlighter-rouge">Party</code> instance to be responsible of removing characters from it, not an action.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Run</span><span class="p">(</span><span class="n">ICharacter</span> <span class="n">character</span><span class="p">,</span> <span class="n">Battle</span> <span class="n">battle</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="kt">float</span> <span class="n">damage</span> <span class="p">=</span> <span class="n">character</span><span class="p">.</span><span class="n">Attack</span><span class="p">.</span><span class="n">Damage</span><span class="p">;</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">-</span> <span class="n">damage</span> <span class="p">&lt;=</span> <span class="m">0</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+			<span class="n">_target</span><span class="p">.</span><span class="nf">Die</span><span class="p">();</span>
+		<span class="p">}</span>
+		<span class="k">else</span>
+		<span class="p">{</span>
+			<span class="c1">// reduce hp</span>
+			<span class="p">...</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// No need for RemoveCharacterFromParty() method</span>
+</code></pre></div></div>
+
+<p>Using two interfaces (<code class="language-plaintext highlighter-rouge">ICharacterCore</code> and <code class="language-plaintext highlighter-rouge">ICharacter</code>) instead of only one (<code class="language-plaintext highlighter-rouge">ICharacter</code>) let me implement the <code class="language-plaintext highlighter-rouge">Die</code> and party removal feature from only one place instead of several. There may be other approaches to avoid the repetition of the <code class="language-plaintext highlighter-rouge">Die()</code> implementation besides several interfaces but I’m satisfied with this one.</p>
+
+<p>Also, you may have noticed both Characters had the same <code class="language-plaintext highlighter-rouge">Act()</code> implementation. That method was modified afterwards and moved to each different attack class, as well.</p>
+
+<p>The following isn’t related to the interface segregation principle but if you’re curious about how the feature works entirely, this is the <code class="language-plaintext highlighter-rouge">Party</code> class:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Party</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="n">PartyType</span> <span class="n">Type</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+	<span class="k">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">IPartyCharacter</span><span class="p">&gt;</span> <span class="n">Characters</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="p">[];</span>
+	<span class="k">public</span> <span class="n">PlayerType</span> <span class="n">PlayerInControl</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+	<span class="k">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">IPartyItem</span><span class="p">&gt;</span> <span class="n">Items</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="p">[];</span>
+	<span class="k">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">IPartyGear</span><span class="p">&gt;</span> <span class="n">Gear</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="p">[];</span>
+
+	<span class="k">public</span> <span class="nf">Party</span><span class="p">(</span><span class="n">PartyType</span> <span class="n">type</span><span class="p">,</span> <span class="n">PlayerType</span> <span class="n">playerInControl</span> <span class="p">=</span> <span class="n">PlayerType</span><span class="p">.</span><span class="n">Computer</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="c1">// Initialization and item assignment based on party type</span>
+        <span class="p">...</span>
+
+		<span class="k">if</span> <span class="p">(</span><span class="n">characterCore</span> <span class="k">is</span> <span class="n">IPartyCharacter</span> <span class="n">character</span> <span class="p">&amp;&amp;</span> <span class="n">Characters</span><span class="p">.</span><span class="nf">Contains</span><span class="p">(</span><span class="n">character</span><span class="p">))</span>
+		<span class="p">{</span>
+			<span class="n">Characters</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="n">character</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Other methods</span>
+	<span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div></div>]]></content><author><name>Luz Ojeda</name></author><category term="tech" /><summary type="html"><![CDATA[The interface segregation principle from SOLID states that “clients should not be forced to depend upon interfaces that they do not use”.]]></summary></entry><entry><title type="html">File upload to Azure Blob Storage using Svelte Kit</title><link href="/2024/04/12/file-upload-svelte.html" rel="alternate" type="text/html" title="File upload to Azure Blob Storage using Svelte Kit" /><published>2024-04-12T00:00:00+00:00</published><updated>2024-04-12T00:00:00+00:00</updated><id>/2024/04/12/file-upload-svelte</id><content type="html" xml:base="/2024/04/12/file-upload-svelte.html"><![CDATA[<p>Working on the creation of recipes in <a href="https://github.com/luz-ojeda/cook-web" target="_blank">cook-web</a> I implemented the upload of their images to Azure Blob Storage.</p>
+
+<p>The general diagram of the actual process in my application is as follows (I will use the numbers of each part for reference later):</p>
+
+<p><img src="/assets/images/svelte_file_upload/diagram.jpeg" alt="Diagram of the file upload feature involving SvelteKit app, .NET API and Azure Blob Storage" /></p>
+
+<p>For illustrative purposes I am going to try to abstract as much as possible from the specifics of my particular case.</p>
+
+<p>Versions:</p>
+
+<ul>
+  <li><a href="https://www.npmjs.com/package/svelte">Svelte</a> 4.2.7</li>
+  <li><a href="https://www.npmjs.com/package/@sveltejs/kit">SvelteKit</a> 2.0.0</li>
+  <li><a href="https://www.npmjs.com/package/vite">Vite</a> 5.0.3</li>
+  <li><a href="https://www.npmjs.com/package/@azure/storage-blob#azure-storage-blob-client-library-for-javascript">Azure Storage Blob client library for JavaScript</a> 12.17.0</li>
+  <li>Typescript 5.0.0</li>
+</ul>
+
+<hr />
+
+<h2 id="1">1</h2>
+<p>The SvelteKit client side is relatively simple, in a page <code class="language-plaintext highlighter-rouge">+page.svelte</code> we place:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">lang=</span><span class="s">"ts"</span><span class="nt">&gt;</span>
+    <span class="kd">let</span> <span class="nx">files</span><span class="p">:</span> <span class="nx">FileList</span> <span class="o">|</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">fileInput</span><span class="p">:</span> <span class="nx">HTMLInputElement</span><span class="p">;</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"POST"</span> <span class="na">enctype=</span><span class="s">"multipart/form-data"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- Accept attribute value is an example, use whatever value you desire --&gt;</span>
+    <span class="nt">&lt;input</span> 
+	<span class="na">accept=</span><span class="s">"image/png, image/jpg"</span> 
+	<span class="na">bind:files</span> 
+	<span class="na">id=</span><span class="s">"myFile"</span> 
+	<span class="na">name=</span><span class="s">"myFile"</span> 
+	<span class="na">type=</span><span class="s">"file"</span> 
+	<span class="nt">/&gt;</span>
+	<span class="nt">&lt;input</span> 
+	<span class="na">name=</span><span class="s">"name"</span> 
+	<span class="na">type=</span><span class="s">"text"</span> 
+	<span class="nt">/&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>Subir archivo<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</code></pre></div></div>
+
+<p>Something important to note is the value of the <code class="language-plaintext highlighter-rouge">enctype</code> attribute on the <code class="language-plaintext highlighter-rouge">form</code> element. It is necessary if you use <a href="https://kit.svelte.dev/docs/form-actions#progressive-enhancement" target="_blank"><code class="language-plaintext highlighter-rouge">use:enhance</code></a> as described in this <a href="https://github.com/ sveltejs/kit/issues9819" target="_blank">issue</a>. If the enctype is no set, when you press the submit button, this console error occurs and the POST action is not executed:</p>
+
+<p><img src="/assets/images/svelte_file_upload/enctype_error.png" alt="alt text" /></p>
+
+<p>For ilustrative purposes I didn’t set <code class="language-plaintext highlighter-rouge">use:enhance</code> there but since I did in my repository I thought it was worth mentioning, took me a few minutes to open the console to figure out why nothing was happening when I was trying to submit the form.</p>
+
+<h2 id="2---4">2 - 4</h2>
+<p>In the same path of <code class="language-plaintext highlighter-rouge">+page.svelte</code> we must have a <code class="language-plaintext highlighter-rouge">+page.server.ts</code> file that exports an <em>action</em>, which will be triggered when the form is submitted (<a href="https://kit.svelte.dev/docs/form-actions" target="_blank">docs</a>). The file can export more than one action, besides the one exported by default (these additional are the <em>named actions</em> mentioned in the docs). In this case we only need the default one.</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">export</span> <span class="kd">const</span> <span class="nx">actions</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">default</span><span class="p">:</span> <span class="nf">async </span><span class="p">({</span> <span class="nx">request</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">request</span><span class="p">.</span><span class="nf">formData</span><span class="p">();</span>
+
+		<span class="kd">const</span> <span class="nx">fileToUpload</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">myFile</span><span class="dl">'</span><span class="p">)</span> <span class="k">as</span> <span class="nx">File</span><span class="p">;</span>
+		<span class="c1">// data.get('') returns a value of type FormDataEntryValue which</span>
+		<span class="c1">// it is a union of File and string so we can make an assert</span>
+		<span class="c1">// a File with the keyword as</span>
+
+		<span class="kd">const</span> <span class="nx">entityName</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span><span class="p">);</span>
+
+		<span class="c1">// Creation of the entity through the API in the DB</span>
+		<span class="kd">const</span> <span class="nx">body</span> <span class="o">=</span> <span class="p">{</span>
+			<span class="na">name</span><span class="p">:</span> <span class="nx">entityName</span><span class="p">,</span>
+			<span class="na">files</span><span class="p">:</span> <span class="p">[</span><span class="s2">`https://</span><span class="p">${</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">}</span><span class="s2">.blob.core.windows.net/</span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">]</span>
+		<span class="p">};</span>
+
+		<span class="kd">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nf">fetch</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">env</span><span class="p">.</span><span class="nx">API_URL</span><span class="p">}</span><span class="s2">`</span><span class="p">,</span> <span class="p">{</span>
+			<span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
+			<span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+				<span class="dl">'</span><span class="s1">Content-Type</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">application/json</span><span class="dl">'</span><span class="p">,</span>
+			<span class="p">},</span>
+			<span class="na">body</span><span class="p">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nf">stringify</span><span class="p">(</span><span class="nx">body</span><span class="p">)</span>
+		<span class="p">});</span>
+
+		<span class="p">...</span>
+	<span class="p">}</span>
+<span class="p">}</span> <span class="nx">satisfies</span> <span class="nx">Actions</span><span class="p">;</span>
+</code></pre></div></div>
+<p>The file is obtained calling <a href="https://developer.mozilla.org/en-US/docs/Web/API/FormData" target="_blank"><code class="language-plaintext highlighter-rouge">FormData.get</code></a>. We then put together the request body to send to our API and use <code class="language-plaintext highlighter-rouge">fetch</code> to execute it.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">files</code> property in the body of the request allows us, in a front end that consumes the API data, to know which URL corresponds to the entity’s image (a user, a post, a cooking recipe, etc.).</p>
+
+<h2 id="5-7">5-7</h2>
+<p>Still in the <code class="language-plaintext highlighter-rouge">default</code> action of <code class="language-plaintext highlighter-rouge">+page.server.ts</code>, if the API response is successful (status code 201), we proceed with uploading the file to Azure:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="p">...</span>
+	<span class="nf">if </span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">responseJson</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">response</span><span class="p">.</span><span class="nf">json</span><span class="p">();</span>
+
+		<span class="nf">if </span><span class="p">(</span><span class="nx">fileToUpload</span> <span class="o">!==</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">await</span> <span class="nf">uploadFile</span><span class="p">(</span><span class="nx">fileToUpload</span><span class="p">,</span> <span class="nx">entityName</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">return</span> <span class="p">{</span> <span class="na">success</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="na">data</span><span class="p">:</span> <span class="nx">responseJson</span> <span class="p">};</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="nf">fail</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span><span class="p">);</span>
+	<span class="p">...</span>
+</code></pre></div></div>
+
+<p>For the upload we will need two elements:</p>
+<ol>
+  <li>A <a href="https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview">SAS shared access signature</a> (a.k.a. SAS token): Provides delegated access to resources on a certain time window, with limited permissions, etc.</li>
+  <li>The Azure storage account <a href="https://learn.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage" target="_blank">access key</a></li>
+</ol>
+
+<p>Both elements should not be exposed to the client for security reasons and that is, in part, why we perform this process on SvelteKit server side.</p>
+
+<p>For SAS shared access signing we first need to install the package <a href="https://www.npmjs.com/package/@azure/storage-blob" target="_blank">@azure/storage-blob</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> @azure/storage-blob
+</code></pre></div></div>
+<p>With the following function we create the signature:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span>
+	<span class="nx">generateAccountSASQueryParameters</span><span class="p">,</span>
+	<span class="nx">StorageSharedKeyCredential</span><span class="p">,</span>
+	<span class="nx">AccountSASServices</span><span class="p">,</span>
+	<span class="nx">AccountSASResourceTypes</span><span class="p">,</span>
+	<span class="nx">AccountSASPermissions</span><span class="p">,</span>
+	<span class="nx">SASProtocol</span><span class="p">,</span>
+	<span class="nx">BlobServiceClient</span>
+<span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">@azure/storage-blob</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="p">...</span>
+
+<span class="kd">function</span> <span class="nf">createSasToken</span><span class="p">()</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">sasOptions</span> <span class="o">=</span> <span class="p">{</span>
+		<span class="na">services</span><span class="p">:</span> <span class="nx">AccountSASServices</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="dl">'</span><span class="s1">b</span><span class="dl">'</span><span class="p">).</span><span class="nf">toString</span><span class="p">(),</span>
+		<span class="na">resourceTypes</span><span class="p">:</span> <span class="nx">AccountSASResourceTypes</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="dl">'</span><span class="s1">co</span><span class="dl">'</span><span class="p">).</span><span class="nf">toString</span><span class="p">(),</span>
+		<span class="na">permissions</span><span class="p">:</span> <span class="nx">AccountSASPermissions</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="dl">'</span><span class="s1">w</span><span class="dl">'</span><span class="p">),</span>
+		<span class="na">protocol</span><span class="p">:</span> <span class="nx">SASProtocol</span><span class="p">.</span><span class="nx">Https</span><span class="p">,</span>
+		<span class="na">expiresOn</span><span class="p">:</span> <span class="k">new</span> <span class="nc">Date</span><span class="p">(</span><span class="k">new</span> <span class="nc">Date</span><span class="p">().</span><span class="nf">valueOf</span><span class="p">()</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span> <span class="c1">// 3 minutos</span>
+	<span class="p">};</span>
+
+	<span class="kd">const</span> <span class="nx">constants</span> <span class="o">=</span> <span class="p">{</span>
+		<span class="na">accountName</span><span class="p">:</span> <span class="nx">env</span><span class="p">.</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">,</span>
+		<span class="na">accountKey</span><span class="p">:</span> <span class="nx">env</span><span class="p">.</span><span class="nx">AZURE_STORAGE_ACCOUNT_KEY</span>
+	<span class="p">};</span>
+
+	<span class="kd">const</span> <span class="nx">sharedKeyCredential</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">StorageSharedKeyCredential</span><span class="p">(</span>
+		<span class="nx">constants</span><span class="p">.</span><span class="nx">accountName</span><span class="p">,</span>
+		<span class="nx">constants</span><span class="p">.</span><span class="nx">accountKey</span>
+	<span class="p">);</span>
+
+	<span class="k">return</span> <span class="nf">generateAccountSASQueryParameters</span><span class="p">(</span><span class="nx">sasOptions</span><span class="p">,</span> <span class="nx">sharedKeyCredential</span><span class="p">).</span><span class="nf">toString</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>In <code class="language-plaintext highlighter-rouge">sasOptions</code> we set the token properties:</p>
+<ul>
+  <li>Permission to access containers and objects (‘bo’) of the Blob service (‘b’)</li>
+  <li>Write permission (‘w’)</li>
+  <li>Can only be access resources via HTTPS</li>
+  <li>Expires after 3 minutes</li>
+</ul>
+
+<p>Next to the name of the storage account and its key we can generate the signature with <code class="language-plaintext highlighter-rouge">generateAccountSASQueryParameters</code>. I used <a href="https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blob-account-delegation-sas-create-javascript?tabs=blob-service-client">this material</a> as a reference.</p>
+
+<p>Finally, to use it when uploading the file we use the following function:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">async</span> <span class="kd">function</span> <span class="nf">uploadFile</span><span class="p">(</span><span class="nx">file</span><span class="p">:</span> <span class="nx">File</span><span class="p">,</span> <span class="nx">blobName</span><span class="p">:</span> <span class="kr">string</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">sasToken</span> <span class="o">=</span> <span class="nf">createSasToken</span><span class="p">();</span>
+	<span class="kd">const</span> <span class="nx">blobServiceClient</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BlobServiceClient</span><span class="p">(</span>
+		<span class="s2">`https://</span><span class="p">${</span><span class="nx">env</span><span class="p">.</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">}</span><span class="s2">.blob.core.windows.net?</span><span class="p">${</span><span class="nx">sasToken</span><span class="p">}</span><span class="s2">`</span>
+	<span class="p">);</span>
+	<span class="kd">const</span> <span class="nx">containerClient</span> <span class="o">=</span> <span class="nx">blobServiceClient</span><span class="p">.</span><span class="nf">getContainerClient</span><span class="p">(</span><span class="dl">'</span><span class="s1">ourContainerName</span><span class="dl">'</span><span class="p">);</span>
+	<span class="kd">const</span> <span class="nx">blockBlobClient</span> <span class="o">=</span> <span class="nx">containerClient</span><span class="p">.</span><span class="nf">getBlockBlobClient</span><span class="p">(</span><span class="nx">blobName</span><span class="p">);</span>
+
+	<span class="k">try</span> <span class="p">{</span>
+		<span class="k">await</span> <span class="nx">blockBlobClient</span><span class="p">.</span><span class="nf">uploadData</span><span class="p">(</span><span class="nx">Buffer</span><span class="p">.</span><span class="nf">from</span><span class="p">(</span><span class="k">await</span> <span class="nx">file</span><span class="p">.</span><span class="nf">arrayBuffer</span><span class="p">()));</span>
+	<span class="p">}</span> <span class="nf">catch </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="s2">`An error happened while trying to upload the file: </span><span class="p">${</span><span class="nx">error</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>If you get a CORS error <a href="https://stackoverflow.com/questions/28894466/how-can-i-set-cors-in-azure-blob-storage-in-portal">this link</a> is helpful.</p>
+
+<h2 id="8">8</h2>
+<p>Finally, the action in our <code class="language-plaintext highlighter-rouge">+page.server.ts</code> will have a form like the following:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">export</span> <span class="kd">const</span> <span class="nx">actions</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">default</span><span class="p">:</span> <span class="nf">async </span><span class="p">({</span> <span class="nx">request</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">request</span><span class="p">.</span><span class="nf">formData</span><span class="p">();</span>
+
+		<span class="kd">const</span> <span class="nx">fileToUpload</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">myFile</span><span class="dl">'</span><span class="p">)</span> <span class="k">as</span> <span class="nx">File</span><span class="p">;</span>
+		<span class="kd">const</span> <span class="nx">entityName</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span><span class="p">);</span>
+
+		<span class="kd">const</span> <span class="nx">body</span> <span class="o">=</span> <span class="p">{</span>
+			<span class="nx">name</span><span class="p">,</span>
+			<span class="na">files</span><span class="p">:</span> <span class="p">[</span><span class="s2">`https://</span><span class="p">${</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">}</span><span class="s2">.blob.core.windows.net/</span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">]</span>
+		<span class="p">};</span>
+
+		<span class="c1">// POST /entidades y creación en la DB</span>
+		<span class="kd">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nf">fetch</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">env</span><span class="p">.</span><span class="nx">API_URL</span><span class="p">}</span><span class="s2">`</span><span class="p">,</span> <span class="p">{</span>
+			<span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
+			<span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+				<span class="dl">'</span><span class="s1">Content-Type</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">application/json</span><span class="dl">'</span><span class="p">,</span>
+			<span class="p">},</span>
+			<span class="na">body</span><span class="p">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nf">stringify</span><span class="p">(</span><span class="nx">body</span><span class="p">)</span>
+		<span class="p">});</span>
+
+		<span class="c1">// 5 API responde con código de éxito 201</span>
+		<span class="nf">if </span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
+			<span class="kd">const</span> <span class="nx">responseJson</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">response</span><span class="p">.</span><span class="nf">json</span><span class="p">();</span>
+
+			<span class="nf">if </span><span class="p">(</span><span class="nx">file</span> <span class="o">!==</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+				<span class="c1">// 6 y 7 generación de token SAS y subida de archivo a Azure Blob Storage</span>
+				<span class="k">await</span> <span class="nf">uploadFile</span><span class="p">(</span><span class="nx">file</span><span class="p">,</span> <span class="nx">entityName</span><span class="p">);</span>
+			<span class="p">}</span>
+			<span class="c1">// 8 Respuesta de éxito al cliente</span>
+			<span class="k">return</span> <span class="p">{</span> <span class="na">success</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="na">data</span><span class="p">:</span> <span class="nx">responseJson</span> <span class="p">};</span>
+		<span class="p">}</span>
+		<span class="k">return</span> <span class="nf">fail</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span> <span class="nx">satisfies</span> <span class="nx">Actions</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">uploadFile</code> function can be included in the same file or another, depending on the organization of the project.</p>
+
+<p>If you have any questions, feel free to reach me via e-mail (luzojeda@proton.me). In <a href="https://github.com/luz-ojeda/cook-web">cook-web</a> in <code class="language-plaintext highlighter-rouge">src/routes/admin/crear-receta</code> there is a specific example using all of the above but depending on the date there may already be differences about the concrete implementation.</p>
+
+<p>References:</p>
+<ul>
+  <li><a href="https://www.okupter.com/blog/sveltekit-file-upload">How to implement file upload with SvelteKit</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload-javascript">Upload a blob with JavaScript</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-account-delegation-sas-create-javascript?tabs=blob-service-client">Create and use account SAS tokens with Azure Blob Storage and JavaScript</a></li>
+</ul>]]></content><author><name>Luz Ojeda</name></author><category term="tech" /><summary type="html"><![CDATA[Working on the creation of recipes in cook-web I implemented the upload of their images to Azure Blob Storage.]]></summary></entry><entry><title type="html">Sublime</title><link href="/2024/03/17/sublime.html" rel="alternate" type="text/html" title="Sublime" /><published>2024-03-17T00:00:00+00:00</published><updated>2024-03-17T00:00:00+00:00</updated><id>/2024/03/17/sublime</id><content type="html" xml:base="/2024/03/17/sublime.html"><![CDATA[<p>Last year I created a <a href="https://open.spotify.com/playlist/52nTnaEOquglSZraI6JSbN?si=7ff33bf9cc004844">playlist</a>, which at the time was called “Music to die to” referring to songs/ musical works (to use a more abstract term) that awakened a feeling, at that time, for which I did not have a specific word.</p>
+
+<p>I noticed that they were works with which I felt that life <em>did</em> have a transcendental, fundamental purpose. That made me feel that perhaps everything is not all a simple accident and the meaning of life depends on each person (what I at least tend to think most of the time).</p>
+
+<p>Works that I imagined listening to at the end of my life, whatever the situation may be, and that would comfort me at that moment by making me think “It was worth it, <strong>even</strong> with all the bad things.” Some that have made me cry (for good).</p>
+
+<p>Examples:</p>
+
+<ul>
+  <li><a href="https://youtu.be/UmFFTkjs-O0?si=nF2rPtNR4ZrdxeBR">Pictures of you - The Cure</a></li>
+  <li><a href="https://www.youtube.com/watch?v=XFRfzCiVx_Y">Fourth movement of Beethoven’s 9th Symphony</a></li>
+  <li><a href="https://youtu.be/0Gkhol2Q1og?si=Lglp-rtXLh-HlSqD">Touch - Daft Punk</a></li>
+  <li><a href="https://youtu.be/kFyuSMf-PtQ?si=9slErCmDocom8tJe">When It’s Cold I’d Like to Die - Moby</a></li>
+  <li><a href="https://youtu.be/woG1YB4m9h0?si=PYaXyTH_e3YBMqBG">Compassion - Ilya Beshevli</a></li>
+</ul>
+
+<p>Of course, the works that move us and generate this feeling vary according to the personality and individuality of each one.</p>
+
+<p>I find it the deepest feeling that art can generate. And one of those that make us more human. Because what I describe can also be generated by cinema, painting, reading, etc. In me, nothing particularly generates it in a way as intense as music, despite having cried with movies, books and so on.</p>
+
+<p>At the time I found a word in particular that sums up all of the above:</p>
+
+<blockquote>
+  <p><a href="https://dictionary.cambridge.org/dictionary/english/sublime">sublime</a>
+extremely good, beautiful, or enjoyable:</p>
+</blockquote>
+
+<p>From the spanish definition:</p>
+<blockquote>
+  <ol>
+    <li>adj. Said of a person: Who cultivates some art or technique with admirable greatness. Sublime speaker, writer, painter.</li>
+    <li>adj. Ret. Said of style: Endowed with extreme nobility, elegance and gravity.</li>
+  </ol>
+</blockquote>
+
+<p>From <a href="https://en.wikipedia.org/wiki/Sublime_(philosophy)">wikipedia</a>:</p>
+
+<blockquote>
+  <p>“In aesthetics, the sublime (from the Latin sublīmis) is the quality of greatness, whether physical, moral, intellectual, metaphysical, aesthetic, spiritual, or artistic. The term especially refers to a greatness beyond all possibility of calculation, measurement, or imitation.”</p>
+</blockquote>
+
+<p>I renamed the playlist with this term that seems more encompassing to me than “Music I would die to.”</p>
+
+<p>There is something about finding terms that help us describe complex feelings (or sets of) that helps us understand and feel better. I do not know why. I can’t explain it at least. Quickly Googling I found <a href="https://www.sciencedaily.com/releases/2007/06/070622090727.htm">this article</a> which touches on the topic tangentially but refers to negative feelings such as anger and sadness. But perhaps the same thing happens in reverse with positive feelings (like feeling this ecstasy over something sublime). “Labeling it” intensifies it. My assumptions.</p>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[Last year I created a playlist, which at the time was called “Music to die to” referring to songs/ musical works (to use a more abstract term) that awakened a feeling, at that time, for which I did not have a specific word.]]></summary></entry><entry><title type="html">My favorite things</title><link href="/2024/02/06/my-favorite-things.html" rel="alternate" type="text/html" title="My favorite things" /><published>2024-02-06T00:00:00+00:00</published><updated>2024-02-06T00:00:00+00:00</updated><id>/2024/02/06/my-favorite-things</id><content type="html" xml:base="/2024/02/06/my-favorite-things.html"><![CDATA[<p>To be continuously updated:</p>
+
+<ul>
+  <li>City: Bariloche</li>
+  <li>Animal:
+    <ul>
+      <li>Sea: Dolphins</li>
+      <li>Air: Owls and crows</li>
+      <li>Land: Dogs and spiders</li>
+    </ul>
+  </li>
+  <li>Movie: Lord of the Rings III: The Return of the King</li>
+  <li>Book: Foundation by Asimov</li>
+  <li>Drink: Gin Tonic</li>
+  <li>Non-alcohol drink: <strong>Ice cold</strong> Coca-cola</li>
+  <li>Colour: Black</li>
+  <li>Dinner: <a href="https://en.wikipedia.org/wiki/Milanesa">Milanesa</a> with Fries and a Fried Egg</li>
+  <li>Dessert: Tiramisú</li>
+  <li>Flower: <a href="https://en.wikipedia.org/wiki/Lilium">Lilium</a></li>
+  <li>Dog Breed: Border Collie</li>
+  <li>Fruit: Strawberry</li>
+  <li>Comfort food: Spaghetti with butter and grated parmesan cheese</li>
+  <li>Candies (can’t pick one): Skittles (<strong>wild berry</strong>, the violets), Pico Dulce and Mogul</li>
+  <li>Season: like them all the same</li>
+</ul>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[To be continuously updated: City: Bariloche Animal: Sea: Dolphins Air: Owls and crows Land: Dogs and spiders Movie: Lord of the Rings III: The Return of the King Book: Foundation by Asimov Drink: Gin Tonic Non-alcohol drink: Ice cold Coca-cola Colour: Black Dinner: Milanesa with Fries and a Fried Egg Dessert: Tiramisú Flower: Lilium Dog Breed: Border Collie Fruit: Strawberry Comfort food: Spaghetti with butter and grated parmesan cheese Candies (can’t pick one): Skittles (wild berry, the violets), Pico Dulce and Mogul Season: like them all the same]]></summary></entry><entry><title type="html">Timeline</title><link href="/2024/02/06/timeline.html" rel="alternate" type="text/html" title="Timeline" /><published>2024-02-06T00:00:00+00:00</published><updated>2024-02-06T00:00:00+00:00</updated><id>/2024/02/06/timeline</id><content type="html" xml:base="/2024/02/06/timeline.html"><![CDATA[<p><a href="https://taylor.town/timeline">Inspired by</a></p>
+
+<p>2024 🌍 first time travelling abroad (Europe)</p>
+
+<p>2023 🏔️ Mendoza trip with my mother on vacations</p>
+
+<p>2023 💻 made my first personal website with its own custom domain</p>
+
+<p>2023 ⬛ my paternal grandfather dies, the last of the 4</p>
+
+<p>2023 💻 started studying Computer Engineering at UADE</p>
+
+<p>2023 💼 went back to work at Southworks</p>
+
+<p>2022 🐱 adopted Lilith</p>
+
+<p>2022 🚚 moved to the Autonomous City of Buenos Aires</p>
+
+<p>2022 😀 recovered from depression</p>
+
+<p>2021 💼 started working at IbisDev</p>
+
+<p>2020 🚚 moved alone to Ramos Mejía</p>
+
+<p>2020 💬 started therapy and antidepressants</p>
+
+<p>2020 🙁 moderate depression</p>
+
+<p>2020 💼 started working at Southworks</p>
+
+<p>2019 💼 started working at Bigbox</p>
+
+<p>2019 💻 started seriously studying web programming at FreeCodeCamp</p>
+
+<p>2019 👩‍🏫 worked giving private classes</p>
+
+<p>2019 👋 left the laboratory where I was on a scholarship</p>
+
+<p>2019 ⬛ my maternal grandmother passes away</p>
+
+<p>2019 🎓 graduated as a biologist with a bachelor’s thesis</p>
+
+<p>2019 🧗‍♀️ climbed the main peak of Cerro Catedral in Bariloche</p>
+
+<p>2018 💔 second breakup</p>
+
+<p>2018 💻 discovered programming in a college statistics course</p>
+
+<p>2018 😕 first depression symptoms</p>
+
+<p>2018 🐉 started playing D&amp;D</p>
+
+<p>2018 🚗 roadtrip to Bariloche</p>
+
+<p>2017 🔃 left the first laboratory for a second one focused on plant physiology</p>
+
+<p>2017 🥼 started working at <a href="https://es.wikipedia.org/wiki/Tecn%C3%B3polis">Tecnópolis</a></p>
+
+<p>2017 📖 read Meditations and learned about Stoicism</p>
+
+<p>2017 🥼 started working in a faculty laboratory preparing for the final thesis</p>
+
+<p>2017 🥾 worked as an assistant mountain guide in Lanín Volcano</p>
+
+<p>2017 ✏️ started writing a diary that I continue to this day</p>
+
+<p>2016 📚 finished the first half of the degree starting to choose elective subjects</p>
+
+<p>2016 🏔️ Lanín Volcano ascent</p>
+
+<p>2016 🏔️ ascent to the Argentine peak of Co. Tronador with 4 friends from the mountaineering school</p>
+
+<p>2015 ❤️ got into a relationship for the second time</p>
+
+<p>2015 🧗‍♀️ started my career as a mountain guide</p>
+
+<p>2015 🌳 trip to Bolsón with friends</p>
+
+<p>2014 🎒 solo trip through Chilean Patagonia</p>
+
+<p>2014 🧗‍♀️ started rock climbing</p>
+
+<p>2014 🏔️ Co. Plata solo ascent</p>
+
+<p>2013 🎵 stopped playing the drums and sold the kit</p>
+
+<p>2013 💔 first breakup</p>
+
+<p>2013 🏔️ first trip to Vallecitos, Mendoza to try to climb the <a href="https://es.wikipedia.org/wiki/Cerro_El_Plata">Co. Plata</a> (~6000m)</p>
+
+<p>2012 🏥 said goodbye to my gallbladder, first time hospitalized</p>
+
+<p>2012 🏔️ climbed the Ventana hills in PBA and Champaquí (highest point in Córdoba)</p>
+
+<p>2012 ❤️ first couple</p>
+
+<p>2012 🧬 started studying Biology at the University of Buenos Aires</p>
+
+<p>2012 🎒 solo trip through northwest Argentina</p>
+
+<p>2012 🎒 graduate trip with friends to Bolsón</p>
+
+<p>2011 🎓 finished high school</p>
+
+<p>2011 🧗‍♂️ took a mountaineering course in CABA</p>
+
+<p>2011 🎣 trip to Junín with friends trying to fish for the first time</p>
+
+<p>2011 🏔️ tried to climb Cerro Tres Picos in the province of Buenos Aires</p>
+
+<p>2011 🏫 changed schools for my last year of high school</p>
+
+<p>2011 📖 bought and read <a href="https://www.libreriadesnivel.com/libros/las-mas-altas/9789872551216/">Las Más Altas</a> in Bariloche</p>
+
+<p>2011 🎒 first backpacking trip with 5 friends through the province of Buenos Aires to Bariloche.</p>
+
+<p>2010 🥾 saw <a href="https://m.imdb.com/title/tt0758758/?language=es-es">Into the Wild</a> and started with the idea of going backpacking</p>
+
+<p>2010 📖 had my first philosophy classes at school and read <a href="https://www.goodreads.com/book/show/51893.Thus_Spoke_Zarathustra">Thus Spoke Zarathustra</a></p>
+
+<p>2010 🎵 put together a second heavy metal band with other friends</p>
+
+<p>2009 🎵 put together my first band with 4 friends</p>
+
+<p>2009 🏫 changed schools to one with an art orientation to return to the original 2 weeks later</p>
+
+<p>2007 🥁 started playing the drums and learning music at a school in the area</p>
+
+<p>2006 🧱 started listening to Pink Floyd</p>
+
+<p>2006 🤔 first memories of feeling socially uncomfortable, “weird” and not fitting in</p>
+
+<p>1997 ⏲️ my parents break up</p>
+
+<p>1997 ⬛ my paternal grandparents die in a traffic accident</p>
+
+<p>1997 🚚 we moved to Morón, in the province of Buenos Aires</p>
+
+<p>1994 👶 born in the Autonomous City of Buenos Aires, Argentina</p>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[Inspired by 2024 🌍 first time travelling abroad (Europe) 2023 🏔️ Mendoza trip with my mother on vacations 2023 💻 made my first personal website with its own custom domain 2023 ⬛ my paternal grandfather dies, the last of the 4 2023 💻 started studying Computer Engineering at UADE 2023 💼 went back to work at Southworks 2022 🐱 adopted Lilith 2022 🚚 moved to the Autonomous City of Buenos Aires 2022 😀 recovered from depression 2021 💼 started working at IbisDev 2020 🚚 moved alone to Ramos Mejía 2020 💬 started therapy and antidepressants 2020 🙁 moderate depression 2020 💼 started working at Southworks 2019 💼 started working at Bigbox 2019 💻 started seriously studying web programming at FreeCodeCamp 2019 👩‍🏫 worked giving private classes 2019 👋 left the laboratory where I was on a scholarship 2019 ⬛ my maternal grandmother passes away 2019 🎓 graduated as a biologist with a bachelor’s thesis 2019 🧗‍♀️ climbed the main peak of Cerro Catedral in Bariloche 2018 💔 second breakup 2018 💻 discovered programming in a college statistics course 2018 😕 first depression symptoms 2018 🐉 started playing D&amp;D 2018 🚗 roadtrip to Bariloche 2017 🔃 left the first laboratory for a second one focused on plant physiology 2017 🥼 started working at Tecnópolis 2017 📖 read Meditations and learned about Stoicism 2017 🥼 started working in a faculty laboratory preparing for the final thesis 2017 🥾 worked as an assistant mountain guide in Lanín Volcano 2017 ✏️ started writing a diary that I continue to this day 2016 📚 finished the first half of the degree starting to choose elective subjects 2016 🏔️ Lanín Volcano ascent 2016 🏔️ ascent to the Argentine peak of Co. Tronador with 4 friends from the mountaineering school 2015 ❤️ got into a relationship for the second time 2015 🧗‍♀️ started my career as a mountain guide 2015 🌳 trip to Bolsón with friends 2014 🎒 solo trip through Chilean Patagonia 2014 🧗‍♀️ started rock climbing 2014 🏔️ Co. Plata solo ascent 2013 🎵 stopped playing the drums and sold the kit 2013 💔 first breakup 2013 🏔️ first trip to Vallecitos, Mendoza to try to climb the Co. Plata (~6000m) 2012 🏥 said goodbye to my gallbladder, first time hospitalized 2012 🏔️ climbed the Ventana hills in PBA and Champaquí (highest point in Córdoba) 2012 ❤️ first couple 2012 🧬 started studying Biology at the University of Buenos Aires 2012 🎒 solo trip through northwest Argentina 2012 🎒 graduate trip with friends to Bolsón 2011 🎓 finished high school 2011 🧗‍♂️ took a mountaineering course in CABA 2011 🎣 trip to Junín with friends trying to fish for the first time 2011 🏔️ tried to climb Cerro Tres Picos in the province of Buenos Aires 2011 🏫 changed schools for my last year of high school 2011 📖 bought and read Las Más Altas in Bariloche 2011 🎒 first backpacking trip with 5 friends through the province of Buenos Aires to Bariloche. 2010 🥾 saw Into the Wild and started with the idea of going backpacking 2010 📖 had my first philosophy classes at school and read Thus Spoke Zarathustra 2010 🎵 put together a second heavy metal band with other friends 2009 🎵 put together my first band with 4 friends 2009 🏫 changed schools to one with an art orientation to return to the original 2 weeks later 2007 🥁 started playing the drums and learning music at a school in the area 2006 🧱 started listening to Pink Floyd 2006 🤔 first memories of feeling socially uncomfortable, “weird” and not fitting in 1997 ⏲️ my parents break up 1997 ⬛ my paternal grandparents die in a traffic accident 1997 🚚 we moved to Morón, in the province of Buenos Aires 1994 👶 born in the Autonomous City of Buenos Aires, Argentina]]></summary></entry><entry><title type="html">Things I liked in December 2023 and January</title><link href="/2024/02/01/things-i-liked-december-january.html" rel="alternate" type="text/html" title="Things I liked in December 2023 and January" /><published>2024-02-01T00:00:00+00:00</published><updated>2024-02-01T00:00:00+00:00</updated><id>/2024/02/01/things-i-liked-december-january</id><content type="html" xml:base="/2024/02/01/things-i-liked-december-january.html"><![CDATA[<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Grok">Grok</a>
+    <ul>
+      <li>Term coined by Robert Heinlein: “to understand intuitively or by empathy, to establish rapport with” and “to empathize or communicate sympathetically (with); also, to experience enjoyment”</li>
+    </ul>
+  </li>
+  <li><a href="https://en.wikipedia.org/wiki/John_Frum">John Frum</a>
+    <ul>
+      <li>Learnt about him from the Herzog’s documentary “Into the Inferno”. Frum is a mythical figure associated with <a href="https://en.wikipedia.org/wiki/Cargo_cult">cargo cults</a> (something I didn’t know existed either) on the island of Tanna in Vanuatu. “…serviceman who will bring wealth and prosperity to the people if they follow him”</li>
+    </ul>
+  </li>
+  <li><a href="https://potato.cheap/">The Cheap Web</a></li>
+  <li><a href="https://taylor.town/">Taylor town</a></li>
+  <li><a href="https://www.strangeloopcanon.com/p/discovery-is-the-original-sin-of">Discovery is the original sin of the modern age</a></li>
+  <li><a href="https://blog.boot.dev/computer-science/ai-taking-programming-jobs/">9 Months with GPT-4: Can I Fire my Developers Yet?</a></li>
+  <li><a href="https://stackoverflow.blog/2023/12/25/is-software-getting-worse/">Is Software Getting Worse?</a>
+    <ul>
+      <li>“We’ve somehow blundered our way into a world where everyone else expects software to be free.”</li>
+    </ul>
+  </li>
+  <li><a href="https://en.wikipedia.org/wiki/Learning_pyramid">Learning pyramid</a>
+    <ul>
+      <li>In decreasing order of retention rate: teach &gt; practice &gt; engage in group discussion &gt; watch a demonstration &gt; watch audovisual &gt; read &gt; listen to a lecture</li>
+    </ul>
+  </li>
+  <li><a href="https://jakeseliger.com/2023/11/28/the-quality-of-your-life-is-the-quality-of-the-people-you-get-to-know-illuminating-the-david-brooks-way/">The quality of your life is the quality of the people you get to know: Illuminating the David Brooks way</a>
+    <ul>
+      <li>Post that led me to read <a href="https://www.goodreads.com/book/show/112974860-how-to-know-a-person">How to Know a Person</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.louiseperry.co.uk/p/we-will-all-become-boring">We will all become boring</a>
+    <ul>
+      <li>“Liberal individualism is great for people when they don’t depend on others. It’s not so great when they do.”</li>
+    </ul>
+  </li>
+  <li><a href="https://stephango.com/40-questions">40 questions to ask yourself every year</a>
+    <ul>
+      <li>One of the greatest blog posts I’ve come across from the creator of Obsidian. 40 interesting questions that make you <em>really</em> think about the past year.</li>
+    </ul>
+  </li>
+  <li><a href="https://rojospinks.substack.com/p/the-friendship-problem">The friendship problem</a>
+    <ul>
+      <li>“Why friendships have started to feel strikingly similar to admin”</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[Grok Term coined by Robert Heinlein: “to understand intuitively or by empathy, to establish rapport with” and “to empathize or communicate sympathetically (with); also, to experience enjoyment” John Frum Learnt about him from the Herzog’s documentary “Into the Inferno”. Frum is a mythical figure associated with cargo cults (something I didn’t know existed either) on the island of Tanna in Vanuatu. “…serviceman who will bring wealth and prosperity to the people if they follow him” The Cheap Web Taylor town Discovery is the original sin of the modern age 9 Months with GPT-4: Can I Fire my Developers Yet? Is Software Getting Worse? “We’ve somehow blundered our way into a world where everyone else expects software to be free.” Learning pyramid In decreasing order of retention rate: teach &gt; practice &gt; engage in group discussion &gt; watch a demonstration &gt; watch audovisual &gt; read &gt; listen to a lecture The quality of your life is the quality of the people you get to know: Illuminating the David Brooks way Post that led me to read How to Know a Person We will all become boring “Liberal individualism is great for people when they don’t depend on others. It’s not so great when they do.” 40 questions to ask yourself every year One of the greatest blog posts I’ve come across from the creator of Obsidian. 40 interesting questions that make you really think about the past year. The friendship problem “Why friendships have started to feel strikingly similar to admin”]]></summary></entry><entry><title type="html">Life tasks</title><link href="/2024/01/24/life-tasks.html" rel="alternate" type="text/html" title="Life tasks" /><published>2024-01-24T00:00:00+00:00</published><updated>2024-01-24T00:00:00+00:00</updated><id>/2024/01/24/life-tasks</id><content type="html" xml:base="/2024/01/24/life-tasks.html"><![CDATA[<h2 id="summary">Summary</h2>
+
+<p>David Brooks proposes in his book <a href="https://www.goodreads.com/book/show/112974860-how-to-know-a-person">“How to know a person”</a> a theory of “life tasks”, adapted from the psychologists Erikson and Kegan. These tasks are divided into Imperial (control and recognition), Interpersonal (relationships and belonging), Career Consolidation (find a vocation), Generative (serve the world) and the last Integrity vs. Despair (accept life in the face of death or fall into despair). Not everyone goes through the same tasks or at the same pace, but this model helps understand personal growth and encourages empathy towards others.</p>
+
+<hr />
+
+<p>In his book “How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen” he develops a theory adapted from other developmental psychologists (Erik Erikson and Robert Kegan) about the “life tasks” that a person goes through in their life.</p>
+
+<p>A life task can be for a baby to develop a bond with the person who feeds and cares for him.</p>
+
+<p>Another would be to really understand how the environment around you works.</p>
+
+<p>The theory developed by the author proposes 5 main tasks:</p>
+
+<ul>
+  <li>Imperial</li>
+  <li>Interpersonal</li>
+  <li>Career consolidation (career in professional terms “Career consolidation”)</li>
+  <li>Generative</li>
+  <li>A final where we achieve integrity or endure hopelessness (“endure despair”)</li>
+</ul>
+
+<p>One caveat: not all people would go through the same tasks or stages in the same way. But they can be useful to recognize what tasks others are involved in. “These models also remind us that every person you meet is involved in a struggle.”</p>
+
+<h2 id="imperial">Imperial</h2>
+
+<p>During the first we try to establish a sense of <strong>control</strong> in our lives, an ability to influence our own thoughts and behavior, and have faith in our ability to handle a wide range of tasks and situations.</p>
+
+<p>For this we develop what Kegan (one of the two psychologists on whom the author of the book relied) calls an <em>“imperial consciousness”</em>.</p>
+
+<p>During this task our desires and interests are the most important, <strong>primordial</strong>.</p>
+
+<p>We seek to gain recognition and approval from others whether in sports, music or other activities and make our presence impressive in the world. According to Brooks, Trump and Putin could be examples of people who never went beyond this stage.</p>
+
+<h2 id="interpersonal">Interpersonal</h2>
+
+<p>In the second task, the desire to be superior to others and stand out usually begins to be accompanied by intense desires to belong and fit in. Usually this happens in adolescence.</p>
+
+<p>Someone with interpersonal awareness has a greater ability to experience another person’s experience.</p>
+
+<p>During this task we can move to metaphysical planes (we not only see what we are but also what we could be in an ideal).</p>
+
+<p>Separations can be devastating as we feel like we are losing our identity or part of it, as others are the source of our value and approval.</p>
+
+<p>It is by noticing the limitations of this purely interpersonal awareness that we realize that while relationships are important and crucial in life, we cannot allow ourselves to be controlled by them or base our entire identity on them. We must find another task.</p>
+
+<h2 id="career-consolidation">Career consolidation</h2>
+
+<p>At a certain point in our lives we have to find a career to pursue, whether it’s raising children, a job, volunteering or anything that allows us to feel like we’re making a difference in the world.</p>
+
+<p>It is during this task that we achieve the consolidation of this career or experience “drift”.</p>
+
+<p>We go through a necessary period of experimentation where we discover what we like and what we don’t. Until, ideally, we find something we are passionate about.</p>
+
+<p>People in this task are carried away by a desire for mastery, the pleasure of being or becoming really good at something. As happens in other tasks, consciousness changes.</p>
+
+<p>In this case, a more individualistic mentality develops. We become better at our self-control and emotional regulation. We develop a better ability to go against the masses. Sooner or later success in this career (which again, does not necessarily have to be something work-related but is the word chosen by the author) stops satisfying us.</p>
+
+<p>According to Carl Jung “<em>The achievements that society rewards come at the cost of a decrease in personality</em>”. Eventually the costs become too high.</p>
+
+<p>The person at the end of this task realizes that there is a spiritual hunger that has not been satisfied, a desire to selflessly serve some cause, to leave some legacy to others. We realize that we have differentiated ourselves too much from others and the world around us.</p>
+
+<p>It’s time to “come in from the cold.”</p>
+
+<h2 id="generative">Generative</h2>
+
+<p>In the penultimate task we seek to serve the world in some way. Be useful but for <em>others</em>.</p>
+
+<p>According to Erikson we achieve generativity or fall into stagnation. Generativity in terms of the ability to raise and guide next generations.</p>
+
+<p>This task can be taken twice in a lifetime. By becoming parents and then by becoming mentors.</p>
+
+<p>Many adopt a generative mindset upon being promoted to or reaching a leadership position. For example, a professor moving to an administrative area, a journalist becoming an editor, or a scientific researcher dedicating more time to teaching (it is inevitably necessary to learn to delegate during this task).</p>
+
+<p>During it we also learn that our lives are not created exclusively by us but are a product of the values promoted by the school we went to, our families, friends, mentors, organizations and others.</p>
+
+<h2 id="integrity-vs-hopelessness">Integrity vs hopelessness</h2>
+
+<p>During the latter we develop the ability and capacity to accept life in the face of death (integrity) or we fall into hopelessness marked by regrets.</p>
+
+<p>In the first case we achieve a feeling of peace that we use and are using our time in a good way. The second involves bitterness, rumination about the past, we feel unproductive, etc.</p>
+
+<p>Also, throughout this task we have a strong desire to learn, we develop the wisdom to better see the connection between different things and we appreciate more the small activities in life such as sharing breakfast with loved ones or taking care of a garden.</p>
+
+<hr />
+
+<p>Beyond the philosophical and psychological exploration itself, it seemed to me to be a good model to help us understand and not forget that each person we meet is at a point in all this growth. It is not necessarily wrong or right to be involved in a task at this or that age.</p>
+
+<p>It can allow us to have more empathy with others (empathy which usually comes with an energy cost).</p>
+
+<p>It can also be useful as a model for paying attention to our own lives and seeing where it fits into the pattern and where it doesn’t (what task we are on).</p>
+
+<p>Recognize that precisely the transition periods between tasks are difficult. The passing from one consciousness to the other. As babies we believe that we <em>are</em> our parents, after a few years we realize that we are not our parents but that we <em>have</em> parents. A teenager thinks he <em>is</em> her friend and then understands that he is a person who <em>has</em> friends.</p>
+
+<hr />
+
+<p><em>“We cannot live the afternoon of life according to the program of the morning of life, because what was great in the morning will be little in the afternoon, and what was true in the morning will have become a lie by evening.”</em> Carl Jung</p>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[Summary David Brooks proposes in his book “How to know a person” a theory of “life tasks”, adapted from the psychologists Erikson and Kegan. These tasks are divided into Imperial (control and recognition), Interpersonal (relationships and belonging), Career Consolidation (find a vocation), Generative (serve the world) and the last Integrity vs. Despair (accept life in the face of death or fall into despair). Not everyone goes through the same tasks or at the same pace, but this model helps understand personal growth and encourages empathy towards others. In his book “How to Know a Person: The Art of Seeing Others Deeply and Being Deeply Seen” he develops a theory adapted from other developmental psychologists (Erik Erikson and Robert Kegan) about the “life tasks” that a person goes through in their life. A life task can be for a baby to develop a bond with the person who feeds and cares for him. Another would be to really understand how the environment around you works. The theory developed by the author proposes 5 main tasks: Imperial Interpersonal Career consolidation (career in professional terms “Career consolidation”) Generative A final where we achieve integrity or endure hopelessness (“endure despair”) One caveat: not all people would go through the same tasks or stages in the same way. But they can be useful to recognize what tasks others are involved in. “These models also remind us that every person you meet is involved in a struggle.” Imperial During the first we try to establish a sense of control in our lives, an ability to influence our own thoughts and behavior, and have faith in our ability to handle a wide range of tasks and situations. For this we develop what Kegan (one of the two psychologists on whom the author of the book relied) calls an “imperial consciousness”. During this task our desires and interests are the most important, primordial. We seek to gain recognition and approval from others whether in sports, music or other activities and make our presence impressive in the world. According to Brooks, Trump and Putin could be examples of people who never went beyond this stage. Interpersonal In the second task, the desire to be superior to others and stand out usually begins to be accompanied by intense desires to belong and fit in. Usually this happens in adolescence. Someone with interpersonal awareness has a greater ability to experience another person’s experience. During this task we can move to metaphysical planes (we not only see what we are but also what we could be in an ideal). Separations can be devastating as we feel like we are losing our identity or part of it, as others are the source of our value and approval. It is by noticing the limitations of this purely interpersonal awareness that we realize that while relationships are important and crucial in life, we cannot allow ourselves to be controlled by them or base our entire identity on them. We must find another task. Career consolidation At a certain point in our lives we have to find a career to pursue, whether it’s raising children, a job, volunteering or anything that allows us to feel like we’re making a difference in the world. It is during this task that we achieve the consolidation of this career or experience “drift”. We go through a necessary period of experimentation where we discover what we like and what we don’t. Until, ideally, we find something we are passionate about. People in this task are carried away by a desire for mastery, the pleasure of being or becoming really good at something. As happens in other tasks, consciousness changes. In this case, a more individualistic mentality develops. We become better at our self-control and emotional regulation. We develop a better ability to go against the masses. Sooner or later success in this career (which again, does not necessarily have to be something work-related but is the word chosen by the author) stops satisfying us. According to Carl Jung “The achievements that society rewards come at the cost of a decrease in personality”. Eventually the costs become too high. The person at the end of this task realizes that there is a spiritual hunger that has not been satisfied, a desire to selflessly serve some cause, to leave some legacy to others. We realize that we have differentiated ourselves too much from others and the world around us. It’s time to “come in from the cold.” Generative In the penultimate task we seek to serve the world in some way. Be useful but for others. According to Erikson we achieve generativity or fall into stagnation. Generativity in terms of the ability to raise and guide next generations. This task can be taken twice in a lifetime. By becoming parents and then by becoming mentors. Many adopt a generative mindset upon being promoted to or reaching a leadership position. For example, a professor moving to an administrative area, a journalist becoming an editor, or a scientific researcher dedicating more time to teaching (it is inevitably necessary to learn to delegate during this task). During it we also learn that our lives are not created exclusively by us but are a product of the values promoted by the school we went to, our families, friends, mentors, organizations and others. Integrity vs hopelessness During the latter we develop the ability and capacity to accept life in the face of death (integrity) or we fall into hopelessness marked by regrets. In the first case we achieve a feeling of peace that we use and are using our time in a good way. The second involves bitterness, rumination about the past, we feel unproductive, etc. Also, throughout this task we have a strong desire to learn, we develop the wisdom to better see the connection between different things and we appreciate more the small activities in life such as sharing breakfast with loved ones or taking care of a garden. Beyond the philosophical and psychological exploration itself, it seemed to me to be a good model to help us understand and not forget that each person we meet is at a point in all this growth. It is not necessarily wrong or right to be involved in a task at this or that age. It can allow us to have more empathy with others (empathy which usually comes with an energy cost). It can also be useful as a model for paying attention to our own lives and seeing where it fits into the pattern and where it doesn’t (what task we are on). Recognize that precisely the transition periods between tasks are difficult. The passing from one consciousness to the other. As babies we believe that we are our parents, after a few years we realize that we are not our parents but that we have parents. A teenager thinks he is her friend and then understands that he is a person who has friends. “We cannot live the afternoon of life according to the program of the morning of life, because what was great in the morning will be little in the afternoon, and what was true in the morning will have become a lie by evening.” Carl Jung]]></summary></entry><entry><title type="html">Caffeine capsules</title><link href="/2023/12/26/caffeine-capsules.html" rel="alternate" type="text/html" title="Caffeine capsules" /><published>2023-12-26T00:00:00+00:00</published><updated>2023-12-26T00:00:00+00:00</updated><id>/2023/12/26/caffeine-capsules</id><content type="html" xml:base="/2023/12/26/caffeine-capsules.html"><![CDATA[<p>While reading, I no longer remember <em>what</em> exactly, I came across caffeine in capsules on the internet. I bought <a href="https://www.mercadolibre.com.ar/caffeine-anhydrous-200-90-comp-cafeina-body-advance-energia/p/MLA20008829">these</a> (link is from an e-commerce like Amazon popular here in Argentina and rest of Latin America). They come in doses of 200mg. By comparison, an espresso has approximately 60mg of caffeine. A cup of filter coffee, depending on whether or not it is diluted with milk, from 70 to 140.</p>
+
+<p>My idea is not to drink regularly either now or in the future since it is known you acquire a tolerance to it and I would like to avoid that (plus I already consume caffeine in the form of mate, coffee and/or tea almost daily). Though I found it interesting to try it for moments where I need periods of great concentration, such as studying before an exam.</p>
+
+<p>Dose: 100mg (half capsule)</p>
+
+<p>Context:</p>
+<ul>
+  <li>Time: 2:50 p.m.</li>
+  <li>Where: In my apartment</li>
+  <li>Non-working day (week off by my company for the holidays)</li>
+  <li>I went to the gym around 12</li>
+  <li>8 hours of normal sleep</li>
+</ul>
+
+<p>30 minutes: little to no rumination, mental noise or chatter. Less fidgeting.</p>
+
+<p>55m: I started to feel more alert but not necessarily more focused. Although little by little I felt an increase. A couple of times it occurred to me to check networks and I could easily tell myself that “I would see them later.”</p>
+
+<p>1 hour 30m: I feel less impact on concentration when changing the context briefly (<a href="https://asana.com/es/resources/context-switching">“context switching”</a>); zero anxiety or nervousness</p>
+
+<p>3 hours: I no longer perceived any discernible effects</p>
+
+<p>Comparing the effect to those of the cup of coffee I drink daily or drinking some mate, it was much more noticeable. Even taking into account that it was half a capsule. A placebo or my predisposition to notice an effect by being aware of the time since I took it may have influenced more than the physiological effect itself but hey, it served its purposes. I spent 2 hours studying without seeing any network, forum, YouTube or any of the things that usually distract me. I will use them again in the future for specific times.</p>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[While reading, I no longer remember what exactly, I came across caffeine in capsules on the internet. I bought these (link is from an e-commerce like Amazon popular here in Argentina and rest of Latin America). They come in doses of 200mg. By comparison, an espresso has approximately 60mg of caffeine. A cup of filter coffee, depending on whether or not it is diluted with milk, from 70 to 140. My idea is not to drink regularly either now or in the future since it is known you acquire a tolerance to it and I would like to avoid that (plus I already consume caffeine in the form of mate, coffee and/or tea almost daily). Though I found it interesting to try it for moments where I need periods of great concentration, such as studying before an exam. Dose: 100mg (half capsule) Context: Time: 2:50 p.m. Where: In my apartment Non-working day (week off by my company for the holidays) I went to the gym around 12 8 hours of normal sleep 30 minutes: little to no rumination, mental noise or chatter. Less fidgeting. 55m: I started to feel more alert but not necessarily more focused. Although little by little I felt an increase. A couple of times it occurred to me to check networks and I could easily tell myself that “I would see them later.” 1 hour 30m: I feel less impact on concentration when changing the context briefly (“context switching”); zero anxiety or nervousness 3 hours: I no longer perceived any discernible effects Comparing the effect to those of the cup of coffee I drink daily or drinking some mate, it was much more noticeable. Even taking into account that it was half a capsule. A placebo or my predisposition to notice an effect by being aware of the time since I took it may have influenced more than the physiological effect itself but hey, it served its purposes. I spent 2 hours studying without seeing any network, forum, YouTube or any of the things that usually distract me. I will use them again in the future for specific times.]]></summary></entry><entry><title type="html">Things I liked in November</title><link href="/2023/11/30/things-i-liked-november.html" rel="alternate" type="text/html" title="Things I liked in November" /><published>2023-11-30T00:00:00+00:00</published><updated>2023-11-30T00:00:00+00:00</updated><id>/2023/11/30/things-i-liked-november</id><content type="html" xml:base="/2023/11/30/things-i-liked-november.html"><![CDATA[<ul>
+  <li><a href="https://m.youtube.com/watch?si=H7BOm06UbdgiU0et&amp;v=QM1iUe6IofM&amp;feature=youtu.be">Object-Oriented Programming is Bad</a>
+    <ul>
+      <li>A click-baity title since the author then uploaded <a href="https://www.youtube.com/watch?v=0iyB0_qPvWk&amp;list=WL&amp;index=5">another video</a> arguing in favour of OOP, but well used. This video criticizes OOP from a point of view I haven’t heard/read before and gives very nice takeaways on how to tackle its problems.</li>
+    </ul>
+  </li>
+  <li><a href="https://olano.dev/2023-11-30-code-is-run-more-than-read/">Code is run more than read</a></li>
+  <li><a href="https://trstringer.com/oss-compensation-broken/">The Lack of Compensation in Open Source Software is Unsustainable</a></li>
+  <li><a href="https://www.raptitude.com/2023/07/dont-forget-to-swim-now-and-then/">Don’t Forget to Swim Now and Then</a></li>
+  <li><a href="https://commoncog.com/tacit-knowledge-is-a-real-thing/">Why Tacit Knowledge is More Important Than Deliberate Practice</a>
+    <ul>
+      <li>Tacit knowledge is knowledge that cannot be captured through words alone.</li>
+    </ul>
+  </li>
+  <li><a href="https://flamedfury.com/manifesto/#why-i-have-a-homepage">Why I have a homepage</a></li>
+  <li><a href="https://cabbagesorter.neocities.org/">cabbage sorter</a>
+    <ul>
+      <li>Loved the old style web vibes of this website</li>
+    </ul>
+  </li>
+  <li><a href="https://sive.rs/1s">Writing one sentence per line</a>
+    <ul>
+      <li>Put into practice this advice lately and it has done wonders. Helps you avoid unnecessary long lines and write clearer.</li>
+    </ul>
+  </li>
+  <li><a href="https://mxb.dev/blog/the-indieweb-for-everyone/">The IndieWeb for Everyone</a>
+    <ul>
+      <li>“The more independence a technology gives you, the higher its barrier for adoption.” But for now, and it shouldn’t be this way as the author argues.</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Luz Ojeda</name></author><summary type="html"><![CDATA[Object-Oriented Programming is Bad A click-baity title since the author then uploaded another video arguing in favour of OOP, but well used. This video criticizes OOP from a point of view I haven’t heard/read before and gives very nice takeaways on how to tackle its problems. Code is run more than read The Lack of Compensation in Open Source Software is Unsustainable Don’t Forget to Swim Now and Then Why Tacit Knowledge is More Important Than Deliberate Practice Tacit knowledge is knowledge that cannot be captured through words alone. Why I have a homepage cabbage sorter Loved the old style web vibes of this website Writing one sentence per line Put into practice this advice lately and it has done wonders. Helps you avoid unnecessary long lines and write clearer. The IndieWeb for Everyone “The more independence a technology gives you, the higher its barrier for adoption.” But for now, and it shouldn’t be this way as the author argues.]]></summary></entry></feed>

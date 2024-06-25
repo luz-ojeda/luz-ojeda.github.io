@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="The personal web page of Luz Ojeda, a web developer and biologist from Buenos Aires, Argentina">
+    <title>
+      Luz Ojeda
+      
+        
+        &#32-&#32 An example of the interface segregation principle
+        
+      
+    </title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/svg" href="/assets/svg/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <aside id="sidebar-desktop" class="sidebar">
+      <header>
+  <div
+  class="site-title">
+  Luz Ojeda </a>
+</header>
+
+<nav id="sidebar-nav-links">
+     
+
+
+
+
+
+    <div class="page-links-group flex">
+        
+        <a
+            class=" text section-link"
+            href=" / "
+        >
+            <span class="emoji">📔</span>&nbsp;blog
+        </a>
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/microblog/">
+            <span class="emoji">📝</span>
+            microblog
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/reading/">
+            <span class="emoji">📖</span>
+            reading
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/pictures/">
+            <span class="emoji">📷</span>
+            pictures
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/likes/">
+            <span class="emoji">💜</span>
+            likes
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/now/">
+            <span class="emoji">🕒</span>
+            now
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/projects/">
+            <span class="emoji">👨‍💻</span>
+            projects
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/resume/">
+            <span class="emoji">📑</span>
+            resume
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/about/">
+            <span class="emoji">🔍</span>
+            about me
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/contact/">
+            <span class="emoji">✉️</span>
+            contact & links
+        </a>
+         
+         
+        
+    </div>
+
+
+
+</nav>
+ 
+
+<!-- Language switcher -->
+
+  <strong><a href="/">english</a></strong>
+ 
+
+
+  <a href="/es/">español</a>
+
+
+    </aside>
+    <aside id="sidebar-mobile" class="sidebar">
+      <header>
+  <div
+  class="site-title">
+  Luz Ojeda </a>
+</header>
+
+<nav id="sidebar-nav-links">
+     
+
+
+
+
+
+    <div class="page-links-group flex">
+        
+        <a
+            class=" text section-link"
+            href=" / "
+        >
+            <span class="emoji">📔</span>&nbsp;blog
+        </a>
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/microblog/">
+            <span class="emoji">📝</span>
+            microblog
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/reading/">
+            <span class="emoji">📖</span>
+            reading
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/pictures/">
+            <span class="emoji">📷</span>
+            pictures
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/likes/">
+            <span class="emoji">💜</span>
+            likes
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/now/">
+            <span class="emoji">🕒</span>
+            now
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/projects/">
+            <span class="emoji">👨‍💻</span>
+            projects
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/resume/">
+            <span class="emoji">📑</span>
+            resume
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/about/">
+            <span class="emoji">🔍</span>
+            about me
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/contact/">
+            <span class="emoji">✉️</span>
+            contact & links
+        </a>
+         
+         
+        
+    </div>
+
+
+
+</nav>
+ 
+
+<!-- Language switcher -->
+
+  <strong><a href="/">english</a></strong>
+ 
+
+
+  <a href="/es/">español</a>
+
+
+    </aside>
+    <main><header class="post-header">
+    <h1>An example of the interface segregation principle</h1>
+</header>
+<div><p>The interface segregation principle from <a href="https://en.wikipedia.org/wiki/SOLID">SOLID</a> states that “clients should not be forced to depend upon interfaces that they do not use”.</p>
+
+<p>Working in <a href="https://github.com/luz-ojeda/c-players-guide-endgame">Endgame</a>, the final project for the C# Player’s Guide book, I got the opportunity to apply it. The project is a role-playing game console application with characters in it. Each one in a party (heroes or monsters).</p>
+
+<p>In the beginning I had one single <code class="language-plaintext highlighter-rouge">ICharacter</code> interface which looked like this</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">ICharacter</span>
+<span class="p">{</span>
+	<span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+	<span class="kt">string</span> <span class="n">AttackName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+	<span class="n">Task</span> <span class="nf">Act</span><span class="p">(</span><span class="n">IAction</span> <span class="n">action</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>One implementation was the player’s character (before implementing the proper attack action):</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">TrueProgrammer</span> <span class="p">:</span> <span class="n">ICharacter</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"TOG"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">AttackName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"PUNCH"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">MaxHP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="m">25</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">HP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+
+	<span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Act</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">await</span> <span class="n">Statics</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="nf">WriteLine</span><span class="p">(</span><span class="s">$"</span><span class="p">{</span><span class="n">Name</span><span class="p">}</span><span class="s"> did NOTHING."</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>I also had other characters such as the final boss and skeletons:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Skeleton</span> <span class="p">:</span> <span class="n">ICharacter</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">Name</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"Skeleton"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">string</span> <span class="n">AttackName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="s">"BONE CRUNCH"</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">MaxHP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="m">5</span><span class="p">;</span>
+	<span class="k">public</span> <span class="kt">float</span> <span class="n">HP</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+
+	<span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Act</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">await</span> <span class="n">Statics</span><span class="p">.</span><span class="n">Console</span><span class="p">.</span><span class="nf">WriteLine</span><span class="p">(</span><span class="s">$"</span><span class="p">{</span><span class="n">Name</span><span class="p">}</span><span class="s"> did NOTHING."</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The other related classes to run the game were the <code class="language-plaintext highlighter-rouge">Battle</code>, <code class="language-plaintext highlighter-rouge">Party</code> and <code class="language-plaintext highlighter-rouge">AttackAction</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Battle</code> represented each battle in the game with the parties associated playing each party’s turn alternatively. When user or the computer chose to attack a target from the other party the <code class="language-plaintext highlighter-rouge">Run</code> method of the <code class="language-plaintext highlighter-rouge">AttackAction</code> was executed:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Run</span><span class="p">(</span><span class="n">ICharacter</span> <span class="n">character</span><span class="p">,</span> <span class="n">Battle</span> <span class="n">battle</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="kt">float</span> <span class="n">damage</span> <span class="p">=</span> <span class="n">character</span><span class="p">.</span><span class="n">Attack</span><span class="p">.</span><span class="n">Damage</span><span class="p">;</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">-</span> <span class="n">damage</span> <span class="p">&lt;=</span> <span class="m">0</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+			<span class="nf">RemoveCharacterFromParty</span><span class="p">(</span><span class="n">_target</span><span class="p">,</span> <span class="n">battle</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span>
+		<span class="p">{</span>
+			<span class="c1">// reduce hp</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">RemoveCharacterFromParty</span><span class="p">(</span><span class="n">ICharacter</span> <span class="n">character</span><span class="p">,</span> <span class="n">Battle</span> <span class="n">battle</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">character</span><span class="p">.</span><span class="n">PartyType</span> <span class="p">==</span> <span class="n">PartyType</span><span class="p">.</span><span class="n">Monsters</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">battle</span><span class="p">.</span><span class="n">Monsters</span><span class="p">.</span><span class="n">Characters</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="n">character</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">else</span>
+		<span class="p">{</span>
+			<span class="n">battle</span><span class="p">.</span><span class="n">Heroes</span><span class="p">.</span><span class="n">Characters</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="n">character</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This started looking weird to me since I had to pass the whole <code class="language-plaintext highlighter-rouge">Battle</code> instance to each action <em>just</em> to remove the character from the party (going “up” to battle, then down to the character’s party).</p>
+
+<p>My first idea was to create a <code class="language-plaintext highlighter-rouge">Die()</code> method that would emit an <code class="language-plaintext highlighter-rouge">event</code>. Parties would then subscribe to it and remove characters that emitted the event.</p>
+
+<p>But doing this:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">ICharacter</span>
+<span class="p">{</span>
+	<span class="p">...</span>
+    <span class="k">void</span> <span class="nf">Die</span><span class="p">();</span>
+    <span class="k">event</span> <span class="n">Action</span><span class="p">&lt;</span><span class="n">ICharacterCore</span><span class="p">&gt;?</span> <span class="n">CharacterDied</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Would led me to implement the same code for each character that died (<code class="language-plaintext highlighter-rouge">Skeleton</code> should have a <code class="language-plaintext highlighter-rouge">Die()</code> implementation as well as any other of tens of characters I would want to add later).</p>
+
+<p>So regarding the post’s title I created another interface:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">ICharacterCore</span>
+<span class="p">{</span>
+	<span class="k">void</span> <span class="nf">Die</span><span class="p">();</span>
+	<span class="k">event</span> <span class="n">Action</span><span class="p">&lt;</span><span class="n">ICharacterCore</span><span class="p">&gt;?</span> <span class="n">CharacterDied</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>One that implemented both:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">interface</span> <span class="nc">IPartyCharacter</span> <span class="p">:</span> <span class="n">ICharacter</span><span class="p">,</span> <span class="n">ICharacterCore</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>…a base class that implemented <code class="language-plaintext highlighter-rouge">ICharacterCore</code> and the <code class="language-plaintext highlighter-rouge">Die()</code> method:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Character</span> <span class="p">:</span> <span class="n">ICharacterCore</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="k">event</span> <span class="n">Action</span><span class="p">&lt;</span><span class="n">ICharacterCore</span><span class="p">&gt;?</span> <span class="n">CharacterDied</span><span class="p">;</span>
+
+	<span class="k">public</span> <span class="k">void</span> <span class="nf">Die</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="n">CharacterDied</span><span class="p">?.</span><span class="nf">Invoke</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>And finally updated the character classes to inherit <code class="language-plaintext highlighter-rouge">Character</code>, implement <code class="language-plaintext highlighter-rouge">IPartyCharacter</code> and thus inherit <code class="language-plaintext highlighter-rouge">Die()</code>:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">TrueProgrammer</span> <span class="p">:</span> <span class="n">Character</span><span class="p">,</span> <span class="n">IPartyCharacter</span>
+<span class="p">{</span>
+	<span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>This led to a simplified <code class="language-plaintext highlighter-rouge">Run</code> method and also a more intuitive approach. Since, IMO, it’s better for the <code class="language-plaintext highlighter-rouge">Party</code> instance to be responsible of removing characters from it, not an action.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">async</span> <span class="n">Task</span> <span class="nf">Run</span><span class="p">(</span><span class="n">ICharacter</span> <span class="n">character</span><span class="p">,</span> <span class="n">Battle</span> <span class="n">battle</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="kt">float</span> <span class="n">damage</span> <span class="p">=</span> <span class="n">character</span><span class="p">.</span><span class="n">Attack</span><span class="p">.</span><span class="n">Damage</span><span class="p">;</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">-</span> <span class="n">damage</span> <span class="p">&lt;=</span> <span class="m">0</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="n">_target</span><span class="p">.</span><span class="n">HP</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+			<span class="n">_target</span><span class="p">.</span><span class="nf">Die</span><span class="p">();</span>
+		<span class="p">}</span>
+		<span class="k">else</span>
+		<span class="p">{</span>
+			<span class="c1">// reduce hp</span>
+			<span class="p">...</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// No need for RemoveCharacterFromParty() method</span>
+</code></pre></div></div>
+
+<p>Using two interfaces (<code class="language-plaintext highlighter-rouge">ICharacterCore</code> and <code class="language-plaintext highlighter-rouge">ICharacter</code>) instead of only one (<code class="language-plaintext highlighter-rouge">ICharacter</code>) let me implement the <code class="language-plaintext highlighter-rouge">Die</code> and party removal feature from only one place instead of several. There may be other approaches to avoid the repetition of the <code class="language-plaintext highlighter-rouge">Die()</code> implementation besides several interfaces but I’m satisfied with this one.</p>
+
+<p>Also, you may have noticed both Characters had the same <code class="language-plaintext highlighter-rouge">Act()</code> implementation. That method was modified afterwards and moved to each different attack class, as well.</p>
+
+<p>The following isn’t related to the interface segregation principle but if you’re curious about how the feature works entirely, this is the <code class="language-plaintext highlighter-rouge">Party</code> class:</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Party</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="n">PartyType</span> <span class="n">Type</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+	<span class="k">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">IPartyCharacter</span><span class="p">&gt;</span> <span class="n">Characters</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="p">[];</span>
+	<span class="k">public</span> <span class="n">PlayerType</span> <span class="n">PlayerInControl</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+	<span class="k">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">IPartyItem</span><span class="p">&gt;</span> <span class="n">Items</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="p">[];</span>
+	<span class="k">public</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">IPartyGear</span><span class="p">&gt;</span> <span class="n">Gear</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span> <span class="p">=</span> <span class="p">[];</span>
+
+	<span class="k">public</span> <span class="nf">Party</span><span class="p">(</span><span class="n">PartyType</span> <span class="n">type</span><span class="p">,</span> <span class="n">PlayerType</span> <span class="n">playerInControl</span> <span class="p">=</span> <span class="n">PlayerType</span><span class="p">.</span><span class="n">Computer</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="c1">// Initialization and item assignment based on party type</span>
+        <span class="p">...</span>
+
+		<span class="k">if</span> <span class="p">(</span><span class="n">characterCore</span> <span class="k">is</span> <span class="n">IPartyCharacter</span> <span class="n">character</span> <span class="p">&amp;&amp;</span> <span class="n">Characters</span><span class="p">.</span><span class="nf">Contains</span><span class="p">(</span><span class="n">character</span><span class="p">))</span>
+		<span class="p">{</span>
+			<span class="n">Characters</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="n">character</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+
+	<span class="c1">// Other methods</span>
+	<span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div></div>
+</div>
+</main>
+    <footer>
+      <button id="hamburger-menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <title>Open sidebar</title>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+        stroke-width="32" d="M80 160h352M80 256h352M80 352h352" />
+</svg></button>
+    </footer>
+    <script src="/scripts/toggleSidebarVisibility.js"></script>
+  </body>
+</html>

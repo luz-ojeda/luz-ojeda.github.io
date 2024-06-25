@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="The personal web page of Luz Ojeda, a web developer and biologist from Buenos Aires, Argentina">
+    <title>
+      Luz Ojeda
+      
+        
+        &#32-&#32 Subida de archivos a Azure Blob Storage con SvelteKit
+        
+      
+    </title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/svg" href="/assets/svg/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <aside id="sidebar-desktop" class="sidebar">
+      <header>
+  <div
+  class="site-title">
+  Luz Ojeda </a>
+</header>
+
+<nav id="sidebar-nav-links">
+     
+
+
+
+
+
+    <div class="page-links-group flex">
+        
+        <a
+            class=" text section-link"
+            href=" /es "
+        >
+            <span class="emoji">📔</span>&nbsp;blog
+        </a>
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/es/microblog/">
+            <span class="emoji">📝</span>
+            microblog
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/leyendo/">
+            <span class="emoji">📖</span>
+            leyendo
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/fotos/">
+            <span class="emoji">📷</span>
+            fotos
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/megusta/">
+            <span class="emoji">💜</span>
+            me gusta
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/ahora/">
+            <span class="emoji">🕒</span>
+            ahora
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/es/proyectos/">
+            <span class="emoji">👨‍💻</span>
+            proyectos
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/cv/">
+            <span class="emoji">📑</span>
+            cv
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/es/sobre-mi/">
+            <span class="emoji">🔍</span>
+            sobre mí
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/contacto/">
+            <span class="emoji">✉️</span>
+            contacto y links
+        </a>
+         
+         
+        
+    </div>
+
+
+
+</nav>
+ 
+
+<!-- Language switcher -->
+
+  <a href="/">english</a>
+ 
+
+
+  <strong><a href="/es/">español</a></strong>
+
+
+    </aside>
+    <aside id="sidebar-mobile" class="sidebar">
+      <header>
+  <div
+  class="site-title">
+  Luz Ojeda </a>
+</header>
+
+<nav id="sidebar-nav-links">
+     
+
+
+
+
+
+    <div class="page-links-group flex">
+        
+        <a
+            class=" text section-link"
+            href=" /es "
+        >
+            <span class="emoji">📔</span>&nbsp;blog
+        </a>
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/es/microblog/">
+            <span class="emoji">📝</span>
+            microblog
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/leyendo/">
+            <span class="emoji">📖</span>
+            leyendo
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/fotos/">
+            <span class="emoji">📷</span>
+            fotos
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/megusta/">
+            <span class="emoji">💜</span>
+            me gusta
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/ahora/">
+            <span class="emoji">🕒</span>
+            ahora
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/es/proyectos/">
+            <span class="emoji">👨‍💻</span>
+            proyectos
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/cv/">
+            <span class="emoji">📑</span>
+            cv
+        </a>
+         
+         
+        
+    </div>
+
+
+
+    <div class="page-links-group flex">
+        
+    
+        
+         
+         
+        
+        <a class=" text section-link" href="/es/sobre-mi/">
+            <span class="emoji">🔍</span>
+            sobre mí
+        </a>
+         
+         
+         
+         
+        
+        <a class=" text section-link" href="/es/contacto/">
+            <span class="emoji">✉️</span>
+            contacto y links
+        </a>
+         
+         
+        
+    </div>
+
+
+
+</nav>
+ 
+
+<!-- Language switcher -->
+
+  <a href="/">english</a>
+ 
+
+
+  <strong><a href="/es/">español</a></strong>
+
+
+    </aside>
+    <main><header class="post-header">
+    <h1>Subida de archivos a Azure Blob Storage con SvelteKit</h1>
+</header>
+<div><p>Trabajando en la creación de recetas en <a href="https://github.com/luz-ojeda/cook-web">cook web</a> implementé la subida de imágenes de estas a Azure Blob Storage.</p>
+
+<p>El diagrama general del proceso real en mi aplicación es el siguiente (voy a usar los números de cada parte como referencia más adelante):</p>
+
+<p><img src="/assets/images/svelte_file_upload/diagram.jpeg" alt="Diagram of the file upload feature involving SvelteKit app, .NET API and Azure Blob Storage" /></p>
+
+<p>Con fines ilustrativos voy a tratar de abstraerme lo máximo posible de lo concreto de mi caso en particular.</p>
+
+<p>Versiones:</p>
+
+<ul>
+  <li><a href="https://www.npmjs.com/package/svelte">Svelte</a> 4.2.7</li>
+  <li><a href="https://www.npmjs.com/package/@sveltejs/kit">SvelteKit</a> 2.0.0</li>
+  <li><a href="https://www.npmjs.com/package/vite">Vite</a> 5.0.3</li>
+  <li><a href="https://www.npmjs.com/package/@azure/storage-blob#azure-storage-blob-client-library-for-javascript">Azure Storage Blob client library for JavaScript</a> 12.17.0</li>
+  <li>Typescript 5.0.0</li>
+</ul>
+
+<hr />
+
+<h2 id="1">1</h2>
+<p>La parte del cliente de SvelteKit es relativamente sencilla. En una página <code class="language-plaintext highlighter-rouge">+page.svelte</code> colocamos:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">lang=</span><span class="s">"ts"</span><span class="nt">&gt;</span>
+    <span class="kd">let</span> <span class="nx">files</span><span class="p">:</span> <span class="nx">FileList</span> <span class="o">|</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">fileInput</span><span class="p">:</span> <span class="nx">HTMLInputElement</span><span class="p">;</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;form</span> <span class="na">method=</span><span class="s">"POST"</span> <span class="na">enctype=</span><span class="s">"multipart/form-data"</span><span class="nt">&gt;</span>
+    <span class="c">&lt;!-- El valor del atributo Accept es un ejemplo, podemos usar el valor que deseemos --&gt;</span>
+    <span class="nt">&lt;input</span> 
+	<span class="na">accept=</span><span class="s">"image/png, image/jpg"</span> 
+	<span class="na">bind:files</span> 
+	<span class="na">id=</span><span class="s">"myFile"</span> 
+	<span class="na">name=</span><span class="s">"myFile"</span> 
+	<span class="na">type=</span><span class="s">"file"</span> 
+	<span class="nt">/&gt;</span>
+	<span class="nt">&lt;input</span> 
+	<span class="na">name=</span><span class="s">"nombre"</span> 
+	<span class="na">type=</span><span class="s">"text"</span> 
+	<span class="nt">/&gt;</span>
+    <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span><span class="nt">&gt;</span>Subir archivo<span class="nt">&lt;/button&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</code></pre></div></div>
+
+<p>Algo importante a destacar es el valor del atributo <code class="language-plaintext highlighter-rouge">enctype</code> en el elemento <code class="language-plaintext highlighter-rouge">form</code>. Es necesario utilizarlo si usas <a href="https://kit.svelte.dev/docs/form-actions#progressive-enhancement"><code class="language-plaintext highlighter-rouge">use:enhance</code></a> por lo descrito en esta <a href="https://github.com/sveltejs/kit/issues9819">issue</a>. Si no al momento de presionar el botón submit se produce este error de consola y no se ejecuta la acción de POST:</p>
+
+<p><img src="/assets/images/svelte_file_upload/enctype_error.png" alt="alt text" /></p>
+
+<p>Para fines ilustrativos, no configuré use:enhance en el ejemplo anterior. Pero como sí lo hice en mi repositorio pensé que valía la pena mencionarlo. En su momento, me tomó unos minutos hasta abrir la consola para descubrir por qué no pasaba nada cuando intentaba enviar el formulario.</p>
+
+<h2 id="2---4">2 - 4</h2>
+<p>En la misma ruta del archivo <code class="language-plaintext highlighter-rouge">+page.svelte</code> debemos tener un archivo <code class="language-plaintext highlighter-rouge">+page.server.ts</code> que exporte una <em>acción</em>, la cual será gatillada al ser submitteado el formulario (<a href="https://kit.svelte.dev/docs/form-actions">docs</a>). El archivo puede exportar más de una acción además de la exportada por defecto (<em>named actions</em> se las llama en la documentación). En este caso solo necesitamos una.</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">export</span> <span class="kd">const</span> <span class="nx">actions</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">default</span><span class="p">:</span> <span class="nf">async </span><span class="p">({</span> <span class="nx">request</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">request</span><span class="p">.</span><span class="nf">formData</span><span class="p">();</span>
+
+		<span class="kd">const</span> <span class="nx">fileToUpload</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">myFile</span><span class="dl">'</span><span class="p">)</span> <span class="k">as</span> <span class="nx">File</span><span class="p">;</span>
+		<span class="c1">// data.get('') devuelve un valor de tipo FormDataEntryValue el cual</span>
+		<span class="c1">// es una unión de File y string por lo que podemos hacer un assert</span>
+		<span class="c1">// a File con la keyword as</span>
+
+		<span class="kd">const</span> <span class="nx">entityName</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">nombre</span><span class="dl">'</span><span class="p">);</span>
+
+		<span class="c1">// Creación de la entidad a través de la API en la DB</span>
+		<span class="kd">const</span> <span class="nx">body</span> <span class="o">=</span> <span class="p">{</span>
+			<span class="na">name</span><span class="p">:</span> <span class="nx">entityName</span><span class="p">,</span>
+			<span class="na">files</span><span class="p">:</span> <span class="p">[</span><span class="s2">`https://</span><span class="p">${</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">}</span><span class="s2">.blob.core.windows.net/</span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">]</span>
+		<span class="p">};</span>
+
+		<span class="kd">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nf">fetch</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">env</span><span class="p">.</span><span class="nx">API_URL</span><span class="p">}</span><span class="s2">`</span><span class="p">,</span> <span class="p">{</span>
+			<span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
+			<span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+				<span class="dl">'</span><span class="s1">Content-Type</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">application/json</span><span class="dl">'</span><span class="p">,</span>
+			<span class="p">},</span>
+			<span class="na">body</span><span class="p">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nf">stringify</span><span class="p">(</span><span class="nx">body</span><span class="p">)</span>
+		<span class="p">});</span>
+
+		<span class="p">...</span>
+	<span class="p">}</span>
+<span class="p">}</span> <span class="nx">satisfies</span> <span class="nx">Actions</span><span class="p">;</span>
+</code></pre></div></div>
+<p>El archivo se obtiene llamando <a href="https://developer.mozilla.org/es/docs/Web/API/FormData"><code class="language-plaintext highlighter-rouge">FormData.get</code></a>. Luego armamos el cuerpo de la solicitud para enviar a nuestra API y usamos fetch para ejecutarla.</p>
+
+<p>La propiedad <code class="language-plaintext highlighter-rouge">files</code> en el cuerpo de la solicitud nos permite en un front end que consuma los datos de la API, saber a qué URL corresponde la imagen de la entidad asociada (un usuario, un post, una receta de cocina, etc.).</p>
+
+<h2 id="5-7">5-7</h2>
+<p>Aún en la acción <code class="language-plaintext highlighter-rouge">default</code> de <code class="language-plaintext highlighter-rouge">+page.server.ts</code>, si la respuesta de la API es exitosa (código de estado 201), procedemos con la subida del archivo a Azure:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="p">...</span>
+	<span class="nf">if </span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">responseJson</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">response</span><span class="p">.</span><span class="nf">json</span><span class="p">();</span>
+
+		<span class="nf">if </span><span class="p">(</span><span class="nx">fileToUpload</span> <span class="o">!==</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+			<span class="k">await</span> <span class="nf">uploadFile</span><span class="p">(</span><span class="nx">fileToUpload</span><span class="p">,</span> <span class="nx">entityName</span><span class="p">);</span>
+		<span class="p">}</span>
+		<span class="k">return</span> <span class="p">{</span> <span class="na">success</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="na">data</span><span class="p">:</span> <span class="nx">responseJson</span> <span class="p">};</span>
+	<span class="p">}</span>
+	<span class="k">return</span> <span class="nf">fail</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span><span class="p">);</span>
+	<span class="p">...</span>
+</code></pre></div></div>
+
+<p>Para la subida vamos a necesitar dos elementos:</p>
+<ol>
+  <li>Una <a href="https://learn.microsoft.com/es-es/azure/storage/common/storage-sas-overview">firma de acceso compartido SAS</a> (a.k.a. SAS token): brinda acceso delegado a recursos en una ventana de tiempo determinada, con permisos limitados, etc.</li>
+  <li>Una <a href="https://learn.microsoft.com/es-es/azure/storage/common/storage-account-keys-manage?tabs=azure-portal">clave de acceso</a> a la cuenta de almacenamiento en Azure</li>
+</ol>
+
+<p>Ambos elementos no deben ser expuestos al cliente por razones de seguridad y es por eso, en parte, que realizamos este proceso del lado del server de SvelteKit.</p>
+
+<p>Para la firma de accesso compartido SAS necesitamos primero instalar el paquete <a href="https://www.npmjs.com/package/@azure/storage-blob">@azure/storage-blob</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> @azure/storage-blob
+</code></pre></div></div>
+<p>Con la siguiente función podemos crear la firma:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span>
+	<span class="nx">generateAccountSASQueryParameters</span><span class="p">,</span>
+	<span class="nx">StorageSharedKeyCredential</span><span class="p">,</span>
+	<span class="nx">AccountSASServices</span><span class="p">,</span>
+	<span class="nx">AccountSASResourceTypes</span><span class="p">,</span>
+	<span class="nx">AccountSASPermissions</span><span class="p">,</span>
+	<span class="nx">SASProtocol</span><span class="p">,</span>
+	<span class="nx">BlobServiceClient</span>
+<span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">@azure/storage-blob</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="p">...</span>
+
+<span class="kd">function</span> <span class="nf">createSasToken</span><span class="p">()</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">sasOptions</span> <span class="o">=</span> <span class="p">{</span>
+		<span class="na">services</span><span class="p">:</span> <span class="nx">AccountSASServices</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="dl">'</span><span class="s1">b</span><span class="dl">'</span><span class="p">).</span><span class="nf">toString</span><span class="p">(),</span>
+		<span class="na">resourceTypes</span><span class="p">:</span> <span class="nx">AccountSASResourceTypes</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="dl">'</span><span class="s1">co</span><span class="dl">'</span><span class="p">).</span><span class="nf">toString</span><span class="p">(),</span>
+		<span class="na">permissions</span><span class="p">:</span> <span class="nx">AccountSASPermissions</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="dl">'</span><span class="s1">w</span><span class="dl">'</span><span class="p">),</span>
+		<span class="na">protocol</span><span class="p">:</span> <span class="nx">SASProtocol</span><span class="p">.</span><span class="nx">Https</span><span class="p">,</span>
+		<span class="na">expiresOn</span><span class="p">:</span> <span class="k">new</span> <span class="nc">Date</span><span class="p">(</span><span class="k">new</span> <span class="nc">Date</span><span class="p">().</span><span class="nf">valueOf</span><span class="p">()</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">1000</span><span class="p">)</span> <span class="c1">// 3 minutos</span>
+	<span class="p">};</span>
+
+	<span class="kd">const</span> <span class="nx">constants</span> <span class="o">=</span> <span class="p">{</span>
+		<span class="na">accountName</span><span class="p">:</span> <span class="nx">env</span><span class="p">.</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">,</span>
+		<span class="na">accountKey</span><span class="p">:</span> <span class="nx">env</span><span class="p">.</span><span class="nx">AZURE_STORAGE_ACCOUNT_KEY</span>
+	<span class="p">};</span>
+
+	<span class="kd">const</span> <span class="nx">sharedKeyCredential</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">StorageSharedKeyCredential</span><span class="p">(</span>
+		<span class="nx">constants</span><span class="p">.</span><span class="nx">accountName</span><span class="p">,</span>
+		<span class="nx">constants</span><span class="p">.</span><span class="nx">accountKey</span>
+	<span class="p">);</span>
+
+	<span class="k">return</span> <span class="nf">generateAccountSASQueryParameters</span><span class="p">(</span><span class="nx">sasOptions</span><span class="p">,</span> <span class="nx">sharedKeyCredential</span><span class="p">).</span><span class="nf">toString</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>En <code class="language-plaintext highlighter-rouge">sasOptions</code> establecemos que el token:</p>
+<ul>
+  <li>Tiene permiso para acceder a containers y objetos (‘bo’) del servicio Blob (‘b’)</li>
+  <li>Tiene permiso de escritura (‘w’)</li>
+  <li>Solo puede acceder a través de HTTP</li>
+  <li>Expira luego de unos 3 minutos.</li>
+</ul>
+
+<p>Junto al nombre de la cuenta de almacenamiento y su clave podemos generar la firma con <code class="language-plaintext highlighter-rouge">generateAccountSASQueryParameters</code>. Utilicé <a href="https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blob-account-delegation-sas-create-javascript?tabs=blob-service-client">este material</a> como referencia.</p>
+
+<p>Finalmente para utilizarlo al subir el archivo usamos la siguiente función:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">async</span> <span class="kd">function</span> <span class="nf">uploadFile</span><span class="p">(</span><span class="nx">file</span><span class="p">:</span> <span class="nx">File</span><span class="p">,</span> <span class="nx">blobName</span><span class="p">:</span> <span class="kr">string</span><span class="p">)</span> <span class="p">{</span>
+	<span class="kd">const</span> <span class="nx">sasToken</span> <span class="o">=</span> <span class="nf">createSasToken</span><span class="p">();</span>
+	<span class="kd">const</span> <span class="nx">blobServiceClient</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">BlobServiceClient</span><span class="p">(</span>
+		<span class="s2">`https://</span><span class="p">${</span><span class="nx">env</span><span class="p">.</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">}</span><span class="s2">.blob.core.windows.net?</span><span class="p">${</span><span class="nx">sasToken</span><span class="p">}</span><span class="s2">`</span>
+	<span class="p">);</span>
+	<span class="kd">const</span> <span class="nx">containerClient</span> <span class="o">=</span> <span class="nx">blobServiceClient</span><span class="p">.</span><span class="nf">getContainerClient</span><span class="p">(</span><span class="dl">'</span><span class="s1">ourContainerName</span><span class="dl">'</span><span class="p">);</span>
+	<span class="kd">const</span> <span class="nx">blockBlobClient</span> <span class="o">=</span> <span class="nx">containerClient</span><span class="p">.</span><span class="nf">getBlockBlobClient</span><span class="p">(</span><span class="nx">blobName</span><span class="p">);</span>
+
+	<span class="k">try</span> <span class="p">{</span>
+		<span class="k">await</span> <span class="nx">blockBlobClient</span><span class="p">.</span><span class="nf">uploadData</span><span class="p">(</span><span class="nx">Buffer</span><span class="p">.</span><span class="nf">from</span><span class="p">(</span><span class="k">await</span> <span class="nx">file</span><span class="p">.</span><span class="nf">arrayBuffer</span><span class="p">()));</span>
+	<span class="p">}</span> <span class="nf">catch </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+		<span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span><span class="s2">`An error happened while trying to upload the file: </span><span class="p">${</span><span class="nx">error</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Si se obtiene un error de CORS <a href="https://stackoverflow.com/questions/28894466/how-can-i-set-cors-in-azure-blob-storage-in-portal">este link</a> es de ayuda.</p>
+
+<h2 id="8">8</h2>
+<p>Finalmente, la action en nuestro <code class="language-plaintext highlighter-rouge">+page.server.ts</code> tendrá una forma como la siguiente:</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">export</span> <span class="kd">const</span> <span class="nx">actions</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="na">default</span><span class="p">:</span> <span class="nf">async </span><span class="p">({</span> <span class="nx">request</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+		<span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">request</span><span class="p">.</span><span class="nf">formData</span><span class="p">();</span>
+
+		<span class="kd">const</span> <span class="nx">fileToUpload</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">myFile</span><span class="dl">'</span><span class="p">)</span> <span class="k">as</span> <span class="nx">File</span><span class="p">;</span>
+		<span class="kd">const</span> <span class="nx">entityName</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span><span class="p">);</span>
+
+		<span class="kd">const</span> <span class="nx">body</span> <span class="o">=</span> <span class="p">{</span>
+			<span class="nx">name</span><span class="p">,</span>
+			<span class="na">files</span><span class="p">:</span> <span class="p">[</span><span class="s2">`https://</span><span class="p">${</span><span class="nx">AZURE_STORAGE_ACCOUNT_NAME</span><span class="p">}</span><span class="s2">.blob.core.windows.net/</span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">]</span>
+		<span class="p">};</span>
+
+		<span class="c1">// POST /entidades y creación en la DB</span>
+		<span class="kd">const</span> <span class="nx">response</span> <span class="o">=</span> <span class="k">await</span> <span class="nf">fetch</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">env</span><span class="p">.</span><span class="nx">API_URL</span><span class="p">}</span><span class="s2">`</span><span class="p">,</span> <span class="p">{</span>
+			<span class="na">method</span><span class="p">:</span> <span class="dl">'</span><span class="s1">POST</span><span class="dl">'</span><span class="p">,</span>
+			<span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+				<span class="dl">'</span><span class="s1">Content-Type</span><span class="dl">'</span><span class="p">:</span> <span class="dl">'</span><span class="s1">application/json</span><span class="dl">'</span><span class="p">,</span>
+			<span class="p">},</span>
+			<span class="na">body</span><span class="p">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nf">stringify</span><span class="p">(</span><span class="nx">body</span><span class="p">)</span>
+		<span class="p">});</span>
+
+		<span class="c1">// 5 API responde con código de éxito 201</span>
+		<span class="nf">if </span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="mi">201</span><span class="p">)</span> <span class="p">{</span>
+			<span class="kd">const</span> <span class="nx">responseJson</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">response</span><span class="p">.</span><span class="nf">json</span><span class="p">();</span>
+
+			<span class="nf">if </span><span class="p">(</span><span class="nx">fileToUpload</span> <span class="o">!==</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
+				<span class="c1">// 6 y 7 generación de token SAS y subida de archivo a Azure Blob Storage</span>
+				<span class="k">await</span> <span class="nf">uploadFile</span><span class="p">(</span><span class="nx">file</span><span class="p">,</span> <span class="nx">entityName</span><span class="p">);</span>
+			<span class="p">}</span>
+			<span class="c1">// 8 Respuesta de éxito al cliente</span>
+			<span class="k">return</span> <span class="p">{</span> <span class="na">success</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="na">data</span><span class="p">:</span> <span class="nx">responseJson</span> <span class="p">};</span>
+		<span class="p">}</span>
+		<span class="k">return</span> <span class="nf">fail</span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span> <span class="nx">satisfies</span> <span class="nx">Actions</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>La función <code class="language-plaintext highlighter-rouge">uploadFile</code> puede ser incluida en el mismo archivo u otro, dependiendo la organización del proyecto y cada uno.</p>
+
+<p>Cualquier duda no hay problema con comunicarse via e-mail (luzojeda@proton.me). En <a href="https://github.com/luz-ojeda/cook-web">cook-web</a> en <code class="language-plaintext highlighter-rouge">src/routes/admin/crear-receta</code> hay un ejemplo concreto utilizando lo anterior pero dependiendo la fecha puede ser que ya haya cambiado algo de la implementación.</p>
+
+<p>Referencias:</p>
+<ul>
+  <li><a href="https://www.okupter.com/blog/sveltekit-file-upload">How to implement file upload with SvelteKit</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload-javascript">Upload a blob with JavaScript</a></li>
+  <li><a href="https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-account-delegation-sas-create-javascript?tabs=blob-service-client">Create and use account SAS tokens with Azure Blob Storage and JavaScript</a></li>
+</ul>
+</div>
+</main>
+    <footer>
+      <button id="hamburger-menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <title>Open sidebar</title>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+        stroke-width="32" d="M80 160h352M80 256h352M80 352h352" />
+</svg></button>
+    </footer>
+    <script src="/es/scripts/toggleSidebarVisibility.js"></script>
+  </body>
+</html>
