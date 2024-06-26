@@ -3,7 +3,7 @@ const { tags } = Astro.props;
 ---
 
 <script>
-    function hideBlogs(evt: any) {
+    function filterPostsByTag(evt: any) {
         let selectedTag = evt.currentTarget.getAttribute("data-type");
         let tagElement = document.getElementById("tags");
         if (!tagElement) return;
@@ -32,10 +32,9 @@ const { tags } = Astro.props;
         }
     }
 
-    // Event listener for the button click
     const input = document.querySelectorAll("#tag-filter");
     input.forEach(e => {
-        e.addEventListener("click", hideBlogs);
+        e.addEventListener("click", filterPostsByTag);
     });
 </script>
 
