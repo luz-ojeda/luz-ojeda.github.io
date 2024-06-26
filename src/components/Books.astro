@@ -1,0 +1,42 @@
+---
+import type { BooksByYear } from "../types/Reading";
+import BookRow from "./BookRow.astro";
+
+const { books } = Astro.props;
+const years = books.map((booksByYear: BooksByYear) => {
+    return Object.keys(booksByYear)[0];
+});
+---
+
+<div class="flex year-selector">
+    {years.map((y: string) => <a href={`#${y}`}>{y}</a>)}
+</div>
+{
+    books.map((booksByYear: BooksByYear) =>
+        Object.entries(booksByYear).map(([year, books]) => {
+            return (
+                <section id={year}>
+                    <h2 class="year">{year}</h2>
+                    <ul class="no-style-list">
+                        {books.map(b => (
+                            <BookRow book={b} />
+                        ))}
+                    </ul>
+                </section>
+            );
+        })
+    )
+}
+
+<style>
+    .year {
+        margin-top: 48px;
+        text-align: center;
+    }
+
+    .year-selector > a {
+        &:not(:last-of-type) {
+            margin-right: 8px;
+        }
+    }
+</style>

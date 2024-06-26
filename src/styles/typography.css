@@ -1,0 +1,122 @@
+:root {
+    --font-primary: 'Noto Sans Mono', monospace;
+    --font-secondary: 'Sarabun', Helvetica, sans-serif;
+
+    /* base values */
+    --text-base-size: 1em;
+    --text-scale-ratio: 1.1;
+
+    /* type scale */
+    --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+    --text-sm: calc(1em / var(--text-scale-ratio));
+    --text-md: calc(1em * var(--text-scale-ratio));
+    --text-lg: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+    --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+
+    /* line-height */
+    --heading-line-height: 1.3;
+    --body-line-height: 1.4;
+    --dark-mode-body-line-height: 1.6;
+}
+
+body, code {
+    font-size: var(--text-base-size);
+    font-family: var(--font-primary);
+    color: var(--text);
+}
+
+h1 {
+    color: var(--text-heading);
+    font-family: var(--font-secondary);
+}
+
+h1, h2, h3, h4, form legend {
+    line-height: var(--heading-line-height);
+}
+
+/* text size */
+.text--xxxl {
+    font-size: var(--text-xxxl);
+}
+
+h1, .text--xxl {
+    font-size: var(--text-xxl);
+}
+
+h2, .text--xl {
+    font-size: var(--text-xl);
+}
+
+h3, .text--lg {
+    font-size: var(--text-lg);
+}
+
+h4, .text--md {
+    font-size: var(--text-md);
+}
+
+.text--sm, small {
+    font-size: var(--text-sm);
+}
+
+.text--xs {
+    font-size: var(--text-xs);
+}
+
+p {
+    line-height: var(--body-line-height);
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+a {
+    color: var(--link);
+    transition: color 0.1s ease;
+}
+
+a:hover, a:focus {
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+a:focus-visible {
+    outline-color: var(--primary);
+    outline-style: solid;
+    outline-width: medium;
+}
+
+a.navlink {
+    color: var(--text)
+}
+
+a.navlink:hover {
+    color: var(--grey700)
+}
+
+::selection {
+    background-color: var(--link);
+    color: var(--body);
+}
+
+/* Dark mode */
+
+.dark p {
+    letter-spacing: 0.025rem;
+    line-height: var(--dark-mode-body-line-height);
+}
+
+/* utility classes */
+.truncate {
+    /* truncate text if it exceeds parent */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

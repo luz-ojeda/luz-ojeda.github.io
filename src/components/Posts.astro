@@ -1,0 +1,67 @@
+---
+import type { CollectionEntry } from "astro:content";
+interface Props {
+    posts: CollectionEntry<"blog">[];
+}
+
+import sortByDate from "../utils/sortByDate";
+import Tags from "./Tags.astro";
+import FormattedDate from "./FormattedDate.astro";
+const { posts } = Astro.props;
+const orderedPosts = posts.sort(sortByDate);
+
+const postsByYear = new Map<number, CollectionEntry<"blog">[]>();
+orderedPosts.forEach(post => {
+    const year = post.data.date.getFullYear();
+
+    if (!postsByYear.get(year)) {
+        postsByYear.set(year, []);
+    }
+
+    postsByYear.get(year)?.push(post);
+});
+
+const tags = [
+    ...new Set(
+        posts
+            .map(post => post.data.tags)
+            .filter(Boolean)
+            .flat()
+    ),
+];
+---
+
+<>
+    <div>
+        <Tags tags={tags} />
+    </div>
+    {
+        [...postsByYear.entries()].map(([year, posts]) => (
+            <>
+                <h2>{year}</h2>
+                <ul class="no-style-list">
+                    {posts?.map((p: CollectionEntry<"blog">) => (
+                        <li
+                            class={`flex-center justify-between ${p.data?.tags ? " " + p.data.tags.join(" ") : ""}`}
+                        >
+                            <h3>
+                                <a href={`blog/${p.slug.substring(p.slug.lastIndexOf("/") + 1)}`}>
+                                    {p.data?.title}
+                                </a>
+                            </h3>
+                            <span class="date">
+                                <FormattedDate date={p.data?.date} />
+                            </span>
+                        </li>
+                    ))}
+                </ul>
+            </>
+        ))
+    }
+</>
+
+<style>
+    h3 {
+        padding-right: 12px;
+    }
+</style>

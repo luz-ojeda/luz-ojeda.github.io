@@ -1,0 +1,30 @@
+/* layout */
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+}
+
+.flex-col-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* lists */
+.no-style-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* typography */
+.italic {
+    font-style: italic;
+}

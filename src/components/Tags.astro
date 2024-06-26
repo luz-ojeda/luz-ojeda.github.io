@@ -1,0 +1,50 @@
+---
+const { tags } = Astro.props;
+---
+
+<script>
+    function hideBlogs(evt) {
+        let selectedTag = evt.currentTarget.getAttribute("data-type");
+        let tagElement = document.getElementById("tags");
+        if (!tagElement) return;
+        
+        let tags = tagElement.dataset.tags;
+        
+        if (!tags) return;
+
+        const tagsArray = tags.split(",");
+        tagsArray.splice(tags.indexOf(selectedTag), 1);
+
+        tagsArray.forEach(t => {
+            const elementsToHide = document.getElementsByClassName(
+                t
+            ) as HTMLCollectionOf<HTMLElement>;
+            for (let i = 0; i < elementsToHide.length; i++) {
+                elementsToHide[i].style.display = "none";
+            }
+        });
+
+        let elementsToShow = document.getElementsByClassName(
+            selectedTag
+        ) as HTMLCollectionOf<HTMLElement>;
+        for (let i = 0; i < elementsToShow.length; i++) {
+            elementsToShow[i].style.display = "block";
+        }
+    }
+
+    // Event listener for the button click
+    const input = document.querySelectorAll("#tag-filter");
+    input.forEach(e => {
+        e.addEventListener("click", hideBlogs);
+    });
+</script>
+
+<div id="tags" data-tags={tags}>
+    {
+        tags.map((t: string) => (
+            <button class="tertiary text--md" id="tag-filter" data-type={t}>
+                #{t}
+            </button>
+        ))
+    }
+</div>

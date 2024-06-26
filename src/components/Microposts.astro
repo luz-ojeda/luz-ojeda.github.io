@@ -1,0 +1,33 @@
+---
+import type { CollectionEntry } from "astro:content";
+import sortByDate from "../utils/sortByDate";
+import { getLangFromUrl } from "../i18n/utils";
+import FormattedDate from "./FormattedDate.astro";
+
+interface Props {
+    posts: CollectionEntry<"microblog">[];
+}
+
+const { posts } = Astro.props;
+
+const orderedPosts = posts.sort(sortByDate);
+---
+
+<ul class="no-style-list">
+    {
+        orderedPosts.map(async micropost => {
+            const { Content } = await micropost.render();
+            return (
+                <li>
+                    <div class="flex-center justify-between">
+                        <h3 class="post-title">{micropost.data?.title}</h3>
+                        <span class="date">
+                            <FormattedDate date={micropost.data?.date} />
+                        </span>
+                    </div>
+                    <Content />
+                </li>
+            );
+        })
+    }
+</ul>
