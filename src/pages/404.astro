@@ -1,7 +1,19 @@
 ---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
 import Base from "../layouts/Base.astro";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <Base>
-    Not found
+    <h1>
+        {t("page not found")}
+    </h1>
 </Base>
+
+<style>
+    h1 {
+        margin: 0 auto;
+        width: fit-content;
+    }
+</style>

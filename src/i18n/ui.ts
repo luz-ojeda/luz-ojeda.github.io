@@ -20,7 +20,8 @@ export const ui = {
         "currently reading": "currently reading",
         "read": "read",
         "repository": "repository",
-        "open navbar": "open navbar"
+        "open navbar": "open navbar",
+        "page not found": "page not found"
     },
     es: {
         "nav.blog": "blog",
@@ -36,7 +37,8 @@ export const ui = {
         "currently reading": "leyendo",
         "read": "leído",
         "repository": "repositorio",
-        "open navbar": "abrir menú de navegación"
+        "open navbar": "abrir menú de navegación",
+        "page not found": "página no encontrada"
     },
 } as const;
 
