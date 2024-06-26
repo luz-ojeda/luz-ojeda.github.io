@@ -1,5 +1,5 @@
 ---
-date: 2024-04-024
+pubDate: 2024-04-024
 title: "Un ejemplo del principio de segregación de interfaz"
 tags: ["tech"]
 ---

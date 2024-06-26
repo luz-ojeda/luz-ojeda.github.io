@@ -1,6 +1,6 @@
 ---
 title: "Sublime"
-date: 2024-03-17
+pubDate: 2024-03-17
 tags: ["música", "personal"]
 ---
 

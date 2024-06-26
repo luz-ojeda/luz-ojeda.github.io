@@ -1,6 +1,6 @@
 ---
 title: Exceso de redes sociales
-date: 2023-09-29
+pubDate: 2023-09-29
 tags: ["pensamientos"]
 ---
 

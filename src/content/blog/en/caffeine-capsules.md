@@ -1,6 +1,6 @@
 ---
 title: "Caffeine capsules"
-date: 2023-12-26
+pubDate: 2023-12-26
 tags: ["personal"]
 ---
 While reading, I no longer remember _what_ exactly, I came across caffeine in capsules on the internet. I bought [these](https://www.mercadolibre.com.ar/caffeine-anhydrous-200-90-comp-cafeina-body-advance-energia/p/MLA20008829) (link is from an e-commerce like Amazon popular here in Argentina and rest of Latin America). They come in doses of 200mg. By comparison, an espresso has approximately 60mg of caffeine. A cup of filter coffee, depending on whether or not it is diluted with milk, from 70 to 140.

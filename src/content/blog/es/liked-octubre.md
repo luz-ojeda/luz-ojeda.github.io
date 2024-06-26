@@ -1,6 +1,6 @@
 ---
 title: Cosas interesantes de octubre
-date: 2023-10-26
+pubDate: 2023-10-26
 tags: ["cosas interesantes"]
 ---
 

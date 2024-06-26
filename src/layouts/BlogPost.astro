@@ -5,18 +5,18 @@ import Base from "./Base.astro";
 
 type Props = CollectionEntry<"blog">["data"] & { lang: string };
 
-const { title, date, updatedDate, lang } = Astro.props;
+const { title, pubDate, updatedDate } = Astro.props;
 ---
 
 <Base>
     <article>
         <div class="title">
             <div class="date">
-                <FormattedDate date={date} />
+                <FormattedDate pubDate={pubDate} />
                 {
                     updatedDate && (
                         <div class="last-updated-on">
-                            Last updated on <FormattedDate date={updatedDate} />
+                            Last updated on <FormattedDate pubDate={updatedDate} />
                         </div>
                     )
                 }

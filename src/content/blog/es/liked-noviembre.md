@@ -1,6 +1,6 @@
 ---
 title: Cosas interesantes de noviembre
-date: 2023-11-30
+pubDate: 2023-11-30
 tags: ["cosas interesantes"]
 ---
 

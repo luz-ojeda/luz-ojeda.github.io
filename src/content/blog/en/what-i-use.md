@@ -1,6 +1,6 @@
 ---
 title: What I use to store information and keep track of things
-date: 2023-11-03
+pubDate: 2023-11-03
 tags: ["tech", "personal"]
 ---
 

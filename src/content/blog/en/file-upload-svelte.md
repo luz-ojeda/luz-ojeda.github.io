@@ -1,7 +1,7 @@
 ---
 title: "File upload to Azure Blob Storage using Svelte Kit"
 tags: ["tech"]
-date: 2024-04-12
+pubDate: 2024-04-12
 ---
 
 Working on the creation of recipes in [cook-web](https://github.com/luz-ojeda/cook-web) I implemented the upload of their images to Azure Blob Storage.

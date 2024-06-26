@@ -1,6 +1,6 @@
 ---
 title: Things I liked in October
-date: 2023-10-26
+pubDate: 2023-10-26
 tags: ["things i liked"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: About this page
-date: 2023-10-31
+pubDate: 2023-10-31
 tags: ["tech"]
 ---
 

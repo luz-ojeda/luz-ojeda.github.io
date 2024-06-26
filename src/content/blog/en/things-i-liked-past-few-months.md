@@ -1,6 +1,6 @@
 ---
 title: Things I liked in the past few months
-date: 2024-05-26
+pubDate: 2024-05-26
 tags: ["things i liked"]
 ---
 

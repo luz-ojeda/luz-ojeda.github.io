@@ -1,6 +1,6 @@
 ---
 title: On growing
-date: 2023-04-04
+pubDate: 2023-04-04
 tags: ["personal", "thoughts"]
 ---
 

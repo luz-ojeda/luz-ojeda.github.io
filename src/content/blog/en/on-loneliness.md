@@ -1,6 +1,6 @@
 ---
 title: On loneliness
-date: 2023-11-16
+pubDate: 2023-11-16
 tags: ["thoughts"]
 ---
 

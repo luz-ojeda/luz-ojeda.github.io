@@ -1,6 +1,6 @@
 ---
 title: Cosas interesantes de diciembre de 2023 y enero
-date: 2024-02-01
+pubDate: 2024-02-01
 tags: ["cosas interesantes"]
 ---
 

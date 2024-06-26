@@ -30,7 +30,7 @@ const t = useTranslations(lang);
                 <span class="currently-reading">{t("currently reading")}</span>
             ) : (
                 <span>
-                    <FormattedDate date={new Date(book.status)} />
+                    <FormattedDate pubDate={new Date(book.status)} />
                 </span>
             )
         }

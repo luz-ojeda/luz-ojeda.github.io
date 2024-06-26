@@ -1,6 +1,6 @@
 ---
 title: Social media overuse
-date: 2023-09-29
+pubDate: 2023-09-29
 tags: ["thoughts"]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Sobre Europa
-date: 2024-05-30
+pubDate: 2024-05-30
 tags: ["viajes"]
 ---
 

@@ -22,7 +22,7 @@ const orderedPosts = posts.sort(sortByDate);
                     <div class="flex-center justify-between">
                         <h3 class="post-title">{micropost.data?.title}</h3>
                         <span class="date">
-                            <FormattedDate date={micropost.data?.date} />
+                            <FormattedDate pubDate={micropost.data?.pubDate} />
                         </span>
                     </div>
                     <Content />

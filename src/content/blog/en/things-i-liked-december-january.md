@@ -1,6 +1,6 @@
 ---
 title: Things I liked in December 2023 and January
-date: 2024-02-01
+pubDate: 2024-02-01
 tags: ["things i liked"]
 ---
 

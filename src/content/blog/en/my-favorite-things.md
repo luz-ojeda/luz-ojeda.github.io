@@ -1,6 +1,6 @@
 ---
 title: "My favorite things"
-date: 2024-02-06
+pubDate: 2024-02-06
 tags: ["personal"]
 ---
 

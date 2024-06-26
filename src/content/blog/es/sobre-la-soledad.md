@@ -1,6 +1,6 @@
 ---
 title: Sobre la soledad
-date: 2023-11-16
+pubDate: 2023-11-16
 tags: ["pensamientos", "personal"]
 ---
 

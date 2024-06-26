@@ -1,6 +1,6 @@
 ---
 title: Qué uso para guardar información y realizar seguimiento de cosas
-date: 2023-11-03
+pubDate: 2023-11-03
 tags: ["tech"]
 ---
 

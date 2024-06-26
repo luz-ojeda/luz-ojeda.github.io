@@ -1,6 +1,6 @@
 ---
 title: 10/10 musical albums
-date: 2023-10-14
+pubDate: 2023-10-14
 tags: ["music"]
 ---
 

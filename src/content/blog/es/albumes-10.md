@@ -1,6 +1,6 @@
 ---
 title: Albumes de música 10/10
-date: 2023-10-14
+pubDate: 2023-10-14
 tags: ["personal", "media"]
 ---
 

@@ -12,7 +12,7 @@ const orderedPosts = posts.sort(sortByDate);
 
 const postsByYear = new Map<number, CollectionEntry<"blog">[]>();
 orderedPosts.forEach(post => {
-    const year = post.data.date.getFullYear();
+    const year = post.data.pubDate.getFullYear();
 
     if (!postsByYear.get(year)) {
         postsByYear.set(year, []);
@@ -50,7 +50,7 @@ const tags = [
                                 </a>
                             </h3>
                             <span class="date">
-                                <FormattedDate date={p.data?.date} />
+                                <FormattedDate pubDate={p.data?.pubDate} />
                             </span>
                         </li>
                     ))}

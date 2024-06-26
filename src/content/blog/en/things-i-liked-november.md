@@ -1,6 +1,6 @@
 ---
 title: Things I liked in November
-date: 2023-11-30
+pubDate: 2023-11-30
 tags: ["things i liked"]
 ---
 

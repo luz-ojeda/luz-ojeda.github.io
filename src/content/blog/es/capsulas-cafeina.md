@@ -1,6 +1,6 @@
 ---
 title: "Cápsulas de cafeína"
-date: 2023-12-26
+pubDate: 2023-12-26
 tags: ["personal"]
 ---
 Leyendo, ya no recuerdo _qué_ exactamente, por internet me crucé con la cafeína en cápsulas. Compré [estas](https://www.mercadolibre.com.ar/caffeine-anhydrous-200-90-comp-cafeina-body-advance-energia/p/MLA20008829). Vienen en dosis de 200mg. A comparación, un espresso tiene aproximadamente unos 60mg de cafeína. Una taza de café de filtro, dependiendo si se diluye o no con leche, de 70 a 140.
