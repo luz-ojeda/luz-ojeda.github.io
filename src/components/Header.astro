@@ -23,10 +23,13 @@ import ThemeIcon from "./ThemeIcon.astro";
 <style lang="scss">
     @import "../styles/variables.scss";
 
+    header {
+        padding: var(--space-md);
+    }
+
     .first-row {
         display: flex;
         justify-content: space-between;
-        padding: 0 24px;
     }
 
     .first-row > * {
@@ -36,6 +39,7 @@ import ThemeIcon from "./ThemeIcon.astro";
     }
 
     .first-row h1 {
+        margin: 0;
         justify-content: center;
     }
 
