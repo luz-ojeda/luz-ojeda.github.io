@@ -3,7 +3,7 @@ const { tags } = Astro.props;
 ---
 
 <script>
-    function hideBlogs(evt) {
+    function hideBlogs(evt: any) {
         let selectedTag = evt.currentTarget.getAttribute("data-type");
         let tagElement = document.getElementById("tags");
         if (!tagElement) return;
