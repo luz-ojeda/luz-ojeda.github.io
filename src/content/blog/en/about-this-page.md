@@ -4,6 +4,11 @@ pubDate: 2023-10-31
 tags: ["tech"]
 ---
 
+**I've recently migrated to [Astro](https://astro.build/) so this post is mostly outdated regarding this website**
+
+Thanks for your understanding ≽^•⩊•^≼
+___
+
 I originally created this page for professional and labor-related purposes. The first pages were resume, about me and projects. Only afterwards did I start adding more personal ones like likes and blog posts. Even the about me section has a professional rather than personal focus, I plan to update it in the future.
 
 Although I didn't plan to write much at first, I wanted to leave the option open for the future in case I changed my mind and/or got the hang of writing. For this reason it was created with [Jekyll](https://jekyllrb.com/). I tried other options like [Hugo](https://gohugo.io/) but in the end I ended up being convinced by Jekyll due to its ease of use and diversity of accessories.
