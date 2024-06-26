@@ -697,7 +697,9 @@
           "fantasy"
         ],
         "status": "2022-02-23T00:00:00.000Z",
-        "author": "Matt Haig"
+        "author": "Matt Haig",
+        "highlight": "Alcohol in the evening is very enjoyable. Hangovers in the morning are very unpleasant. At some point you have to choose: evenings, or mornings.",
+        "loved": true
       },
       {
         "title": "Rubicon: The Last Years of the Roman Republic",

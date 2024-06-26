@@ -22,7 +22,7 @@ Versiones:
 
 ---
 
-## 1
+## 1 Cliente de SvelteKit
 La parte del cliente de SvelteKit es relativamente sencilla. En una página `+page.svelte` colocamos:
 
 ```html
@@ -56,7 +56,7 @@ Algo importante a destacar es el valor del atributo `enctype` en el elemento `fo
 
 Para fines ilustrativos, no configuré use:enhance en el ejemplo anterior. Pero como sí lo hice en mi repositorio pensé que valía la pena mencionarlo. En su momento, me tomó unos minutos hasta abrir la consola para descubrir por qué no pasaba nada cuando intentaba enviar el formulario.
 
-## 2 - 4
+## 2 - 4 Cliente -> Server de SvelteKit
 En la misma ruta del archivo `+page.svelte` debemos tener un archivo `+page.server.ts` que exporte una *acción*, la cual será gatillada al ser submitteado el formulario ([docs](https://kit.svelte.dev/docs/form-actions)). El archivo puede exportar más de una acción además de la exportada por defecto (*named actions* se las llama en la documentación). En este caso solo necesitamos una.
 
 ```typescript
@@ -93,7 +93,7 @@ El archivo se obtiene llamando [`FormData.get`](https://developer.mozilla.org/es
 
 La propiedad `files` en el cuerpo de la solicitud nos permite en un front end que consuma los datos de la API, saber a qué URL corresponde la imagen de la entidad asociada (un usuario, un post, una receta de cocina, etc.).
 
-## 5-7
+## 5-7 Server de SvelteKit -> Azure
 Aún en la acción `default` de `+page.server.ts`, si la respuesta de la API es exitosa (código de estado 201), procedemos con la subida del archivo a Azure:
 
 ```typescript
@@ -186,7 +186,7 @@ async function uploadFile(file: File, blobName: string) {
 ```
 Si se obtiene un error de CORS [este link](https://stackoverflow.com/questions/28894466/how-can-i-set-cors-in-azure-blob-storage-in-portal) es de ayuda.
 
-## 8
+## 8 Respuesta al cliente
 Finalmente, la action en nuestro `+page.server.ts` tendrá una forma como la siguiente:
 
 ```typescript
@@ -230,6 +230,8 @@ export const actions = {
 La función `uploadFile` puede ser incluida en el mismo archivo u otro, dependiendo la organización del proyecto y cada uno.
 
 Cualquier duda no hay problema con comunicarse via e-mail (luzojeda@proton.me). En [cook-web](https://github.com/luz-ojeda/cook-web) en `src/routes/admin/crear-receta` hay un ejemplo concreto utilizando lo anterior pero dependiendo la fecha puede ser que ya haya cambiado algo de la implementación.
+
+## Referencias
 
 Referencias:
 - [How to implement file upload with SvelteKit](https://www.okupter.com/blog/sveltekit-file-upload)

@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import BlogPost from "../../../layouts/BlogPost.astro";
 import { getLangFromUrl } from "../../../i18n/utils";
+import TableOfContents from "../../../components/TableOfContents.astro";
 
 export async function getStaticPaths() {
     const posts = await getCollection("blog");
@@ -17,9 +18,12 @@ type Props = CollectionEntry<"blog">;
 
 const lang = getLangFromUrl(Astro.url);
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content, headings } = await post.render();
 ---
 
 <BlogPost lang={lang} {...post.data}>
+    {headings && headings.length ? 
+        <TableOfContents headings={headings} /> : <></>
+    }
     <Content />
 </BlogPost>

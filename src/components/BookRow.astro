@@ -35,7 +35,14 @@ const t = useTranslations(lang);
             )
         }
     </div>
-    {book.highlight && <p class="italic">“{book.highlight}”</p>}
+    {
+        book.highlight && (
+            <details>
+                <summary>{t("highlight")}</summary>
+                <p class="italic">“{book.highlight}”</p>
+            </details>
+        )
+    }
     <hr />
 </li>
 

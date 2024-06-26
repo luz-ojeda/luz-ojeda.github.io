@@ -13,7 +13,7 @@ I like to step away from screens considering my job (web dev) and some of my hob
 - Track tasks and habits, birthdays, future events, etc. As an agenda, basically
 - Occasionally to vent or write down any kind of thought
 
-## [Obsidian](https://obsidian.md/):
+## [Obsidian](https://obsidian.md/)
 - Goals
 - Recipes: mainly because I like to tag them with their ingredients and then search from what I have available
 - Shopping lists

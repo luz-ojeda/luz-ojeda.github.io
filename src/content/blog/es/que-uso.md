@@ -13,7 +13,7 @@ Me gusta alejarme de las pantallas cuanto pueda considerando mi trabajo (desarro
 - Seguimiento de tareas y hábitos, cumpleaños, eventos futuros, etc. A modo de agenda, básicamente.
 - Ocasionalmente para desahogarme o anotar cualquier tipo de pensamiento
 
-## [Obsidian](https://obsidian.md/):
+## [Obsidian](https://obsidian.md/)
 - Objetivos
 - Recetas de cocina: principalmente porque me gusta usar la feature de _tags_ con sus ingredientes y luego buscar en base a lo que tengo en la heladera/alacena
 - Listas de compras a lo largo de períodos extensos de tiempo
