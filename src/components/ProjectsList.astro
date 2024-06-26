@@ -1,0 +1,67 @@
+---
+import projectsJSON from "../data/projects.json";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<div>
+    {
+        projectsJSON.map(p => (
+            <div class="project-row">
+                <div class="flex">
+                    <div class="project-year">
+                        {p.year}
+                        {p.finished && p.finished !== p.year ? (
+                            <span>—{p.year}</span>
+                        ) : !p.finished ? (
+                            <span>—</span>
+                        ) : null}
+                    </div>
+                    <div>
+                        {/* If project is deployed to an url display it along with the repository */}
+                        {p.url ? (
+                            <div>
+                                <a href={p.url}>
+                                    <h2 class="project-title">{p[lang].title}</h2>
+                                </a>
+                                {p.repo_url && (
+                                    <a class="project-repo-url" href={p.repo_url}>
+                                        {t("repository")}
+                                    </a>
+                                )}
+                            </div>
+                        ) : (
+                            <a href={p.repo_url}>
+                                <h2 class="project-title">{p[lang].title}</h2>
+                            </a>
+                        )}
+                        <p>{p[lang].description}</p>
+                    </div>
+                </div>
+                <hr />
+            </div>
+        ))
+    }
+</div>
+
+<style>
+    .project-year {
+        margin-right: 24px;
+        padding-top: 2px;
+        min-width: 98px;
+    }
+
+    .project-title {
+        margin: 0;
+    }
+
+    .project-repo-url {
+        display: inline-block;
+        margin: 8px 0;
+    }
+
+    .project-row {
+        margin-bottom: 24px;
+    }
+</style>

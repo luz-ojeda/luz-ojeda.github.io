@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    margin: 0 auto;
+    padding: var(--space-md) 0;
+	width: $max-content-width;
+}
+
+@media (max-width: $tablet) {
+    main {
+        padding: var(--space-md);
+        width: 100%;
+    }
+}

@@ -1,0 +1,95 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<script>
+    const navbar = document.getElementById("navbar");
+    const hamburgerButton = document.getElementById("hamburger-button");
+
+    document.body.style.overflowY = "visible";
+
+    if (hamburgerButton && navbar) {
+        hamburgerButton.addEventListener("click", () => {
+            if (document.body.style.overflowY === "visible") {
+                document.body.style.overflowY = "hidden";
+            } else {
+                document.body.style.overflowY = "visible";
+            }
+            navbar.classList.toggle("slide");
+            hamburgerButton.classList.toggle("close");
+        });
+    }
+</script>
+
+<button id="hamburger-button">
+    <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <title>{t("open navbar")}</title>
+        <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke-width="32"
+            d="M80 160h352M80 256h352M80 352h352"></path>
+    </svg>
+    <svg
+        width="40"
+        height="40"
+        viewBox="0 0 1024 1024"
+        fill="currentColor"
+        class="icon"
+        version="1.1"
+        id="close"
+        ><path
+            d="M176.662 817.173c-8.19 8.471-7.96 21.977 0.51 30.165 8.472 8.19 21.978 7.96 30.166-0.51l618.667-640c8.189-8.472 7.96-21.978-0.511-30.166-8.471-8.19-21.977-7.96-30.166 0.51l-618.666 640z"
+            fill=""></path><path
+            d="M795.328 846.827c8.19 8.471 21.695 8.7 30.166 0.511 8.471-8.188 8.7-21.694 0.511-30.165l-618.667-640c-8.188-8.471-21.694-8.7-30.165-0.511-8.471 8.188-8.7 21.694-0.511 30.165l618.666 640z"
+            fill=""></path></svg
+    >
+</button>
+
+<style lang="scss">
+    @import "../styles/variables.scss";
+
+    button {
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        display: none;
+    }
+
+    #close {
+        display: none;
+    }
+
+    button.close #close {
+        display: block;
+    }
+
+    button.close #hamburger {
+        display: none;
+    }
+
+    svg {
+        color: var(--text);
+    }
+
+    html.dark svg {
+        color: var(--grey300);
+    }
+
+    @media (max-width: $tablet) {
+        button {
+            display: block;
+            height: 50px;
+            width: 50px;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+    }
+</style>

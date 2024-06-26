@@ -1,0 +1,11 @@
+---
+import Base from "../../layouts/Base.astro";
+import booksJSON from "../../data/books.json";
+import Books from "../../components/Books.astro";
+---
+
+<Base title="leyendo">
+    <h1>leyendo</h1>
+    <p>marcados con un asterisco * son los que más me gustaron y recomiendo</p>
+    <Books books={booksJSON} />
+</Base>

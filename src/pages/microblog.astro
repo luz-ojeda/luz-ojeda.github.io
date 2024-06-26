@@ -1,0 +1,17 @@
+---
+import Microposts from "../components/Microposts.astro";
+import { getLangFromUrl } from "../i18n/utils";
+import Base from "../layouts/Base.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import sortByDate from "../utils/sortByDate";
+
+const posts: CollectionEntry<"microblog">[] = await getCollection("microblog", ({ id }) => {
+    return id.startsWith("en/");
+});
+
+const orderedPosts = posts.sort(sortByDate);
+---
+
+<Base title="microblog">
+    <Microposts posts={orderedPosts} />
+</Base>

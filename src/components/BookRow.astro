@@ -1,0 +1,46 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import type { Book } from "../types/Reading";
+import FormattedDate from "./FormattedDate.astro";
+
+type Props = { book: Book };
+
+const { book } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<li>
+    <div>
+        <h3>
+            <a href={book.link} target="_blank">
+                {book.title}
+            </a>
+            {book.loved ? "*" : ""}
+        </h3>
+        <div class="book-author">
+            {lang === "es" ? "de" : "by"}
+            <span>{book.author}</span>
+        </div>
+    </div>
+    {/* Book status */}
+    <div>
+        {
+            book.status === "currently reading" ? (
+                <span class="currently-reading">{t("currently reading")}</span>
+            ) : (
+                <span>
+                    <FormattedDate date={new Date(book.status)} />
+                </span>
+            )
+        }
+    </div>
+    {book.highlight && <p class="italic">“{book.highlight}”</p>}
+    <hr />
+</li>
+
+<style>
+    li {
+        text-align: center;
+    }
+</style>

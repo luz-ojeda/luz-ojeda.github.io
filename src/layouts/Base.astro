@@ -1,0 +1,31 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { getLangFromUrl } from "../i18n/utils";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+
+interface Props extends Record<string, any> {
+    title?: string;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const { frontmatter, title } = Astro.props;
+const headTitle = title || frontmatter?.title 
+  ? `${SITE_TITLE} - ${title || frontmatter?.title}` 
+  : SITE_TITLE;
+
+---
+
+<html lang={lang}>
+    <head>
+        <BaseHead title={headTitle} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header />
+        <main>
+            <slot />
+        </main>
+        <Footer />
+    </body>
+</html>

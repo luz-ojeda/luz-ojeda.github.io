@@ -1,0 +1,110 @@
+/*
+  The CSS in this style tag is based off of Bear Blog's default CSS.
+  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
+  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
+ */
+@import url("./fonts.css");
+@import url("./utilities.css");
+@import url("./typography.css");
+@import url("./spacing.css");
+@import url("./colors.scss");
+@import url("./layout.scss");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--body);
+	line-height: 1.7;
+	margin: 0;
+	overflow-wrap: break-word;
+	padding: 0;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+table {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+code {
+	background-color: var(--code-bg);
+	color: var(--code-color);
+	padding: 0.1em 0.2em;
+	border-radius: 3px;
+	border: 1px solid var(--code-border);
+}
+
+pre {
+	background-color: var(--pre-bg);
+	border: 1px solid var(--pre-border);
+	border-radius: 5px;
+	color: var(--pre-color);
+	font-size: var(--text-sm);
+	overflow-x: auto;
+	padding: 1em;
+	white-space: pre-wrap;
+}
+
+pre>code {
+	all: unset;
+}
+
+blockquote {
+	border-left: 4px solid var(--blockquote-border);
+	padding: 0 0 0 20px;
+	margin: 0px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid var(--border);
+}
+
+time {
+	display: inline-block;
+	min-width: 60px;
+}
+
+button {
+	cursor: pointer;
+}
+
+button.tertiary {
+	border: none;
+	background: none;
+	color: var(--btn-tertiary);
+}
+
+button.tertiary:hover {
+	text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sr-only {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	/* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+	clip: rect(1px 1px 1px 1px);
+	/* maybe deprecated but we need to support legacy browsers */
+	clip: rect(1px, 1px, 1px, 1px);
+	/* modern browsers, clip-path works inwards from each corner */
+	clip-path: inset(50%);
+	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
+	white-space: nowrap;
+}

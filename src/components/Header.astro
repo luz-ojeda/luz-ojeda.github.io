@@ -1,0 +1,58 @@
+---
+import { SITE_TITLE } from "../consts";
+import HamburgerButton from "./HamburgerButton.astro";
+import LanguagePicker from "./LanguagePicker.astro";
+import Nav from "./Nav.astro";
+import ThemeIcon from "./ThemeIcon.astro";
+---
+
+<header>
+    <div class="first-row">
+        <div>
+            <LanguagePicker />
+        </div>
+        <h1>{SITE_TITLE}</h1>
+        <div>
+            <ThemeIcon />
+            <HamburgerButton />
+        </div>
+    </div>
+    <Nav />
+</header>
+
+<style lang="scss">
+    @import "../styles/variables.scss";
+
+    .first-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 24px;
+    }
+
+    .first-row > * {
+        align-items: center;
+        flex: 1;
+        display: flex;
+    }
+
+    .first-row h1 {
+        justify-content: center;
+    }
+
+    .first-row div:nth-of-type(2) {
+        justify-content: end;
+    }
+
+    @media (max-width: $mobile) {
+        header {
+            background-color: var(--body);
+        }
+
+        .first-row h1 {
+            justify-content: start;
+        }
+        .first-row div:first-child {
+            display: none;
+        }
+    }
+</style>

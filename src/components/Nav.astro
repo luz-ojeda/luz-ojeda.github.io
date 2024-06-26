@@ -1,0 +1,103 @@
+---
+import { getLangFromUrl, useTranslations, useTranslatedPath } from "../i18n/utils";
+import NavLink from "./NavLink.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+---
+
+<nav id="navbar">
+    <ul class="no-style-list">
+        <li>
+            <NavLink href={translatePath("/")}>
+                {t("nav.blog")}
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href={translatePath("/microblog")}>
+                {t("nav.microblog")}
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href={translatePath("/reading")}>
+                {t("nav.reading")}
+            </NavLink>
+        </li>
+        <!-- <li>
+            <NavLink href={translatePath("/pictures")}>
+                {t("nav.pictures")}
+            </NavLink>
+        </li> -->
+        <li>
+            <NavLink href={translatePath("/likes")}>
+                {t("nav.likes")}
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href={translatePath("/now")}>
+                {t("nav.now")}
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href={translatePath("/projects")}>
+                {t("nav.projects")}
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href={translatePath("/resume")}>
+                {t("nav.resume")}
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href={translatePath("/about")}>
+                {t("nav.about")}
+            </NavLink>
+        </li>
+    </ul>
+</nav>
+
+<style lang="scss">
+    @import "../styles/variables.scss";
+
+    nav a.active {
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: $max-content-width;
+    }
+
+    @media (max-width: $tablet) {
+        nav {
+            background-color: var(--body);
+            border-bottom: 2px solid var(--border);
+            border-top: 1px solid var(--border);
+            height: 100%;
+            padding: var(--space-sm) 0;
+            position: fixed;
+            transform: translateX(100%) translateY(2px);
+            width: 100%;
+        }
+        
+        nav.slide {
+            transition: transform .3s .1s;
+            transform: translateX(0);
+        }
+
+        ul {
+            display: block;
+            gap: 16px;
+            width: 100%;
+        }
+
+        li {
+            margin: 12px 0;
+            text-align: center;
+        }
+    }
+</style>
