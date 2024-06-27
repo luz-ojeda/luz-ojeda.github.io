@@ -30,7 +30,7 @@
         "year": 2024,
         "es": {
             "title": "Recetas simples API",
-            "description": "API web basada en .NET C# utilizando una base de datos PostgreSQL"
+            "description": "API web hecha con .NET C# utilizando una base de datos PostgreSQL"
         },
         "en": {
             "title": "Simple recipes API",
@@ -42,7 +42,7 @@
         "year": 2023,
         "es": {
             "title": "Página Personal",
-            "description": "El sitio web que estás viendo actualmente. La primera versión utilizaba Jekyll pero luego fue migrada usando Astro"
+            "description": "El sitio web que estás viendo actualmente. La primera versión utilizaba Jekyll pero luego fue migrada a Astro"
         },
         "en": {
             "title": "Personal website",
@@ -60,7 +60,7 @@
         },
         "es": {
             "title": "Proyectos de la sección librerías de front end de FreeCodeCamp",
-            "description": "Proyectos basados en React, Redux, bootstrap y manipulación del DOM con JavaScript"
+            "description": "Hechos React, Redux, bootstrap y manipulación del DOM con JavaScript"
         }
     }
 ]
