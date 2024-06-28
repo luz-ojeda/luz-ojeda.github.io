@@ -7,13 +7,13 @@ draft: true
 
 import Date from "../../../components/react/DateComponent";
 
-While migrating my personal website to Astro I added a tiny javascript function to calculate my age in the about page, just because I wanted it's a, relative, free world and is something I wanted to do when I was using Jekyll but for some reason or another found it too tedious to mix JavaScript and markdown files.
+While migrating my personal website to Astro I added a tiny javascript function to calculate my age in the about page. Just because I wanted to, it's a relative free world and was something I wanted to do while using Jekyll but for some reason or another found it too tedious to mix JavaScript and markdown files.
 
-While playing with the `Date` object I realized i never got the real hang of how dates work in javascript. Always had to google more than I prefer to admit and read the docs almost from scratch every time
+I realized i never got the real hang of how dates work in javascript. Always had to google more than I prefer to admit and read the docs almost from scratch every time.
 
-So enough was enough so I wrote this for my better understanding and in the hope of helping others that struggled as I did with dates.
+Enough was enough so I wrote this for my better understanding and in the hope of helping others that struggled or struggle as I did with dates.
 
->As a sidenote, UTC stands for [Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) which will be used some times throughout the article. A standard used for determined time worldwide. 
+> As a sidenote, UTC stands for [Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) which will be used some times throughout the article. A standard used for determined time worldwide.
 
 ## The Date object
 
@@ -25,21 +25,36 @@ From this date object we could get:
 
 1. The UTC time
 2. Local time
-3. The timestamp itself
-   
->The timezone is determined by the user's device, it is **not** stored in the `Date` object
+3. The timestamp
+
+> The timezone is determined by the user's device, it is **not** stored in the `Date` object
+
+For example if we do `const myDate = new Date()` we get them like this:
+
+```javascript
+myDate.toUTCString(); // UTC time
+myDate.toLocaleString(); // local time
+myDate.getTime(); // timestamp time
+```
 
 ## What can we do with the Date object?
+
 -   calculate someone's birthday
 
 ## What can we do with more than one?
+
 ### Subtraction
+
 ### Sum
+
 Try to guess what will happen if we do
 
 `new Date('1000-01-01') + new Date()`
+
 -   calculate how many months/years/days between the two
 
-## Playground
+## Playground & cheatsheet
 
-<Date client:visible/>
+Write a [valid date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date#parameters) or pick one with the inputs:
+
+<Date client:visible />

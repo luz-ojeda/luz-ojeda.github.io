@@ -102,6 +102,7 @@ input[type="time"] {
     background-color: var(--grey100);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     transition: border-color 0.3s, box-shadow 0.3s;
+	min-height: 2.5em;
 }
 
 input[type="text"]:focus-visible,

@@ -42,138 +42,138 @@ export default function DateComponent() {
             <div>
                 <input type="date" onChange={handleDateChange} />
                 <input type="time" step="1" onChange={handleTimeChange} />
-                {invalidDate && <p className="error">The date entered was invalid</p>}
+                {invalidDate && <p className="error">La fecha ingresada no es válida</p>}
             </div>
-            <h3 id="timestamp">Timestamp</h3>
+            <h3 id="timestamp">Marca de tiempo</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>method</th>
-                        <th>output</th>
-                        <th>description</th>
+                        <th>método</th>
+                        <th>retorno</th>
+                        <th>descripción</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">getTime()</th>
                         <td>{date.getTime()}</td>
-                        <td>milliseconds since 1970-01-01, negative if before that date</td>
+                        <td>milisegundos desde 1970-01-01</td>
                     </tr>
                 </tbody>
             </table>
-            <h3 id="local-time">Local Time Methods</h3>
+            <h3 id="local-time">Métodos de Hora Local</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>method</th>
-                        <th>output</th>
-                        <th>description</th>
+                        <th>método</th>
+                        <th>retorno</th>
+                        <th>descripción</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">getDate()</th>
                         <td>{date.getDate()}</td>
-                        <td>day of the month</td>
+                        <td>día del mes</td>
                     </tr>
                     <tr>
                         <th scope="row">getDay()</th>
                         <td>{date.getDay()}</td>
-                        <td>day of the week (0-6) where 0 is sunday</td>
+                        <td>día de la semana (0-6) donde 0 es domingo</td>
                     </tr>
                     <tr>
                         <th scope="row">getFullYear()</th>
                         <td>{date.getFullYear()}</td>
-                        <td>four-digit year</td>
+                        <td>año de cuatro dígitos</td>
                     </tr>
                     <tr>
                         <th scope="row">getMonth()</th>
                         <td>{date.getMonth()}</td>
-                        <td>month (0-11)</td>
+                        <td>mes (0-11)</td>
                     </tr>
                     <tr>
                         <th scope="row">getHours()</th>
                         <td>{date.getHours()}</td>
-                        <td>hour (0-23)</td>
+                        <td>hora (0-23)</td>
                     </tr>
                     <tr>
                         <th scope="row">getMinutes()</th>
                         <td>{date.getMinutes()}</td>
-                        <td>minutes (0-59)</td>
+                        <td>minutos (0-59)</td>
                     </tr>
                     <tr>
                         <th scope="row">getSeconds()</th>
                         <td>{date.getSeconds()}</td>
-                        <td>seconds (0-59)</td>
+                        <td>segundos (0-59)</td>
                     </tr>
                     <tr>
                         <th scope="row">getMilliseconds()</th>
                         <td>{date.getMilliseconds()}</td>
-                        <td>milliseconds (0-999)</td>
+                        <td>milisegundos (0-999)</td>
                     </tr>
                     <tr>
                         <th scope="row">getTimezoneOffset()</th>
                         <td>{date.getTimezoneOffset()}</td>
-                        <td>difference between UTC timezone and local time in minutes</td>
+                        <td>diferencia entre la zona horaria UTC y la hora local en minutos</td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3 id="utc">UTC Methods</h3>
+            <h3 id="utc">Métodos UTC</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>method</th>
-                        <th>output</th>
-                        <th>description</th>
+                        <th>método</th>
+                        <th>retorno</th>
+                        <th>descripción</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">getUTCDate()</th>
                         <td>{date.getUTCDate()}</td>
-                        <td>UTC day of the month</td>
+                        <td>día UTC del mes</td>
                     </tr>
                     <tr>
                         <th scope="row">getUTCDay()</th>
                         <td>{date.getUTCDay()}</td>
-                        <td>UTC day of the week (0-6)</td>
+                        <td>día UTC de la semana (0-6)</td>
                     </tr>
                     <tr>
                         <th scope="row">getUTCFullYear()</th>
                         <td>{date.getUTCFullYear()}</td>
-                        <td>UTC four-digit year</td>
+                        <td>año UTC de cuatro dígitos</td>
                     </tr>
                     <tr>
                         <th scope="row">getUTCHours()</th>
                         <td>{date.getUTCHours()}</td>
-                        <td>UTC hour (0-23)</td>
+                        <td>hora UTC (0-23)</td>
                     </tr>
                     <tr>
                         <th scope="row">getUTCMinutes()</th>
                         <td>{date.getUTCMinutes()}</td>
-                        <td>UTC minutes (0-59)</td>
+                        <td>minutos UTC (0-59)</td>
                     </tr>
                     <tr>
                         <th scope="row">getUTCMonth()</th>
                         <td>{date.getUTCMonth()}</td>
-                        <td>UTC month (0-11)</td>
+                        <td>mes UTC (0-11)</td>
                     </tr>
                     <tr>
                         <th scope="row">getUTCSeconds()</th>
                         <td>{date.getUTCSeconds()}</td>
-                        <td>UTC seconds (0-59)</td>
+                        <td>segundos UTC (0-59)</td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3 id="formatting">Formatting</h3>
+            <h3 id="formatting">Formatos</h3>
             <table>
                 <thead>
                     <tr>
-                        <th>method</th>
-                        <th>output</th>
-                        <th>description</th>
+                        <th>método</th>
+                        <th>retorno</th>
+                        <th>descripción</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -186,37 +186,34 @@ export default function DateComponent() {
                         <th scope="row">toISOString()</th>
                         <td>{date.toISOString()}</td>
                         <td>
-                            simplified format based on{" "}
-                            <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a>
+                            formato simplificado basado en <a href="https://es.wikipedia.org/wiki/ISO_8601">ISO 8601</a>
                         </td>
                     </tr>
                     <tr>
                         <th scope="row">toLocaleString()</th>
                         <td>{date.toLocaleString()}</td>
-                        <td>language-sensitive representation of the date in the local timezone</td>
+                        <td>representación sensible al idioma de la fecha en la zona horaria local</td>
                     </tr>
                     <tr>
                         <th scope="row">toLocaleDateString()</th>
                         <td>{date.toLocaleDateString()}</td>
-                        <td>same as before only date</td>
+                        <td>igual que antes pero solo la fecha</td>
                     </tr>
                     <tr>
                         <th scope="row">toLocaleTimeString()</th>
                         <td>{date.toLocaleTimeString()}</td>
-                        <td>same as before only time</td>
+                        <td>igual que antes pero solo la hora</td>
                     </tr>
                     <tr>
                         <th scope="row">toTimeString()</th>
                         <td>{date.toTimeString()}</td>
-                        <td>time portion of the date interpreted in the local timezone</td>
+                        <td>porción de tiempo de la fecha interpretada en la zona horaria local</td>
                     </tr>
                     <tr>
                         <th scope="row">toUTCString()</th>
                         <td>{date.toUTCString()}</td>
                         <td>
-                            <a href="https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.1.1">
-                                RFC 7231 format
-                            </a>
+                            formato <a href="https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.1.1">RFC 7231</a>
                         </td>
                     </tr>
                 </tbody>
