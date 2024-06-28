@@ -88,9 +88,7 @@ a:hover {
 }
 
 a:focus-visible {
-    outline-color: var(--primary);
-    outline-style: solid;
-    outline-width: medium;
+    outline: var(--primary) solid medium;
 }
 
 a.navlink {
@@ -119,4 +117,8 @@ a.navlink:hover {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+.error {
+    color: var(--error);
 }

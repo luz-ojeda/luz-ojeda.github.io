@@ -22,6 +22,8 @@
     --dark-mode-primary-light: hsl(120, 14%, 75%);
     --dark-mode-primary-dark: hsl(120, 14%, 45%);
 
+    --error: #d32f2f;
+
     /* typography */
     --text: var(--grey900);
     --text-heading: var(--black);
@@ -45,6 +47,15 @@
     --code-bg: var(--grey800);
     --code-color: var(--grey200);
     --code-border: var(--grey700);
+
+    /* table */
+    --table-bg: var(--grey200);
+    --table-header-bg: var(--grey400);
+    --table-row-even-bg: var(--grey100);
+    --table-row-odd-bg: var(--grey200);
+    --table-border: var(--border);
+    --table-header-color: var(--grey900);
+    --table-text-color: var(--text);
 }
 
 /** Dark mode **/
@@ -65,5 +76,16 @@
         --pre-bg: var(--grey900);
         --pre-color: var(--grey300);
         --pre-border: var(--grey700);
+
+        --error: #ef5350;
+
+        /* table */
+        --table-bg: var(--grey900);
+        --table-header-bg: var(--grey800);
+        --table-row-even-bg: var(--grey800);
+        --table-row-odd-bg: var(--grey900);
+        --table-border: var(--grey700);
+        --table-header-color: var(--grey300);
+        --table-text-color: var(--grey300);
     }
 }

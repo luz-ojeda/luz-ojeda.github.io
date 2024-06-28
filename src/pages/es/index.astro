@@ -3,8 +3,9 @@ import Posts from "../../components/Posts.astro";
 import Base from "../../layouts/Base.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
 
-const posts: CollectionEntry<"blog">[] = await getCollection("blog", ({ id }) => {
-    return id.startsWith("es/");
+const posts: CollectionEntry<"blog">[] = await getCollection("blog", ({ id, data }) => {
+    const shouldShowDraft  = import.meta.env.PROD ? data.draft !== true : true;
+    return id.startsWith("es/") && shouldShowDraft;
 });
 ---
 

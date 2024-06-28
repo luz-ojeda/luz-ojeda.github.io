@@ -1,0 +1,45 @@
+---
+title: "Dates in JavaScript"
+tags: ["tech"]
+pubDate: 2024-06-27
+draft: true
+---
+
+import Date from "../../../components/react/DateComponent";
+
+While migrating my personal website to Astro I added a tiny javascript function to calculate my age in the about page, just because I wanted it's a, relative, free world and is something I wanted to do when I was using Jekyll but for some reason or another found it too tedious to mix JavaScript and markdown files.
+
+While playing with the `Date` object I realized i never got the real hang of how dates work in javascript. Always had to google more than I prefer to admit and read the docs almost from scratch every time
+
+So enough was enough so I wrote this for my better understanding and in the hope of helping others that struggled as I did with dates.
+
+>As a sidenote, UTC stands for [Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) which will be used some times throughout the article. A standard used for determined time worldwide. 
+
+## The Date object
+
+They are represented internally by a single number, a _timestamp_.
+
+Which represents the miliseconds since the [epoch](https://en.wikipedia.org/wiki/Unix_time), January 1st 1970 at 00:00:00.
+
+From this date object we could get:
+
+1. The UTC time
+2. Local time
+3. The timestamp itself
+   
+>The timezone is determined by the user's device, it is **not** stored in the `Date` object
+
+## What can we do with the Date object?
+-   calculate someone's birthday
+
+## What can we do with more than one?
+### Subtraction
+### Sum
+Try to guess what will happen if we do
+
+`new Date('1000-01-01') + new Date()`
+-   calculate how many months/years/days between the two
+
+## Playground
+
+<Date client:visible/>
