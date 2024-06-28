@@ -44,7 +44,7 @@ export default function DateComponent() {
                 <input type="time" step="1" onChange={handleTimeChange} />
                 {invalidDate && <p className="error">La fecha ingresada no es válida</p>}
             </div>
-            <h3 id="timestamp">Marca de tiempo</h3>
+            <h3 id="timestamp">Marca temporal</h3>
             <table>
                 <thead>
                     <tr>
@@ -192,7 +192,7 @@ export default function DateComponent() {
                     <tr>
                         <th scope="row">toLocaleString()</th>
                         <td>{date.toLocaleString()}</td>
-                        <td>representación sensible al idioma de la fecha en la zona horaria local</td>
+                        <td>representación vinculada al idioma de la fecha en la zona horaria local</td>
                     </tr>
                     <tr>
                         <th scope="row">toLocaleDateString()</th>
