@@ -21,11 +21,17 @@ export default function DateComponent() {
     useEffect(() => {
         if (debouncedDate) {
             setInvalidDate(false);
+
             let newDate;
             if (debouncedTime) {
                 newDate = new Date(`${debouncedDate}T${debouncedTime}`);
             } else {
-                newDate = new Date(debouncedDate);
+                // Handle UNIX timestamps from input since they come as string
+                if (!isNaN(Number(debouncedDate))) {
+                    newDate = new Date(parseInt(debouncedDate))
+                } else {
+                    newDate = new Date(debouncedDate);
+                }
             }
 
             if (!isNaN(newDate.valueOf())) {

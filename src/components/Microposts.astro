@@ -1,7 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import sortByDate from "../utils/sortByDate";
-import { getLangFromUrl } from "../i18n/utils";
 import FormattedDate from "./FormattedDate.astro";
 
 interface Props {
@@ -22,7 +21,7 @@ const orderedPosts = posts.sort(sortByDate);
                     <div class="flex-center justify-between">
                         <h3 class="post-title">{micropost.data?.title}</h3>
                         <span class="date">
-                            <FormattedDate pubDate={micropost.data?.pubDate} />
+                            <FormattedDate pubDate={micropost.data?.pubDate} includeYearInDate />
                         </span>
                     </div>
                     <Content />
