@@ -28,7 +28,7 @@ How much we like to be more or less alone depends on the personality and particu
 
 But beyond these particularities, we all need both moments of solitude and company. How much we need and/or want solitude or companionship varies throughout life as well.
 
-Personally, I went through moments in which [I suffered a lot from loneliness](https://www.luzojeda.com/2023/04/04/on-growing.html). And others where I needed it. For example: today, working remotely full time, sometimes, at the end of the day, a weight of loneliness (_loneliness_) invades me more than when I studied at the university in person and spent 10 hours or more with people. Back then I would come home and need to be with myself and no one else (usually).
+Personally, I went through moments in which [I suffered a lot from loneliness](https://www.luzojeda.com/blog/on-growing). And others where I needed it. For example: today, working remotely full time, sometimes, at the end of the day, a weight of loneliness (_loneliness_) invades me more than when I studied at the university in person and spent 10 hours or more with people. Back then I would come home and need to be with myself and no one else (usually).
 
 However, today I consider that I have the "privilege" of enjoying solitude most of the time I am alone.
 

@@ -15,7 +15,7 @@ All links are external.
 - [How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html) by Eric Steven Raymond
 - [The Lindy Effect](https://en.wikipedia.org/wiki/Lindy_effect): "If it was relevant for the last 100 years it will probably will be relevant for the next 100". An interesting theorized phenomenon to consider, for example, when choosing a book to read or a movie to watch (some classics are still relevant for good reasons)
 - This YouTube video: [The Cult of Productivity](https://www.youtube.com/watch?v=cTMTZ7PAMYE)
-    - Stop obsessing over productivity, optimization and spend time _doing_ (related to [Highlights from the book Four Thousand Weeks](https://www.luzojeda.com/2023/03/24/four-thousand-weeks-highlights.html))
+    - Stop obsessing over productivity, optimization and spend time _doing_
 - [Write for Yourself, and Wisdom Will Follow](https://moretothat.com/writing-and-wisdom/)
     - My personal takeaway: dedicate deliberate time to writing in order to gather and organize your thoughts from the daily and routinely activities. The reflection that comes from writing lets us structure our thoughts, what we learn and generate wisdom that gives us new and better insights.
 - [Death to Bullshit](https://deathtobullshit.com/): Because “people's capacity for bullshit is rapidly diminishing”.
