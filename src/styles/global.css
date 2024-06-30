@@ -163,12 +163,21 @@ thead th {
 	white-space: nowrap;
 }
 
-.circle {
-	animation: grow-shrink 16s infinite;
-	width: 100px;
-	height: 100px;
-	background-color: forestgreen;
+.circle-container {
+	align-items: center;
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	margin: 0 auto;
+	width: 200px;
+}
+
+.circle-container div {
+	animation: grow-shrink 14s infinite;
+	background-color: var(--primary);
 	border-radius: 9999px;
+	height: 100px;
+	width: 100px;
 }
 
 @keyframes grow-shrink {
@@ -177,7 +186,7 @@ thead th {
 	}
 
 	25% {
-		transform: scale(2.5);
+		transform: scale(2);
 	}
 
 	100% {
