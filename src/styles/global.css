@@ -88,60 +88,60 @@ button.tertiary:hover {
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 input[type="text"],
 input[type="date"],
 input[type="time"] {
-    padding: 6px;
-    margin: 10px 0;
-    font-size: 1em;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    background-color: var(--grey100);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    transition: border-color 0.3s, box-shadow 0.3s;
+	padding: 6px;
+	margin: 10px 0;
+	font-size: 1em;
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	background-color: var(--grey100);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	transition: border-color 0.3s, box-shadow 0.3s;
 	min-height: 2.5em;
 }
 
 input[type="text"]:focus-visible,
 input[type="date"]:focus-visible,
 input[type="time"]:focus-visible {
-    outline: var(--primary) solid medium;
+	outline: var(--primary) solid medium;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    text-align: left;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	text-align: left;
 }
 
 tbody tr:nth-child(even) {
-    background-color: var(--table-row-even-bg);
+	background-color: var(--table-row-even-bg);
 }
 
 tbody tr:nth-child(odd) {
-    background-color: var(--table-row-odd-bg);
+	background-color: var(--table-row-odd-bg);
 }
 
 th, td {
-    padding: 6px 8px;
-    border: 1px solid var(--table-border);
+	padding: 6px 8px;
+	border: 1px solid var(--table-border);
 }
 
 th {
-    color: var(--table-header-color);
-    font-weight: bold;
+	color: var(--table-header-color);
+	font-weight: bold;
 }
 
 td {
-    color: var(--table-text-color);
+	color: var(--table-text-color);
 }
 
 thead th {
-    border-bottom: 2px solid var(--table-border);
+	border-bottom: 2px solid var(--table-border);
 }
 
 
@@ -161,4 +161,26 @@ thead th {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+.circle {
+	animation: grow-shrink 16s infinite;
+	width: 100px;
+	height: 100px;
+	background-color: forestgreen;
+	border-radius: 9999px;
+}
+
+@keyframes grow-shrink {
+	0% {
+		transform: scale(1);
+	}
+
+	25% {
+		transform: scale(2.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
