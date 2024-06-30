@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 body {
     display: flex;
@@ -10,12 +10,31 @@ main {
     flex-grow: 1;
     margin: 0 auto;
     padding: var(--space-md) 0;
-	width: $max-content-width;
+    width: $max-content-width;
+}
+
+.pictures-gallery {
+    columns: 4;
+    padding: var(--space-lg);
+
+    @media (max-width: $laptop) {
+        columns: 3;
+    }
+    @media (max-width: $tablet) {
+        columns: 2;
+    }
+    @media (max-width: $mobile) {
+        columns: 1;
+    }
 }
 
 @media (max-width: $tablet) {
     main {
         padding: var(--space-md);
         width: 100%;
+    }
+
+    .pictures-gallery {
+        padding: 0;
     }
 }

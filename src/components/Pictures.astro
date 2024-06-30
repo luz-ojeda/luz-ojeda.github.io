@@ -1,0 +1,37 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import { getLangFromUrl } from "../i18n/utils";
+
+const pictures: CollectionEntry<"pictures">[] = await getCollection("pictures");
+const lang = getLangFromUrl(Astro.url);
+---
+
+<ul class="pictures-gallery no-style-list">
+    {
+        pictures.map(picture => (
+            <li class="img-container">
+                <Image
+                    src={picture.data.image}
+                    alt={picture.data[lang].title}
+                    title={picture.data[lang].title}
+                    format="avif"
+                    width={720}
+                    quality="mid"
+                />
+            </li>
+        ))
+    }
+</ul>
+
+<style lang="scss">
+    @import "../styles/variables.scss";
+
+    img {
+        width: 100%;
+    }
+
+    .img-container {
+        margin: var(--space-lg) 0;
+    }
+</style>

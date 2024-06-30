@@ -1,0 +1,20 @@
+---
+import PicturesComponent from "../components/Pictures.astro";
+import Base from "../layouts/Base.astro";
+---
+
+<Base fullWidthMain>
+    <div>
+        <h1>pictures</h1>
+    </div>
+    <PicturesComponent />
+</Base>
+
+<style lang="scss">
+    @import "../styles/variables.scss";
+
+    div {
+        margin: 0 auto;
+        width: $max-content-width;
+    }
+</style>

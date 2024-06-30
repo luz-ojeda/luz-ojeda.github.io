@@ -118,8 +118,6 @@ table {
     text-align: left;
 }
 
-
-
 tbody tr:nth-child(even) {
     background-color: var(--table-row-even-bg);
 }

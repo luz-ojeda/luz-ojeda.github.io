@@ -47,6 +47,18 @@ myDate.getTime(); // timestamp time
 
 ### Sum
 
+#### So what if I want to add X days/months?
+```
+const now = new Date();
+const futureDate = new Date(now);
+futureDate.setDate(now.getDate() + 7); // Add 7 days
+```
+
+>multiplication and division
+Can't imagine a scenario where someone would want to do this but the result is the same as with subtraction. Timestamps are multiplied/divided.
+
+### Compare
+
 Try to guess what will happen if we do
 
 `new Date('1000-01-01') + new Date()`

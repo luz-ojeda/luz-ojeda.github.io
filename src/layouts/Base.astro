@@ -7,14 +7,13 @@ import Header from "../components/Header.astro";
 
 interface Props extends Record<string, any> {
     title?: string;
+    fullWidthMain?: boolean;
 }
 
 const lang = getLangFromUrl(Astro.url);
-const { frontmatter, title } = Astro.props;
-const headTitle = title || frontmatter?.title 
-  ? `${SITE_TITLE} - ${title || frontmatter?.title}` 
-  : SITE_TITLE;
-
+const { frontmatter, title, fullWidthMain = false } = Astro.props;
+const headTitle =
+    title || frontmatter?.title ? `${SITE_TITLE} - ${title || frontmatter?.title}` : SITE_TITLE;
 ---
 
 <html lang={lang}>
@@ -23,9 +22,15 @@ const headTitle = title || frontmatter?.title
     </head>
     <body>
         <Header />
-        <main>
+        <main class:list={[{ fullWidth: fullWidthMain }]}>
             <slot />
         </main>
         <Footer />
     </body>
 </html>
+
+<style>
+    .fullWidth {
+        width: 100%;
+    }
+</style>
