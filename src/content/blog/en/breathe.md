@@ -1,7 +1,7 @@
 ---
 title: Breathe
 pubDate: 2024-06-30
-tags: [""]
+tags: ["misc"]
 ---
 
 The circle grows in 4 seconds and shrinks in 10.

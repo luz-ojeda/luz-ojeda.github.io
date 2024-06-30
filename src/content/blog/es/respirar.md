@@ -1,7 +1,7 @@
 ---
 title: Respira
 pubDate: 2024-06-30
-tags: [""]
+tags: ["misc"]
 ---
 
 El círculo se agranda en un tiempo de 4 segundos y se achica durante 10.
