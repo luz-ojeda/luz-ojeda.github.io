@@ -9,19 +9,24 @@ const lang = getLangFromUrl(Astro.url);
 
 <ul class="pictures-gallery no-style-list">
     {
-        pictures.map(picture => (
-            <li class="img-container">
-                <Image
-                    src={picture.data.image}
-                    alt={picture.data[lang].title}
-                    title={picture.data[lang].title}
-                    format="avif"
-                    width={720}
-                    quality="mid"
-                />
-                <p class="pic-description">{picture.data[lang].title}</p>
-            </li>
-        ))
+        pictures
+            .sort(
+                (p1, p2) =>
+                    new Date(p2.data.pubDate).getTime() - new Date(p1.data.pubDate).getTime()
+            )
+            .map(picture => (
+                <li class="img-container">
+                    <Image
+                        src={picture.data.image}
+                        alt={picture.data[lang].title}
+                        title={picture.data[lang].title}
+                        format="avif"
+                        width={720}
+                        quality="mid"
+                    />
+                    <p class="pic-description">{picture.data[lang].title}</p>
+                </li>
+            ))
     }
 </ul>
 
@@ -38,7 +43,7 @@ const lang = getLangFromUrl(Astro.url);
 
     .pic-description {
         display: none;
-    
+
         @media (max-width: $mobile) {
             display: block;
         }
