@@ -93,7 +93,7 @@ El archivo se obtiene llamando [`FormData.get`](https://developer.mozilla.org/es
 
 La propiedad `files` en el cuerpo de la solicitud nos permite en un front end que consuma los datos de la API, saber a qué URL corresponde la imagen de la entidad asociada (un usuario, un post, una receta de cocina, etc.).
 
-## 5-7 Server de SvelteKit -> Azure
+## 5-7 Server de SvelteKit -> Azure Storage
 Aún en la acción `default` de `+page.server.ts`, si la respuesta de la API es exitosa (código de estado 201), procedemos con la subida del archivo a Azure:
 
 ```typescript

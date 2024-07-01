@@ -22,7 +22,8 @@ export const ui = {
         "repository": "repository",
         "open navbar": "open navbar",
         "page not found": "page not found",
-        "highlight": "highlight"
+        "highlight": "highlight",
+        "table of contents": "table of contents"
     },
     es: {
         "nav.blog": "blog",
@@ -40,7 +41,8 @@ export const ui = {
         "repository": "repositorio",
         "open navbar": "abrir menú de navegación",
         "page not found": "página no encontrada",
-        "highlight": "cita"
+        "highlight": "cita",
+        "table of contents": "índice"
     },
 } as const;
 

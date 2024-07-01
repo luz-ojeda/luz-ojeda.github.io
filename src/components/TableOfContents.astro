@@ -1,13 +1,19 @@
 ---
 import TableOfContentsHeading from "./TableOfContentsHeading.astro";
 import buildToc from "../scripts/buildTableOfContents";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
 const { headings } = Astro.props;
 const toc: any[] = buildToc(headings);
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
-<nav class="toc">
-  <ul>
-    {toc.map((heading) => <TableOfContentsHeading heading={heading} />)}
-  </ul>
-</nav>
+<details>
+    <summary>{t("table of contents")}</summary>
+    <nav class="toc">
+        <ul>
+            {toc.map(heading => <TableOfContentsHeading heading={heading} />)}
+        </ul>
+    </nav>
+</details>

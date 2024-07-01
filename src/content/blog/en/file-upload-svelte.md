@@ -22,7 +22,7 @@ Versions:
 
 ---
 
-## 1
+## 1 SvelteKit client
 The SvelteKit client side is relatively simple, in a page `+page.svelte` we place:
 
 ```html
@@ -56,7 +56,7 @@ Something important to note is the value of the `enctype` attribute on the `form
 
 For ilustrative purposes I didn't set `use:enhance` there but since I did in my repository I thought it was worth mentioning, took me a few minutes to open the console to figure out why nothing was happening when I was trying to submit the form.
 
-## 2 - 4
+## 2 - 4 SvelteKit Client -> SvelteKit Server
 In the same path of `+page.svelte` we must have a `+page.server.ts` file that exports an *action*, which will be triggered when the form is submitted ([docs](https://kit.svelte.dev/docs/form-actions)). The file can export more than one action, besides the one exported by default (these additional are the *named actions* mentioned in the docs). In this case we only need the default one.
 
 ```typescript
@@ -93,7 +93,7 @@ The file is obtained calling [`FormData.get`](https://developer.mozilla.org/en-U
 
 The `files` property in the body of the request allows us, in a front end that consumes the API data, to know which URL corresponds to the entity's image (a user, a post, a cooking recipe, etc.).
 
-## 5-7
+## 5-7 SvelteKit Server -> Azure Storage
 Still in the `default` action of `+page.server.ts`, if the API response is successful (status code 201), we proceed with uploading the file to Azure:
 
 ```typescript
@@ -186,7 +186,7 @@ async function uploadFile(file: File, blobName: string) {
 ```
 If you get a CORS error [this link](https://stackoverflow.com/questions/28894466/how-can-i-set-cors-in-azure-blob-storage-in-portal) is helpful.
 
-## 8
+## 8 Response to user
 Finally, the action in our `+page.server.ts` will have a form like the following:
 
 ```typescript
