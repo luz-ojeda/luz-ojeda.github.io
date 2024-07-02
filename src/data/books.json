@@ -2,7 +2,41 @@
   {
     "2024": [
       {
-        "title": "How to Invent Everything: A Survival Guide for the Stranded Time Traveler ",
+        "title": "Dracula",
+        "link": "https://www.goodreads.com/book/show/17245.Dracula",
+        "genres": [
+          "horror",
+          "fiction",
+          "gothic",
+          "vampires"
+        ],
+        "status": "currently reading",
+        "author": "Bram Stoker"
+      },
+      {
+        "title": "Why Privacy Matters",
+        "link": "https://www.goodreads.com/book/show/55332285-why-privacy-matters",
+        "genres": [
+          "nonfiction",
+          "technology",
+          "politics",
+          "vampires"
+        ],
+        "status": "currently reading",
+        "author": "Neil Richards"
+      },
+      {
+        "title": " 100 Ways to Improve Your Writing",
+        "link": "https://www.goodreads.com/book/show/702619.100_Ways_to_Improve_Your_Writing",
+        "genres": [
+          "nonfiction",
+          "writing"
+        ],
+        "status": "2024-06-05T00:00:00.000Z",
+        "author": "Gary Provost"
+      },
+      {
+        "title": "How to Invent Everything: A Survival Guide for the Stranded Time Traveler",
         "link": "https://www.goodreads.com/book/show/39026990-how-to-invent-everything",
         "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1529337641i/39026990.jpg",
         "genres": [
