@@ -108,7 +108,7 @@ input[type="time"] {
 input[type="text"]:focus-visible,
 input[type="date"]:focus-visible,
 input[type="time"]:focus-visible {
-	outline: var(--primary) solid medium;
+	outline: var(--btn-tertiary) solid medium;
 }
 
 table {

@@ -1,0 +1,242 @@
+---
+title: "Dates in JavaScript"
+tags: ["tech"]
+pubDate: 2024-06-27
+---
+
+import Date from "../../../components/react/DateComponent";
+
+While migrating my personal website to Astro I added a tiny JavaScript function to calculate my age in the about page. Just because I wanted to, it's a relatively free world and was something I wanted to do while using Jekyll but for some reason or another found it too tedious to mix JavaScript and markdown files.
+
+I realized I never got the real hang of how `Date` really works. Always had to google more than I prefer to admit and read the docs almost from scratch every time.
+
+Enough was enough, so I wrote this for my better understanding and in the hope of helping others that struggled or struggle as I did with dates.
+
+> As a sidenote, UTC stands for [Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time). A standard used for determining time worldwide.
+
+## The Date object
+
+It is represented internally by a single number, a _timestamp_.
+
+Which is in turn the milliseconds since the [epoch](https://en.wikipedia.org/wiki/Unix_time), January 1st 1970 at 00:00:00.
+
+From this object we could get:
+
+1. The UTC time
+2. The local time
+3. The timestamp
+
+> The timezone is determined by the user's device, it is **not** stored in the `Date` object. This is talked about at the end of the post.
+
+For example, if we do `const myDate = new Date()` we could get them like this:
+
+```JavaScript
+myDate.toUTCString(); // UTC time
+myDate.toLocaleString(); // local time
+myDate.getTime(); // timestamp time
+```
+
+Using the constructor **without** parameters will result in the current date and time.
+
+If we want a specific date we have 4 options using parameters:
+
+### 1. Timestamp number
+
+```JavaScript
+const dateFromUnixTimestamp = new Date(683164800000);
+// 'Sun Aug 25 1991'... Linux operating system is announced
+```
+
+### 2. A valid date string
+
+A universally supported format in this case is:
+
+```
+YYYY-MM-DDTHH:mm:ss.sssZ
+```
+
+which stems from a simplification of the ISO 8601 calendar date extended format.
+
+Luckily, many components can be omitted. So, for example, the following are valid:
+
+```JavaScript
+const dateFromDateString = new Date("1994-01-13T13:01:12.123Z");
+const dateFromASimplerDateString = new Date("1994-01");
+```
+
+However `new Date("01-1994")` or `new Date("12:32")` wouldn't work.
+
+Why?
+
+As long as the order of the universally supported format specified before is respected _and_ we add the date components in a decreasing magnitude manner, anything goes.
+
+In other words: if you want to specify the month, you must specify the year; if you specify the day, then you should specify the month and the year, and so on.
+
+That's why "01-1994" is not a valid date but "1994-01" is. Month must be after the year.
+
+"12-01" doesn't work either but "1993-12-01" does because year must be included if we want month and day.
+
+You may need to format dates on another format like 'August 19, 1975 23:15:30 GMT+07:00', which is valid as well, for example. Use the [ECMAScript Date Time String Format](https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-time-string-format) for more details regarding all the possible formats. But I recommend staying with the described above for creation.
+
+### 3. Another `Date` object
+
+The only use case I could think is for copying dates:
+
+```javascript
+let originalDate = new Date(); // Date Sat Jun 29 2024 HH:mm:ss GMT-nn00 ({your country} Standard Time)
+let copiedDate = new Date(originalDate); // same date
+```
+
+### 4. Separated comma values
+
+Similar to using a valid date string as described before, but including the year and the month as _a minimum_, in order to differentiate from the first case where we used a Unix timestamp:
+
+```javascript
+let date = new Date(1994, 01);
+```
+
+If we had done `new Date(1994)` we would've got the date after 1994 milliseconds passed on January 1st 1970, not January 1st 1994.
+
+A more detailed example:
+
+```javascript
+let dateWithManyParameters = new Date(1989, 5, 12, 12, 25, 21);
+// Mon Jun 12 1989 12:25:21 GMT-nnnn ({your country} Standard Time)
+```
+
+Days and months start from zero that's why 5 -> June
+
+## What can we do with the Date object?
+
+There are many methods associated with it as well as formatting that are detailed in an interactive [table](#playground--cheatsheet) below so I prefer to detail compound cases from using those methods, so...
+
+## What can we do with more than one?
+
+### Subtraction
+
+With the `-` operator between two `Date` objects we get the difference in milliseconds between the timestamps of each one:
+
+```javascript
+const diff = new Date(2010, 2, 15, 16, 32, 10) - new Date(2000, 1, 9, 6, 10, 5); // 315619200000
+// 315619200000 / 1000 / 60 / 60 / 24 / 365.25 ≈ 10 years approximately
+```
+
+And with this we can get the difference in years, months, days, hours, minutes and seconds:
+
+Subtraction leads us to
+
+#### Calculating someone's age
+
+Simplest way, just with the years:
+
+```javascript
+const now = new Date();
+const birthDate = new Date(1994, 0, 6);
+
+console.log(now.getFullYear() - birthDate.getFullYear()); // 30 (or more depending on when you are reading this)
+```
+
+But what if we want to go one step further and verify if the month and day have passed?
+
+```javascript
+const now = new Date();
+const birthDate = new Date(1994, 0, 6);
+
+let age = now.getFullYear() - birthDate.getFullYear();
+
+const currentMonth = now.getMonth();
+const bdayMonth = birthDate.getMonth();
+
+const birthdayNotHappenedYet =
+    (currentMonth === bdayMonth && now.getDate() < birthDate.getDate()) || bdayMonth > currentMonth;
+
+if (birthdayNotHappenedYet) {
+    age--;
+}
+
+console.log(age); // age +-1 depending on whether the birthday has passed or not
+```
+
+### Sum
+
+With the `+` operator between two `Date` objects, they get converted to strings and concatenated:
+
+```javascript
+new Date(2010, 0) + new Date(2000, 0);
+// "Fri Jan 01 2010 00:00:00 GMT-0300 (Argentina Standard Time)Sat Jan 01 2000 00:00:00 GMT-0300 (Argentina Summer Time)"
+```
+
+Not very useful.
+
+#### So what if I want to add X days/months/years?
+
+The `Date` object has several `setX()` methods where X is Minutes, Month, Seconds, etc. For example, to add one year:
+
+```javascript
+const date = new Date(2002, 01, 03); //  Sun Feb 03 2002...
+date.setFullYear(date.getFullYear() + 1); // returns the new timestamp
+console.log(date); // Mon Feb 03 2003...
+```
+
+Adding many days:
+
+```
+const now = new Date();
+const futureDate = new Date(now);
+futureDate.setDate(now.getDate() + 7); // Add 7 days
+```
+
+### Multiplication and division
+
+Same as with subtraction. Timestamps are multiplied/divided.
+
+### Compare
+
+Using comparison operators we can see if a date is later than another, following the last example:
+
+```
+futureDate > now // true
+```
+
+## Timezones
+
+If you need to specify the timezone of a date, pass a string to the constructor as described [before](#2-a-valid-date-string):
+
+```javascript
+// GMT +05:30
+new Date("2024-07-04T12:00:00+05:30");
+```
+
+### Why is date one day off?
+
+If you create a date like this:
+
+```
+new Date('2024-06-05')
+```
+
+and you are in GMT < 0 such as I am in argentina (GMT -3) you will get `Date Tue Jun 04 2024 21:00:00 GMT-0300`. One day off due to the timezone difference and JavaScript interpreting the date in ISO 8601 format as described earlier when discussing constructor parameters.
+
+But if you do month-day-year:
+
+```
+new Date('06-05-2024')
+```
+
+you get `Date Wed Jun 05 2024 00:00:00 GMT-0300`... the expected date since JavaScript no longer interprets is as UTC, it uses local timezone instead.
+
+So if you are only interested in the date, and you have control on what goes in the `Date` object is best to use YYYY-MM-DDT00:00:00 and be sure it uses UTC and the exact date no matter the timezone.
+
+If you are storing user entered dates and times you will most likely need to store the timezone as well. For example, in a calendar app where users are in different timezones, the meeting time is scheduled by someone in Tokio but it must be correctly displayed for someone in the United States. Knowing the timezone of who scheduled it helps us with that.
+
+Though don't miss [this](https://www.youtube.com/watch?v=-5wpm-gesOY) on why, whenever you can, avoid timezones.
+
+After finishing this post I got a better understanding on why such libraries like [dayjs](https://github.com/iamkun/dayjs/) or [date-fns](https://date-fns.org/) exist and I would definitely check them out if I had to do heavy-lifting work with dates.
+
+And also a _considerable_ admiration towards anyone implementing web calendars used worldwide. Thank you.
+
+## Playground & cheatsheet
+
+Write a [valid date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date#parameters) or pick one with the inputs:
+
+<Date client:visible />
