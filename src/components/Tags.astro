@@ -13,7 +13,7 @@ const { tags } = Astro.props;
         if (!tags) return;
 
         const tagsArray = tags.split(",");
-        tagsArray.splice(tags.indexOf(selectedTag), 1);
+        tagsArray.splice(tagsArray.indexOf(selectedTag), 1); // remove selected tag
 
         tagsArray.forEach(t => {
             const elementsToHide = document.getElementsByClassName(
