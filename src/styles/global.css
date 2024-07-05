@@ -24,10 +24,6 @@ body {
 	word-wrap: break-word;
 }
 
-table {
-	width: 100%;
-}
-
 img {
 	max-width: 100%;
 	height: auto;
@@ -143,7 +139,6 @@ td {
 thead th {
 	border-bottom: 2px solid var(--table-border);
 }
-
 
 .sr-only {
 	border: 0;
