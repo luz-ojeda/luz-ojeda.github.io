@@ -6,7 +6,7 @@ pubDate: 2024-06-27
 
 import Date from "../../../components/react/DateComponent";
 
-While migrating my personal website to Astro I added a tiny JavaScript function to calculate my age in the about page. Just because I wanted to, it's a relatively free world and was something I wanted to do while using Jekyll but for some reason or another found it too tedious to mix JavaScript and markdown files.
+While migrating my personal website to Astro I added a tiny JavaScript function to calculate my age in the about section. Just because I wanted to, it's a relatively free world and was something I wanted to do while using Jekyll but for some reason or another found it too tedious to mix JavaScript and markdown files.
 
 I realized I never got the real hang of how `Date` really works. Always had to google more than I prefer to admit and read the docs almost from scratch every time.
 
@@ -33,7 +33,7 @@ For example, if we do `const myDate = new Date()` we could get them like this:
 ```JavaScript
 myDate.toUTCString(); // UTC time
 myDate.toLocaleString(); // local time
-myDate.getTime(); // timestamp time
+myDate.getTime(); // timestamp
 ```
 
 Using the constructor **without** parameters will result in the current date and time.
@@ -80,14 +80,14 @@ You may need to format dates on another format like 'August 19, 1975 23:15:30 GM
 
 ### 3. Another `Date` object
 
-The only use case I could think is for copying dates:
+The only use case I could find is for copying dates:
 
 ```javascript
 let originalDate = new Date(); // Date Sat Jun 29 2024 HH:mm:ss GMT-nn00 ({your country} Standard Time)
 let copiedDate = new Date(originalDate); // same date
 ```
 
-### 4. Separated comma values
+### 4. Individual date and time components as arguments
 
 Similar to using a valid date string as described before, but including the year and the month as _a minimum_, in order to differentiate from the first case where we used a Unix timestamp:
 
@@ -121,7 +121,7 @@ const diff = new Date(2010, 2, 15, 16, 32, 10) - new Date(2000, 1, 9, 6, 10, 5);
 // 315619200000 / 1000 / 60 / 60 / 24 / 365.25 ≈ 10 years approximately
 ```
 
-And with this we can get the difference in years, months, days, hours, minutes and seconds:
+And with this we can get the difference in years, months, days, hours, minutes and seconds.
 
 Subtraction leads us to
 
@@ -180,7 +180,7 @@ console.log(date); // Mon Feb 03 2003...
 
 Adding many days:
 
-```
+```javascript
 const now = new Date();
 const futureDate = new Date(now);
 futureDate.setDate(now.getDate() + 7); // Add 7 days
@@ -194,7 +194,7 @@ Same as with subtraction. Timestamps are multiplied/divided.
 
 Using comparison operators we can see if a date is later than another, following the last example:
 
-```
+```javascript
 futureDate > now // true
 ```
 

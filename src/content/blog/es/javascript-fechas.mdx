@@ -1,0 +1,242 @@
+---
+title: "Fechas en JavaScript"
+tags: ["tech"]
+pubDate: 2024-06-27
+---
+
+import Date from "../../../components/react/DateComponentEs";
+
+Mientras migraba mi sitio web personal a Astro, agregué una pequeña función de JavaScript para calcular mi edad en la sección sobre mí. Solo porque quería, es un mundo relativamente libre y era algo que quise hacer cuando la página usaba Jekyll, pero por alguna razón u otra me resultó demasiado tedioso mezclar JavaScript y archivos Markdown.
+
+Me di cuenta de que nunca entendí cómo funciona realmente el objeto `Date` y todo lo asociado. Siempre tuve que buscar en Google más de lo que prefiero admitir y leer la documentación casi desde cero cada vez.
+
+Fue suficiente, así que escribí esto para entender el tema mejor y con la esperanza de ayudar a otros que les pasó o pasa lo mismo con las fechas.
+
+> Como nota al margen, UTC significa [Tiempo Universal Coordinado](https://es.wikipedia.org/wiki/Tiempo_universal_coordinado). Un estándar utilizado para determinar la hora en todo el mundo.
+
+## El objeto Date
+
+Está representado internamente por un único número, una _marca temporal_.
+
+Que a su vez son los milisegundos desde la [época](https://es.wikipedia.org/wiki/Tiempo_Unix), el 1 de enero de 1970 a las 00:00:00.
+
+De este objeto podríamos obtener:
+
+1. La hora UTC
+2. La hora local
+3. La marca temporal
+
+> La zona horaria está determinada por el dispositivo del usuario, **no** se almacena en el objeto `Date`. De esto se habla al final del post.
+
+Por ejemplo, si hacemos `const myDate = new Date()` podríamos obtenerlos así:
+
+```JavaScript
+myDate.toUTCString(); // tiempo UTC
+myDate.toLocaleString(); // tiempo local
+myDate.getTime(); // marca temporal
+```
+
+El uso del constructor **sin** parámetros dará como resultado la fecha y hora actuales.
+
+Si queremos una fecha concreta tenemos 4 opciones usando parámetros:
+
+### 1. Marca temporal
+
+```JavaScript
+const fechaDeMarcaTemporalUnix = new Date(683164800000);
+// 'Sun Aug 25 1991'... Se anuncia el sistema operativo Linux
+```
+
+### 2. Una cadena de caracteres representando una fecha válida (string)
+
+Un formato universalmente admitido en este caso es:
+
+```
+YYYY-MM-DDTHH:mm:ss.sssZ
+```
+
+Que surge de una simplificación del formato extendido de fecha del calendario ISO 8601.
+
+Por suerte, se pueden omitir muchos componentes. Así, por ejemplo, son válidos los siguientes:
+
+```JavaScript
+const fechaDeCadenaDeCaracteres = new Date("1994-01-13T13:01:12.123Z");
+const fechaDeCadenaSimple = new Date("1994-01");
+```
+
+Sin embargo, `new Date("01-1994")` o `new Date("12:32")` no funcionarían.
+
+¿Por qué?
+
+Siempre que se respete el orden del formato universalmente admitido especificado anteriormente _y_ agreguemos los componentes de fecha en magnitud decreciente, todo vale.
+
+En otras palabras: si quieres especificar el mes, debes especificar el año; si especificas el día, deberás especificar el mes y el año, y así sucesivamente.
+
+Por eso "01-1994" no es una fecha válida pero "1994-01" sí lo es. El mes debe ser posterior al año.
+
+"12-01" tampoco funciona pero "1993-12-01" sí porque se debe incluir el año si queremos mes y día.
+
+Es posible que necesites formatear las fechas en otro formato como '19 de agosto de 1975 23:15:30 GMT+07:00', que también es válido, por ejemplo. Para eso usa de referencia la [documentación oficial de ECMAScript](<(https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date-time-string-format)>) al respecto para obtener más detalles sobre todos los formatos posibles. Pero recomiendo quedarse con lo anterior al crear fechas.
+
+### 3. Otro objeto `Date`
+
+El único caso de uso que pude encontrar es copiar fechas:
+
+```javascript
+let fechaOriginal = new Date(); // Date Sat Jun 29 2024 HH:mm:ss GMT-nn00 ({tu país} Standard Time)
+let fechaCopiada = new Date(originalDate); // misma fecha
+```
+
+### 4. Componentes individuales de fecha y hora como argumentos
+
+Similar al uso de una cadena de fecha válida como se describió anteriormente, pero incluyendo el año y el mes como _un mínimo_, para diferenciarlo del primer caso en el que usamos una marca de tiempo de Unix:
+
+```javascript
+let fecha = new Date(1994, 01);
+```
+
+Si hubiéramos hecho `new Date(1994)`, habríamos obtenido la fecha después de 1994 milisegundos del 1 de enero de 1970, no del 1 de enero de 1994.
+
+Un ejemplo más detallado:
+
+```javascript
+let fechaConParametros = new Date(1989, 5, 12, 12, 25, 21);
+// Mon Jun 12 1989 12:25:21 GMT-nnnn ({tu país} Standard Time)
+```
+
+Los días y los meses empiezan desde cero como el índice de arrays por eso 5 -> junio
+
+## ¿Qué podemos hacer con el objeto Date?
+
+Hay muchos métodos asociados con él, así como formato, que se detallan en una [tabla interactiva](#playground--cheatsheet) al final del post, por lo que prefiero detallar casos compuestos relacionados con el uso de esos métodos, así que...
+
+## ¿Qué podemos hacer con más de uno?
+
+### Resta
+
+Con el operador `-` entre dos objetos `Date` obtenemos la diferencia en milisegundos entre las marcas de tiempo de cada uno:
+
+```javascript
+const dif = new Date(2010, 2, 15, 16, 32, 10) - new Date(2000, 1, 9, 6, 10, 5); // 315619200000
+// 315619200000 / 1000 / 60 / 60 / 24 / 365.25 ≈ 10 años aproximadamente
+```
+
+Y con esto podemos obtener la diferencia en años, meses, días, horas, minutos y segundos.
+
+La resta nos lleva a
+
+#### Calcular la edad de alguien
+
+La forma más sencilla, solo con los años:
+
+```javascript
+const now = new Date();
+const birthDate = new Date(1994, 0, 6);
+
+console.log(now.getFullYear() - birthDate.getFullYear()); // 30 (o más dependiendo de cuándo estés leyendo esto)
+```
+
+Pero ¿y si queremos ir un paso más allá y comprobar si han pasado el mes y el día?
+
+```javascript
+const now = new Date();
+const birthDate = new Date(1994, 0, 6);
+
+let age = now.getFullYear() - birthDate.getFullYear();
+
+const currentMonth = now.getMonth();
+const bdayMonth = birthDate.getMonth();
+
+const birthdayNotHappenedYet =
+    (currentMonth === bdayMonth && now.getDate() < birthDate.getDate()) || bdayMonth > currentMonth;
+
+if (birthdayNotHappenedYet) {
+    age--;
+}
+
+console.log(age); // edad +-1 dependiendo de si el cumpleaños ha pasado o no
+```
+
+### Suma
+
+Con el operador `+` entre dos objetos `Date`, se convierten en cadenas de caracteres y se concatenan:
+
+```javascript
+new Date(2010, 0) + new Date(2000, 0);
+// "Fri Jan 01 2010 00:00:00 GMT-0300 (Argentina Standard Time)Sat Jan 01 2000 00:00:00 GMT-0300 (Argentina Summer Time)"
+```
+
+No muy útil.
+
+#### ¿Y si quiero agregar X días/meses/años?
+
+El objeto `Date` tiene varios métodos `setX()` donde X es Minutes, Month, Seconds, etc. Por ejemplo, para agregar un año:
+
+```javascript
+const date = new Date(2002, 01, 03); //  Sun Feb 03 2002...
+date.setFullYear(date.getFullYear() + 1); // devuelve la nueva marca temporal
+console.log(date); // Mon Feb 03 2003...
+```
+
+Sumando varios días:
+
+```javascript
+const now = new Date();
+const futureDate = new Date(now);
+futureDate.setDate(now.getDate() + 7); // Agrega 7 días
+```
+
+### Multiplicación y división
+
+Lo mismo que con la resta. Las marcas de tiempo se multiplican/dividen.
+
+### Comparación
+
+Usando operadores de comparación podemos ver si una fecha es posterior a otra, siguiendo el último ejemplo:
+
+```javascript
+futureDate > now; // true
+```
+
+## Zonas horarias
+
+Si necesitas especificar la zona horaria de una fecha, pasa una cadena de caracteres al constructor como se describe [antes](#2-una-cadena-de-caracteres-representando-una-fecha-válida-string):
+
+```javascript
+// GMT +05:30
+new Date("2024-07-04T12:00:00+05:30");
+```
+
+### ¿Por qué mi fecha tiene un día menos/más?
+
+Si creas una fecha así:
+
+```
+new Date('2024-06-05')
+```
+
+y estás en GMT < 0, como yo estando en Argentina (GMT -3), obtendrás `Date Tue Jun 04 2024 21:00:00 GMT-0300`. Un día menos debido a la diferencia de zona horaria y JavaScript interpretando la fecha en formato ISO 8601 como se describió anteriormente al analizar los parámetros del constructor.
+
+Pero si lo usás el formato mes-día-año:
+
+```
+new Date('06-05-2024')
+```
+
+obtienes `Date Wed Jun 05 2024 00:00:00 GMT-0300`... la fecha esperada, ya que JavaScript ya no interpreta que es UTC, usa en su lugar la zona horaria local.
+
+Entonces, si solo estás interesado en la fecha y tienes control sobre lo que va en el objeto `Date`, es mejor usar YYYY-MM-DDT00:00:00 y asegurarse de que JS use UTC y la fecha exacta sin importar la zona horaria.
+
+Si estás almacenando fechas y horas ingresadas por el usuario, lo más probable es que también necesites almacenar la zona horaria. Por ejemplo, en una aplicación de calendario donde los usuarios se encuentran en diferentes zonas horarias, la hora de la reunión la programa alguien en Tokio, pero debe mostrarse correctamente para alguien en los Estados Unidos. Conocer la zona horaria de quién lo programó nos ayuda con eso.
+
+Sin embargo, no te pierdas [esto](https://www.youtube.com/watch?v=-5wpm-gesOY) sobre por qué, siempre que puedas, evita las zonas horarias.
+
+Después de terminar esta publicación, entendí mejor por qué existen herramientas como [dayjs](https://github.com/iamkun/dayjs/) o [date-fns](https://date-fns.org/) y definitivamente los revisaría si tuviera que hacer pesado con fechas.
+
+Y también una _considerable_ admiración hacia cualquiera que implemente calendarios web utilizados en todo el mundo. **Gracias**.
+
+## Entorno interactivo
+
+Escribe una [fecha válida](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date#parameters) o elige una con los inputs:
+
+<Date client:visible />
