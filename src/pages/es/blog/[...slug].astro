@@ -22,7 +22,7 @@ const { Content, headings } = await post.render();
 ---
 
 <BlogPost lang={lang} {...post.data}>
-    {headings && headings.length ? 
+    {post.data.useHeadings && headings && headings.length ? 
         <TableOfContents headings={headings} /> : <></>
     }
     <Content />
