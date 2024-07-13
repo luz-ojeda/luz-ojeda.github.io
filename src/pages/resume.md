@@ -6,8 +6,6 @@ title: 'resume'
 ## Work experience (+4 years)
 ---
 
-A summary of my career so far including some tasks I was responsible for in each position:
-
 - ### Aug 2024 - Today: [Compass](https://www.compass.com/)
 - ### Jan 2023 - Jul 2024: **[Southworks](https://www.southworks.com/)**
   - Implemented **Python** scripts for scraping makeup webpages, using **Selenium** and **BeautifulSoup** extracting from various
