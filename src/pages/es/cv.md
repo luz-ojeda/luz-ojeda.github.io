@@ -6,8 +6,6 @@ title: 'cv'
 ## Experiencia profesional
 ---
 
-Un resumen de mi carrera hasta ahora, incluyendo algunas tareas de las que fui responsable en cada posición:
-
 - ### Ago 2024 - actualidad: [Compass](https://www.compass.com/)
 - ### Ene 2023 - jul 2023: **[Southworks](https://www.southworks.com/)**
   - Migración del servicio **Azure Virtual Desktop** de Microsoft a React
