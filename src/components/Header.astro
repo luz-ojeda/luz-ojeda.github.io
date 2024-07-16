@@ -5,47 +5,12 @@ import LanguagePicker from "./LanguagePicker.astro";
 import Nav from "./Nav.astro";
 import ThemeIcon from "./ThemeIcon.astro";
 ---
-
-<script>
-    import { SITE_TITLE } from "../consts";
-
-    const heroAnimationSessionStorageKey = "userSawHomeHeroAnimation";
-    const siteTitleElement = document.getElementById("site-title");
-
-    const userSawAnimation = sessionStorage.getItem(heroAnimationSessionStorageKey);
-
-    // function animateTitle() {
-    //     if (!siteTitleElement) return;
-
-    //     const delay = 50;
-    //     let totalDelay = 0;
-    //     const luzBin = "01101100 01110101 01111010";
-
-    //     for (let i = 0; i < luzBin.length; i++) {
-    //         setTimeout(() => {
-    //             siteTitleElement.textContent += luzBin[i];
-    //         }, totalDelay + delay);
-    //         totalDelay += delay;
-    //     }
-    //     setTimeout(
-    //         () => {
-    //             siteTitleElement.textContent = SITE_TITLE;
-    //         },
-    //         (totalDelay += 500)
-    //     );
-    // }
-
-    // animateTitle();
-
-    sessionStorage.setItem(heroAnimationSessionStorageKey, "true");
-</script>
-
 <header>
     <div class="first-row">
         <div>
             <LanguagePicker />
         </div>
-        <h2 id="site-title"></h2>
+        <h2>{SITE_TITLE}</h2>
         <div>
             <ThemeIcon />
             <HamburgerButton />
