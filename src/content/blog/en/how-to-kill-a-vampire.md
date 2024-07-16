@@ -4,9 +4,9 @@ tags: ["misc", "books"]
 pubDate: 2024-07-16
 ---
 
-I've just come across a collection of journal entries and memorandums about a tragic experience of a group of persons with a count named Dracula and an otherworldly creature called "Vampire" that I wasn't even aware it existed until now.
+I've just come across a collection of journal entries and memorandums about a tragic experience of a group of persons with a count named Dracula, an otherworldly creature called "Vampire" that I wasn't even aware it existed until now.
 
-Maybe you know about them and, as I've read some time later, think is enough to use a wooden stake. It is not. The stake's purpose to prevent it from rising. But remove it and it could come back again.
+Maybe you know about them and, as I've read some time later, think is enough to use a wooden stake. It is not. Its purpose to prevent it from rising. But remove it and it could come back again.
 
 In one of the diaries of some Dr. Seward in this collection he tells how they killed one of these creatures while it was sleeping.
 
