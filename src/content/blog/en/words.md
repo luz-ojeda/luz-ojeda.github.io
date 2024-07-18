@@ -25,3 +25,4 @@ useHeadings: false
 - ludibrio
 - pírrico
 - hipérbole
+- ucronía

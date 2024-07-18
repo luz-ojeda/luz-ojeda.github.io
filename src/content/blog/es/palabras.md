@@ -26,3 +26,4 @@ useHeadings: false
 - pírrico
 - acequia
 - hipérbole
+- ucronía
