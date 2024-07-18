@@ -35,8 +35,6 @@ retailers and brands. Data was then processed into Excel files for later analysi
 
 - [Coderhouse UX/UI Design](https://www.coderhouse.com/online/ux-ui-online) (Jun 2020 - Sep 2021)
 
-- AWS Certified Cloud Practitioner (July 2020)
-
 - [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) from Colt Steele (Apr 2020)
 
 - [FreeCodeCamp Inc.](https://www.freecodecamp.org/learn) (Jun 2019 - Sep 2019)

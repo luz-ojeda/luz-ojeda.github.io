@@ -28,13 +28,9 @@ title: 'cv'
 ## Cursos y certificaciones
 ---
 
-- .NET Microservices: CQRS & Event Sourcing with Kafka - Udemy (Enero 2024)
-
 - [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Abril 2023)
 
 - [Coderhouse Diseño UX/UI](https://www.coderhouse.com/online/ux-ui-online) (Septiembre 2021)
-
-- AWS Certified Cloud Practitioner (Julio 2020)
 
 - [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) de Colt Steele (Abril 2020)
 
