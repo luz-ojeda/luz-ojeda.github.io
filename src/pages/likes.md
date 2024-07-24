@@ -47,6 +47,7 @@ title: 'likes'
 - [Us and Them - Pink Floyd](https://www.youtube.com/watch?v=HoLhKJuGhK0)
 - [Self Control - Laura Branigan](https://youtu.be/RP0_8J7uxhs?si=rx8X3ljfUWB3msiH)
 - [Just Like Heaven - The Cure](https://youtu.be/n3nPiBai66M?si=qRFzxtmgIhNNPy_Q)
+- [The End of The World - Skeeter Davis](https://www.youtube.com/watch?v=DsY_kocbWaM)
 
 ## movies/tv series
 - Interstellar from Christopher Nolan
