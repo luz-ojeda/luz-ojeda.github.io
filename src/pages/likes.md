@@ -13,11 +13,12 @@ title: 'likes'
 - taking care of my plants
 - cooking while hearing music with headphones on
 - saturday mornings with no errands to run nor things to do
-- the mountains
+- mountains
 - driving (on country roads, highways, etc. not in the city)
 - some degree of minimalism. Especially on web pages, my desk and my devices screens.
 - candles
 - steaming showers
+- short sentences
 
 ## digital
 - [Anki](https://apps.ankiweb.net/)

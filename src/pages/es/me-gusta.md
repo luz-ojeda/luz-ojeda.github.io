@@ -15,6 +15,7 @@ title: 'me gusta'
 - las montañas
 - manejar en la ruta/autopistas (no en la ciudad)
 - duchas con agua muy caliente
+- oraciones cortas
 
 ## digital
 - [Anki](https://apps.ankiweb.net/)
