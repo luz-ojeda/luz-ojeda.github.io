@@ -2,6 +2,29 @@
   {
     "2024": [
       {
+        "title": "Man’s Search for Meaning",
+        "link": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning",
+        "genres": [
+          "nonfiction",
+          "psychology",
+          "philosophy"
+        ],
+        "status": "currently reading",
+        "author": "Viktor E. Frankl"
+      },
+      {
+        "title": "Why Privacy Matters",
+        "link": "https://www.goodreads.com/book/show/55332285-why-privacy-matters",
+        "genres": [
+          "nonfiction",
+          "technology",
+          "politics",
+          "vampires"
+        ],
+        "status": "2024-07-22T00:00:00.000Z",
+        "author": "Neil Richards"
+      },
+      {
         "title": "Dracula",
         "link": "https://www.goodreads.com/book/show/17245.Dracula",
         "genres": [
@@ -13,28 +36,6 @@
         "status": "2024-07-09T00:00:00.000Z",
         "author": "Bram Stoker",
         "highlight": "Listen to them, the children of the night. What music they make!"
-      },
-      {
-        "title": "Why Privacy Matters",
-        "link": "https://www.goodreads.com/book/show/55332285-why-privacy-matters",
-        "genres": [
-          "nonfiction",
-          "technology",
-          "politics",
-          "vampires"
-        ],
-        "status": "currently reading",
-        "author": "Neil Richards"
-      },
-      {
-        "title": " 100 Ways to Improve Your Writing",
-        "link": "https://www.goodreads.com/book/show/702619.100_Ways_to_Improve_Your_Writing",
-        "genres": [
-          "nonfiction",
-          "writing"
-        ],
-        "status": "2024-06-05T00:00:00.000Z",
-        "author": "Gary Provost"
       },
       {
         "title": "How to Invent Everything: A Survival Guide for the Stranded Time Traveler",
@@ -49,6 +50,16 @@
         "status": "2024-05-11T00:00:00.000Z",
         "highlight": "The only real difference between old-fashioned steam engines and our newfangled ones is instead of burning wood in our boilers, we use coal, gas, or the godlike powers of the very atoms themselves. That’s right: even with the civilization-ending power of nuclear reactors at our disposal, we still mostly just use them to boil us up some water.",
         "author": "Ryan North"
+      },
+      {
+        "title": " 100 Ways to Improve Your Writing",
+        "link": "https://www.goodreads.com/book/show/702619.100_Ways_to_Improve_Your_Writing",
+        "genres": [
+          "nonfiction",
+          "writing"
+        ],
+        "status": "2024-06-05T00:00:00.000Z",
+        "author": "Gary Provost"
       },
       {
         "title": "I, Claudius",
@@ -77,18 +88,6 @@
         "author": "William Zinsser"
       },
       {
-        "title": "This Is How They Tell Me the World Ends: The Cyberweapons Arms Race",
-        "link": "https://www.goodreads.com/book/show/49247043-this-is-how-they-tell-me-the-world-ends",
-        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1610927353i/49247043.jpg",
-        "genres": [
-          "nonfiction",
-          "technology",
-          "politics"
-        ],
-        "status": "2024-03-20T00:00:00.000Z",
-        "author": "Nicole Perlroth"
-      },
-      {
         "title": "Rebecca",
         "link": "https://www.goodreads.com/book/show/203466580-rebecca",
         "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1702023105i/203466580.jpg",
@@ -99,6 +98,18 @@
         ],
         "status": "2024-04-01T00:00:00.000Z",
         "author": "Daphne du Maurier"
+      },
+      {
+        "title": "This Is How They Tell Me the World Ends: The Cyberweapons Arms Race",
+        "link": "https://www.goodreads.com/book/show/49247043-this-is-how-they-tell-me-the-world-ends",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1610927353i/49247043.jpg",
+        "genres": [
+          "nonfiction",
+          "technology",
+          "politics"
+        ],
+        "status": "2024-03-20T00:00:00.000Z",
+        "author": "Nicole Perlroth"
       },
       {
         "title": "The Design of Everyday Things",
