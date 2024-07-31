@@ -9,8 +9,9 @@
           "psychology",
           "philosophy"
         ],
-        "status": "currently reading",
-        "author": "Viktor E. Frankl"
+        "status": "2024-07-30T00:00:00.000",
+        "author": "Viktor E. Frankl",
+        "loved": true
       },
       {
         "title": "Why Privacy Matters",
