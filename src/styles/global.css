@@ -5,7 +5,7 @@
  */
 @import url("./fonts.css");
 @import url("./utilities.css");
-@import url("./typography.css");
+@import url("./typography.scss");
 @import url("./spacing.css");
 @import url("./colors.scss");
 @import url("./layout.scss");

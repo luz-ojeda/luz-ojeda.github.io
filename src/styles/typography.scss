@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 :root {
     --font-primary: 'Noto Sans Mono', monospace;
     --font-secondary: 'Sarabun', Helvetica, sans-serif;
@@ -65,6 +67,21 @@ h4, .text--md {
     font-size: var(--text-xs);
 }
 
+@media (max-width: $mobile) {
+    h1, .text--xxl {
+        font-size: var(--text-xl);
+    }
+    
+    h2, .text--xl {
+        font-size: var(--text-lg);
+    }
+    
+    h3, .text--lg {
+        font-size: var(--text-md);
+    }
+}
+
+/* elements */
 p {
     line-height: var(--body-line-height);
 }
@@ -104,7 +121,7 @@ a.navlink:hover {
     color: var(--body);
 }
 
-/* Dark mode */
+/* dark mode */
 
 .dark p {
     letter-spacing: 0.025rem;
