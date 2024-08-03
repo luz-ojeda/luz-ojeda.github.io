@@ -4,24 +4,24 @@ pubDate: 2024-08-03
 tags: ["libros"]
 ---
 
-Resumen: "El hombre en busca del sentido" de Victor Frankl es uno de los libros que más me gustó en estos últimos 5 años, me erizó la piel, me hizo lagrimear en algunos momentos y emocionarme como pocos lo cual me dio ganas de armar una reseña y compartirla. El autor, psiquiatra y sobreviviente del holocausto, afirma que la fuerza motivacional primaria en la vida la cual nos permite afrontar cualquier sufrimiento o desgracia es la búsqueda del sentido de la misma ya sea en el amor como por ejemplo cuidando a otros, el coraje durante el sufrimiento o en el trabajo en términos de hacer algo significativo por uno y por los demás.
+Resumen: "El hombre en busca del sentido" de Victor Frankl es uno de los libros que más me gustó en estos últimos 5 años, me erizó la piel, me hizo lagrimear en algunos momentos y emocionarme como pocos, lo cual me dio ganas de armar una reseña y compartirla. El autor, psiquiatra y sobreviviente del holocausto, afirma que la fuerza motivacional primaria en la vida, la cual nos permite afrontar cualquier sufrimiento o desgracia y nos impulsa a seguir, es la búsqueda del sentido de la misma ya sea en el amor como por ejemplo cuidando a otros, el coraje durante el sufrimiento o en el trabajo en términos de hacer algo significativo por uno y por los demás.
 
-El libro se podría resumir usando esta cita de Nietszche la cual el autor reitera en el libro mismo:
+El libro se podría resumir usando esta cita de Nietszche la cual el autor usa más de una vez:
 
 >“Quien tiene un por qué para vivir puede soportar casi cualquier cómo.”
 
 ## Sobre el autor
-Victor Frankl es un psiquiatra nacido en 1905 quien en 1942 fue enviado a un campo de concentración. Sus padres, hermano y esposa todos murieron sea por enfermedad o ejecución en los años que fue prisionero. Pasó en total por cuatro campos de concentración distintos hasta abril en 1945 cuando fue liberado por los aliados. De la muerte de sus familiares se entera luego de la liberación y no antes.
+Victor Frankl es un psiquiatra nacido en 1905 quien en 1942 fue enviado a un campo de concentración. Sus padres, hermano y esposa  murieron durante esos años, ya sea por enfermedad o ejecución. Pasó en total por cuatro campos de concentración distintos hasta abril en 1945 cuando fue liberado por los aliados. De la muerte de sus familiares se entera luego de la liberación y no antes.
 
-Un año después publicó la primera parte de este libro y luego de unos años publicó otra edición agregando la segunda. La primera parte relata sus experiencias en los campos de concentración y en la segunda hace un resumen de las bases de la logoterapia.
+Un año después publicó la primera parte de este libro, relatando sus experiencias en los campos de concentración. Años más tarde publicó otra edición agregando una segunda, desarrollando las bases de la logoterapia.
 
 ## Parte 1: Experiencias en los campos de concentración
-Si bien creo que muchos vimos películas, series o contenido acerca del holocausto, leer en primera persona los relatos de alguien que vivió todo eso es algo muy distinto. La cantidad de sufrimientos a diario por la que pasaban es una lista extensa relatada por el autor en esta parte que prefiero omitir acá porque sería alargar mucho la review y una parte de mi cree que sería apelar un poco al morbo. Sin embargo esta cita, donde a la vez cita a Dostoyevsky me quedó en la mente y me la guardé:
+Si bien creo que muchos vimos películas, series o contenido acerca del holocausto, leer en primera persona los relatos de alguien que vivió todo eso es algo muy distinto. La cantidad de sufrimientos a diario por la que pasaban es una lista extensa relatada por el autor que prefiero omitir acá porque sería alargar mucho la review y una parte de mi cree que sería apelar un poco al morbo. Sin embargo esta cita, donde a la vez cita a Dostoyevsky me quedó en la mente y me la guardé:
 
 > “Si alguien nos preguntara ahora si es verdad la afirmación de Dostoyevski que define categóricamente al hombre como un ser capaz de acostumbrarse a todo, responderíamos: «Sí, el hombre puede acostumbrarse a todo, **pero no nos pregunte cómo**».
 Pero nuestras investigaciones psicológicas no nos han llevado todavía tan lejos; nosotros, prisioneros, tampoco habíamos llegado a ese punto. Todavía estábamos en la primera fase de nuestras reacciones psicológicas.”
 
-Durante su experiencia reconoció 3 fases por las que pasaba cada prisionero, algo relevante a su teoría de la logoterapia. Al llegar, caracterizada por el shock, una segunda al haberse habituado a la rutina del campo caracterizada por la apatía y una tercera en caso de lograr su libertad nuevamente.
+Durante su experiencia reconoció 3 fases por las que pasaba cada prisionero, algo relevante a su teoría de la logoterapia. Una primera al llegar, caracterizada por el shock, una segunda al haberse habituado a la rutina del campo caracterizada por la apatía y una tercera en caso de lograr su libertad nuevamente.
 
 La primera es autodescriptiva, el shock de llegar, ver el estado de los prisioneros, a lo que se atenían, ser despojado de todas sus posesiones y ver los castigos sufridos por otros y ellos mismos, entre otras cosas. En la primera fase todavía se veían afectados emocionalmente por todas estas cosas.
 
@@ -31,7 +31,7 @@ Sobre las reacciones psicológicas durante la transición de la primera a la seg
 
 , al notar como las personas empezaban a tener una apatía y una "muerte emocional". Dos principales características de la segunda fase. Un mecanismo de defensa _necesario_ para sobrevivir a las atrocidades que caracterizaban su vida diaria.
 
-La tercera etapa, una vez un prisionero era liberado, estaba caracterizada por "depersonalización". Sentir que todo era irreal, como si estuviera en un sueño. No un sentimiento de alegría o euforia como uno podría imaginar.
+La tercera etapa, una vez un prisionero era liberado, estaba caracterizada por "despersonalización". Sentir que todo era irreal, como si estuviera en un sueño. No un sentimiento de alegría o euforia como uno podría imaginar.
 
 La analogía que me quedó es la de un buzo saliendo rápidamente a la superficie sin adaptarse gradualmente al cambio de presión. La mente del prisionero liberado estaba en peligro al verse de un momento al otro libre de la presión constante día tras día.
 
