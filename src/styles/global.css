@@ -4,7 +4,7 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 @import url("./fonts.css");
-@import url("./utilities.css");
+@import url("./utilities.scss");
 @import url("./typography.scss");
 @import url("./spacing.css");
 @import url("./colors.scss");

@@ -1,5 +1,6 @@
 ---
 import { getLangFromUrl, useTranslations, useTranslatedPath } from "../i18n/utils";
+import LanguagePicker from "./LanguagePicker.astro";
 import NavLink from "./NavLink.astro";
 
 const lang = getLangFromUrl(Astro.url);
@@ -54,6 +55,9 @@ const translatePath = useTranslatedPath(lang);
                 {t("nav.about")}
             </NavLink>
         </li>
+        <div class="mobile">
+            <LanguagePicker />
+        </div>
     </ul>
 </nav>
 
@@ -83,9 +87,9 @@ const translatePath = useTranslatedPath(lang);
             transform: translateX(100%) translateY(2px);
             width: 100%;
         }
-        
+
         nav.slide {
-            transition: transform .3s .1s;
+            transition: transform 0.3s 0.1s;
             transform: translateX(0);
         }
 

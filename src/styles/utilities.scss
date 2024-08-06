@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 /* layout */
 .flex {
     display: flex;
@@ -27,4 +29,16 @@
 /* typography */
 .italic {
     font-style: italic;
+}
+
+.mobile {
+    @media (min-width: $mobile) {
+        display: none;
+    }
+}
+
+.laptop {
+    @media (max-width: $mobile) {
+        display: none;
+    }
 }

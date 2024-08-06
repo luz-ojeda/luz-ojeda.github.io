@@ -11,18 +11,36 @@ const translatePath = useTranslatedPath(currentLang);
     {
         Object.entries(languages).map(([lang, label]) => (
             <li>
-                <a class:list={{ active: lang === currentLang }} href={translatePath(`/${route ? route : ""}`, lang)}>{label}</a>
+                <span class="mobile">{lang === "es" ? "🇪🇸" : "🇬🇧"}</span>
+                <a
+                    class:list={{ active: lang === currentLang }}
+                    href={translatePath(`/${route ? route : ""}`, lang)}
+                >
+                    <span class="laptop">{label}</span>
+                    <span class="mobile">{lang}</span>
+                </a>
             </li>
         ))
     }
 </ul>
 
-<style>
+<style lang="scss">
+    @import "../styles/variables.scss";
+
     ul {
         display: flex;
         gap: 16px;
     }
+
     a.active {
         font-weight: bolder;
+    }
+
+    @media (max-width: $mobile) {
+        ul {
+            gap: 32px;
+            justify-content: center;
+            margin-top: 32px;
+        }
     }
 </style>
