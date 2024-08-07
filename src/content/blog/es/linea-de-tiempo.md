@@ -6,9 +6,15 @@ tags: ["personal"]
 
 [Idea de](https://taylor.town/timeline)
 
+2024 💼 empecé a trabajar en Compass
+
 2024 🌍 primer viaje a otro continente (Europa)
 
-2023 🏔️ viaje a Mendoza con mi mamá de vacaciones
+2024 💻 lancé [Recetas Simples](https://recetassimples.app/), página web de recetas de cocina
+
+2023 🏔️ viaje de vacaciones a Malargüe, Mendoza con mi mamá
+
+2023 👩‍🍳 empecé a aprender cocina con [The Food Lab](👩https://www.amazon.com/Food-Lab-Cooking-Through-Science/dp/0393081087)
 
 2023 💻 hice mi primera página web personal con su dominio personalizado
 

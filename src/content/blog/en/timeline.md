@@ -5,9 +5,15 @@ tags: ["personal"]
 ---
 [Inspired by](https://taylor.town/timeline)
 
+2024 💼 started working at Compass as front end developer
+
 2024 🌍 first time travelling abroad (Europe)
 
+2024 💻 launched [Recetas Simples](https://recetassimples.app/), website for cooking recipes
+
 2023 🏔️ Mendoza trip with my mother on vacations
+
+2023 👩‍🍳 started learning to cook with [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science/dp/0393081087)
 
 2023 💻 made my first personal website with its own custom domain
 
