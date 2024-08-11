@@ -7,18 +7,16 @@ title: 'now'
 
 (this is a now page, [you could make one](https://nownownow.com/about) on your own website too.)
 
-Updated on April 2 2024, from my apartment in **Buenos Aires, Argentina**.
+updated on August 11 2024, from my apartment in **Buenos Aires, Argentina**.
 
 ## working in
-Deployed the first version of the cooking web app in Svelte and .NET [here](https://recetassimples.app). I still have to fill it with real recipes and yes, it is in spanish since my idea is to target a latin-american/spanish audience mainly. Maaaybe I will add i18n in the future, but would like to add many other things before. Also, there are tons of english good recipes websites out there such as Budget Bytes already.
+pretty excited to start working in [Compass](https://www.compass.com/) on August the 12th as a front end engineer 😌
 
-## [reading](/reading)
-Just finished [Rebecca](https://www.goodreads.com/book/show/203466580-rebecca), a gothic mystery novel by Daphne du Maurier. Really pays off with some nice plot twists. Came across it looking for gothic gente books and it was a enticing read. I've enjoyed Lovecraft and Poe when I was a teen but didn't even consider many of their tales fell  under the gothic genre as well. I've been increasingly engaging in gothic content of all types such as movies as well (and becoming obsessed with candles in my apartment 😅).
+on June I started to contribute to [Cuentoneta](https://github.com/cuentoneta), an argentinean website dedicated to sharing and distribution of short stories mainly.
 
-## others
-Started the last chapter of [The Food Lab](https://www.goodreads.com/en/book/show/24861842) which is about batter, breading and frying. Made fried chicken for the first time which is quite an accomplishment for me considering how afraid I always was of hot oil.
+## studying
+underestimating how burnt out I was from already going to college 7 years to get my degree in Biological Sciences, I stopped studying software engineering in UADE and started the OSSU curriculum back in May.
 
-I also started reading [Rose's Baking Basics](https://www.goodreads.com/en/book/show/37569329) while trying out the first cookies' recipes of it. Always had a sweet tooth and is great to add another screen-free hobbie.
+i'm working my way through the Systematic Program design: [How to Code Complex Data](https://github.com/ossu/computer-science/blob/master/coursepages/spd/README.md) from the Core Programming section of the curriculum.
 
-## eurotrip
-I'm travelling abroad for the first time in my life next April 30. I'm very nervous but excited at the same time about it. 21 days and 6 cities/countries (Bern, Ghent, Amsterdam, Berlin, Prage and Madrid), can't wait to go.
+since *How to Code Simple Data*, the first part of the Systematic Program Design course, I've been using Racket, a dialect of Lisp. This is my first time working with a pure functional programming language and it's been very interesting since I've mostly worked with Python, C# and JavaScript, mostly object-oriented general purpose languages.

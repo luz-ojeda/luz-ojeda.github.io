@@ -5,20 +5,16 @@ title: 'ahora'
 
 # ahora
 
-(esta es una página "now" (ahora), [también podés crear una](https://nownownow.com/about) en tu propio sitio web).
-
-Actualizado el 7 de marzo de 2023, desde mi departamento en **Buenos Aires, Argentina**.
+actualizado el 11 de agosto de 2024, desde mi departamento en **Buenos Aires, Argentina**.
 
 ## trabajando en
-Deployé la primera versión de la aplicación web de cocina en Svelte y .NET [aquí](https://recetassimples.app). Aún tengo que crear recetas reales. Quizás agregué i18n en el futuro, pero me gustaría trabajar en muchas otras features antes. Igualmente ya existen toneladas de sitios web de buenas recetas en inglés, como Budget Bytes.
+muy emocionada de comenzar a trabajar en [Compass](https://www.compass.com/) el 12 de agosto como ingeniera en front-end 😌
 
-## [leyendo](/leyendo)
-Acabo de terminar [Rebecca](https://www.goodreads.com/book/show/203466580-rebecca), una novela gótica de misterio de Daphne du Maurier. Realmente vale la pena con algunos plot twists interesantes en la trama. Lo encontré buscando libros de género gótico y fue una lectura muy agradable. Disfrutaba mucho de Lovecraft y Poe cuando era adolescente, pero nunca consideré que muchos de sus cuentos también caían dentro del género gótico. Me estuve metiendo cada vez más en contenido gótico de todo tipo, como películas también (y me obsesioné un poco con las velas en mi departamento 😅).
+en junio comencé a contribuir con [Cuentoneta](https://github.com/cuentoneta), un sitio web argentino dedicado a compartir y distribuir cuentos principalmente.
 
-## otros
-Comencé el último capítulo de [The Food Lab](https://www.goodreads.com/en/book/show/24861842) que trata sobre rebozados, empanados y frituras. Hice pollo frito por primera vez, lo cual es un gran logro para mí considerando el **miedo** que siempre le tuve al aceite caliente.
+## estudiando
+subestimando lo agotada que estaba por haber ido a la universidad durante 7 años para obtener mi título en Ciencias Biológicas, dejé de estudiar ingeniería de software en UADE y comencé el plan de estudios de OSSU en mayo.
 
-También comencé a leer [Rose's Baking Basics](https://www.goodreads.com/en/book/show/37569329) probando las primeras recetas de galletas. Siempre tuve un punto débil por lo dulce y amo añadir otro hobbie sin pantallas.
+estoy haciendo el curso Systematic Program Design: [How to Code Complex Data](https://github.com/ossu/computer-science/blob/master/coursepages/spd/README.md) de la sección Core Programming del plan de estudios.
 
-## viaje a Europa
-El próximo 30 de abril viajo al exterior por primera vez en mi vida. Estoy muy nerviosa pero emocionada a la vez. 21 días y 6 ciudades/países (Berna, Gante, Ámsterdam, Berlín, Praga y Madrid), no puedo esperar para ir.
+desde *How to Code Simple Data*, la primera parte del curso de diseño sistemático de programas, he estado usando Racket, un dialecto de Lisp. Esta es la primera vez que trabajo con un lenguaje de programación puramente funcional y ha sido muy interesante, ya que he trabajado principalmente con Python, C# y JavaScript, principalmente lenguajes de propósito general orientados a objetos.
