@@ -1,10 +1,10 @@
 {
-    "image": "./files/azul_cemetery.jpg",
-    "pubDate": "2022-02-27",
-    "en": {
-        "title": "Entrance to the Municipal Cemetery of Azul, Buenos Aires, Argentina; characteristic for its art deco style from the architect Francisco Salamone."
-    },
-    "es": {
-        "title": "Entrada del Cementerio municipal de Azul, Buenos Aires, Argentina; característico por su estilo art déco del arquitecto Francisco Salamone."
-    }
+	"image": "./files/azul_cemetery.jpg",
+	"pubDate": "2022-02-27",
+	"en": {
+		"title": "Entrance to the Municipal Cemetery of Azul, Buenos Aires, Argentina; characteristic for its art deco style from the architect Francisco Salamone."
+	},
+	"es": {
+		"title": "Entrada del Cementerio municipal de Azul, Buenos Aires, Argentina; característico por su estilo art déco del arquitecto Francisco Salamone."
+	}
 }

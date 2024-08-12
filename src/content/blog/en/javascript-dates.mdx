@@ -148,10 +148,11 @@ const currentMonth = now.getMonth();
 const bdayMonth = birthDate.getMonth();
 
 const birthdayNotHappenedYet =
-    (currentMonth === bdayMonth && now.getDate() < birthDate.getDate()) || bdayMonth > currentMonth;
+	(currentMonth === bdayMonth && now.getDate() < birthDate.getDate()) ||
+	bdayMonth > currentMonth;
 
 if (birthdayNotHappenedYet) {
-    age--;
+	age--;
 }
 
 console.log(age); // age +-1 depending on whether the birthday has passed or not
@@ -195,7 +196,7 @@ Same as with subtraction. Timestamps are multiplied/divided.
 Using comparison operators we can see if a date is later than another, following the last example:
 
 ```javascript
-futureDate > now // true
+futureDate > now; // true
 ```
 
 ## Timezones

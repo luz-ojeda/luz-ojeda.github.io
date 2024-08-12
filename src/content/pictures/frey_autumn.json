@@ -1,10 +1,10 @@
 {
-    "image": "./files/frey_autumn.jpg",
-    "pubDate": "2019-04-02",
-    "en": {
-        "title": "Frey mountain refuge/hut in the Andes, near Bariloche, Argentina in autumn"
-    },
-    "es": {
-        "title": "Refugio Frey en la cordillera de los Andes, cerca de Bariloche, Argentina en otoño"
-    }
+	"image": "./files/frey_autumn.jpg",
+	"pubDate": "2019-04-02",
+	"en": {
+		"title": "Frey mountain refuge/hut in the Andes, near Bariloche, Argentina in autumn"
+	},
+	"es": {
+		"title": "Refugio Frey en la cordillera de los Andes, cerca de Bariloche, Argentina en otoño"
+	}
 }

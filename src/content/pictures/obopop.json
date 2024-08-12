@@ -1,10 +1,10 @@
 {
-    "image": "./files/obopop.jpg",
-    "pubDate": "2023-12-31",
-    "en": {
-        "title": "'Obopop': obsolete keypad objects with knobs or levers (translated from spanish)"
-    },
-    "es": {
-        "title": "'Obopop': objetos de botonera obsoleta con perillas o palancas. Saavedra, CABA"
-    }
+	"image": "./files/obopop.jpg",
+	"pubDate": "2023-12-31",
+	"en": {
+		"title": "'Obopop': obsolete keypad objects with knobs or levers (translated from spanish)"
+	},
+	"es": {
+		"title": "'Obopop': objetos de botonera obsoleta con perillas o palancas. Saavedra, CABA"
+	}
 }

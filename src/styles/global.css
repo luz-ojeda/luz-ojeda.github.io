@@ -49,7 +49,7 @@ pre {
 	white-space: pre-wrap;
 }
 
-pre>code {
+pre > code {
 	all: unset;
 }
 
@@ -97,7 +97,9 @@ input[type="time"] {
 	border-radius: 4px;
 	background-color: var(--grey100);
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-	transition: border-color 0.3s, box-shadow 0.3s;
+	transition:
+		border-color 0.3s,
+		box-shadow 0.3s;
 	min-height: 2.5em;
 }
 
@@ -122,7 +124,8 @@ tbody tr:nth-child(odd) {
 	background-color: var(--table-row-odd-bg);
 }
 
-th, td {
+th,
+td {
 	padding: 6px 8px;
 	border: 1px solid var(--table-border);
 }

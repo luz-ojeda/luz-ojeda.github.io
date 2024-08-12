@@ -1,31 +1,31 @@
 @font-face {
-    font-family: 'Noto Sans Mono';
-    src: url('/fonts/NotoSansMono-ExtraBold.ttf');
-    font-weight: bolder;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Noto Sans Mono";
+	src: url("/fonts/NotoSansMono-ExtraBold.ttf");
+	font-weight: bolder;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Sans Mono';
-    src: url('/fonts/NotoSansMono-Bold.ttf');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Noto Sans Mono";
+	src: url("/fonts/NotoSansMono-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Noto Sans Mono';
-    src: url('/fonts/NotoSansMono-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Noto Sans Mono";
+	src: url("/fonts/NotoSansMono-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'Sarabun';
-    src: url('/fonts/Sarabun-Bold.ttf');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+	font-family: "Sarabun";
+	src: url("/fonts/Sarabun-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }

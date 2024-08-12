@@ -2,43 +2,43 @@
 
 /* layout */
 .flex {
-    display: flex;
+	display: flex;
 }
 
 .flex-center {
-    align-items: center;
-    display: flex;
+	align-items: center;
+	display: flex;
 }
 
 .flex-col-center {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .justify-between {
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 /* lists */
 .no-style-list {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 /* typography */
 .italic {
-    font-style: italic;
+	font-style: italic;
 }
 
 .mobile {
-    @media (min-width: $mobile) {
-        display: none;
-    }
+	@media (min-width: $mobile) {
+		display: none;
+	}
 }
 
 .laptop {
-    @media (max-width: $mobile) {
-        display: none;
-    }
+	@media (max-width: $mobile) {
+		display: none;
+	}
 }

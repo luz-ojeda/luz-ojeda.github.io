@@ -1,10 +1,10 @@
 {
-    "image": "./files/red_flower.jpg",
-    "pubDate": "2022-10-16",
-    "en": {
-        "title": ""
-    },
-    "es": {
-        "title": ""
-    }
+	"image": "./files/red_flower.jpg",
+	"pubDate": "2022-10-16",
+	"en": {
+		"title": ""
+	},
+	"es": {
+		"title": ""
+	}
 }

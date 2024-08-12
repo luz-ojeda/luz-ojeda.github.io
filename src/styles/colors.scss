@@ -1,91 +1,91 @@
 :root {
-    --dark-bg-color: #303030;
+	--dark-bg-color: #303030;
 
-    /* grey shades */
-    --black: #1a1411;
-    --grey900: #2f2622;
-    --grey800: #625955;
-    --grey700: #80756e;
-    --grey600: #988d85;
-    --grey500: #a19887;
-    --grey400: #ccc5b8;
-    --grey300: #e7e2daf0;
-    --grey200: #f1eeea;
-    --grey100: #faf9f8;
+	/* grey shades */
+	--black: #1a1411;
+	--grey900: #2f2622;
+	--grey800: #625955;
+	--grey700: #80756e;
+	--grey600: #988d85;
+	--grey500: #a19887;
+	--grey400: #ccc5b8;
+	--grey300: #e7e2daf0;
+	--grey200: #f1eeea;
+	--grey100: #faf9f8;
 
-    /* main colors */
-    --primary: hsl(120, 18%, 31%);
-    --primary-light: hsl(120, 18%, 55%);
-    --primary-dark: hsl(120, 18%, 15%);
+	/* main colors */
+	--primary: hsl(120, 18%, 31%);
+	--primary-light: hsl(120, 18%, 55%);
+	--primary-dark: hsl(120, 18%, 15%);
 
-    --dark-mode-primary: hsl(120, 14%, 63%);
-    --dark-mode-primary-light: hsl(120, 14%, 75%);
-    --dark-mode-primary-dark: hsl(120, 14%, 45%);
+	--dark-mode-primary: hsl(120, 14%, 63%);
+	--dark-mode-primary-light: hsl(120, 14%, 75%);
+	--dark-mode-primary-dark: hsl(120, 14%, 45%);
 
-    --error: #d32f2f;
+	--error: #d32f2f;
 
-    /* typography */
-    --text: var(--grey900);
-    --text-heading: var(--black);
-    --link: var(--primary);
-    --link-hover: var(--primary-light);
-    --blockquote-border: var(--primary);
+	/* typography */
+	--text: var(--grey900);
+	--text-heading: var(--black);
+	--link: var(--primary);
+	--link-hover: var(--primary-light);
+	--blockquote-border: var(--primary);
 
-    /* body */
-    --body: var(--grey300);
+	/* body */
+	--body: var(--grey300);
 
-    /* buttons */
-    --btn-tertiary: var(--primary);
+	/* buttons */
+	--btn-tertiary: var(--primary);
 
-    --border: var(--grey400);
+	--border: var(--grey400);
 
-    /* pre and code dark mode */
-    --pre-bg: var(--grey200);
-    --pre-color: var(--grey900);
-    --pre-border: var(--grey400);
+	/* pre and code dark mode */
+	--pre-bg: var(--grey200);
+	--pre-color: var(--grey900);
+	--pre-border: var(--grey400);
 
-    --code-bg: var(--grey800);
-    --code-color: var(--grey200);
-    --code-border: var(--grey700);
+	--code-bg: var(--grey800);
+	--code-color: var(--grey200);
+	--code-border: var(--grey700);
 
-    /* table */
-    --table-bg: var(--grey200);
-    --table-header-bg: var(--grey400);
-    --table-row-even-bg: var(--grey100);
-    --table-row-odd-bg: var(--grey200);
-    --table-border: var(--border);
-    --table-header-color: var(--grey900);
-    --table-text-color: var(--text);
+	/* table */
+	--table-bg: var(--grey200);
+	--table-header-bg: var(--grey400);
+	--table-row-even-bg: var(--grey100);
+	--table-row-odd-bg: var(--grey200);
+	--table-border: var(--border);
+	--table-header-color: var(--grey900);
+	--table-text-color: var(--text);
 }
 
 /** Dark mode **/
 @supports (--css: variables) {
-    .dark {
-        --body: var(--dark-bg-color);
+	.dark {
+		--body: var(--dark-bg-color);
 
-        --text: var(--grey300);
-        --text-heading: var(--grey200);
-        --link: var(--dark-mode-primary);
-        --link-hover: var(--dark-mode-primary-light);
-        --blockquote-border: var(--dark-mode-primary);
+		--text: var(--grey300);
+		--text-heading: var(--grey200);
+		--link: var(--dark-mode-primary);
+		--link-hover: var(--dark-mode-primary-light);
+		--blockquote-border: var(--dark-mode-primary);
 
-        --border: var(--grey700);
-        --btn-tertiary: var(--dark-mode-primary);
+		--border: var(--grey700);
+		--btn-tertiary: var(--dark-mode-primary);
 
-        /* pre and code */
-        --pre-bg: var(--grey900);
-        --pre-color: var(--grey300);
-        --pre-border: var(--grey700);
+		/* pre and code */
+		--pre-bg: var(--grey900);
+		--pre-color: var(--grey300);
+		--pre-border: var(--grey700);
 
-        --error: #ef5350;
+		--error: #ef5350;
 
-        /* table */
-        --table-bg: var(--grey900);
-        --table-header-bg: var(--grey800);
-        --table-row-even-bg: var(--grey800);
-        --table-row-odd-bg: var(--grey900);
-        --table-border: var(--grey700);
-        --table-header-color: var(--grey300);
-        --table-text-color: var(--grey300);
-    }
+		/* table */
+		--table-bg: var(--grey900);
+		--table-header-bg: var(--grey800);
+		--table-row-even-bg: var(--grey800);
+		--table-row-odd-bg: var(--grey900);
+		--table-border: var(--grey700);
+		--table-header-color: var(--grey300);
+		--table-text-color: var(--grey300);
+	}
 }

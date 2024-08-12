@@ -1,10 +1,10 @@
 {
-    "image": "./files/bird_bariloche.jpg",
-    "pubDate": "2023-06-01",
-    "en": {
-        "title": "Bariloche, Argentina"
-    },
-    "es": {
-        "title": "Bariloche, Argentina"
-    }
+	"image": "./files/bird_bariloche.jpg",
+	"pubDate": "2023-06-01",
+	"en": {
+		"title": "Bariloche, Argentina"
+	},
+	"es": {
+		"title": "Bariloche, Argentina"
+	}
 }

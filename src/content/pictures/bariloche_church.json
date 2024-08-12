@@ -1,10 +1,10 @@
 {
-    "image": "./files/bariloche.jpg",
-    "pubDate": "2022-08-14",
-    "en": {
-        "title": "Catedral de Nuestra Señora del Nahuel Huapi en San Carlos de Bariloche, Argentina"
-    },
-    "es": {
-        "title": "Nuestra Señora del Nahuel Huapi Cathedral in Bariloche, Argentina"
-    }
+	"image": "./files/bariloche.jpg",
+	"pubDate": "2022-08-14",
+	"en": {
+		"title": "Catedral de Nuestra Señora del Nahuel Huapi en San Carlos de Bariloche, Argentina"
+	},
+	"es": {
+		"title": "Nuestra Señora del Nahuel Huapi Cathedral in Bariloche, Argentina"
+	}
 }

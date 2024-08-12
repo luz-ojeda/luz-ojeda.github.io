@@ -1,66 +1,66 @@
 [
-    {
-        "repo_url": "https://github.com/luz-ojeda/c-players-guide-endgame#readme",
-        "url": "https://kind-wave-02b99d910.5.azurestaticapps.net/",
-        "year": 2024,
-        "es": {
-            "title": "Endgame",
-            "description": "Aplicación de consola en C# de un juego de rol"
-        },
-        "en": {
-            "title": "Endgame",
-            "description": "C# Console application role-playing game"
-        }
-    },
-    {
-        "repo_url": "https://github.com/luz-ojeda/cook-web#readme",
-        "url": "https://recetassimples.app",
-        "year": 2024,
-        "es": {
-            "title": "Recetas simples app",
-            "description": "Aplicación web full stack para la gestión de recetas de cocina deployada en Fly.io. Svelte, .NET y PostgreSQL"
-        },
-        "en": {
-            "title": "Simple recipes web",
-            "description": "Full stack web app developed in Svelte, .NET and PostgreSQL for managing of cooking recipes deployed in Fly.io"
-        }
-    },
-    {
-        "repo_url": "https://github.com/luz-ojeda/cook-api#readme",
-        "year": 2024,
-        "es": {
-            "title": "Recetas simples API",
-            "description": "API web hecha con .NET C# utilizando una base de datos PostgreSQL"
-        },
-        "en": {
-            "title": "Simple recipes API",
-            "description": ".NET C# controller based web API using a PostgreSQL DB"
-        }
-    },
-    {
-        "repo_url": "https://github.com/luz-ojeda/luz-ojeda.github.io",
-        "year": 2023,
-        "es": {
-            "title": "Página Personal",
-            "description": "El sitio web que estás viendo actualmente. La primera versión utilizaba Jekyll pero luego fue migrada a Astro"
-        },
-        "en": {
-            "title": "Personal website",
-            "description": "The website you are currently seeing. The first version used Jekyll but I've migrated to Astro"
-        }
-    },
-    {
-        "repo_url": "https://github.com/luz-ojeda/freecodecamp-front-end-libraries",
-        "url": "https://codepen.io/collection/XmkpWM",
-        "year": 2019,
-        "finished": 2019,
-        "en": {
-            "title": "FreeCodeCamp front end libraries projects",
-            "description": "React, Redux, bootstrap and DOM vanilla JavaScriptbased projects from FreeCodeCamp front end libraries section."
-        },
-        "es": {
-            "title": "Proyectos de la sección librerías de front end de FreeCodeCamp",
-            "description": "Hechos React, Redux, bootstrap y manipulación del DOM con JavaScript"
-        }
-    }
+	{
+		"repo_url": "https://github.com/luz-ojeda/c-players-guide-endgame#readme",
+		"url": "https://kind-wave-02b99d910.5.azurestaticapps.net/",
+		"year": 2024,
+		"es": {
+			"title": "Endgame",
+			"description": "Aplicación de consola en C# de un juego de rol"
+		},
+		"en": {
+			"title": "Endgame",
+			"description": "C# Console application role-playing game"
+		}
+	},
+	{
+		"repo_url": "https://github.com/luz-ojeda/cook-web#readme",
+		"url": "https://recetassimples.app",
+		"year": 2024,
+		"es": {
+			"title": "Recetas simples app",
+			"description": "Aplicación web full stack para la gestión de recetas de cocina deployada en Fly.io. Svelte, .NET y PostgreSQL"
+		},
+		"en": {
+			"title": "Simple recipes web",
+			"description": "Full stack web app developed in Svelte, .NET and PostgreSQL for managing of cooking recipes deployed in Fly.io"
+		}
+	},
+	{
+		"repo_url": "https://github.com/luz-ojeda/cook-api#readme",
+		"year": 2024,
+		"es": {
+			"title": "Recetas simples API",
+			"description": "API web hecha con .NET C# utilizando una base de datos PostgreSQL"
+		},
+		"en": {
+			"title": "Simple recipes API",
+			"description": ".NET C# controller based web API using a PostgreSQL DB"
+		}
+	},
+	{
+		"repo_url": "https://github.com/luz-ojeda/luz-ojeda.github.io",
+		"year": 2023,
+		"es": {
+			"title": "Página Personal",
+			"description": "El sitio web que estás viendo actualmente. La primera versión utilizaba Jekyll pero luego fue migrada a Astro"
+		},
+		"en": {
+			"title": "Personal website",
+			"description": "The website you are currently seeing. The first version used Jekyll but I've migrated to Astro"
+		}
+	},
+	{
+		"repo_url": "https://github.com/luz-ojeda/freecodecamp-front-end-libraries",
+		"url": "https://codepen.io/collection/XmkpWM",
+		"year": 2019,
+		"finished": 2019,
+		"en": {
+			"title": "FreeCodeCamp front end libraries projects",
+			"description": "React, Redux, bootstrap and DOM vanilla JavaScriptbased projects from FreeCodeCamp front end libraries section."
+		},
+		"es": {
+			"title": "Proyectos de la sección librerías de front end de FreeCodeCamp",
+			"description": "Hechos React, Redux, bootstrap y manipulación del DOM con JavaScript"
+		}
+	}
 ]

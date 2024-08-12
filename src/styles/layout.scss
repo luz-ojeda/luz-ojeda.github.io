@@ -1,40 +1,40 @@
 @import "./variables.scss";
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 main {
-    flex-grow: 1;
-    margin: 0 auto;
-    padding: var(--space-md) 0;
-    width: $max-content-width;
+	flex-grow: 1;
+	margin: 0 auto;
+	padding: var(--space-md) 0;
+	width: $max-content-width;
 }
 
 .pictures-gallery {
-    columns: 4;
-    padding: var(--space-lg);
+	columns: 4;
+	padding: var(--space-lg);
 
-    @media (max-width: $laptop) {
-        columns: 3;
-    }
-    @media (max-width: $tablet) {
-        columns: 2;
-    }
-    @media (max-width: $mobile) {
-        columns: 1;
-    }
+	@media (max-width: $laptop) {
+		columns: 3;
+	}
+	@media (max-width: $tablet) {
+		columns: 2;
+	}
+	@media (max-width: $mobile) {
+		columns: 1;
+	}
 }
 
 @media (max-width: $tablet) {
-    main {
-        padding: var(--space-md);
-        width: 100%;
-    }
+	main {
+		padding: var(--space-md);
+		width: 100%;
+	}
 
-    .pictures-gallery {
-        padding: 0;
-    }
+	.pictures-gallery {
+		padding: 0;
+	}
 }

@@ -1,10 +1,10 @@
 {
-    "image": "./files/lilith_1.jpg",
-    "pubDate": "2022-11-04",
-    "en": {
-        "title": "Baby Lilith"
-    },
-    "es": {
-        "title": "Lilith bebé (2 meses)"
-    }
+	"image": "./files/lilith_1.jpg",
+	"pubDate": "2022-11-04",
+	"en": {
+		"title": "Baby Lilith"
+	},
+	"es": {
+		"title": "Lilith bebé (2 meses)"
+	}
 }

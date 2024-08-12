@@ -148,10 +148,11 @@ const currentMonth = now.getMonth();
 const bdayMonth = birthDate.getMonth();
 
 const birthdayNotHappenedYet =
-    (currentMonth === bdayMonth && now.getDate() < birthDate.getDate()) || bdayMonth > currentMonth;
+	(currentMonth === bdayMonth && now.getDate() < birthDate.getDate()) ||
+	bdayMonth > currentMonth;
 
 if (birthdayNotHappenedYet) {
-    age--;
+	age--;
 }
 
 console.log(age); // edad +-1 dependiendo de si el cumpleaños ha pasado o no

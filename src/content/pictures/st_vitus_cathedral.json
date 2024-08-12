@@ -1,10 +1,10 @@
 {
-    "image": "./files/st_vitus_cathedral.jpg",
-    "pubDate": "2024-05-17",
-    "en": {
-        "title": "St. Vitus Cathedral in Prague"
-    },
-    "es": {
-        "title": "Catedral de Saint Vitus en Praga"
-    }
+	"image": "./files/st_vitus_cathedral.jpg",
+	"pubDate": "2024-05-17",
+	"en": {
+		"title": "St. Vitus Cathedral in Prague"
+	},
+	"es": {
+		"title": "Catedral de Saint Vitus en Praga"
+	}
 }

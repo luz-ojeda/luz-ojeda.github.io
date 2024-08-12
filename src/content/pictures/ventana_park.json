@@ -1,10 +1,10 @@
 {
-    "image": "./files/ventana_park.jpg",
-    "pubDate": "2022-02-28",
-    "en": {
-        "title": "Ernesto Tornquist Provincial Park entrance near Sierra de la Ventana, Argentina. In the background the Cerro Ventana."
-    },
-    "es": {
-        "title": "Entrada del Parque Provincial Ernesto Tornquist cerca de Sierra de la Ventana, Argentina. Al fondo el cerro Ventana."
-    }
+	"image": "./files/ventana_park.jpg",
+	"pubDate": "2022-02-28",
+	"en": {
+		"title": "Ernesto Tornquist Provincial Park entrance near Sierra de la Ventana, Argentina. In the background the Cerro Ventana."
+	},
+	"es": {
+		"title": "Entrada del Parque Provincial Ernesto Tornquist cerca de Sierra de la Ventana, Argentina. Al fondo el cerro Ventana."
+	}
 }
