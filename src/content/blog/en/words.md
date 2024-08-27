@@ -26,3 +26,4 @@ useHeadings: false
 - pírrico
 - hipérbole
 - ucronía
+- anemoia

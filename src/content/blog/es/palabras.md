@@ -27,3 +27,4 @@ useHeadings: false
 - acequia
 - hipérbole
 - ucronía
+- anemoia
