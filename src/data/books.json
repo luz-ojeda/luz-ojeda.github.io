@@ -2,10 +2,29 @@
 	{
 		"2024": [
 			{
+
+				"title": "El ALeph",
+				"link": "https://www.goodreads.com/book/show/21795321-el-aleph",
+				"genres": ["fiction", "short stories", "fantasy"],
+				"status": "2024-09-05T00:00:00.000Z",
+				"author": "Jorge Luis Borges",
+				"loved": true,
+				"highlight": "... vi el Aleph, desde todos los puntos, vi en el Aleph la tierra, y en la tierra otra vez el Aleph y en el Aleph la tierra, vi mi cara y mis vísceras, vi tu cara, y sentí vértigo y lloré,..."
+			},
+			{
+
+				"title": "Cien Años de Soledad",
+				"link": "https://www.goodreads.com/book/show/370523.Cien_a_os_de_soledad",
+				"genres": ["fiction", "magical realism", "fantasy"],
+				"status": "2024-07-28T00:00:00.000Z",
+				"author": "Gabriel García Márquez",
+				"loved": true
+			},
+			{
 				"title": "Endymion (Hyperion Cantos #3)",
 				"link": "https://www.goodreads.com/book/show/3977.Endymion",
 				"genres": ["science fiction", "fiction", "fantasy"],
-				"status": "currently reading",
+				"status": "2024-08-16T00:00:00.000Z",
 				"author": "Dan Simmons"
 			},
 			{
