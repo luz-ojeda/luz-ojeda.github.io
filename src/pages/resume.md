@@ -23,7 +23,9 @@ retailers and brands. Data was then processed into Excel files for later analysi
 
 ## Education
 ---
-- Software Engineering - Argentine University of Enterprise (UADE) (Aug 2023 - Today)
+- [Computer Science - Open Source Society University](https://github.com/ossu/computer-science) (Apr 2024 - Today)
+  - currently studying: [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) from University of Washington
+- Software Engineering - Argentine University of Enterprise (UADE) (Aug 2023 - May 2024)
 - Bachelor of Biological Sciences - University of Buenos Aires (UBA) (Apr 2012 - May 2019)
 
 ## Courses and certifications

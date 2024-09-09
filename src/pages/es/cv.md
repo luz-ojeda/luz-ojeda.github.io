@@ -22,6 +22,8 @@ title: 'cv'
 
 ## Educación
 ---
+- [Ciencias de la Computación - Open Source Society University](https://github.com/ossu/computer-science) (abril de 2024 - hoy)
+  - actualmente estudiando: [Lenguajes de programación, parte A](https://www.coursera.org/learn/programming-languages) de la Universidad de Washington
 - Ingeniería en Informática - Universidad Argentina de la Empresa (Agosto 2023 - En curso)
 - Licenciatura en Ciencias Biológicas - Universidad de Buenos Aires (UBA) (Abril 2012 - mayo 2019)
 
