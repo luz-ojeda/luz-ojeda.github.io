@@ -1,0 +1,17 @@
+.triangle {
+	--b: 6px;
+	/* control the border thickness */
+
+	aspect-ratio: 1 / cos(30deg);
+	clip-path: polygon(
+		50% 0,
+		100% 100%,
+		0 100%,
+		50% 0,
+		50% var(--b),
+		calc(var(--b) * cos(30deg)) calc(100% - var(--b) / 2),
+		calc(100% - var(--b) * cos(30deg)) calc(100% - var(--b) / 2),
+		50% var(--b)
+	);
+	background: var(--primary-light);
+}

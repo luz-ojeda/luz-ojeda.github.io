@@ -9,6 +9,7 @@
 @import url("./spacing.css");
 @import url("./colors.scss");
 @import url("./layout.scss");
+@import url("./sierpinski.scss");
 
 * {
 	box-sizing: border-box;

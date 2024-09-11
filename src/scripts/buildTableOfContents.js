@@ -8,7 +8,7 @@ export default function buildToc(headings) {
 		if (heading.depth === 2) {
 			toc.push(heading);
 		} else {
-			parentHeadings.get(heading.depth - 1).subheadings.push(heading);
+			parentHeadings.get(heading.depth - 1)?.subheadings.push(heading);
 		}
 	});
 	return toc;
