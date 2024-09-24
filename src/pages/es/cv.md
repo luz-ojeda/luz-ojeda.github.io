@@ -3,7 +3,7 @@ layout: '../../layouts/Base.astro'
 title: 'cv'
 ---
 
-## Experiencia profesional
+## Experiencia profesional (+5 años)
 ---
 
 - ### Ago 2024 - actualidad: [Compass](https://www.compass.com/)
