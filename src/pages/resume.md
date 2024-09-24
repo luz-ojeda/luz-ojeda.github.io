@@ -3,7 +3,7 @@ layout: '../layouts/Base.astro'
 title: 'resume'
 ---
 
-## Work experience (+4 years)
+## Work experience (+5 years)
 ---
 
 - ### Aug 2024 - Today: [Compass](https://www.compass.com/)
