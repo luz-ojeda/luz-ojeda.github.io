@@ -2,35 +2,83 @@
 import BaseHead from "../components/BaseHead.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import { getLangFromUrl } from "../i18n/utils";
+
+import { checkMonth } from "../utils/checkMonth";
+import halloween from "../images/halloween.jpg";
+import { getImage } from "astro:assets";
+
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 
 interface Props extends Record<string, any> {
-    title?: string;
-    fullWidthMain?: boolean;
+	title?: string;
+	fullWidthMain?: boolean;
 }
 
 const lang = getLangFromUrl(Astro.url);
 const { frontmatter, title, fullWidthMain = false } = Astro.props;
 const headTitle =
-    title || frontmatter?.title ? `${SITE_TITLE} - ${title || frontmatter?.title}` : SITE_TITLE;
+	title || frontmatter?.title ? `${SITE_TITLE} - ${title || frontmatter?.title}` : SITE_TITLE;
+
+const halloweenBackground = await getImage({ src: halloween, format: "webp" });
 ---
 
 <html lang={lang}>
-    <head>
-        <BaseHead title={headTitle} description={SITE_DESCRIPTION} />
-    </head>
-    <body>
-        <Header />
-        <main class:list={[{ fullWidth: fullWidthMain }]}>
-            <slot />
-        </main>
-        <Footer />
-    </body>
+	<head>
+		<script>
+			function setDraculaThemeInOctober() {
+				const month = new Date().getMonth();
+				if (month === 9) {
+					const element = document.documentElement;
+					element.classList.add("dracula");
+					return true;
+				}
+				return false;
+			}
+			(function () {
+				if (setDraculaThemeInOctober()) return;
+				const theme = (() => {
+					if (
+						typeof localStorage !== "undefined" &&
+						localStorage.getItem("theme")
+					) {
+						return localStorage.getItem("theme");
+					}
+					if (
+						window.matchMedia("(prefers-color-scheme: dark)")
+							.matches
+					) {
+						return "dark";
+					}
+					return "light";
+				})();
+
+				if (!theme) return;
+
+				if (theme === "light") {
+					document.documentElement.classList.remove("dark");
+				} else {
+					document.documentElement.classList.add("dark");
+				}
+
+				window.localStorage.setItem("theme", theme);
+			})();
+		</script>
+
+		<BaseHead title={headTitle} description={SITE_DESCRIPTION} />
+	</head>
+
+	<body style={checkMonth(9) ? `background-image: url(${halloweenBackground.src}); background-repeat: no-repeat` : ""}>
+		<Header />
+		<main class:list={[{ fullWidth: fullWidthMain }]}>
+			<slot />
+		</main>
+		<Footer />
+	</body>
 </html>
 
 <style>
-    .fullWidth {
-        width: 100%;
-    }
+	.fullWidth {
+		width: 100%;
+	}
 </style>

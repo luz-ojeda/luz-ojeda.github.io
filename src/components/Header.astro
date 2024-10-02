@@ -4,63 +4,66 @@ import HamburgerButton from "./HamburgerButton.astro";
 import LanguagePicker from "./LanguagePicker.astro";
 import Nav from "./Nav.astro";
 import ThemeIcon from "./ThemeIcon.astro";
+import { checkMonth } from "../utils/checkMonth";
+
 ---
+
 <header>
-    <div class="first-row">
-        <div>
-            <LanguagePicker />
-        </div>
-        <h2>{SITE_TITLE}</h2>
-        <div>
-            <ThemeIcon />
-            <HamburgerButton />
-        </div>
-    </div>
-    <Nav />
+	<div class="first-row">
+		<div>
+			<LanguagePicker />
+		</div>
+		<h2>{SITE_TITLE}</h2>
+		<div>
+			{!checkMonth(9) && <ThemeIcon />}
+			<HamburgerButton />
+		</div>
+	</div>
+	<Nav />
 </header>
 
 <style lang="scss">
-    @import "../styles/variables.scss";
+	@import "../styles/variables.scss";
 
-    header {
-        padding: var(--space-md);
-    }
+	header {
+		padding: var(--space-md);
+	}
 
-    .first-row {
-        display: flex;
-        justify-content: space-between;
-    }
+	.first-row {
+		display: flex;
+		justify-content: space-between;
+	}
 
-    .first-row > * {
-        align-items: center;
-        flex: 1;
-        display: flex;
-    }
+	.first-row > * {
+		align-items: center;
+		flex: 1;
+		display: flex;
+	}
 
-    .first-row h2 {
-        margin: 0;
-        justify-content: center;
-    }
+	.first-row h2 {
+		margin: 0;
+		justify-content: center;
+	}
 
-    .first-row div:nth-of-type(2) {
-        justify-content: end;
-    }
+	.first-row div:nth-of-type(2) {
+		justify-content: end;
+	}
 
-    @media (max-width: $mobile) {
-        header {
-            background-color: var(--body);
-            padding: var(--space-md) 0;
-        }
+	@media (max-width: $mobile) {
+		header {
+			background-color: var(--body);
+			padding: var(--space-md) 0;
+		}
 
-        .first-row {
-            padding: 0 var(--space-md);
-        }
+		.first-row {
+			padding: 0 var(--space-md);
+		}
 
-        .first-row h2 {
-            justify-content: start;
-        }
-        .first-row div:first-child {
-            display: none;
-        }
-    }
+		.first-row h2 {
+			justify-content: start;
+		}
+		.first-row div:first-child {
+			display: none;
+		}
+	}
 </style>

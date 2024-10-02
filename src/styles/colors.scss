@@ -58,7 +58,7 @@
 	--table-text-color: var(--text);
 }
 
-/** Dark mode **/
+/** Modes **/
 @supports (--css: variables) {
 	.dark {
 		--body: var(--dark-bg-color);
@@ -87,5 +87,31 @@
 		--table-border: var(--grey700);
 		--table-header-color: var(--grey300);
 		--table-text-color: var(--grey300);
+	}
+
+	.dracula {
+		--body: #2d2d2d;
+		--text: #f8f8f2;
+		--text-heading: #f8f8f2;
+		--link: #bd93f9;
+		--link-hover: #ff79c6;
+		--blockquote-border: #bd93f9;
+
+		--border: #6272a4;
+		--btn-tertiary: #bd93f9;
+
+		--pre-bg: #1e1f29;
+		--pre-color: #f8f8f2;
+		--pre-border: #6272a4;
+
+		--error: #ff5555;
+
+		--table-bg: #1e1f29;
+		--table-header-bg: #44475a;
+		--table-row-even-bg: #44475a;
+		--table-row-odd-bg: #1e1f29;
+		--table-border: #6272a4;
+		--table-header-color: #f8f8f2;
+		--table-text-color: #f8f8f2;
 	}
 }

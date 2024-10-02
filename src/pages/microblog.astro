@@ -2,7 +2,7 @@
 import Microposts from "../components/Microposts.astro";
 import Base from "../layouts/Base.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
-import sortByDate from "../utils/sortByDate";
+import sortByDate from "../utils/dates";
 
 const posts: CollectionEntry<"microblog">[] = await getCollection("microblog", ({ id }) => {
     return id.startsWith("en/");

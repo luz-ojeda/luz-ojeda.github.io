@@ -4,7 +4,7 @@ interface Props {
     posts: CollectionEntry<"blog">[];
 }
 
-import sortByDate from "../utils/sortByDate";
+import sortByDate from "../utils/dates";
 import Tags from "./Tags.astro";
 import FormattedDate from "./FormattedDate.astro";
 const { posts } = Astro.props;

@@ -10,6 +10,7 @@
 @import url("./colors.scss");
 @import url("./layout.scss");
 @import url("./sierpinski.scss");
+@import url("./decorations.scss");
 
 * {
 	box-sizing: border-box;

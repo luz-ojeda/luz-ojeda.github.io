@@ -13,5 +13,5 @@
 		calc(100% - var(--b) * cos(30deg)) calc(100% - var(--b) / 2),
 		50% var(--b)
 	);
-	background: var(--primary-light);
+	background: var(--link);
 }
