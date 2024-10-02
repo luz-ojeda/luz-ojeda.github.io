@@ -3,7 +3,7 @@
 	top: 10px;
 	left: 0px;
 
-	animation: slide 20s ease-in infinite;
+	animation: slide 20s linear infinite;
 	z-index: -1;
 
 	@media (max-width: 960px) {
