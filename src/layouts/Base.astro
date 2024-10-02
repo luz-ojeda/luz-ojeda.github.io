@@ -68,7 +68,7 @@ const halloweenBackground = await getImage({ src: halloween, format: "webp" });
 		<BaseHead title={headTitle} description={SITE_DESCRIPTION} />
 	</head>
 
-	<body style={checkMonth(9) ? `background-image: url(${halloweenBackground.src}); background-repeat: no-repeat` : ""}>
+	<body class={checkMonth(9) ? "halloween-background" : ""}>
 		<Header />
 		<main class:list={[{ fullWidth: fullWidthMain }]}>
 			<slot />
