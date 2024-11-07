@@ -18,8 +18,6 @@ retailers and brands. Data was then processed into Excel files for later analysi
   - API for a social network app using an infrastructure with **Microsoft Azure** and **C#** in the backend in a repository-service pattern. It also included a front-end backoffice made with React for the app employees.
   - npm package including a React component for Discovery backed up by a serverless architecture (AWS Lambda, API Gateway and CloudFront)
 - ### Oct 2019 - Apr 2020: **[BigBox](https://www.bigbox.com.ar/)**
-  - Redesigned the user panel consisting of **VueJS** components
-  - Redesigned the checkout flow with a one-month deadline. Creation and design of new components, routing configuration and creation/modification of GraphQL queries and mutations
 
 ## Education
 ---
@@ -35,15 +33,9 @@ retailers and brands. Data was then processed into Excel files for later analysi
 
 - [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Jan 2023 - Apr 2023)
 
-- [Coderhouse UX/UI Design](https://www.coderhouse.com/online/ux-ui-online) (Jun 2020 - Sep 2021)
-
 - [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) from Colt Steele (Apr 2020)
 
 - [FreeCodeCamp Inc.](https://www.freecodecamp.org/learn) (Jun 2019 - Sep 2019)
-  - Responsive Web Design
-  - JavaScript Algorithms and Data Structures
-  - Front End Development Libraries
-  - [Repository with projects](https://github.com/lezojeda/freecodecamp-front-end-libraries)
 
 ## Skills
 ---
