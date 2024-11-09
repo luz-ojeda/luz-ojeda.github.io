@@ -1,6 +1,4 @@
 :root {
-	--dark-bg-color: #303030;
-
 	/* grey shades */
 	--black: #1a1411;
 	--grey900: #2f2622;
@@ -32,7 +30,7 @@
 	--blockquote-border: var(--primary);
 
 	/* body */
-	--body: var(--grey300);
+	--body: var(--grey200);
 
 	/* buttons */
 	--btn-tertiary: var(--primary);
@@ -61,6 +59,7 @@
 /** Modes **/
 @supports (--css: variables) {
 	.dark {
+		--dark-bg-color: #232323;
 		--body: var(--dark-bg-color);
 
 		--text: var(--grey300);
