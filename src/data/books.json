@@ -3,7 +3,31 @@
 		"2024": [
 			{
 
-				"title": "El ALeph",
+				"title": "Neuromancer",
+				"link": "https://www.goodreads.com/book/show/9623430-neuromante",
+				"genres": ["science fiction", "fiction", "cyberpunk"],
+				"status": "2024-11-08T00:00:00.000Z",
+				"author": "William Gibson"
+			},
+			{
+
+				"title": "The Myth of Sisyphus",
+				"link": "https://www.goodreads.com/book/show/91950.The_Myth_of_Sisyphus",
+				"genres": ["philosophy", "nonfiction", "essays"],
+				"status": "2024-10-16T00:00:00.000Z",
+				"author": "Albert Camus"
+			},
+			{
+
+				"title": "La invención de Morel",
+				"link": "https://www.goodreads.com/book/show/63138.La_invenci_n_de_Morel",
+				"genres": ["fiction", "classics", "science fiction"],
+				"status": "2024-09-16T00:00:00.000Z",
+				"author": "Adolfo Booy Casares"
+			},
+			{
+
+				"title": "El Aleph",
 				"link": "https://www.goodreads.com/book/show/21795321-el-aleph",
 				"genres": ["fiction", "short stories", "fantasy"],
 				"status": "2024-09-05T00:00:00.000Z",
