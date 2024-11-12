@@ -3,7 +3,7 @@ layout: '../../layouts/Base.astro'
 title: 'cv'
 ---
 
-## Experiencia profesional (+5 años)
+## experiencia profesional (+5 años)
 ---
 
 - ### Ago 2024 - actualidad: [Compass](https://www.compass.com/)
@@ -18,10 +18,10 @@ title: 'cv'
   - Paquete npm que incluye un componente React para Discovery respaldado por una arquitectura sin servidor (AWS Lambda, API Gateway y CloudFront)
 - ### Oct 2019 - abr 2020: **[BigBox](https://www.bigbox.com.ar/)**
 
-## Educación
+## educación
 ---
 - [Ciencias de la Computación - Open Source Society University](https://github.com/ossu/computer-science) (abril de 2024 - hoy)
-  - actualmente estudiando: [Lenguajes de programación, parte A](https://www.coursera.org/learn/programming-languages) de la Universidad de Washington
+  - actualmente estudiando: [Lenguajes de programación, parte A](https://www.coursera.org/learn/programming-languages)
 - Ingeniería en Informática - Universidad Argentina de la Empresa (Agosto 2023 - Abril 2024)
 - Licenciatura en Ciencias Biológicas - Universidad de Buenos Aires (UBA) (Abril 2012 - mayo 2019)
 
@@ -29,29 +29,30 @@ title: 'cv'
 ---
 
 - [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Abril 2023)
-
 - [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) de Colt Steele (Abril 2020)
-
 - [FreeCodeCamp Inc.](https://www.freecodecamp.org/learn) (Septiembre 2019)
 
-## Tecnologías
+## tecnologías
 ---
-### Lenguajes
+
+### lenguajes
   * JavaScript y TypeScript
   * C#
   * Python
   * SQL
   * HTML y CSS
 
-### Frameworks, librerías y otras herramientas
-  - Usadas en ámbito profesional:
+<details>
+  <summary>frameworks, librerías y otras herramientas</summary>
+  - **Usadas en ámbito profesional:**
     * React y Vue
     * Redux
     * NestJS
     * Material UI
     * Git
     * Jest (y React Testing Library)
-  - Usadas en proyectos personales y cursos:
+  - **Usadas en proyectos personales y cursos:**
     * Express
     * PostgreSQL
     * Docker
+</details>

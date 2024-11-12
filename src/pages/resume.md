@@ -3,58 +3,61 @@ layout: '../layouts/Base.astro'
 title: 'resume'
 ---
 
-## Work experience (+5 years)
----
+## work experience (+5 years)
 
-- ### Aug 2024 - Today: [Compass](https://www.compass.com/)
-- ### Jan 2023 - Jul 2024: **[Southworks](https://www.southworks.com/)**
-  - Implemented **Python** scripts for scraping makeup webpages, using **Selenium** and **BeautifulSoup** extracting from various
-retailers and brands. Data was then processed into Excel files for later analysis.
-  - Worked in the migration of the **Azure Virtual Desktop** service to React from Knockout JS along with testing (integration and e2e) of new features from the service
-- ### Sep 2021 - Dec 2022: **[IbisDev](https://ibisdev.tech/)**
-  - Developed with 2 teammates a real-time web-app for medical students in **NextJS** and **NestJS**. It consisted of 3 environments (a mobile front-end, a web backoffice front-end and a backend API) connected using HTTPS and **WebSocket** (with the [socket.io](https://socket.io/) library) for the real-time features.
-  - Designed and implemented several pages as the main front-end developer in a CI/CD web-app from a client in France using **React** (Typescript)
-- ### May 2020 - Aug 2021: **Southworks**
-  - API for a social network app using an infrastructure with **Microsoft Azure** and **C#** in the backend in a repository-service pattern. It also included a front-end backoffice made with React for the app employees.
-  - npm package including a React component for Discovery backed up by a serverless architecture (AWS Lambda, API Gateway and CloudFront)
-- ### Oct 2019 - Apr 2020: **[BigBox](https://www.bigbox.com.ar/)**
+- **Compass** (Aug 2024 - Today)
 
-## Education
----
-- [Computer Science - Open Source Society University](https://github.com/ossu/computer-science) (Apr 2024 - Today)
-  - currently studying: [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) from University of Washington
-- Software Engineering - Argentine University of Enterprise (UADE) (Aug 2023 - May 2024)
-- Bachelor of Biological Sciences - University of Buenos Aires (UBA) (Apr 2012 - May 2019)
+- **Southworks** (Jan 2023 - Jul 2024)
+  - Created **Python** scripts using **Selenium** and **BeautifulSoup** to scrape makeup data from various retailers, processed into Excel files.
+  - Migrated the **Azure Virtual Desktop** service to React from Knockout JS, implementing and testing new features.
 
-## Courses and certifications
----
+- **IbisDev** (Sep 2021 - Dec 2022)
+  - Developed a real-time web app for medical students with **NextJS**, **NestJS**, and **WebSocket**, featuring mobile and web environments.
+  - Designed pages as the front-end lead for a CI/CD web app using **React (TypeScript)**.
 
-- [Azure Fundamentals](https://learn.microsoft.com/en-us/users/luzojeda/credentials/bae83090a228a6ab) (July 2023)
+- **Southworks** (May 2020 - Aug 2021)
+  - Built an API for a social network using **Azure** and **C#**, with a React-based admin interface.
+  - Developed a React component for Discovery, supported by AWS serverless architecture.
 
-- [Codecademy Back-End Engineer path](https://www.codecademy.com/learn/paths/back-end-engineer-career-path) (Jan 2023 - Apr 2023)
+- **BigBox** (Oct 2019 - Apr 2020)
 
-- [JavaScript Algorithms and Data Structures Masterclass](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/) from Colt Steele (Apr 2020)
+## education
 
-- [FreeCodeCamp Inc.](https://www.freecodecamp.org/learn) (Jun 2019 - Sep 2019)
+- **Computer Science** (Open Source Society University - OSSU) (Apr 2024 - Today)
+  - Currently studying: [Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)
 
-## Skills
----
-### Languages
-  * JavaScript and TypeScript
-  * C#
-  * Python
-  * SQL
-  * HTML and CSS
+- **Software Engineering** (Argentine University of Enterprise - UADE) (Aug 2023 - May 2024)
 
-### Frameworks, libraries and other tools
-  - Used professionally:
-    * React and Vue
-    * Redux
-    * NestJS
-    * Material UI
-    * Git
-    * Jest (and React Testing Library)
-  - Used in personal projects/courses:
-    * Express
-    * PostgreSQL
-    * Docker
+- **Bachelor of Biological Sciences** (University of Buenos Aires - UBA) (Apr 2012 - May 2019)
+
+## courses and certifications
+
+- **Azure Fundamentals** (Jul 2023)
+- **Back-End Engineer Path** (Codecademy) (Jan 2023 - Apr 2023)
+- **JavaScript Algorithms and Data Structures Masterclass** (Udemy) (Apr 2020)
+- **FreeCodeCamp** (Jun 2019 - Sep 2019)
+
+## skills
+
+### languages
+- JavaScript and TypeScript
+- C#
+- Python
+- SQL
+- HTML and CSS
+
+<details>
+  <summary>frameworks, libraries, and other tools</summary>
+
+  - **Used professionally:**
+    - React and Vue
+    - Redux
+    - NestJS
+    - Material UI
+    - Git
+    - Jest (and React Testing Library)
+  - **Used in personal projects/courses:**
+    - Express
+    - PostgreSQL
+    - Docker
+</details>
