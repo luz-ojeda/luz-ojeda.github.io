@@ -6,7 +6,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://www.lojeda.com",
+	site: "https://www.lojeda.co",
 	integrations: [mdx(), sitemap(), react()],
 	i18n: {
 		defaultLocale: "en",
