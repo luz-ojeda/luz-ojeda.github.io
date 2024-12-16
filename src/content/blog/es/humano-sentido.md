@@ -6,7 +6,7 @@ tags: ["libros"]
 
 ## Resumen
 
-"El hombre en busca de sentido" de Victor Frankl es uno de los libros que más me gustó en estos últimos 5 años, me erizó la piel, me hizo lagrimear en algunos momentos y emocionarme como pocos, lo cual me dio ganas de armar una reseña y compartirla. El autor, psiquiatra y sobreviviente del holocausto, afirma que la fuerza motivacional primaria en la vida, la cual nos permite afrontar cualquier sufrimiento o desgracia y nos impulsa a seguir, es la búsqueda de sentido en la misma ya sea en el amor como por ejemplo cuidando a otros, el coraje durante el sufrimiento o en el trabajo en términos de hacer algo significativo por uno y por los demás.
+"El hombre en busca de sentido" de Victor Frankl es uno de los libros que más me gustó en estos últimos 5 años, me erizó la piel, me hizo lagrimear en algunos momentos y emocionarme como pocos, lo cual me dio ganas de armar una reseña y compartirla. El autor, psiquiatra y sobreviviente del holocausto, afirma que la fuerza motivacional primaria en la vida, la cual nos permite afrontar cualquier sufrimiento o desgracia y nos impulsa a seguir, es la búsqueda de sentido en la misma. Ya sea en el amor, como por ejemplo cuidando a otros; el coraje, durante el sufrimiento; o en el trabajo, en términos de hacer algo significativo por uno y por los demás.
 
 El libro se podría resumir usando esta cita de Nietszche la cual el autor usa más de una vez:
 
