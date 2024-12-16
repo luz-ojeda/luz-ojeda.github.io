@@ -3,6 +3,30 @@
 		"2024": [
 			{
 
+				"title": "The Red Book: Liber Novus",
+				"link": "https://www.goodreads.com/book/show/6454477-the-red-book",
+				"genres": ["psychology", "philosophy", "nonfiction"],
+				"status": "currently reading",
+				"author": "Carl Jung"
+			},
+			{
+
+				"title": "The Programmer's Brain",
+				"link": "https://www.goodreads.com/book/show/57196550-the-programmer-s-brain",
+				"genres": ["programming", "technology", "software"],
+				"status": "currently reading",
+				"author": "Felienne Hermans"
+			},
+			{
+
+				"title": "Diario de una temporada en el quinto piso",
+				"link": "https://www.goodreads.com/book/show/58957268-diario-de-una-temporada-en-el-quinto-piso",
+				"genres": ["politics", "history", "nonfiction"],
+				"status": "currently reading",
+				"author": "Juan Carlos Torre"
+			},
+			{
+
 				"title": "Neuromancer",
 				"link": "https://www.goodreads.com/book/show/9623430-neuromante",
 				"genres": ["science fiction", "fiction", "cyberpunk"],

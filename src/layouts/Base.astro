@@ -19,8 +19,6 @@ const lang = getLangFromUrl(Astro.url);
 const { frontmatter, title, fullWidthMain = false } = Astro.props;
 const headTitle =
 	title || frontmatter?.title ? `${SITE_TITLE} - ${title || frontmatter?.title}` : SITE_TITLE;
-
-const halloweenBackground = await getImage({ src: halloween, format: "webp" });
 ---
 
 <html lang={lang}>
