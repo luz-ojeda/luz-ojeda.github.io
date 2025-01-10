@@ -2,7 +2,7 @@
 	{
 		"2024": [
 			{
-
+				
 				"title": "The Red Book: Liber Novus",
 				"link": "https://www.goodreads.com/book/show/6454477-the-red-book",
 				"genres": ["psychology", "philosophy", "nonfiction"],
@@ -10,19 +10,43 @@
 				"author": "Carl Jung"
 			},
 			{
-
-				"title": "The Programmer's Brain",
-				"link": "https://www.goodreads.com/book/show/57196550-the-programmer-s-brain",
-				"genres": ["programming", "technology", "software"],
+				
+				"title": "Memories, Dreams, Reflections",
+				"link": "https://www.goodreads.com/book/show/612188.Memories_Dreams_Reflections",
+				"genres": ["psychology", "philosophy", "nonfiction"],
 				"status": "currently reading",
-				"author": "Felienne Hermans"
+				"author": "Carl Jung"
+			},
+			{
+
+				"title": "Notes From the Underground",
+				"link": "https://www.goodreads.com/book/show/49455.Notes_from_Underground",
+				"genres": ["fiction", "philosophy", "novels"],
+				"status": "2024-12-27T00:00:00.000Z",
+				"author": "Fyodor Dostoevsky"
+			},
+			{
+
+				"title": "Man and His Symbols",
+				"link": "https://www.goodreads.com/book/show/123632.Man_and_His_Symbols",
+				"genres": ["psychology", "philosophy", "nonfiction"],
+				"status": "2024-12-25T00:00:00.000Z",
+				"author": "Carl Jung"
+			},
+			{
+
+				"title": "Man and His Symbols",
+				"link": "https://www.goodreads.com/book/show/123632.Man_and_His_Symbols",
+				"genres": ["psychology", "philosophy", "nonfiction"],
+				"status": "2024-12-25T00:00:00.000Z",
+				"author": "Carl Jung"
 			},
 			{
 
 				"title": "Diario de una temporada en el quinto piso",
 				"link": "https://www.goodreads.com/book/show/58957268-diario-de-una-temporada-en-el-quinto-piso",
 				"genres": ["politics", "history", "nonfiction"],
-				"status": "currently reading",
+				"status": "2024-12-24T00:00:00.000Z",
 				"author": "Juan Carlos Torre"
 			},
 			{
