@@ -7,7 +7,7 @@ title: 'now'
 
 (this is a now page, [you could make one](https://nownownow.com/about) on your own website too.)
 
-updated on August 11 2024, from my apartment in **Buenos Aires, Argentina**.
+updated on January 10 2025, from my apartment in **Buenos Aires, Argentina**.
 
 ## working in
 pretty excited to start working in [Compass](https://www.compass.com/) on August the 12th as a front end engineer 😌
