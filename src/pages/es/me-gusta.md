@@ -16,6 +16,7 @@ title: 'me gusta'
 - manejar en la ruta/autopistas (no en la ciudad)
 - duchas con agua muy caliente
 - oraciones cortas
+- psicología junguiana
 
 ## digital
 - [Anki](https://apps.ankiweb.net/)

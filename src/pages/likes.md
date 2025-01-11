@@ -8,7 +8,6 @@ title: 'likes'
 - owls
 - tea and/or Mate 🧉 in a cold day (even better if it is raining) as windows fog up
 - mushrooms (specially finding one in the wild)
-- flowers, in all their colors, shapes and sizes
 - spending time on my balcony on spring/summer times. And summer nights themselves.
 - taking care of my plants
 - cooking while hearing music with headphones on
@@ -16,9 +15,9 @@ title: 'likes'
 - mountains
 - driving (on country roads, highways, etc. not in the city)
 - some degree of minimalism. Especially on web pages, my desk and my devices screens.
-- candles
 - steaming showers
 - short sentences
+- jungian psychology
 
 ## digital
 - [Anki](https://apps.ankiweb.net/)
