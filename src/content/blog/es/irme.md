@@ -28,6 +28,8 @@ y necesito sacar lo que tengo adentro a algún lado
 
 son muchas cosas, el cambio y titulo de nombre de esta pagina lo evidencian para quienes realmente me conocen
 
+estaba empezando a reconstruir algo cuando cayó una bomba y simplemente barrió con todo
+
 siento que viví y sentí demasiadas cosas para mi edad
 
 demasiadas
