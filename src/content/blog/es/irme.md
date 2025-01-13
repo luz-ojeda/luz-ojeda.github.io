@@ -1,6 +1,6 @@
 ---
 title: Lucas Ezequiel
-pubDate: 2025-13-01
+pubDate: 2025-01-13
 tags: ["personal"]
 ---
 
@@ -40,6 +40,8 @@ después vino la pandemia y tomé otro camino que no era acercándome a gente qu
 
 me da miedo el irme, el extrañar, el alejarme de mi familia, de la mayoría de mis amigos justo ahora que estoy volviendo en mi
 
-pero acá en esta ciudad no puedo estar más,
+pero acá en esta ciudad no puedo estar más
+
+no sé si hay forma de tener un reset o algo cercano a eso pero necesito intentarlo,
 
 lucas ezequiel
