@@ -6,7 +6,7 @@ tags: ["personal"]
 
 un evento trágico de unas semanas atrás me acercó como nunca antes en mi vida a la mortalidad
 
-murió una persona que amaba aunque no llegué a decirselo a pensar que lo sentía 
+murió una persona que amaba aunque no llegué a decirselo a pesar que lo sentía 
 
 las etapas del duelo figuran como algo lineal en cualquier imagen que encontrás en google
 
