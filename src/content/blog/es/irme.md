@@ -14,6 +14,10 @@ pero yo lo siento mas como un ciclo o ni siquiera, vas y volvés aleatoriamente 
 
 por momentos sigo en shock, no pensé estabas tan mal, que estabas tan cerca
 
+no sé qué pensar, qué podría haber hecho
+
+no pude sentarme a escuchar música todavía, lo siento como injusto para vos
+
 pero aprendí que no puedo, debo ni tengo que salvar a nadie
 
 escribo estas palabras un lunes a las 4 am completamente desvelado
