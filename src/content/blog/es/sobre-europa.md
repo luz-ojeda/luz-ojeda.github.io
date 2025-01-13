@@ -32,7 +32,7 @@ Como forma de resumir lo que me pareció más destacable y recomendaciones de al
     - Sacar tickets con antelación [acá](https://historischehuizen.stad.gent/en/castle-counts/visit/book-tickets)
 - [Atomium](https://en.wikipedia.org/wiki/Atomium): a 30' en subte del centro de Bruselas. No tiene demasiado por ver por dentro, pero es un monumento de la década de 1950 imponente que sale del típico recorrido de monumentos clásicos, catedrales y vistas de siglos pasados.
 
-![Castillo de Gravensteen](/assets/images/gravensteen.jpg)
+![Castillo de Gravensteen](../../../images/gravensteen.jpg)
 
 ## Amsterdam
 ### Alojamiento
@@ -47,7 +47,7 @@ Como forma de resumir lo que me pareció más destacable y recomendaciones de al
     - Recomiendo bajar la app y contratar el tour guiado de una hora.
     - Imposible de recorrer en un día. Hacer una lista de exhibiciones must-see antes, como [La Ronda de Noche](https://es.wikipedia.org/wiki/La_ronda_de_noche) de Rembrandt.
 
-![Foto de un canal en la ciudad de Amsterdam](/assets/images/amsterdam1.jpg)
+![Foto de un canal en la ciudad de Amsterdam](../../../images/amsterdam1.jpg)
 
 ## Berlín
 ### Alojamiento
@@ -60,8 +60,8 @@ Como forma de resumir lo que me pareció más destacable y recomendaciones de al
 - Monumentos históricos: tengo un sesgo enorme por mi interés en la historia alemana desde que tengo memoria. No pude evitar emocionarme al ver la puerta de Brandenburgo.
 - Cementerio del sudoeste Stahnsdorf: lugar donde filmaron escenas de la serie de Netflix Dark, es un parque enorme tranquilo donde te podés perder por horas. A una hora de Berlín. Si te gustan los cementerios como a mi recomendadísimo.
 
-![Reloj de Alexanderplatz y torre de televisión en el fondo](/assets/images/berlin1.jpg)
-![Cementerio de Stahnsdorf](/assets/images/berlin2.jpg)
+![Reloj de Alexanderplatz y torre de televisión en el fondo](../../../images/berlin1.jpg)
+![Cementerio de Stahnsdorf](../../../images/berlin2.jpg)
 
 ## Praga
 ### Alojamiento
@@ -73,4 +73,4 @@ Como forma de resumir lo que me pareció más destacable y recomendaciones de al
 - [Cold War Museum](http://en.muzeum-studene-valky.cz/): si te interesa la historia del siglo 20 es un _must_. Un búnker debajo de un hotel con armas, herramientas, vestimenta y demás remanentes de la época comunista de Checoslovaquia. Sacar tickets con antelación porque son grupos chicos.
 - Hostel: conocí personas excelentes y me hizo notar, junto a mis experiencias en los hosteles de Berlín y Amsterdam, cuan importante puede ser el área común en cuanto a los vínculos que se generan o no entre personas. En otro post me gustaría explayarme más sobre esto. Pero definitivamente el alojamiento le sumó muchísimo a los días que estuve en Praga.
 
-![Plaza de la ciudad vieja de Praga](/assets/images/praga.jpg)
+![Plaza de la ciudad vieja de Praga](../../../images/prague.jpg)
