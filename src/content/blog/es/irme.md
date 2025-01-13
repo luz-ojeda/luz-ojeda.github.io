@@ -28,17 +28,25 @@ siento que viví y sentí demasiadas cosas para mi edad
 
 demasiadas
 
-todo esto me hizo revolver recuerdos, ver pruebas de cuanta gente me quiso y quiere, pruebas físicas de que nunca me quise tanto como otros lo hicieron, me encantaria ver lo que tantos otros/as vieron y ven en mi
+todo esto me hizo revolver recuerdos, ver pruebas de cuanta gente me quiso y quiere, pruebas físicas de que nunca me quise tanto como otros lo hicieron
+
+me encantaría ver lo que tantos otros/as vieron y ven en mi
 
 desde adolescente sabía que necesito irme de donde vivo, releyendo cuadernos de hace más de 10 años donde no paraba de decir cuánto me afectaba el ruido, la muchedumbre, la falta de naturaleza, etcétera
 
-intente adaptarme de mil maneras pero no pude
+intenté adaptarme de mil maneras pero no pude
 
 me atrasó el estudiar una carrera que al final no me llenó ni era el camino para mi
 
-después vino la pandemia y tomé otro camino que no era acercándome a gente que no me debería haber acercado y alejándome de quienes no me debería haber alejado
+me recibí y contra todo pronóstico pude saltar a un rubro al cual nunca me había imaginado
 
-me da miedo el irme, el extrañar, el alejarme de mi familia, de la mayoría de mis amigos justo ahora que estoy volviendo en mi
+después vino la pandemia
+
+tomé otro camino que tampoco era el correcto acercándome a gente que no me debería haber acercado y alejándome de quienes no me debería haber alejado
+
+estos últimos meses se sienten como despertarme de un sueño, como salir de un largo túnel o un bosque oscuro, o cualquier otra metáfora de ese estilo tan cliche
+
+me da miedo el irme, el extrañar, el sentirme solo, el si estoy haciendo lo correcto, el alejarme de mi familia, de la mayoría de mis amigos justo ahora que estoy volviendo en mi
 
 pero acá en esta ciudad no puedo estar más
 
