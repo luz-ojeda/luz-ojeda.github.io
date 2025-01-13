@@ -22,7 +22,7 @@ porque vengo de días de tener que calmar mi psiquis con benzodiazepinas, cigarr
 
 y necesito sacar lo que tengo adentro a algún lado
 
-son muchas cosas, el cambio y titulo de nombre de esta pagina lo evidencia para quienes realmente me conocen
+son muchas cosas, el cambio y titulo de nombre de esta pagina lo evidencian para quienes realmente me conocen
 
 siento que viví y sentí demasiadas cosas para mi edad
 
