@@ -56,4 +56,4 @@ pero acá en esta ciudad no puedo estar más
 
 no sé si hay forma de tener un reset o algo cercano a eso pero necesito intentarlo,
 
-lucas ezequiel
+x
