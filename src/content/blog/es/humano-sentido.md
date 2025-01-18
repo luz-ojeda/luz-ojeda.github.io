@@ -13,7 +13,7 @@ El libro se podría resumir usando esta cita de Nietszche la cual el autor usa m
 >“Quien tiene un por qué para vivir puede soportar casi cualquier cómo.”
 
 ## Sobre el autor
-Victor Frankl es un psiquiatra nacido en 1905 quien en 1942 fue enviado a un campo de concentración. Sus padres, hermano y esposa  murieron durante esos años, ya sea por enfermedad o ejecución. Pasó en total por cuatro campos de concentración distintos hasta abril en 1945 cuando fue liberado por los aliados. De la muerte de sus familiares se entera luego de la liberación y no antes.
+Victor Frankl es un psiquiatra nacido en 1905 quien en 1942 fue enviado a un campo de concentración. Sus padres, hermano y esposa  murieron durante esos años, ya sea por enfermedad o ejecución. Pasó por cuatro campos de concentración distintos hasta abril en 1945 cuando fue liberado por los aliados. De la muerte de sus familiares se entera solo **después*** de la liberación.
 
 Un año después publicó la primera parte de este libro, relatando sus experiencias en los campos de concentración. Años más tarde publicó otra edición agregando una segunda, desarrollando las bases de la logoterapia.
 
@@ -23,15 +23,15 @@ Si bien creo que muchos vimos películas, series o contenido acerca del holocaus
 > “Si alguien nos preguntara ahora si es verdad la afirmación de Dostoyevski que define categóricamente al hombre como un ser capaz de acostumbrarse a todo, responderíamos: «Sí, el hombre puede acostumbrarse a todo, **pero no nos pregunte cómo**».
 Pero nuestras investigaciones psicológicas no nos han llevado todavía tan lejos; nosotros, prisioneros, tampoco habíamos llegado a ese punto. Todavía estábamos en la primera fase de nuestras reacciones psicológicas.”
 
-Durante su experiencia reconoció 3 fases por las que pasaba cada prisionero, algo relevante a su teoría de la logoterapia. Una primera al llegar, caracterizada por el shock, una segunda al haberse habituado a la rutina del campo caracterizada por la apatía y una tercera en caso de lograr su libertad nuevamente.
+Durante su experiencia reconoció 3 fases por las que pasaba cada prisionero, algo relevante a su teoría de la logoterapia. Una primera al llegar, caracterizada por el shock, una segunda al haberse habituado a la rutina del campo caracterizada por la apatía y una tercera en caso de lograr su libertad.
 
 La primera es autodescriptiva, el shock de llegar, ver el estado de los prisioneros, a lo que se atenían, ser despojado de todas sus posesiones y ver los castigos sufridos por otros y ellos mismos, entre otras cosas. En la primera fase todavía se veían afectados emocionalmente por todas estas cosas.
 
-Sobre las reacciones psicológicas durante la transición de la primera a la segunda, dice:
+Sobre las reacciones psicológicas durante la transición de la primera a la segunda, al notar como las personas empezaban a tener una apatía y una "muerte emocional" (dos principales características de la segunda fase), dice:
 
 >“Creo que fue Lessing quien dijo una vez: ‘Hay cosas que deben hacerte perder la razón o no tendrás nada que perder’. Una reacción anormal a una situación anormal es un comportamiento normal”.
 
-, al notar como las personas empezaban a tener una apatía y una "muerte emocional". Dos principales características de la segunda fase. Un mecanismo de defensa _necesario_ para sobrevivir a las atrocidades que caracterizaban su vida diaria.
+Un mecanismo de defensa _necesario_ para sobrevivir a las atrocidades que caracterizaban su vida diaria.
 
 La tercera etapa, una vez un prisionero era liberado, estaba caracterizada por "despersonalización". Sentir que todo era irreal, como si estuviera en un sueño. No un sentimiento de alegría o euforia como uno podría imaginar.
 
