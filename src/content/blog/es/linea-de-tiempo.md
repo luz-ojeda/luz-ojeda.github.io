@@ -38,7 +38,7 @@ tags: ["personal"]
 
 2021 💼 empecé a trabajar en IbisDev
 
-2020 🚚 me mudé sola a Ramos Mejía
+2020 🚚 me mudé solo a Ramos Mejía
 
 2020 💬 empecé terapia y antidepresivos
 
@@ -52,11 +52,11 @@ tags: ["personal"]
 
 2019 👩‍🏫 trabajé dando clases particulares
 
-2019 👋 dejé el laboratorio donde estaba becada
+2019 👋 dejé el laboratorio donde estaba becado
 
 2019 ⬛ fallece mi abuela materna
 
-2019 🎓 me recibí de bióloga con una tesis de licenciatura
+2019 🎓 me recibí de biólogo con una tesis de licenciatura
 
 2019 🧗‍♀️ escalé el pico principal del cerro Catedral en Bariloche
 
@@ -74,7 +74,7 @@ tags: ["personal"]
 
 2017 🥼 empecé a trabajar en [Tecnópolis](https://es.wikipedia.org/wiki/Tecn%C3%B3polis)
 
-2017 📖 leí Meditations y conocí sobre el estoicismo
+2017 📖 leí Meditaciones de Marco Aurelio y conocí sobre el estoicismo
 
 2017 🥼 empecé a trabajar en un laboratorio de la facultad preparándome para la tesis final
 
@@ -106,7 +106,7 @@ tags: ["personal"]
 
 2013 🏔️ primer viaje a Vallecitos, Mendoza para intentar subir el [Co. Plata](https://es.wikipedia.org/wiki/Cerro_El_Plata) (~6000m)
 
-2012 🏥 le dije adiós a mi vesícula biliar, primera vez internada
+2012 🏥 le dije adiós a mi vesícula biliar, primera vez internado
 
 2012 🏔️ subí los cerros Ventana en PBA y Champaquí (punto más alto de Córdoba)
 
@@ -130,9 +130,9 @@ tags: ["personal"]
 
 2011 📖 compré y leí [Las Más Altas](https://www.libreriadesnivel.com/libros/las-mas-altas/9789872551216/) en Bariloche
 
-2011 🎒 primer viaje de mochilera con 5 amigos por la provincia de Bs. As. hasta Bariloche.
+2011 🎒 primer viaje de mochilero con 5 amigos por la provincia de Bs. As. hasta Bariloche.
 
-2010 🥾 vi [Into the Wild](https://m.imdb.com/title/tt0758758/?language=es-es) y empecé con la idea de irme de mochilera
+2010 🥾 vi [Into the Wild](https://m.imdb.com/title/tt0758758/?language=es-es) y empecé con la idea de irme de mochilero
 
 2010 📖 tuve mis primeras clases de filosofía en el colegio y leí [Así Habló Zaratustra](https://www.goodreads.com/book/show/51893.Thus_Spoke_Zarathustra)
 
@@ -146,7 +146,7 @@ tags: ["personal"]
 
 2006 🧱 empecé a escuchar Pink Floyd
 
-2006 🤔 primeros recuerdos de sentirme incómoda, "rara" y que no encajaba
+2006 🤔 primeros recuerdos de sentirme incómodo, "raro" y que no encajaba
 
 1997 ⏲️ se separan mis padres
 
