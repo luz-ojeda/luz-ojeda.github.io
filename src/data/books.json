@@ -47,7 +47,8 @@
 					"nonfiction"
 				],
 				"status": "2024-12-25T00:00:00.000Z",
-				"author": "Carl Jung"
+				"author": "Carl Jung",
+"loved": true
 			},
 			{
 				"title": "Diario de una temporada en el quinto piso",
