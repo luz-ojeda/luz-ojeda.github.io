@@ -5,6 +5,10 @@ tags: ["personal"]
 ---
 [Inspired by](https://taylor.town/timeline)
 
+2024 💭 read Jung works for the first time
+
+2024 🍞 began learning to bake
+
 2024 💼 started working at Compass as front end developer
 
 2024 🌍 first time travelling abroad (Europe)
@@ -12,6 +16,8 @@ tags: ["personal"]
 2024 💻 launched [Recetas Simples](https://recetassimples.app/), website for cooking recipes
 
 2023 🏔️ Mendoza trip with my mother on vacations
+
+2023 🇮🇹 obtained Italian citizenship after a long bureaucratic process
 
 2023 👩‍🍳 started learning to cook with [The Food Lab](https://www.amazon.com/Food-Lab-Cooking-Through-Science/dp/0393081087)
 
@@ -69,21 +75,21 @@ tags: ["personal"]
 
 2017 📖 read Meditations and learned about Stoicism
 
-2017 🥼 started working in a faculty laboratory preparing for the final thesis
+2017 🥼 started working in a university lab preparing for the final thesis
 
 2017 🥾 worked as an assistant mountain guide in Lanín Volcano
 
 2017 ✏️ started writing a diary that I continue to this day
 
-2016 📚 finished the first half of the degree starting to choose elective subjects
+2016 📚 finished the first half of the biological science degree
 
 2016 🏔️ Lanín Volcano ascent
 
-2016 🏔️ ascent to the Argentine peak of Co. Tronador with 4 friends from the mountaineering school
+2016 🏔️ ascent to the Argentine peak of Co. Tronador with 4 friends from the mountaineering guide school
 
 2015 ❤️ got into a relationship for the second time
 
-2015 🧗‍♀️ started my career as a mountain guide
+2015 🧗‍♀️ started the mountain guide career
 
 2015 🌳 trip to Bolsón with friends
 
@@ -103,7 +109,7 @@ tags: ["personal"]
 
 2012 🏔️ climbed the Ventana hills in PBA and Champaquí (highest point in Córdoba)
 
-2012 ❤️ first couple
+2012 ❤️ first partner
 
 2012 🧬 started studying Biology at the University of Buenos Aires
 
