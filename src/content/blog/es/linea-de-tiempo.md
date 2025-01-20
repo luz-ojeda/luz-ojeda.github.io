@@ -10,7 +10,7 @@ tags: ["personal"]
 
 2024 🍞 empecé a aprender panadería
 
-2024 💼 empecé a trabajar en Compass
+2024 💼 trabajo en Compass
 
 2024 🌍 primer viaje a otro continente (Europa)
 
@@ -36,7 +36,7 @@ tags: ["personal"]
 
 2022 😀 salí de la depresión
 
-2021 💼 empecé a trabajar en IbisDev
+2021 💼 trabajo en IbisDev
 
 2020 🚚 me mudé solo a Ramos Mejía
 
@@ -44,13 +44,13 @@ tags: ["personal"]
 
 2020 🙁 depresión moderada
 
-2020 💼 empecé a trabajar en Southworks
+2020 💼 trabajo en Southworks
 
-2019 💼 empecé a trabajar en Bigbox
+2019 💼 trabajo en Bigbox
 
 2019 💻 empecé a estudiar seriamente programación web en FreeCodeCamp
 
-2019 👩‍🏫 trabajé dando clases particulares
+2019 👩‍🏫 trabajo dando clases particulares
 
 2019 👋 dejé el laboratorio donde estaba becado
 
@@ -72,15 +72,15 @@ tags: ["personal"]
 
 2017 🔃 dejé el primer laboratorio por un segundo enfocado en fisiología de plantas
 
-2017 🥼 empecé a trabajar en [Tecnópolis](https://es.wikipedia.org/wiki/Tecn%C3%B3polis)
+2017 🥼 trabajo en [Tecnópolis](https://es.wikipedia.org/wiki/Tecn%C3%B3polis)
 
 2017 📖 leí Meditaciones de Marco Aurelio y conocí sobre el estoicismo
 
-2017 🥼 empecé a trabajar en un laboratorio de la facultad preparándome para la tesis final
+2017 🥼 trabajo en un laboratorio de la facultad preparándome para la tesis final
 
-2017 🥾 trabajé como asistente de guía en el Lanín
+2017 🥾 trabajo como asistente de guía en el Lanín
 
-2017 ✏️ empecé a escribir un diario que continuo hasta hoy
+2017 ✏️ empiezo a escribir un diario que continuo hasta hoy
 
 2016 📚 termino la primera mitad de la carrera comenzando a elegir materias optativas
 
@@ -90,13 +90,13 @@ tags: ["personal"]
 
 2015 ❤️ me puse en pareja por segunda vez
 
-2015 🧗‍♀️ empecé la carrera para guía de montaña
+2015 🧗‍♀️ carrera para guía de montaña
 
 2015 🌳 viaje al Bolsón con amigos
 
 2014 🎒 viaje sola por la patagonia chilena
 
-2014 🧗‍♀️ empecé a practicar escalada en roca
+2014 🧗‍♀️ escalada en roca
 
 2014 🏔️ ascenso en solitario Co. Plata
 
