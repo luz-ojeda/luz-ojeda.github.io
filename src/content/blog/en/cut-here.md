@@ -6,13 +6,13 @@ tags: []
 
 [...]
 
-It's so hard to think "It ends sometime
+It's so hard to think it ends sometime
 And this could be the last
 I should really hear you sing again
-And I should really watch you dance"
+And I should really watch you dance
 Because it's hard to think
-"I'll never get another chance
-To hold you to hold you"
+I'll never get another chance to hold you
+To hold you
 
 But chilly Mr Dilly, too much rush to talk to Billy
 All the tizzy fizzy idiot things must get done
@@ -29,13 +29,13 @@ And you're gone
 **I miss you, I miss you, I miss you
 I miss you, I miss you, I miss you so much**
 
-But how how many times can I walk away and wish "If only"
-But how many times can I talk this way and wish "If only"
+But how how many times can I walk away and wish If only
+But how many times can I talk this way and wish If only
 Keep on making the same mistake
 Keep on aching the same heartbreak
-I wish "If only"
+I wish If only
 
-**But "If only"
+**But If only
 Is a wish too late**
 
 ---
