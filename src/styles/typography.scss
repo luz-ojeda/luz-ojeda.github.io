@@ -36,6 +36,10 @@ code {
 	font-size: var(--text-base-size);
 	font-family: var(--font-primary);
 	color: var(--text);
+
+	@media (max-width: $mobile) {
+		font-size: var(--text-sm);
+	}
 }
 
 h1 {
