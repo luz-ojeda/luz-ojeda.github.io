@@ -11,7 +11,7 @@ El 22 de mayo volví de viaje sola por Europa, primera vez en otro continente. R
 - 🇩🇪 [Berlín (Alemania)](#berlín)
 - 🇨🇿 [Praga (Rep. Checa)](#praga)
 
-Excepto Madrid -> Zurich y Praga -> Madrid (al volver) hice todo los recorridos en tren. No voy a detallar sobre esto en este post pero no tengo problemas en responder cualquier duda por cualquier medio de contacto. Usé el pase de [Eurail](https://www.eurail.com/en) y considerando que a mi me parecía bastante más confuso de lo que al final fue allá me gustaría ayudar con mi experiencia.
+Excepto Madrid -> Zurich y Praga -> Madrid (al volver) hice todo los recorridos en tren. Usé el pase de [Eurail](https://www.eurail.com/en) y considerando que a mi me parecía bastante más confuso de lo que al final fue allá me gustaría ayudar con mi experiencia.
 
 Estuve una noche en Madrid pero no la incluyo a continuación ya que me dediqué a hacer compras durante todo el día y descansar.
 

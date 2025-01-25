@@ -28,7 +28,7 @@ Cuánto nos gusta estar solos depende de la personalidad y gustos particulares d
 
 Pero más allá de estas particularidades, todos necesitamos de ambos momentos de soledad y compañía. Cuánto necesitamos y/o queremos soledad o compañía varía a lo largo de la vida también.
 
-Pasé por momentos en los cuales [sufría mucho la soledad](https://www.luzojeda.com/blog/sobre-crecer). Y otros donde la necesitaba. Por ejemplo: hoy trabajando de forma remota full time, al terminar el día, a veces me invade un mayor peso por la soledad (_loneliness_) que cuando estudiaba en la universidad de forma presencial y pasaba 10 horas o más con gente. Llegaba a mi casa y necesitaba estar conmigo misma y nadie más (generalmente).
+Pasé por momentos en los cuales [sufría mucho la soledad](https://www.lojeda.co/blog/sobre-crecer). Y otros donde la necesitaba. Por ejemplo: hoy trabajando de forma remota full time, al terminar el día, a veces me invade un mayor peso por la soledad (_loneliness_) que cuando estudiaba en la universidad de forma presencial y pasaba 10 horas o más con gente. Llegaba a mi casa y necesitaba estar conmigo misma y nadie más (generalmente).
 
 Sin embargo, hoy considero que tengo el "privilegio" de disfrutar la _solitude_ la mayoría de las veces que estoy sola.
 
