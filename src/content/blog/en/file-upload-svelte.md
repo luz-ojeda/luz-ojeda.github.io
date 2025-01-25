@@ -231,7 +231,7 @@ The `uploadFile` function can be included in the same file or another, depending
 
 If you have any questions, feel free to reach me via e-mail (luzojeda@proton.me). In [cook-web](https://github.com/luz-ojeda/cook-web) in `src/routes/admin/crear-receta` there is a specific example using all of the above but depending on the date there may already be differences about the concrete implementation.
 
-References:
+## References:
 - [How to implement file upload with SvelteKit](https://www.okupter.com/blog/sveltekit-file-upload)
 - [Upload a blob with JavaScript](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload-javascript)
 - [Create and use account SAS tokens with Azure Blob Storage and JavaScript](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-account-delegation-sas-create-javascript?tabs=blob-service-client)

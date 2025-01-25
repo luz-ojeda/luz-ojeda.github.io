@@ -233,7 +233,6 @@ Cualquier duda no hay problema con comunicarse via e-mail (luzojeda@proton.me). 
 
 ## Referencias
 
-Referencias:
 - [How to implement file upload with SvelteKit](https://www.okupter.com/blog/sveltekit-file-upload)
 - [Upload a blob with JavaScript](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-upload-javascript)
 - [Create and use account SAS tokens with Azure Blob Storage and JavaScript](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-account-delegation-sas-create-javascript?tabs=blob-service-client)
