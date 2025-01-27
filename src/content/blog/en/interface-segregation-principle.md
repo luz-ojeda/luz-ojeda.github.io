@@ -6,7 +6,7 @@ pubDate: 2024-04-24
 
 The interface segregation principle from [SOLID](https://en.wikipedia.org/wiki/SOLID) states that “clients should not be forced to depend upon interfaces that they do not use”.
 
-Working in [Endgame](https://github.com/luz-ojeda/c-players-guide-endgame), the final project for the C# Player's Guide book, I got the opportunity to apply it. The project is a role-playing game console application with characters in it. Each one in a party (heroes or monsters).
+Working in [Endgame](https://github.com/lezojeda/c-players-guide-endgame), the final project for the C# Player's Guide book, I got the opportunity to apply it. The project is a role-playing game console application with characters in it. Each one in a party (heroes or monsters).
 
 In the beginning I had one single `ICharacter` interface which looked like this
 

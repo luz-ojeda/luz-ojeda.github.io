@@ -28,6 +28,6 @@ Para mis fotos, uso una custom [collection](https://jekyllrb.com/docs/collection
 
 ## Hosting
 
-Uso [GitHub Pages](https://pages.github.com/) con un dominio custom. El repositorio de la página se puede encontrar [aquí](https://github.com/luz-ojeda/luz-ojeda.github.io).
+Uso [GitHub Pages](https://pages.github.com/) con un dominio custom. El repositorio de la página se puede encontrar [aquí](https://github.com/lezojeda/luz-ojeda.github.io).
 
 También configuré GitHub Actions para que cualquier push a la rama "master" gatille un build y un deploy. Al usar `jekyll-multiple-languages-plugin` y descubrir que no está en [lista de plugins permitidos](https://pages.github.com/versions/) de GitHub Pages, uso la GitHub action [jekyll-deploy- action](https://github.com/jeffreytse/jekyll-deploy-action) por lo que el proyecto primero se buildea localmente y luego se deploya en la rama `gh-pages` lo que finalmente gatilla la publicación a GitHub pages mostrando los últimos cambios.

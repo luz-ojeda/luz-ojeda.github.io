@@ -6,7 +6,7 @@ tags: ["tech"]
 
 El principio de segregación de interfaces de [SOLID](https://en.wikipedia.org/wiki/SOLID) establece que "no se debe obligar a los clientes a depender de interfaces que no utilizan".
 
-Trabajando en [Endgame](https://github.com/luz-ojeda/c-players-guide-endgame), el proyecto final del libro C# Player's Guide, aproveché una oportunidad de aplicarlo. El proyecto es una aplicación de consola de juegos de rol con personajes. Cada uno en un grupo (héroes o monstruos).
+Trabajando en [Endgame](https://github.com/lezojeda/c-players-guide-endgame), el proyecto final del libro C# Player's Guide, aproveché una oportunidad de aplicarlo. El proyecto es una aplicación de consola de juegos de rol con personajes. Cada uno en un grupo (héroes o monstruos).
 
 Al principio tenía una única interfaz `ICharacter` que se veía más o menos así:
 

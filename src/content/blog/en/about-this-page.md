@@ -27,6 +27,6 @@ For the [photos](/es/photos) I use a custom [collection](https://jekyllrb.com/do
 
 ## Hosting
 
-I use [GitHub Pages](https://pages.github.com/) with a custom domain. The repository for the page can be found [here](https://github.com/luz-ojeda/luz-ojeda.github.io).
+I use [GitHub Pages](https://pages.github.com/) with a custom domain. The repository for the page can be found [here](https://github.com/lezojeda/luz-ojeda.github.io).
 
 I configured GitHub actions so any push to the `master` branch triggers a build and deploy. Since I use `jekyll-multiple-languages-plugin` which I found out it is not present in GitHub Pages [set of allow-listed plugins](https://pages.github.com/versions/) I use the GitHub action [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action). The project is first built locally and then a commit is made to the branch `gh-pages` which in turn will trigger the publish to GitHub pages and show the latest changes.

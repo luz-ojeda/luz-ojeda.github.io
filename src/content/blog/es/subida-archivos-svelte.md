@@ -4,7 +4,7 @@ tags: ["tech"]
 pubDate: 2024-04-12
 ---
 
-Trabajando en la creación de recetas en [cook web](https://github.com/luz-ojeda/cook-web) implementé la subida de imágenes de estas a Azure Blob Storage.
+Trabajando en la creación de recetas en [cook web](https://github.com/lezojeda/cook-web) implementé la subida de imágenes de estas a Azure Blob Storage.
 
 El diagrama general del proceso real en mi aplicación es el siguiente (voy a usar los números de cada parte como referencia más adelante):
 
@@ -229,7 +229,7 @@ export const actions = {
 
 La función `uploadFile` puede ser incluida en el mismo archivo u otro, dependiendo la organización del proyecto y cada uno.
 
-Cualquier duda no hay problema con comunicarse via e-mail (luzojeda@proton.me). En [cook-web](https://github.com/luz-ojeda/cook-web) en `src/routes/admin/crear-receta` hay un ejemplo concreto utilizando lo anterior pero dependiendo la fecha puede ser que ya haya cambiado algo de la implementación.
+Cualquier duda no hay problema con comunicarse via e-mail (luzojeda@proton.me). En [cook-web](https://github.com/lezojeda/cook-web) en `src/routes/admin/crear-receta` hay un ejemplo concreto utilizando lo anterior pero dependiendo la fecha puede ser que ya haya cambiado algo de la implementación.
 
 ## Referencias
 
