@@ -2,6 +2,17 @@
 	{
 		"2025": [
 			{
+				"title": "Fall of Giants",
+				"link": "https://www.goodreads.com/book/show/7315573-fall-of-giants",
+				"genres": [
+					"historical fiction",
+					"fiction",
+					"war"
+				],
+				"status": "currently reading",
+				"author": "Ken Follett"
+			},
+			{
 				"title": "The Red Book: Liber Novus",
 				"link": "https://www.goodreads.com/book/show/6454477-the-red-book",
 				"genres": [
@@ -20,7 +31,7 @@
 					"philosophy",
 					"nonfiction"
 				],
-				"status": "currently reading",
+				"status": "2025-01-13T00:00:00.000Z",
 				"author": "Carl Jung"
 			}
 		]
