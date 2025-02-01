@@ -2,17 +2,6 @@
 	{
 		"2025": [
 			{
-				"title": "Fall of Giants",
-				"link": "https://www.goodreads.com/book/show/7315573-fall-of-giants",
-				"genres": [
-					"historical fiction",
-					"fiction",
-					"war"
-				],
-				"status": "currently reading",
-				"author": "Ken Follett"
-			},
-			{
 				"title": "The Red Book: Liber Novus",
 				"link": "https://www.goodreads.com/book/show/6454477-the-red-book",
 				"genres": [
@@ -22,6 +11,17 @@
 				],
 				"status": "currently reading",
 				"author": "Carl Jung"
+			},
+			{
+				"title": "Fall of Giants",
+				"link": "https://www.goodreads.com/book/show/7315573-fall-of-giants",
+				"genres": [
+					"historical fiction",
+					"fiction",
+					"war"
+				],
+				"status": "2025-02-01T00:00:00.000Z",
+				"author": "Ken Follett"
 			},
 			{
 				"title": "Memories, Dreams, Reflections",
